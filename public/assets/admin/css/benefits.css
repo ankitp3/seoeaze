@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Vars */
+/* Demo stuff */
+
+
+.module {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+}
+
+.module__heading {
+  margin-top: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: -1.5rem;
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.module__heading--a {
+  background-color: #6e1e52;
+}
+
+.module__heading--b {
+  background-color: #f7d8a7;
+}
+
+.module__heading--c {
+  background-color: #f3883c;
+}
+
+.module__heading--d {
+  background-color: #b7235a;
+}
+
+/* Pattern stuff */
+.custom-bullet {
+  margin-left: 0;
+  list-style: none;
+  counter-reset: counter;
+}
+.custom-bullet > span:before {
+  counter-increment: counter;
+  content: counter(counter);
+}
+
+.custom-bullet--a {
+  position: relative;
+}
+.custom-bullet--a > li:before {
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 3px solid #6e1e52;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #6e1e52;
+  background-color: white;
+  border-radius: 100em;
+  counter-increment: counter;
+  content: counter(counter);
+}
+.custom-bullet--a > li:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 90;
+  left: 0.75rem;
+  margin-left: 1.5px;
+  border-left: 3px solid #6e1e52;
+  content: "";
+}
+.custom-bullet--a > li:last-child:before {
+  margin-bottom: 0;
+}
+
+.custom-bullet--b > li {
+  position: relative;
+  margin-bottom: 1.5rem;
+  border: 3px solid #f7d8a7;
+  padding: 0.75rem;
+  border-radius: 3px;
+}
+.custom-bullet--b > li:before {
+  position: absolute;
+  top: -0.75rem;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+  color: #f7d8a7;
+  background-color: white;
+}
+.custom-bullet--b > li:last-child {
+  margin-bottom: 0;
+}
+
+.custom-bullet--c > li {
+  display: block;
+  width: 100%;
+  border-bottom: 3px solid #f3883c;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.custom-bullet--c > li:before {
+  float: right;
+  display: inline-block;
+  text-align: center;
+  color: #f3883c;
+}
+
+
+.custom-bullet--d > span {
+  position: relative !important;
+  left: 1.5rem !important;
+  display: block;
+  margin-bottom: 0.75rem !important;
+  padding-left: 0.75rem !important;
+  background-color: #f2f2f2 !important;
+}
+.custom-bullet--d > span, .custom-bullet--d > span:before {
+  line-height: 30px;
+}
+.custom-bullet--d > span:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  font-family: FontAwesome;
+  font-size: 20px;
+  content: "\f05d";
+  left: -3.5rem;
+  display: block;
+  width: 3.875rem;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  background-color: #72be58;
+  border-bottom-left-radius: 100em;
+  border-top-left-radius: 100em
+}
+.custom-bullet--d > span:last-child {
+  margin-bottom: 0;
+}

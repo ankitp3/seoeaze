@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'Conv_Gordita-Black';
+	src: url('fonts/Gordita-Black.eot');
+	src: local('☺'), url('fonts/Gordita-Black.woff') format('woff'), url('fonts/Gordita-Black.ttf') format('truetype'), url('fonts/Gordita-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

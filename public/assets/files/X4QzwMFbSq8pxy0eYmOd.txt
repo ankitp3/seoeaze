@@ -1,0 +1,4 @@
+1) Meta description is fixed .
+2) Title fixed,
+
+{"faq_field_1":["Where are the press releases distributed?","The experts at our company distribute your news or press release to best news sites, directories only. Quality links are generated through such distribution.  "],"faq_field_2":["How do you distribute the PR?","All the press releases are submitted manually by our SEO experts. We do not use any sort of software for distribution. "],"faq_field_3":["What Do You Mean by Premium Listing","Premium Listing Means, we will also distribute your Press Release to Paid Press Release websites to get more exposure & better brand awareness "],"faq_field_4":["Guaranteed News Approval? What does this means? ","It means, your press release will be approved by google\/yahoo\/bing or other big news sites"]}

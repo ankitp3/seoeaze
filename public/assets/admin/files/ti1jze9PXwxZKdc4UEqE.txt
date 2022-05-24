@@ -1,0 +1,87 @@
+
+Client Side  What Done ..
+
+
+1) Custom Quote form - http://senew.seoeaze.co.uk/custom_content_writing_quotation ( add
+
+connections for email ) (done)
+
+2) Logo changed .
+
+3)incomplate details change (done)
+
+
+4)Current Orders section will be same like we are doing on Home Page (done)
+
+5)Connections for get a quote form in web development page -
+
+http://senew.seoeaze.co.uk/web_development
+
+( please see the bottom given get a quote button , it will pop up the form ) (done)
+
+6) In Completed Orders
+
+Order ID, Service/Plan, Quantity, Order Status &amp; Download Report Tabs
+
+No need to edit order details section in completed orders, when order is done, why to ask client to edit
+
+it when its done already (done)
+
+
+
+Admin Side What done ...
+
+
+
+ What done 30 december . 
+
+
+Client Side 
+
+1) In Invoice Service Name / Plan Name , Quantity , price &amp; Invoice Status
+
+Once Paid invoice will show as Paid &amp; Order will come in client&#39;s account as just like current orders
+
+No need of email section in invoice, why show client&#39;s own email to him , no use (done)
+
+
+
+Admin Side 
+
+1)13- Invoice sections at client it will have following order
+
+User, Service Plan, Quantity, Amount, Payment Status ( If Paid it will show paid &amp; If pending will show
+
+Payment Pending with a Remind via email option ( Same email will go which we send when we send
+
+invoice with a heading
+
+Pending Invoice Reminder – SeoEaze (done)
+
+2)As already said need to remove that photo thing from emails as we don’t have photos of clients
+
+normally &amp; When We send Invoice mail email headline should be (done)
+
+3)New Payment Invoice Generated – SeoEaze (done)
+
+4)10- In incomplete orders, Just User, Service/Plan, quantity , price &amp; Send email, please remove order
+
+status &amp; content preview from it as this is not a complete order, client can even delete it himself
+
+also (we can delete pending orders from account as many people will create useless orders &amp;
+
+don’t pay for it so we can simply remove it if we thing its fake order  this we add later) (other done)
+
+5)In Current Orders Section everything is fine just move quantity after Service/Plan &amp; (done)
+
+6)12- In completed order section following things should be there and in this order only
+
+User, Order ID, Service Name/Plan, Quantity , Order Report ( This will have option to download the
+
+uploaded order report like client )
+
+Because these orders are complete no need to have content preview, order status, change order status
+
+etc as this order is already complete (done)
+
+

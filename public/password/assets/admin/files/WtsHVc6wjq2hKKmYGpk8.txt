@@ -1,0 +1,17 @@
+1) Meta description is fixed .
+2) Title fixed,
+3) Service faqs design fixed ,
+4) Adding Sampler Report Fixed ,
+5) Default Benefits section is still showing despite I have not added anything to it. 
+6)In FAQs section if I don’t added 4 faqs it will keep showing the 2 extra icons for faqs whereas it
+
+should not show it. Also the Gap Between FAqs line is too big keep it small
+7)Even After Adding Title Tag &amp; meta Summary its not coming on site where as it should come in
+
+Title Section &amp; Meta Summary Section on site.
+
+8)The 4 Buttons we created for services are not coming which were for benefits, faqs, pricing &amp;
+
+sample report, it should also send people to related section when they click on it with #section
+
+

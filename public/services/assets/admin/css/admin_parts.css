@@ -1,0 +1,98 @@
+.circle_hover_effect{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #716262;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    cursor: pointer;
+}
+
+.circle_hover_effect i {
+    line-height: 20px;
+}
+
+.circle_hover_effect:hover{
+    background: #34a7c1;
+    color: white;
+    border-color: #34a7c1;
+}
+
+.control-label{
+    position: relative;
+}
+
+.control-label:hover .abs_text{
+    visibility: visible;
+
+}
+
+.abs_text{
+    width: 200px;
+    text-align: left;
+    line-height: 21px;
+    border: 1px solid #716262;
+    border-radius: 6px 6px 6px 6px;
+    padding: 11px;
+    position: absolute;
+    left: 163px;
+    top: -24px;
+    visibility: hidden;
+    -webkit-transition: all 2s ease;
+}
+
+.abs_text:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #524747;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 45px;
+    left: -12px;
+}
+
+.seting_area{
+    border: 1px solid #f3f5f6;
+    padding: 10px;
+    color: #acb1b8;
+}
+
+.seting_area i{
+    font-size: 30px !important;
+    float: left;
+    margin-right: 10px;
+    line-height: 40px
+}
+
+.seting_area h4 a{
+    color: #768399;
+}
+
+.seting_area:hover  i {
+    color: #75b9e6;
+}
+
+.seting_area:hover h4 a{
+    text-decoration: none;
+    color: #75b9e6;
+}
+
+
+
+.abs_icons{
+    position: absolute;
+    top: 47px;
+    left: 24px;
+}
+
+input{
+    padding-left: 30px !important;
+}
+
