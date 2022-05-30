@@ -7,526 +7,263 @@
     <meta name="description" content="@yield('meta')">
     @yield('hreflangs')
     @yield('schema')
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    {{--pricing table--}}
-    {{--<link rel="stylesheet" href="/assets/css/pricing-tables.css">--}}
-    {{--end pricing table--}}
-    {{--<link type="text/css" data-themecolor="green" rel='stylesheet' href="/assets/css/main-green.css">--}}
-
-    {{--<link type="text/css" rel='stylesheet' href="/assets/js/rs-plugin/css/settings.css">--}}
-    {{--<link type="text/css" rel='stylesheet' href="/assets/js/rs-plugin/css/settings-custom.css">--}}
-    {{--<link type="text/css" rel='stylesheet' href="/assets/js/rs-plugin/videojs/video-js.css">--}}
-
-    <!-- start Sticky Bar -->
-    <!-- Bootstrap CSS -->
-    	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-        <script src="assets/js/3.4.1jquery.min.js"></script>
-        <script src="assets/js/1.16.0.umd.popper.min.js"></script>
-        <script src="assets/js/4.4.1.bootstrap.min.js"></script>
-    <!-- End Sticky Bar -->
-        <link rel="stylesheet" href="assets/css/main.min.css">
-    <!-- animate CSS -->
-    	<link rel="stylesheet" href="assets/css/animate2.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-    <!-- start Navbar Sticky Bar -->
-    	<link rel="stylesheet" href="assets/css/navbar_style.css"> <!-- Resource style -->
-	<!-- End Navbar Sticky Bar -->
-	<!-- Start Flex slider -->
-		<link rel="stylesheet" type="text/css" href="assets/css/flex-slider.css" media="all" />
-	<!-- Start Flex slider -->
-	<!-- Let’s Start Custom -->
-		<link rel="stylesheet" href="assets/css/sonar-wave-effect.css">
-	<!-- Start Moving Earth Plugin -->
-        <link rel="Stylesheet" href="assets/css/custom.css">
-	<!-- End Moving Earth Plugin --> 
-        <link rel="stylesheet" href="assets/dist/owl.carousel.css">
-		<link rel="Stylesheet" href="assets/css/owl.css">
-	<!-- Let’s End Custom -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 	<!-- Start Pricing Table Page -->
-		<link rel="stylesheet" href="assets/css/price-table.css">
-		<link rel="stylesheet" href="assets/css/pricing-tables.css">
-        <script src="/assets/js/main-top.min.js"></script>
-
-
-    {{--<link rel="stylesheet" href="/assets/css/price-table.css">--}}
-    <style>
-            .is-fixed-header .b-header__box{
-                background: rgba(0,0,0,.8)!important;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                }
-                .b-top-nav-dropdown {
-                background: #1ea346;
-                float: none;
-                width: 100%;
-                padding-top: 110px;
-                }
-        @media (max-width: 600px) {
-            .f-top-nav__2level a {
-                color: #000;
-            }
-
-        }
-        .ui-corner-top {
-            background: #322f9a!important;
-        }
-        .ui-corner-top  .ui-tabs-anchor {
-            color: white!important;
-        }
-        .ui-state-active {
-            background: #ebebeb!important;
-        }
-        .ui-state-active .ui-tabs-anchor {
-            color: #ffffff!important;
-        }
-        * {
-            font-family: 'Roboto', sans-serif;
-        }
-        header  {
-            font-family: 'Oswald', sans-serif;
-            font-weight: 200;
-            font-size: 16px;
-        }
-        @media only screen and (max-width: 600px) {
-            .b-header__box {
-                padding-top: 0;
-            }
-        }
-        .b-header__box {
-            padding-top: 10px;
-        }.col-md-3.services-cmn-sec {
-            min-height: 175px;
-            padding-left: 0;
-        }
-        .services-cmn-sec {
-            position: relative;
-            text-align: center;
-            padding: 2px 14px 2px 8px;
-            margin-bottom: 10px;
-            transition: all .5s ease-in-out;
-            cursor: pointer;
-        }
-        .services-cmn-sec h4 {
-            font-size: 17px;
-            color: #666!important;
-            font-weight: 700;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            min-height: initial;
-            line-height: 32px;
-        }
-        
-        .services-cmn-sec img {
-            display: block;
-            margin: 10px auto;
-            width: 80px;
-            height: auto;
-            filter: grayscale(100%);
-            transition: all .5s ease-in-out;
-        }
-        .services-cmn-sec p {
-            font-size: 16px!important;
-            color: #696969;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
-        
-        .services-cmn-sec:hover img {
-            transform: scale(1.3, 1.3);
-            filter: sapia(90%);
-        }
-        
-        @media all and (max-width:1130px) {
-            .col-md-3.col-sm-6.col-xs-6.services-cmn-sec {
-                text-align: center;
-                display: inline-block;
-                width: 32.3%;
-                box-sizing: border-box;
-                padding: 0 20px;
-                float: none;
-                min-height: auto;
-                margin-bottom: 30px;
-                vertical-align: top;
-            }
-            .services-cmn-sec h4,
-            .services-cmn-sec p {
-                text-align: center;
-                line-height: normal;
-                font-size: 16px;
-            }
-        }
-        
-        @media all and (max-width:980px) {
-            .services-cmn-sec h4 img {
-                display: block;
-                margin: 0 auto;
-            }
-        }
-        
-        @media all and (max-width:810px) {
-            .col-md-3.col-sm-6.col-xs-6.services-cmn-sec {
-                width: 49%;
-            }
-        }
-        
-        @media all and (max-width:667px) {
-            .col-md-3.services-cmn-sec {
-                width: 100%;
-                height: auto;
-                margin-bottom: 30px;
-            }
-            .services-cmn-sec {
-                font-size: 16px;
-            }
-        }
-        
-        @media all and (max-width:580px) {
-            .col-md-3.col-sm-6.col-xs-6.services-cmn-sec {
-                width: 100%;
-                padding: 0 30px;
-                height: auto;
-            }
-        }
-    </style>
-    	<!-- Start Flex slider -->
-	
-			<!-- FlexSlider -->
-			<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
-		<!--	<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script> -->
-			<script type="text/javascript" charset="utf-8">
-			var $ = jQuery.noConflict();
-			$(window).load(function() {
-			$('.flexslider').flexslider({
-				  animation: "fade"
-			});
-			
-			$(function() {
-				$('.show_menu').click(function(){
-						$('.menu').fadeIn();
-						$('.show_menu').fadeOut();
-						$('.hide_menu').fadeIn();
-				});
-				$('.hide_menu').click(function(){
-						$('.menu').fadeOut();
-						$('.show_menu').fadeIn();
-						$('.hide_menu').fadeOut();
-				});
-			});
-		  });
-		  
-		</script>
-
-	<!-- End Flex slider -->
-	
-	
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="assets/css/newnavbarstyle.css">
+  <link href="css/newnavbarswiper.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bubble.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/rollingeffect.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/highlightcolor.css">
+  <link rel="stylesheet" href="assets/css/marquee.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" href="assets/css/fancybox.min.css">
+  <link rel="stylesheet" href="assets/css/logorotation.css">
+  <link rel="preload" as="style" href="assets/css/mbr-additional.css">
+  <link rel="stylesheet" href="assets/css/custome.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/navbardropdown.css">
 </head>
 <body>
 @section('header')
 
-
 @show
-
-<!--removed by integration-->
 <!-- header part start -->
-    <header class="main_menu home_menu">
-
-						<div class="cd-main-header">
-							<a class="cd-logo" href="/"><img src="assets/img/logo-small.png" alt="Logo"></a><br>
-							<ul class="cd-header-buttons">
-								<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
-								<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
-							</ul>
-							<!-- cd-header-buttons -->
-							
-						 </div>
-						<nav class="cd-nav">
-							<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-								<li><a href="/">Home</a></li>
-
-								<li class="has-children">
-									<a href="">Company</a>
-
-									<ul class="cd-nav-icons is-hidden">
-										<li class="go-back"><a href="#">Menu</a></li>
-										
-										<li>
-											<a class="cd-nav-item item-13" href="/company">
-												<h3>Company </h3>
-												<p>Know who we are</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-14" href="/awards">
-												<h3>Awards & Recognition </h3>
-												<p>Check our achievements</p>
-											</a>								
-									</ul>
-								</li>
-								<li class="has-children">
-									<a href="">Clients</a>
-
-									<ul class="cd-nav-icons is-hidden">
-										<li class="go-back"><a href="#">Menu</a></li>
-										
-										<li>
-											<a class="cd-nav-item item-15" href="/portfolio">
-												<h3>Portfolio </h3>
-												<p>Our clients: our assets </p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-16" href="/case_studies">
-												<h3>Case Studies </h3>
-												<p>Check our previous work</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-17" href="/testimonials">
-												<h3>Testimonials </h3>
-												<p>What our clients say about us</p>
-											</a>
-										</li>							
-									</ul>
-								</li>
-
-								<li class="has-children">
-									<a href="">Services</a>
-									<ul class="cd-nav-icons is-hidden">
-										<li class="go-back"><a href="#">Menu</a></li>
-										
-										<li>
-											<a class="cd-nav-item item-1" href="/seo_packages">
-												<h3>SEO Packages</h3>
-												<p>SEO service plans for all</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-4" href="/social_media_marketing">
-												<h3>Social Media Marketing</h3>
-												<p>Have strong social presence</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-5" href="/ppc_management_service">
-												<h3>Pay Per Click Management</h3>
-												<p>ROI driven PPC advertising</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-3" href="/local_seo_service">
-												<h3>Local SEO </h3>
-												<p>Solution for local businesses</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-7" href="/content_writing_service">
-												<h3>Content Writing  </h3>
-												<p>Attract customers with engaging content</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-11" href="/web_development_service">
-												<h3>Web Design & Development</h3>
-												<p>Turn your imagination into reality</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-19" href="/services/forum_link_building">
-												<h3>Forum Link Building </h3>
-												<p>Get authentic forum links</p>
-											</a>
-										</li>
-
-										<li>
-											<a class="cd-nav-item item-8" href="/blog_management_service">
-												<h3>Blog Management</h3>
-												<p>Let professionals manage your blog</p>
-											</a>
-										</li>
-											
-										<li>
-											<a class="cd-nav-item item-9" href="/services/guest_posting">
-												<h3>Guest Posting </h3>
-												<p>High quality content marketing</p>
-											</a>
-										</li>
-										<li>
-											<a class="cd-nav-item item-10" href="/services/complete_link_building">
-												<h3>Complete Link Building </h3>
-												<p>Get links that matter</p>
-											</a>
-										</li>
-										<li>
-											<a class="cd-nav-item item-18" href="/services/article_submission">
-												<h3>Article Submission</h3>
-												<p>Best budget link building</p>
-											</a>
-										</li>
-										<li>
-											<a class="cd-nav-item item-6" href="/reputation_management_service">
-												<h3>Reputation Management </h3>
-												<p>Improve your online presence</p>
-											</a>
-										</li>	
-								
-									</ul>
+					<div class="container">
+							<div class="orb-top-bar-frame">
+								<div class="orb-content orb-top-bar">
+								<a href="/" class="itIsAnImage">
+									<img src="assets/img/logo.png" class="logo" alt="Seoeaze">
+								</a>
 									
-								</li>
-								<li><a href="https://www.seoeaze.com/blog/" target="_blank"> Blog </a></li>
-								<li><a href="/contact_us"> Contact </a></li>
-						
-								<li><div class="getaqclass"><a href="" data-toggle="modal" data-target="#myModal"> Get a Quote </a></div></li>
+
+									<div class="orb-menu-btn">
+										<!-- New Navbar start -->
+										<nav class="posiR sds__header">
+											<a href="javascript:" id="hambtn" class="open-menu"> <img src="assets/img/toggleiconimg.png" alt=""/></a>
+											<div class="sds__nav" style="display: none;">
+												<div class="sds-lg-menu">
+												<a href="/" class="menu-link btn btn-home no-shadow">Home</a>
+												<a href="javascript:" class="btn btn-menu-close close-menu no-shadow"></a>
+												<ul class="accord">
+													<li>
+														<a href="javascript:" class="accord-btn actv">Company</a>
+														<ul class="accord-target" style="display: block;">
+															<li><a href="/company">Company</a></li>
+															<li><a href="/awards"> Awards & recognitions</a></li>
+														</ul>
+													</li>
+													<li>
+													<a href="javascript:" class="accord-btn">Clients</a>
+														<ul class="accord-target">
+															<li><a href="/portfolio">Portfolio</a></li>
+															<li><a href="/case_studies">Case studies</a></li>
+															<li><a href="/testimonials">Testimonials</a></li>
+														</ul>
+													</li>
+													<li>
+													<a href="javascript:" class="accord-btn">Services</a>
+														<ul class="accord-target">
+															<li><a href="/seo_packages">SEO packages</a></li>
+															<li><a href="/dedicated_seo_team">Enterprise SEO</a></li>
+															<li><a href="/local_seo_service">Local SEO</a></li>
+															<li><a href="/social_media_marketing">Social media marketing</a></li>														
+															<li><a href="/ppc_management_service">Pay per click management</a></li>
+															<li><a href="/reputation_management_service">Reputation management</a></li>
+															<li><a href="/content_writing_service">Content writing</a></li>
+															<li><a href="/blog_management_service">Blog management</a></li>
+															<li><a href="/services/guest_posting">Guest blogging</a></li>
+															<li><a href="services/complete_link_building">Link building service</a></li>
+															<li><a href="/web_development_service">Web design & development</a></li>
+															<li><a href="/services/forum_link_building">Google penalty assesment</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="https://www.seoeaze.com/blog/" class="accord-btn2">Blog</a>
+													</li>
+													<li>
+														<a href="/contact_us" class="accord-btn2">Contact</a>
+													</li>
+												</ul>
 								
-							</ul> <!-- primary-nav -->
-						</nav> 
-						<!-- cd-nav -->
-					
-    </header>
-    
+												<div class="hello-carousel">
+													<h5 class="title">
+													<div class="swiper-container carousel-vertical-nav d-inline-block">
+														<div class="swiper-wrapper">
+															<span class="swiper-slide"> Willkommen! </span>
+															<span class="swiper-slide"> Hello! </span>
+															<span class="swiper-slide"> Hola! </span>
+															<span class="swiper-slide"> Namaste! </span>
+															<span class="swiper-slide"> Marhabaan! </span>
+															<span class="swiper-slide"> Willkommen! </span>
+															<span class="swiper-slide"> Hello! </span>
+														</div>
+													</div>
+													</h5>
+													<p class="desc"><b>Welcome to Seoeaze.</b> Thanks for finding us!</p>
+													<p class="desc c-white"><figure><img src="assets/img/supportclienticon.png" class="img-fluid" alt=""/></figure></p>
+													<a href="javascript:" class="btn btn-white xl rounded solidB btn-full btnn-toggle-class" data-target=".sds-form" data-toggleClass="is-showing"><strong>Let's Start with us <span>WITH US</span></strong></a>
+												</div>
+
+											</div>
+
+											<div class="sds-form">
+												<a href="javascript:" class="menu-link btn btn-home no-shadow btnn-toggle-class" data-target=".sds-form" data-toggleClass="is-showing">Back</a>
+
+
+									
+												<div class="sds--leadGenForm">
+													<div class="menulogosec">
+														<img src="assets/img/logo.png" alt="Logo" />
+													</div>
+													<article class="d-content">
+														<h5 class="title">
+															<div class="swiper-container carousel-vertical-nav d-inline-block">
+																<div class="swiper-wrapper">
+																	<span class="swiper-slide"> Willkommen! </span>
+																	<span class="swiper-slide"> Hello! </span>
+																	<span class="swiper-slide"> Hola! </span>
+																	<span class="swiper-slide"> Namaste! </span>
+																	<span class="swiper-slide"> Marhabaan! </span>
+																	<span class="swiper-slide"> Willkommen! </span>
+																	<span class="swiper-slide"> Hello! </span>
+																</div>
+															</div>
+														</h5>
+													</article>
+													<p class="desc"><b>Welcome to Seoeaze.</b> Thanks for finding us!</p>
+													<div class="slide-form">
+														<figure><img src="assets/img/supportclienticon.png" class="img-fluid" alt=""/></figure>
+													</div>
+												
+												
+												<div class="slide-form-success-msg" style="display: none;">
+													<div class="slide-form">
+														<figure><img src="assets/img/supportclienticon.png" class="img-fluid" alt=""/></figure>
+													</div>
+												</div>
+
+											</div>
+											</div>
+											</div>
+										</nav>
+										<!-- New Navbar End -->
+									</div>
+								</div>
+							</div>
+						</div>
 <!-- Header part end-->
 
 @yield('content')
 
-<footer>
-
 <!-- Start Footer Section -->
+<div class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6 col-md-12 col-sm-12">
+									<div class="fleftsec">
+										<!-- DropUp Menu Bar start -->
+										<div id="menu">
+											<ul>
+												<li><center><a href="#">COMPANY +</a></center>
+													<ul>
+														<li><a href="#"> About Us </a></li>
+														<li><a href="#"> Portfolio </a></li>
+														<li><a href="#"> Case Studies </a></li>
+														<li><a href="#"> Testimonials </a></li>
+														<li><a href="#"> Get in Touch </a></li>
+														<li><a href="#"> Partner With Us </a></li>
+														<li><a href="#"> Login/Sign-Up </a></li>
+														<li><a href="#"> My Cart </a></li>
+														<li><a href="#"> SEO Blog </a></li>
+													</ul>
+												</li>
+												<li><center><a href="#">KEY SERVICES +</a></center>
+													<ul>
+															<li><a href="#"> SEO Packages </a></li>
+															<li><a href="#"> Social Media Marketing </a></li>
+															<li><a href="#"> Pay Per Click Service </a></li>
+															<li><a href="#"> Complete Link Building </a></li>
+															<li><a href="#"> Panda & Penguin Recovery </a></li>
+															<li><a href="#"> Advance Website Audit </a></li>
+															<li><a href="#"> Reputation Management </a></li>
+															<li><a href="#"> Website Development </a></li>
+															<li><a href="#"> Content Writing </a></li>
+													</ul>
+												</li>
+												<li><center><a href="#">SEO TOOLS +</a></center>
+													<ul>
+															<li><a href="#"> Schema Generator </a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<!-- DropUp Menu Bar End -->
+									</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12">
+								<div class="frightsec">
+									<figure><img src="assets/img/logo.png" alt="Seoeaze"/></figure>
+									<p>10685-B Hazelhurst Dr. #19976,  Houston, TX 77043</p>
+									<div class="frightbottomsec">
 
-<div class="container-flude f-sec">
+										<div class="socialsiteiconsec">
+											<div class="button">
+												<div class="icon">
+													<i class="fab fa-facebook-f"></i>
+												</div>
+											</div>
+										
+											<div class="button">
+												<div class="icon">
+													<i class="fab fa-twitter"></i>
+												</div>
+											</div>
+										
+											<div class="button">
+												<div class="icon">
+													<i class="fab fa-linkedin"></i>
+												</div>
+											</div>
+										
+											<div class="button">
+												<div class="icon">
+													<i class="fab fa-youtube"></i>
+												</div>
+											</div>
 
-	<div class="container">
-		<div class="inn-con">
-			<div class="row">
-				<div class="col-lg-3 col-md-12 col-sm-12">
-					<h2>FIND US NOW</h2>
-					<span class="footer-bottomLineImgStyle"></span>
-					<div class="footer-logo-sec">
-						<img src="assets/img/logo-footer-small.png">
+										</div>
+
+										<p> <span class="highlights">844-SEOEAZE (7363293)</span> <span class="highlights">info@seoeaze.com </span></p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<h5>So, you made it to the end, your <span class="highlights">complete willingness </span>gives us the confidence to <span class="highlights"> produce desired
+										results </span> from our <span class="highlights">full stack digital marketing services</span>. We have been creating adventurous, inspiring, exciting and often <span class="highlights">out of notch</span> solutions for brands <span class="highlights">since 2009</span>. SeoEaze stands out and inspires with confidence, why not <span class="highlights">just do it    </span>, seriously hop in.</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-12 col-sm-12">
+								<div class="footerbstripleft">
+									<a href="/privacy_policy"><span> Privacy Policy </span></a>| 
+									<a href="/refund"><span> Refund Policy </span></a> |
+									<a href="/career"><span> Career </span></a>|
+									<a href="/contact"><span> Contact Us </span></a>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12">
+								<div class="footerbstripright">
+									Copyright © 2009-2020 - All Rights Reserved	
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="fooconinfo">
-					
-							<div class="footeraddressbarphone"> <b><a href="tel:+18447363293">844-SEOEAZE (7363293)</a>  </b> </div>
-							<div class="footeraddressbaremail"> <b> info@seoeaze.com </b> </div>
-							<div class="footeraddressbaraddress"> <b> 10685-B Hazelhurst Dr. #19976, Houston, TX 77043 </b> </div>
-					
-					</div>
-					<ul class="social-media-icons-class">
-							<li><a href="https://www.facebook.com/seoeaze/"><img src="assets/img/icons/social-sites-icon1.png"></a></li>
-							<li><a href="https://twitter.com/SeoEaze"><img src="assets/img/icons/social-sites-icon2.png"></a></li>
-							<li><a href=skype:seoeaze?add"><img src="assets/img/icons/social-sites-icon3.png"></a></li>
-							<li><a href="https://www.linkedin.com/company/seoeaze"><img src="assets/img/icons/social-sites-icon4.png"></a></li>
-							<li><a href="https://www.youtube.com/user/SeoEaze"><img src="assets/img/icons/social-sites-icon5.png"></a></li>
-							<li><a href="https://www.pinterest.com/seoeaze/"><img src="assets/img/icons/social-sites-icon6.png"></a></li>
-					</ul>
 				</div>
-				<div class="col-lg-2 col-md-12 col-sm-12">
-					<h2>SEO Services</h2>
-					<span class="footer-bottomLineImgStyle"></span>
-					<ul>
-						<li><a href="/seo_packages"> SEO Packages </a></li>
-						<li><a href="/local_seo_service"> Local SEO </a></li>
-						<li><a href="/dedicated_seo_team"> Hire Dedicated Team </a></li>
-						<li><a href="/services/forum_link_building"> Forum Link Building </a></li>
-						<li><a href="/services/complete_link_building">Complete Link Building </a></li>
-						<li><a href="/services/guest_posting"> Guest Posting</a></li>
-						<li><a href="/services/article_submission"> Article Submission </a></li>
-						<li><a href="/services/press_release_distribution"> Press Release Distribution </a></li>
-						<li><a href="/services/niche_blogging"> Industry Based Links </a></li>
-						<li><a href="/services/link_wheel"> Link Wheel  </a></li>
-						
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-12 col-sm-12">
-					<h2>Key Services</h2>
-					<span class="footer-bottomLineImgStyle"></span>
-					<ul>
-						<li><a href="/social_media_marketing"> Social Media Marketing</a></li>
-						<li><a href="/ppc_management_service"> PPC Management</a></li>
-						<li><a href="/content_writing_service"> Content Writing</a></li>
-						<li><a href="/web_development_service"> Website Development</a></li>
-						<li><a href="/reputation_management_service"> Reputation Management</a></li>			
-						<li><a href="/panda_penguin_recovery_service"> Panda & Penguin Recovery</a></li>
-						<li><a href="/blog_management_service"> Blog Management</a></li>
-						<li><a href="/advanced_seo_audit"> Advance Website Audit</a></li>
-						<li><a href="/services/search_engine_submission"> Search Engine Submission</a></li>
-						<li><a href="/services/social_bookmarking_service"> Social Sharing</a></li>
-						
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-12 col-sm-12">
-					<h2>SEO Tools</h2>
-					<span class="footer-bottomLineImgStyle"></span>
-					<ul>
-						<li><a href="/schema-generator"> Schema Generator </a></li>
-						<li><a href="#"> Rank Tracker </a></li>
-					<br>	
-					<h2>Key Pages</h2>
-					<br>
-					<li><a href="/reseller"> Reseller Partner </a></li>
-					<li><a href="/login"> Login/Register </a></li>
-					<li><a href="/career"> Join SeoEaze </a></li>
-				
-					</ul>
-				</div>
-				<div class="col-lg-3 col-md-12 col-sm-12">
-					<h2>Latest From Blog</h2>
-					@foreach($posts as $post)
-			
-					<ul>
-					    <li class="blogpostli">
-							<a href="https://www.seoeaze.com/blog/{{ $post->post_name}}"> 
-							    {{ $post->post_title}}
-							</a>
-							<a href="https://www.seoeaze.com/blog/{{ $post->post_name}}"> 
-								<span style="display: flex; font-size: 13px; font-weight: 600;">{{ $post->post_date}}</span>
-							</a>
-						</li>
-					</ul>	
-					@endforeach
-				</div>
-				
-			</div>
-			
-			
-			<div class="row footer-sec2">
-
-                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 pull-left">Copyright © 2009-2020 - All Rights Reserved</div>
-
-                <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6 text-right">
-
-                    <a href="/company"><span> Company </span></a>|
-
-                    <a href="/privacy_policy"><span> Privacy Policy </span></a>| 
-
-                    <a href="/refund"><span> Refund Policy </span></a> |
-
-                    <a href="/contact_us"><span> Contact </span></a>
-
-                </div>
-
-            </div>
-				
-		</div>
-		
-	</div>
-	
-</div>
 
 <!-- End Footer Sec -->
-
-</footer>
-
 
 <!-- Modal -->
 
@@ -654,68 +391,149 @@
 </div>
 
 
-<!-- end jquery ui -->
-<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-<!-- end Progress -->
-<!-- Google services -->
 <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         // $("#myModal").modal('show');
     });
 </script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-8328074-20"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-8328074-20');
-</script>
 
-    <!-- Start jquery plugins here-->
-		<!-- easing js -->
-	    <script src="assets/js/jquery.magnific-popup.js"></script>
-		<script src="assets/js/custom.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/smooth-scroll.js"></script>
+  <script src="assets/js/jquery.touch-swipe.min.js"></script>
+  <script src="assets/js/bubble.js"></script>
+  <script src="assets/js/highlightcolor.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/fancybox.min.js"></script>
+  <script src="assets/js/swup.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/parsley.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/logorotations.js"></script>
+  <script src="assets/js/newnavbarapp.js" defer></script>
+  
+<!-- start Frequently Asked Questions-->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
 		
-    <!-- Start Navbar -->
-    
-		<div id="cd-search" class="cd-search">
-			<form>
-				<input type="search" placeholder="Search...">
-			</form>
-		</div>
-		<script src="assets/js/navbar_main-index.js"></script>
-	
-	<!-- End Navbar -->
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+			  panel.style.maxHeight = null;
+			} else {
+			  panel.style.maxHeight = panel.scrollHeight + "px";
+			} 
+		  });
+		}
+		</script>
+  <!-- end Frequently Asked Questions-->
+  <!-- Start Testimonial -->
+  <script>
+	  $(document).ready(function(){
+		$(".testimonial .indicators li").click(function(){
+			var i = $(this).index();
+			var targetElement = $(".testimonial .tabs li");
+			targetElement.eq(i).addClass('active');
+			targetElement.not(targetElement[i]).removeClass('active');
+					});
+					$(".testimonial .tabs li").click(function(){
+						var targetElement = $(".testimonial .tabs li");
+						targetElement.addClass('active');
+						targetElement.not($(this)).removeClass('active');
+					});
+				});
+		$(document).ready(function(){
+			$(".slider .swiper-pagination span").each(function(i){
+				$(this).text(i+1).prepend("0");
+			});
+		});
+  </script>
+ <!-- Start Testimonial -->
 
-	<!-- Start owl-carousel Js-->
-		<script src="assets/dist/owl.carousel.js"></script>
-		<script src="assets/js/owlCarousal.js"></script>
-	<!-- End -->
-	<!-- Wow Start -->
-		<script src="assets/js/wow.min.js"></script>
-        <script>
-           new WOW().init();
-        </script>
-	<!-- Wow End -->	
-    <!-- Start Sonar wave effect in circle -->
-    <script>
-    			$(".sonar-wave").on("webkitAnimationIteration oanimationiteration animationiteration", function(){
-    			  $(this).css("background-color", colorize());
-    			})
-    
-    			function colorize() {
-    			  var hue = Math.random() * 360;
-    			  return "HSL(" + hue + ",100%,50%)";
-    			}
-    </script>
-    <!-- End Sonar wave effect in circle -->
-    <!--<script type="text/javascript" language="javascript" src="https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>-->
-    <!-- end Progress -->
-    <!-- Cart Functionality services -->
-    <!--<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>-->
-    <script src="assets/js/main.min.js"></script>
+ <script>
+	// Material Select Initialization
+	$(document).ready(function() {
+		$('.mdb-select').materialSelect();
+	});
+ </script>
+
+  <!-- Start Progressbar -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
+   <script> 
+function radial_animate() { 
+		 $('svg.radial-progress').each(function( index, value ) { 
+
+			 $(this).find($('circle.bar--animated')).removeAttr( 'style' );    
+			 // Get element in Veiw port
+			 var elementTop = $(this).offset().top;
+			 var elementBottom = elementTop + $(this).outerHeight();
+			 var viewportTop = $(window).scrollTop();
+			 var viewportBottom = viewportTop + $(window).height();
+			 
+			 if(elementBottom > viewportTop && elementTop < viewportBottom) {
+				 var percent = $(value).data('countervalue');
+				 var radius = $(this).find($('circle.bar--animated')).attr('r');
+				 var circumference = 2 * Math.PI * radius;
+				 var strokeDashOffset = circumference - ((percent * circumference) / 100);
+				 $(this).find($('circle.bar--animated')).animate({'stroke-dashoffset': strokeDashOffset}, 2800);
+			 }
+		 });
+	 }
+// To check If it is in Viewport 
+	 var $window = $(window);
+	 function check_if_in_view() {    
+		 $('.countervalue').each(function(){
+			 if ($(this).hasClass('start')){
+				 var elementTop = $(this).offset().top;
+				 var elementBottom = elementTop + $(this).outerHeight();
+
+				 var viewportTop = $(window).scrollTop();
+				 var viewportBottom = viewportTop + $(window).height();
+
+				 if (elementBottom > viewportTop && elementTop < viewportBottom) {
+						   $(this).removeClass('start');
+						   $('.countervalue').text();
+						   var myNumbers = $(this).text();
+						   if (myNumbers == Math.floor(myNumbers)) {
+							   $(this).animate({
+								   Counter: $(this).text()
+							   }, {
+								   duration: 2800,
+								   easing: 'swing',
+								   step: function(now) {
+									   $(this).text(Math.ceil(now)  + '%');                                
+								   }
+							   });
+						   } else {
+							   $(this).animate({
+								   Counter: $(this).text()
+							   }, {
+								   duration: 2800,
+								   easing: 'swing',
+								   step: function(now) {                                
+									   $(this).text(now.toFixed(2)  + '$'); 
+								   }
+							   });
+						   }
+
+						   radial_animate();
+					   }
+			 }
+		 });
+	 }
+
+	 $window.on('scroll', check_if_in_view);
+	 $window.on('load', check_if_in_view);
+
+   </script> 
+   <!-- Visible on Scroll start -->
 </body>
 </html>

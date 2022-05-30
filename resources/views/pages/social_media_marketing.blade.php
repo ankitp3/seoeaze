@@ -36,494 +36,364 @@
 @section('header')
 @show
 @section('content')
-<!-- Header part end-->
-<!-- slider area bar start-->
-	<main class="header-video-sec">
-			
-			<!-- Vedio Content Section Start  -->
-			  <div class="container-flude">
-			  
-			  		<div class="container">
-			  			<div class="row indexheader-video-sec-inner-sec">
-				  			<div class="col-lg-7 col-md-7 col-sm-12 header-video-sec-inner-leftsec">
-									<h1> Social Media Marketing Agency   </h1>
-									<h2> Accelerate Your Marketing With A Social Media Marketing Agency That Connects And Engages </h2>
+<section class="social_media_marketing_solution_sec">
+					<div class="container">
+							<div class="social_media_marketing_solution_left_sec i-can-has-a-colored-thing">
+									<h2><span class="highlight">Social Media Marketing</span> </h2>
+									<h4>Enhance Your Social Presence;
+										Connect With More People</h4>
+									<ul>
+										<li>Have your presence on various social media networks</li>
+										<li>Increase your followers</li>
+										<li>Create brand awareness</li>
+										<li>Increase customer engagement</li>
+										<li>Manage brand visibility</li>
+									</ul>
+									<div class="indibuttons">
+										<button class="btn-hover color-1"> Consult Now
+											<span class="roundshapebutton roundshapearrow"> 
+												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+												</svg>
+											</span>
+										</button>
+									</div>
+							</div>
+							<div class="social_media_marketing_solution_right_sec">
+									<img src="assets/img/social_media_marketing/social_media_marketing_head.png" alt="" />
+							</div>
+					</div>
+
+				</section>
+				<section class="social_media_marketing_solution_dedicatedyourbrandsec">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<h2>Modern Social Media 
+									Marketing Solutions 
+									Dedicated For Your Brand</h2>
+									<figure><img src="assets/img/social_media_marketing/dedicatedyourbrandimg.png" alt=""/></figure>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
 									<p>
-									    We have helped brands and businesses to communicate with their audience through social media ads and captivating creative content.<br><br>
-									    Tweet, Like, Follow, Connect…don't worry, we make it all possible</p>
-									<span>  
-									<a href="#benefits">
-										<button class="button1"> See Benefits </button>
-									</a> 
-									<a href="" data-toggle="modal" data-target="#myModal">
-										<button class="button2"> Start Now! </button>
-									</a>
-									</span>
-									<p class="pt-5"><img src="assets/img/seopackages/seoPackages-sertificate.png" alt=""></p>
-				  			</div>
-
-				  			<div class="col-lg-5 col-md-5 col-sm-12 header-video-sec-inner-rightform-sec"  id="smmformsec">
-				  				
-								<div class="header-form-sec">
-									<h4> Start With <span> Free</span>  Audit </h4>
-									<span class="bottomLineImgStyle2"></span>
-									<form role="form" method="post" action="/social_media_form"> 
-									{{ csrf_field() }}
-									    <label class="sr-only" for="r-form-1-first-name">Name</label>
-    									<input type="text" name="first_name" id="r-form-1-first-name" placeholder="Name:" class="textbox-cls">
-    									<label class="sr-only" for="r-form-1-last-name">E-mail</label>
-    									<input type="text" name="email" id="r-form-1-first-name" placeholder="E-mail:" class="textbox-cls">
-    									<label class="sr-only" for="r-form-1-email">Phone</label>
-    									<input type="text" name="phone" id="r-form-1-email" placeholder="Phone:" class="textbox-cls">
-    									<label class="sr-only" for="r-form-1-email">Website</label>
-    									<input type="text" name="website" id="r-form-1-email" placeholder="Website:" class="textbox-cls">
-    									<label class="sr-only" for="r-form-1-email">Company Name</label>
-    									<input type="text" name="company_name" id="r-form-1-email" placeholder="Company Name:" class="textbox-cls">
-    									
-    									<!-- Check box start -->
-    
-    										<div class="checkbox" style="margin-bottom:10px; margin-top: 20px; text-align: center;">
-    											<label style="line-height: 18px; padding-left: 12px">
-    												<input type="checkbox" value="yes" name="facebook">
-    												<span class="cr"><i style="color: white;" class="cr-icon fa fa-facebook"></i></span>
-    												<span style="color:white; font-size:12px;">Facebook</span> </label>
-    											<label style="line-height: 18px; padding-left: 12px; font-size:12px;">
-    												<input type="checkbox" value="yes" name="google">
-    												<span class="cr"><i style="color: white; font-size: 11px" class="cr-icon fa fa-instagram"></i></span>
-    												<span style="color:white; font-size:12px;">Instagram</span> </label>
-    											<label style="line-height: 18px; padding-left: 12px">
-    												<input type="checkbox" value="yes" name="twiiter">
-    												<span class="cr"><i style="color: white; " class="cr-icon fa fa-twitter"></i></span>
-    												<span style="color:white; font-size:12px;">Twitter</span> </label>
-    										</div>
-    										<hr>
-    										<div class="checkbox" style="margin-bottom:0;margin-top: 0;text-align: center;">
-    											<label style="line-height: 18px; padding-left: 12px">
-    												<input type="checkbox" value="yes" name="subscribe" checked>
-    												<span class="cr"><i style="color: white;" class="cr-icon fa fa-check"></i></span>
-    												<span style="color:white; font-size:12px;">Send Me Latest Updates </span>
-    											</label>
-    										</div>
-    									<!-- Check box End -->
-    									<button type="submit">Submit Request</button>
-    									<p class="form-pcls"> We Will Never Spam Your Inbox </p>
-									</form>
+										As one of the best social media marketing companies in India, we at SEOEaze acknowledge that social media marketing gives 100% positive leads towards real sales. So irrespective of your business, we help you to gain active presence on different social media platforms.
+										Creating brand awareness on different social platforms becomes interesting with us. Our social media specialists understand your business and target your audience accordingly.
+										As a social media marketing expert, we manage social networks like Facebook, Twitter, Instagram and more. We use effective SMO techniques to let your business get better visibility on major social platforms.
+									</p>
+							</div>
+						</div>
+						<div class="row pt-5">
+							<div class="col-lg-3 col-md-3 col-sm-12">
+								<div class="socialmediasec">
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_face.png" alt=""/></figure>
+								<div class="socialmediainnersec bgimg1">
+								<div class="socialmediainnerboxsec"><i class="fab fa-facebook-f"></i></div>
+								<p>With our FB marketing service, 
+									you can have more customers 
+									coming your way. We help to 
+									manage your Facebook account 
+									and help promoting your 
+									products and services through it. 
+									Links to your recent blog posts 
+									or quiz or contests can engage 
+									the customers and bring in 
+									more sales.</p>
+									</div>
 								</div>
-				  			</div>
-					</div>
-			  	</div>
-			</div>
-			<!-- Vedio Content Section End -->
-	</main>
-<!-- slider area bar end-->
-
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li class="active"><span> Social Media Marketing </span></li>
-		   </ol>
-	</div>
-</div>
-<!-- End Breadcrumbs Schema -->
-
-<!-- Start SEOEAZE OFFERS sec -->
-<div class="container-fluid blogmanagementservice-sec bgcolor1">
-		<div class="container">
-			<h2>We Are A Renowned Social Media Marketing Company</h2>
-			<span class="bottomLineImgStyle"></span>
-            <div class="row mt-5">
-						<div class="col-lg-12 col-md-12 col-sm-12 mx-auto d-block">
-							<div class="box-sec">							
-        	                    <p>SeoEaze is one of the best social media marketing services offering SMM and SEO solutions to brands and businesses. Our social media marketing experts create top-performing social media campaigns for platforms such as Facebook, Twitter, Instagram and Pinterest. We know what social media marketing strategies will best fit your business. The action plan we create is to maximize your SMM results at minimal costs.</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12">
+								<div class="socialmediasec">
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_inst.png" alt=""/></figure>
+								<div class="socialmediainnersec bgimg2">
+								<div class="socialmediainnerboxsec"><i class="fab fa-instagram"></i></div>
+								<p>We can help you promote your 
+									brand through appealing images 
+									on Instagram. You can have 
+									pictures of your team, services, 
+									products and we can help you to 
+									write the perfect hashtags and 
+									status for your posts. take your 
+									Intagram marketing to another 
+									level with our expert services.</p>
+								</div>
+							</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12">
+								<div class="socialmediasec">
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_twit.png" alt=""/></figure>
+								<div class="socialmediainnersec bgimg3">
+								<div class="socialmediainnerboxsec"><i class="fab fa-twitter"></i></div>
+								<p>We use the best Twitter 
+									marketing strategy to offer the 
+									informationyou want and we can 
+									help you with this in the best 
+									possible way. Our social media 
+									marketing experts will handle 
+									your Twitter account, add images, 
+									follow similar businesses, update 
+									tweets, manage ads and more.</p>
+								</div>
+							</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12">
+								<div class="socialmediasec">
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_comp.png" alt=""/></figure>
+								<div class="socialmediainnersec bgimg4">
+								<div class="socialmediainnerboxsec"></div>
+								<p>We also offer all-in-one packages 
+									to help you with all types of social 
+									media marketing services like 
+									Facebook, Google+, Twitter, 
+									Pinterest, Instagram and more. 
+									By this, we help to keep all SMO 
+									solutions under one big roof so 
+									that you don’t have to skip one or 
+									the other service.</p>
+								</div>
+								</div>
+							</div>
+						</div>
+				</section>
+				<section class="social_media_marketing_solution_featuresandbenifitsec">
+					<h2> Our SMO Features & Benefits </h2>
+					<div class="row m-0">
+						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
+							<div class="social_media_marketing_solution_featuresandbenifitinnersec featuresandbenifitinnersecwhitebgimg">
+								<h4>Brand Awareness</h4>
+								<p>Increase your brand awareness through popular social networks. this not only enhances your social presence but even your business credibility.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
+							<div class="social_media_marketing_solution_featuresandbenifitinnersec featuresandbenifitinnersecgreenbgimg">
+								<h4>Get More Visitors</h4>
+								<p>Increase your brand awareness through popular social networks. this not only enhances your social presence but even your business credibility.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
+							<div class="social_media_marketing_solution_featuresandbenifitinnersec featuresandbenifitinnersecwhitebgimg">
+								<h4>Offline Marketing</h4>
+								<p>Good Social media marketing can contribute in offline marketing as well. It is through social media that people will get to know about your business and may visit your store/company for offline solutions.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
+							<div class="social_media_marketing_solution_featuresandbenifitinnersec featuresandbenifitinnersecgreenbgimg">
+								<h4> Performance Tracking & Reporting </h4>
+								<p> We provide weekly and monthly updates of your projects so to help you track your site’s progress. We also provide what has been planned for the coming months.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
+							<div class="social_media_marketing_solution_featuresandbenifitinnersec ">
+								<h4>Social Media Presence</h4>
+								<p>With our social media marketing services, you can have increased social presence. Enjoy more fans, followers, likes and more when you hire our expert SMO 
+									solutions.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
+							<div class="social_media_marketing_solution_featuresandbenifitinnersec featuresandbenifitinnersecgreenbgimg">
+								<h4>Go Viral</h4>
+								<p>With our social media marketing services, you can have increased social presence. Enjoy more fans, followers, likes and more when you hire our expert SMO solutions.</p>
 							</div>
 						</div>
 					</div>
-		</div>
-</div>
 
-<!-- End SEOEAZE OFFERS sec -->
+				</section>
 
+				<section class="getintuchformsec">
+					<h2> 
+						Let’s get Started
+						Fill Us In About 
+						Your Requirement
+					</h2>
+					<form role="form" method="post" action="/seo_sending_form">
+					{{ csrf_field() }}
+					<div class="getintuchforminnersec">
+						
+							<div class="getintuchforminnerleftsec">
+								<label for="r-form-1-first-name">Hey, I’m is</label>
+								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-email">my website is</label>
+									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
+							</div>
+							<div class="getintuchforminnerleftsec">
+									<label for="selfie">and, I’m looking for </label>
+									<select class="selectarrow">
+										<span>&#xf107;</span>
+											<option selected>&nbsp; Select </option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+									</select>
+										
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-last-name">Get in touch with me at </label>
+									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
+							</div>
+							<div class="getintuchforminnerleftsec">
+										<label for="r-form-1-email">or call  </label>
+										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label>Any additional info </label>
+									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+							</div>
+							<div class="getintuchforminnerbottomsec">
+									<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
+									
+							</div>
+							<div class="getintuchforminnerbottomsec">
+									<button type="submit"> Send Enquiry </button>
+							</div>
 
-<!-- Start WHY SEOEAZE FOR SOCIAL MEDIA MARKETING sec -->
+						</div>
+					</form>
+				</section>
 
-<div class="container-fluid blogmanagementservice-sec bgcolor2">
+				<section class="frequentlyaskedquestionsec">
+						<div class="container i-can-has-a-colored-thing">
+								<h2> Frequently <br> <span class="highlight"> Asked Questions</span> </h2>
+							<div class="row">
 
-		<div class="container">
-		
-			<h2>Why Social Media Marketing?</h2>
-			<span class="bottomLineImgStyle"></span>
+								<div class="col-lg-5 col-md-12 col-sm-12" style="margin-top: -50px;">
+									<img src="assets/img/seo_packages_img/faqsleftsec.gif" class="img-fluid" alt=""/>
+								</div>
+								<div class="col-lg-7 col-md-12 col-sm-12">
+									 
+									  			<button class="accordion">How local SEO is different from regular SEO?</button>
+												<div class="panel">
+													<p>SEO is about getting your website found in search engines like Google for relevant search phrases. With local SEO, there’s a slight twist. Instead of focusing exclusively on your website, the focus is also on optimizing your local business profiles such as Google My Business listing.</p>
+												</div>
 
-			<div class="row pt-5 mt-5">
-			<div class="col-lg-4 col-md-4 col-sm-12 offset-lg-1 offset-md-1 mx-auto d-block">
-				<figure><img src="assets/img/social_media_marketing_img/social-media-marketing-img1.png" alt=""></figure>
-			</div>
+												<button class="accordion">What Types of Businesses Can Use Local SEO?</button>
+												<div class="panel">
+													<p>Unless you are a 100% e-commerce business with no physical location for customers to visit, you use to reap the benefits of local SEO. Local SEO service is a good opportunity for your business no matter what industry it is in to get targeted traffic.</p>
+												</div>
+												
+												<button class="accordion">Can I compete in cities and towns outside my physical location?</button>
+												<div class="panel">
+													<p>Local SEO is greatly affected by the location of your store or office. This is important to keep the relevancy of local business results for searchers. If you are trying to rank in a location other than your local address, you need to focus on traditional SEO.</p>
+												</div>
+												
+												
+  										
 
-				<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-					<p>
-					    Social media content reaches 8 out of 10 of all U.S. internet users. Also, 71% of internet users are more likely to purchase from the brands they follow on social media platforms like Twitter and Facebook.<br><br>
-                        You need to ask does your business presence on social media networks warrants vote of confidence?<br><br>
-                        If not, you need a social media marketing agency that is able to redo your social media branding with a progressive and adaptive strategy. SeoEaze has been serving companies and brands with powerful social media marketing resources, dynamically increasing their exposure and garnering the interest of target audience on all social media platforms including Facebook, Twitter, LinkedIn, and Instagram.<br><br>
-                        
-					</p>
-				</div>
-			</div>
-			
-			<div class="row">
-			    <div class="col-lg-12 col-md-12 col-sm-12 mx-auto d-block">
-				    <p>
-				        Our social media marketing service also boosts your SEO organically. As search engines like Google and Bing are now integrating social media posts, updates, tweets and comments into the result pages, social interaction is becoming more important.<br><br>
-                        We understand how rapidly the internet community grows, which is why we keep your social media campaigns and tactics one step ahead.<br><br>
-                        At SeoEaze, we are a social media marketing company with extensive experience and specialists who creatively design the most effective SMM campaigns for your business and brand.<br><br>
-				    </p>
-				</div>
-			</div>
-			</div>
-	
-		</div>
-</div>
-
-<!--End -->
-
-<!-- Start FEATURES & BENEFITS OF OUR SEO PACKAGES sec-->
-
-
-<div class="container-fluid blogMgtfeaturesandbenefits-sec" id="benefits">
-		<div class="container">
-			<h2> Our Social Media Marketing Process  </h2>
-			<span class="bottomLineImgStyle"></span>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/social_media_marketing_img/icons/icon1.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Discover </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p>We learn about your business, its social goals and objectives to determine what SMM strategy will best serve the purpose. <br><br><br></p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/social_media_marketing_img/icons/icon2.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Develop Strategy </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p> Based on the goals discovered, we build a strategy that involves key activities such as audience targeting, platform and channel selection, funnel creation and budget allocation.<br><br></p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/social_media_marketing_img/icons/icon3.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Build Campaign </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p>Here we build true social media assets such as copy and imagery for implementation of the strategy at suitable social media platforms.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/social_media_marketing_img/icons/icon4.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Review & Go Live </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p> Every campaign goes through the approval process to ensure that branding guidelines are adhered and inline with your goals.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/social_media_marketing_img/icons/icon5.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Reporting </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p> Your dedicated campaign manager will provide you with on-going recommendations and reviews in the form of reports.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/social_media_marketing_img/icons/icon6.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Expand </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p> At SeoEaze, we implement an agile process that allows our social media marketing team to grow the campaign as your business grows.</p>
-					</div>
-				</div>
-			</div>
-			
-				
-		</div>
-	</div>
-
-
-<!-- End FEATURES & BENEFITS OF OUR SEO PACKAGES sec -->
-
-
-<!-- Start Get free Audit report sec -->
-<div class="container-fluid getfreeaudit-sec">
-	<div class="container">
-		
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="getfreeaudit-leftinnersec">
-						<img src="assets/img/blog-management/getfreeaudit-sec-leftimg.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="getfreeaudit-rightinnersec max-auto">
-					    <a href="#smmformsec">
-						<button class="button3"> GET YOUR FREE AUDIT REPORT </button>
-						</a>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<!-- End Get free Audit report sec -->
-
-<!-- Start Call Us section  -->
-
-<div class="container-fluid callus-sec">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusleftsec"><img src="assets/img/linkbulding/callus-iconimg.png"> </figure>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<p class="callusmiddlesec">
-						CONFUSED ABOUT HOW TO START? LET US HELP YOU<br>
-				        Call Us To Discuss Now On <span> 844-736-3293</span>  
-					</p>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusrightsec"><img src="assets/img/linkbulding/callus-girlimg.png"> </figure>
-				</div>
-			</div>
-		</div>
-	</div>
-
-<!-- End Call Us section -->
-
-<!-- Start FAQS RELATED TO CONTENT WRITING SERVICE Section -->
-
-<div class="container-fluid faqscontentwriting-sec">
-		<div class="container">
-			
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 mx-auto d-block">
-					<div class="faqscontentwriting-innersec">
-                        <h2>Social Media Marketing FAQs </h2>
-            			<span class="bottomLineImgStyle"></span>
-						 <div id="accordion" class="accordion">
-								<div class="card mb-0">
-									<div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-										<a class="card-title"> 1. Why social media marketing is important?  </a>
-									</div>
-									<div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
-										<div class="card-body">Social media is a lot more cost-effective as compared to TV, print media or radio when it comes to reaching the large customer base. Companies and brands can incorporate social media marketing into their digital marketing strategy to get far more measurable results than traditional media.</div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-										<a class="card-title"> 2. Which social media platform should I use?  </a>
-									</div>
-									<div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
-										<div class="card-body">
-                                        In today’s scenario, it is best to use multiple platforms. Still, you need to decide based on these factors such as: Who is your target audience? Which platform do they spend their time on? Such questions will help you decide which platform is best to reach your audience with the right content at the right time.
-                                        </div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-										<a class="card-title"> 3. How many people can I reach with social media marketing?  </a>
-									</div>
-									<div id="collapseThree" class="collapse" data-parent="#accordion">
-										<div class="card-body">With 8 out of 10 U.S. internet users accessing social media content, theoretically get access to 80% of the internet users in the United State with SMM. However, it all depends on how creative and captivating your content is.</div>
-									</div>
-				                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFourth">
-										<a class="card-title"> 4. How much social media marketing costs?   </a>
-									</div>
-									<div id="collapseFourth" class="collapse" data-parent="#accordion">
-										<div class="card-body">The cost of SMM campaigns varies depending on your objectives and goals. It is best to talk to our social media strategists who can better explain the cost involved.</div>
-									</div>
-                                    
 								</div>
 							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-</div>
-<!-- End FAQS RELATED TO Section -->
-<!-- New Start bannerFirst Section -->
-    <section class="happyclientsec">
-                      <div class="container text-center">
-                    
-                        <div class="row">
-                           <div class="col-lg-12 col-md-12">
-                            <ul>
-                              <li><img src="assets/img/clientcomicon/icon1.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon2.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon3.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon4.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon5.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon6.jpg" alt=""></li>
-                              <div class="hcheader"><h2> Our Clients | Our Strength </h2><h4> Some of our esteemed customers </h4></div>
-                              <li><img src="assets/img/clientcomicon/icon7.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon8.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon9.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon10.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon11.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon12.jpg" alt=""></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                      </div>
-    </section>
-<!-- New End bannerFirst Section -->
-<!-- Start customers think about us Section -->
-	<div class="container-fluid customersthinkaboutus-sec">
-		<div class="container">
-			<h2>Words From Our Clients </h2>
-			<h3>Our Valued Customers Believe In Us & This Is What Keeps Us Going </h3>
-			<span class="bottomLineImgStyle"></span>
-			
-			
-			
-			<div class="customersthinkaboutus-innersec">
-			
-			
-					<div class="customersthinkaboutus-innerleftsec">
-						<div class="innerleftsec-box">
-							
-						</div>
-					</div>
-					<div class="customersthinkaboutus-innerrightsec">
-					
-						 <div class="parent-box6 topSlider6 owl-carousel">
 
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
+						</div>
+				</section>
+
+				<section class="clientsec">
+						<h2> Some of Our Esteemed Clients </h2>
+							<div class="clientinnersec">
+								<div class="clientinnerleftsec">
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+									</ul>
+								</div>	
+							</div>		
+				</section>
+
+				<section class="testimonial">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 d-none d-lg-block">
+									<ol class="carousel-indicators tabs">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+									</ol>
+								</div>
+								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
+									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+										<h3>Words From</h3>
+										<h1><span class="highlight">Our Clients</span></h1>
+										<h4>Our Valued Customers Believe In Us & 
+												This Is What Keeps Us Going</h4>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<div class="quote-wrapper">
+													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																												</p>
 													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
+													<p> Travertine Mart </p>
 												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
 										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-													
-												</div>
-										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
-													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
-												</div>
-										</div>
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-												</div>
+										<ol class="carousel-indicators indicators">
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
+
+				<section class="seventhsec">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h3>We <i class="fas fa-heart hearticonsty"></i> <br> what we do </h3>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
+									<div class="indibuttons">
+											<button class="btn-hover color-1"> Let’s Talk  
+												<span class="roundshapebutton roundshapearrow"> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</button>
 										</div>
 								</div>
+							</div>
 						</div>
-					</div>
-
-			</div>
-		
-
-	</div>
-
- <!-- End customers think about us Section  -->
-
-<!-- Start SOME HAPPY CLIENTS  Section --> 
-<div class="container-fluid featureandclient-sec">
-	<div class="container">
-		
-			<div class="row">
-
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="featureandclient-innersec">
-							<h3 class="whitecolor"> OUR ACHIEVEMENTS: OUR PRIDE </h3>
-						    <span class="bottomLineImgStyle"></span>
-						    <p> 
-								</p><ul>
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon1.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon2.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon3.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon4.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon5.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon6.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon7.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon8.png"></a></li>
-									
-								</ul>	
-							<p></p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<!-- End SOME HAPPY CLIENTS  Section -->            
+				</section>      
 
 @endsection
