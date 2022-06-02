@@ -138,7 +138,7 @@
 								<div class="socialmediasec">
 								<figure><img src="assets/img/social_media_marketing/social_media_marketing_comp.png" alt=""/></figure>
 								<div class="socialmediainnersec bgimg4">
-								<div class="socialmediainnerboxsec"></div>
+								<div class="socialmediainnerboxsec"><i class="fa fa-gift" aria-hidden="true"></i></div>
 								<p>We also offer all-in-one packages 
 									to help you with all types of social 
 									media marketing services like 
@@ -181,7 +181,7 @@
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
-							<div class="social_media_marketing_solution_featuresandbenifitinnersec ">
+							<div class="social_media_marketing_solution_featuresandbenifitinnersec featuresandbenifitinnersecwhitebgimg">
 								<h4>Social Media Presence</h4>
 								<p>With our social media marketing services, you can have increased social presence. Enjoy more fans, followers, likes and more when you hire our expert SMO 
 									solutions.</p>

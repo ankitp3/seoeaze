@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets/css/swiper.min.css">
   <link rel="stylesheet" href="assets/css/fancybox.min.css">
   <link rel="stylesheet" href="assets/css/logorotation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="preload" as="style" href="assets/css/mbr-additional.css">
   <link rel="stylesheet" href="assets/css/custome.css" type="text/css">
   <link rel="stylesheet" href="assets/css/navbardropdown.css">

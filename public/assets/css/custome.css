@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap");
 body { font-family: 'Merriweather', serif; }
+p {
+  font-size: 19px;
+  line-height: 31px;
+}
 .display-1 {
   font-family: 'Brygada 1918', serif;
   font-size: 8.75rem;
@@ -665,7 +669,7 @@ body { font-family: 'Merriweather', serif; }
   border: none;
   text-align: left;
   outline: none;
-  font-size: 17px;
+  font-size: 19px;
   transition: 0.4s;
   border-bottom: 1px dotted lightgray;
 }
@@ -1412,6 +1416,17 @@ body { font-family: 'Merriweather', serif; }
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: cover;
+  min-height: 325px;
+}
+.featuresandbenifitinnersecwhitebgimg:hover {
+  background-image: url(../img/social_media_marketing/social_media_marketing2.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+  min-height: 325px;
+  cursor: pointer;
+  transition: all 0.9s;
 }
 .featuresandbenifitinnersecgreenbgimg {
   background-image:url('../img/social_media_marketing/social_media_marketing2.jpg');
@@ -1419,6 +1434,17 @@ body { font-family: 'Merriweather', serif; }
   background-position: inherit;
   background-size: cover;
   color: #ffffff;
+  min-height: 325px;
+}
+.featuresandbenifitinnersecgreenbgimg:hover {
+  background-image:url('../img/social_media_marketing/social_media_marketing_feat.jpg');
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+  min-height: 325px;
+  cursor: pointer;
+  transition: all 0.9s;
+  color: black;
 }
 .social_media_marketing_solution_dedicatedyourbrandsec {
   width: 100%;
@@ -1469,7 +1495,7 @@ body { font-family: 'Merriweather', serif; }
   color: white;
   text-align: center;
   font-size: 49px;
-  padding-top: 6px;
+  padding-top: 13px;
 }
 .socialmediainnersec p {
   font-size: 16px;
@@ -1500,6 +1526,29 @@ body { font-family: 'Merriweather', serif; }
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: top center;
+}
+
+.webdesignanddevelopmentsec {
+  width: 100%;
+  display: block;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  padding-left: 4%;
+  padding-right: 4%;
+  height: 100vh!important;
+  background: #dcebd4;
+}
+.webdesignanddevelopmentsec h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.webdesignanddevelopmentsec_innersec {
+  display: block;
+  float: left;
+  width: 96%;
+  margin: 1% 2%;
+  clear: both;
+
 }
 
 
@@ -1542,7 +1591,7 @@ body { font-family: 'Merriweather', serif; }
   max-width: 800px;
   width: 100%;
   height: auto;
-  margin-bottom: 90px;
+  margin-bottom: 35px;
   font-size: 19px;
   line-height: 31px;
 }
@@ -1567,12 +1616,12 @@ body { font-family: 'Merriweather', serif; }
   position: relative;
 }
 .ppc_management_service_secndsec p {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 19px;
+  line-height: 31px;
   padding: 0 8%;
 }
 .ppc_management_service_secndsec h2 {
-  font-size: 55px;
+  font-size: 31px;
   font-weight: 600;
   max-width: 500px;
   width: 100%;
@@ -1580,6 +1629,7 @@ body { font-family: 'Merriweather', serif; }
 .ppc_management_service_secndsec h2 span {
   font-size: 16px;
   font-weight: 500;
+  margin-top: 7px;
 }
 .ppc_management_service_secndsec h6 {
   font-size: 19px;
@@ -1588,11 +1638,11 @@ body { font-family: 'Merriweather', serif; }
   color: #7ab72c;
 }
 .ppc_management_service_secndsecboright {
-  top: -125px;
+  top: -115px;
   right: 0;
   position: absolute;
   width: 4px;
-  height: 400px;
+  height: 300px;
   background: black;
 }
 
@@ -1605,8 +1655,8 @@ body { font-family: 'Merriweather', serif; }
   border-top: 4px solid black;
 }
 .ppc_management_service_thrdsec p {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 19px;
+  line-height: 31px;
   padding: 0 8%;
 }
 
@@ -1629,11 +1679,11 @@ body { font-family: 'Merriweather', serif; }
   margin-left: 5px;
 }
 .ppc_management_service_thrdsecboright {
-  top: -0px;
+  top: 0px;
   right: 0;
   position: absolute;
   width: 4px;
-  height: 700px;
+  height: 530px;
   background: black;
 }
 
@@ -1647,8 +1697,8 @@ body { font-family: 'Merriweather', serif; }
   padding-top: 4%;
 }
 .ppc_management_service_forthsec p {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 19px;
+  line-height: 31px;
   padding: 0 8%;
 }
 
@@ -1672,7 +1722,7 @@ body { font-family: 'Merriweather', serif; }
   margin-left: 5px;
 }
 .ppc_management_service_forthsec h2 {
-  font-size: 35px;
+  font-size: 31px;
   font-weight: 600;
   max-width: 800px;
   width: 100%;
@@ -1682,7 +1732,7 @@ body { font-family: 'Merriweather', serif; }
   right: 0;
   position: absolute;
   width: 4px;
-  height: 720px;
+  height: 400px;
   background: black;
 }
 .ppc_management_service_forthsec ul {
@@ -1707,10 +1757,10 @@ body { font-family: 'Merriweather', serif; }
   display: block;
   width:26%;
   float: left;
-  font-size: 45px;
+  font-size: 31px;
 }
 .ppc_management_service_forthsec ul li:nth-child(2) h3 {
-  font-size: 45px;
+  font-size: 31px;
   font-weight: 600;
 }
 .ppc_management_service_forthsec ul li:nth-child(3) {
@@ -1748,8 +1798,8 @@ body { font-family: 'Merriweather', serif; }
   margin-left: 5px;
 }
 .ppc_management_service_fifthsec p {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 19px;
+  line-height: 31px;
   padding: 0;
 }
 
@@ -1885,16 +1935,24 @@ span.ppcadwordandbingcls::before {
   width: 100%;
   margin: 0 5%;
   padding: 5%;
+  min-height: 360px;
 }
 .ppc_management_service_sixthsubinnsec {
   display: block;
   width: 100%;
   margin: 0 11%;
   padding: 4%;
-  min-height: 273px;
+  min-height: 330px;
   height: auto;
 }
-
+.ppc_management_service_sixthsubinnsec h3 {
+  font-weight: 600;
+  line-height: 31px;
+}
+.ppc_management_service_sixthsubinnsec p {
+  font-size: 19px;
+  font-weight: 31px;
+}
 .bor-top {
   border-top: 4px solid black;
 }
@@ -2081,14 +2139,16 @@ span.ppcadwordandbingcls::before {
 .local_seoinnerrightinnersec {
   display: block;
   clear: both;
-  height: 106px;
+  height: 135px;
   margin-bottom: 2.3%;
-  padding: 3% 5%;
+  padding: 4% 3%;
+  border-radius: 10px;
   background: #a7c126;
   background: -moz-linear-gradient(left,  #a7c126 0%, #7ab72b 100%); 
   background: -webkit-linear-gradient(left,  #a7c126 0%,#7ab72b 100%); 
   background: linear-gradient(to right,  #a7c126 0%,#7ab72b 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c126', endColorstr='#7ab72b',GradientType=1 ); 
+  margin-left: 15%;
 }
 
 .localseothirdsec {

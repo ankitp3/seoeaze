@@ -88,11 +88,11 @@
 
 				<section class="ppc_management_service_thrdsec"> 
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<img src="assets/img/ppc/Pay-Per-Click-thirdsecimg.png" alt="" />
+						<div class="col-lg-3 col-md-3 col-sm-12">
+							<img src="assets/img/ppc/Pay-Per-Click-thirdsecimg.png" class="img-fluid" alt="" />
 							<span class="ppc_management_service_thrdsecboright"></span>
 						</div>
-						<div class="col-lg-8 col-md-8 col-sm-12">
+						<div class="col-lg-9 col-md-9 col-sm-12">
 								<h5>WHY SEOEAZE?</h5>
 								<p>
 									PPC advertising is a cost effective way to earn top positions at Google and Bing search results and on other digital platforms. With 97% population turning to online search and 75% people agreeing that paid ads make it easy to find information online, ads are becoming a true hit. So if you have time to invest in PPC management from a reputed PPC company in Delhi, you are at the right place.
@@ -174,44 +174,44 @@
 							<span class="ppcadwordandbingcls"> Adwords & Bing PPC Process </span>
 							<div class="row m-0 p-3 bor-bottom bor-left">
 			
-								<div class="col-lg-7 col-md-7 col-sm-12 pt-4">
+								<div class="col-lg-8 col-md-8 col-sm-12 pt-4">
 									<h3><b>PLANNING</b></h3><br>
 									<p>We do complete planning at the first stage and analyze your site carefully. Our professionals then create or structure the PPC campaign as per your needs and structure the keywords and ad groups to have high quality score.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
 										<img src="assets/img/ppc/ppctabsolutiontabimg1.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
 							<div class="row m-0 p-3 pt-5 bor-right">
-								<div class="col-lg-7 col-md-7 col-sm-12">
+								<div class="col-lg-8 col-md-8 col-sm-12">
 									<h3><b>EXECUTION</b></h3><br>
 									<p>After the planning process is done, we head towards the execution process where we start with creating an ad copy and filter your budget and bidding options. After that, dedicated PPC campaign strategies are used for those perfect ads.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
 										<img src="assets/img/ppc/ppctabsolutiontabimg2.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
 							<div class="row m-0 p-3 pt-5 bor-top bor-left">
-								<div class="col-lg-7 col-md-7 col-sm-12">
+								<div class="col-lg-8 col-md-8 col-sm-12">
 									<h3><b>MANAGING</b></h3><br>
 									<p>The best thing about our PPC services is that we manage your campaigns on a regular basis. There is daily bid management, filtration of negative keywords, keyword management, removal of low quality keywords, ad creation, and addition of new keywords and preparation of the performance report. Our PPC specialists use tracking tools like Google Analytics to get the best solutions for our clients.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
 										<img src="assets/img/ppc/ppctabsolutiontabimg3.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
 							<div class="row m-0 p-3 pt-5 bor-top bor-right bor-bottom">
-								<div class="col-lg-7 col-md-7 col-sm-12">
+								<div class="col-lg-8 col-md-8 col-sm-12">
 									<h3><b>RESULTS</b></h3><br>
 									<p>In the end, we offer guaranteed qualified clicks and results from your PPC campaign.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
 										<img src="assets/img/ppc/ppcresult-img.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
@@ -222,46 +222,46 @@
 						<div id="tab-content2" class="tab-content">
 							<div class="row m-0 p-3 bor-bottom bor-left">
 			
-								<div class="col-lg-7 col-md-7 col-sm-12 pt-4">
+								<div class="col-lg-8 col-md-8 col-sm-12 pt-4">
 									<h3><b>ACCOUNT SET UP</b></h3><br>
 									<p>We create your Facebook account and identify the right PPC campaigns. Accordingly, the campaign is set up and worked upon.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppctabsolutiontabimg1.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppc_account_setup.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
 							<div class="row m-0 p-3 pt-5 bor-right">
-								<div class="col-lg-7 col-md-7 col-sm-12">
+								<div class="col-lg-8 col-md-8 col-sm-12">
 									<h3><b>AD CREATION</b></h3><br>
 									<p>We ensure that we create the right ad for your business. We further ensure that the most useful audience is targeted.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppctabsolutiontabimg2.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppc_add_creation.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
 							<div class="row m-0 p-3 pt-5 bor-top bor-left">
-								<div class="col-lg-7 col-md-7 col-sm-12">
+								<div class="col-lg-8 col-md-8 col-sm-12">
 									<h3><b>MANAGING</b></h3><br>
 									<p>After the creation of an ad campaign, our work doesn’t stop there. We ensure that we monitor the progress of your ads and update the campaign as per the requirements.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppctabsolutiontabimg3.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppc_managing.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
 							<div class="row m-0 p-3 pt-5 bor-top bor-right bor-bottom">
-								<div class="col-lg-7 col-md-7 col-sm-12">
+								<div class="col-lg-8 col-md-8 col-sm-12">
 									<h3><b>REPORT AND FEEDBACK</b></h3><br>
 									<p>We provide complete, detailed reports that include in depth analysis of your campaign so that you get a clear picture of the results. We also take feedback from our clients and work upon them for better PPC solutions.</p>
 								</div>
-								<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppcresult-img.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppc_reportandfeedback.png" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -282,7 +282,7 @@
 							<div class="ppc_management_service_sixthinnsec bor-bottom">
 								<div class="ppc_management_service_sixthsubinnsec bor-right">
 									<h3>INCREASED PROFIT</h3>
-									<p>With our PPC campaigns, you can instantly see amazing increase in your profits as well as ROI. With effective PPC marketing, you also get great brand exposure.</p>
+									<p>Our PPC campaigns are optimized in real-time to offer highest ROI. See instant increase in profits and brand exposure with our campaigns.</p>
 								</div>
 							</div>
 						</div>
