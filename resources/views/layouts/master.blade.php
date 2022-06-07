@@ -23,6 +23,11 @@
   <link rel="preload" as="style" href="assets/css/mbr-additional.css">
   <link rel="stylesheet" href="assets/css/custome.css" type="text/css">
   <link rel="stylesheet" href="assets/css/navbardropdown.css">
+  <!-- Start Moving Earth Plugin -->
+	<script src="assets/js/main-top.min.js.download"></script>
+  <!-- End Moving Earth Plugin --> 
+  <link rel="stylesheet" href="assets/dist/owl.carousel.css">
+  <link rel="Stylesheet" href="assets/css/owl.css">
 </head>
 <body>
 @section('header')
@@ -536,5 +541,44 @@ function radial_animate() {
 
    </script> 
    <!-- Visible on Scroll start -->
+
+
+	<!-- Start Moving Earth Plugin -->
+	
+    	
+	<script>
+    			$(".sonar-wave").on("webkitAnimationIteration oanimationiteration animationiteration", function(){
+    			  $(this).css("background-color", colorize());
+    			})
+    
+    			function colorize() {
+    			  var hue = Math.random() * 360;
+    			  return "HSL(" + hue + ",100%,50%)";
+    			}
+    		</script>
+    	
+	
+	<script src="assets/js/three.min.js.download"></script>
+    <script src="assets/js/blockchain-earth.js.download"></script>
+	<!-- End Moving Earth Plugin -->
+	<!-- Start owl-carousel Js-->
+	<script src="assets/dist/owl.carousel.js"></script>
+		<script src="assets/js/owlCarousal.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#news-slider").owlCarousel({
+					items : 3,
+					itemsDesktop:[1199,3],
+					itemsDesktopSmall:[980,2],
+					itemsMobile : [600,1],
+					navigation:true,
+					navigationText:["",""],
+					pagination:true,
+					autoPlay:true
+				});
+			});
+		</script>
+	<!-- End owl-carousel Js-->
+
 </body>
 </html>
