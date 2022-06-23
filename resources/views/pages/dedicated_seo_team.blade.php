@@ -38,585 +38,301 @@
 <!-- Faq schema End -->
 @show
 @section('content')
-   <!-- slider area bar start-->
-
-	<main class="header-video-sec">
-			
-			<!-- Vedio Content Section Start  -->
-			  <div class="container-flude">
-			  
-			  		<div class="container">
-			  			<div class="row indexheader-video-sec-inner-sec">
-				  			<div class="col-lg-6 col-md-6 col-sm-12 header-video-sec-inner-leftsec">
-
-									<h1> Dedicated SEO Team </h1>
-									
-									<p>Turn your website into a thriving digital asset with our Dedicated SEO services. With right personnel, knowledge and tools, optimize your site for better performance and ranking.</p>
-									
+				<section class="enterprise_seo_services_sec">
+					<div class="container">
+							<div class="enterprise_seo_services_left_sec i-can-has-a-colored-thing">
+									<h2> <span class="highlight"> ENTERPRISE SEO SERVICES </span> </h2>
+									<h4> Our services will help <span class="highlight"> <b> your business dominate the SERPs </b></span>. At <b>SEOEaze</b>, <span class="highlight"> <b>we have helped a lot of enterprise level businesses</b> </span> to enhance their brand awareness. <span class="linearrow"></span></h4>
 									<ul>
-										<li> GROW TRAFFIC</li>
-										<li> INCREASE SALES </li>
-										<li> IMPROVE RANKINGS </li>
+										<li>Grow your traffic</li>
+										<li>Improve rankings</li>
+										<li>Get more sales</li>
 									</ul>
+									<div class="indibuttons">
+										<button class="btn-hover color-1"> Consult Now
+											<span class="roundshapebutton roundshapearrow"> 
+												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+												</svg>
+											</span>
+										</button>
+									</div>
+							</div>
+					</div>
+
+				</section>
+				<section class="enterpriseseoservicessecondsec">
+						<div class="container i-can-has-a-colored-thing">
+							<h4 class="pb-5"> DEDICATED SEO PLANS </h4>
+							<div class="row mt-5">
+								<div class="col-lg-12 col-md-12 col-sm-12 ">
+										<div class="enterpriseseoservicesec">
+											<ul>
+												<li>
+													<h6> DEDICATED SEO PLANS </h6>
+													<h5> $999/month</h5>
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+												</li>
+												<li>
+													<h6>FULL TIME SEO CONSULTANTS </h6>
+													<h5> $1499/month</h5>
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+												</li>
+												<li>
+													<h6> DEDICATED CONTENT DEVELOPER </h6>
+													<h5> $999/month</h5>
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+												</li>
+												<li>
+													<h6> WEB DEVELOPING TEAM </h6>
+													<h5>$1599/month</h5>
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+												</li>
+											</ul>
+										</div>
 										
-									<span class="mt-5">  
-										<a href="#start">
-											<button class="button1"> Get started now  </button>
-										</a> 
-										<a href="#getintuchid">
-            								<button class="button2"> Get In Touch </button>
-            							</a>
-									</span>
-									<p class="pt-5"><img src="assets/img/seopackages/seoPackages-sertificate.png" alt=""></p>
-				  			</div>
-
-				  			<div class="col-lg-6 col-md-6 col-sm-12 header-video-sec-inner-rightsec">
-								<div class="imgblockright">	  				
-									 <img src="assets/img/enterpriseseo/enterprise_seo_header-rightimg.png" alt="">
-								</div>
-				  			</div>
-					</div>
-			  	</div>
-
-			</div>
-			<!-- Vedio Content Section End -->
-	</main>
-			  
-<!-- slider area bar end-->
-
-
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li class="active"><span> Dedicated SEO Team </span></li>
-		   </ol>
-	</div>
-</div>
-<!-- End Breadcrumbs Schema -->
-
-
-<!-- Start DEDICATED SEO SOLUTIONS section -->
-
-
-<div class="container-fluid dedicatedseosolutions-sec"  id="start">
-		<div class="container">
-		    <h2> DEDICATED SEO PLANS </h2>
-			<span class="bottomLineImgStyle"></span>
-		    
-		    <div class="row pt-5">
-				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block">
-					<div class="dedicatedseosolutions-innersec">
-						<div class="headersec"> DEDICATED SEO PLANS </div>
-						<div class="mainsec">$999/month</div>
-						<div class="footersec"><a href="/request_consultation"><button type="button" class="button1"> INQUIRE NOW</button></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block">
-					<div class="dedicatedseosolutions-innersec">
-						<div class="headersec"> FULL TIME SEO CONSULTANTS </div>
-						<div class="mainsec"> $1499/month </div>
-						<div class="footersec"><a href="/request_consultation"><button type="button" class="button1"> INQUIRE NOW</button></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block">
-					<div class="dedicatedseosolutions-innersec">
-						<div class="headersec"> DEDICATED CONTENT DEVELOPER </div>
-						<div class="mainsec">$999/month</div>
-						<div class="footersec"><a href="/request_consultation"><button type="button" class="button1">INQUIRE NOW</button></div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block">
-					<div class="dedicatedseosolutions-innersec">
-						<div class="headersec"> WEB DEVELOPING TEAM </div>
-						<div class="mainsec">$1599/month</div>
-						<div class="footersec"><a href="/request_consultation"><button type="button" class="button1">INQUIRE NOW</button></a></div>
-					</div>
-				</div>
-								
-
-
-			</div>
-		
-
-
-				
-		</div>
-	</div>
-
-
-<!-- End DEDICATED SEO SOLUTIONS section -->
-
-<!-- 30 days money back guarantee sec -->
-
-<div class="container-fluid moneyback-sec">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12 ">
-					<figure class="pt-3"><img src="assets/img/seopackages/30daystampimg.png"> </figure>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 p-5">
-					<h3 class="pt-5"> 30 DAY MONEY BACK OFFER </h3>
-					<p>
-						At SEOEaze, we offer risk free, 30 days money back guarantee to all our clients. So if you are not happy with the results, we will return your money! 
-					</p>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure><img src="assets/img/seopackages/30daysthumsupimg.png"> </figure>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-<!-- End 30 days money back guarantee sec  -->
-
-<!-- Start OUR PPC MANAGEMENT APPROACH section -->
-
-
-<div class="container-fluid dedicatedseosolutions-secondsec">
-		<div class="container">
-		    <h2> Why hire a dedicated SEO team? </h2>
-		    <h3>For big projects, it makes much more sense to hire a dedicated SEO service as it brings many benefits.</h3>
-			<span class="bottomLineImgStyle"></span>
-					<div class="row devider2 mt-5">
-						<div class="col-lg-8 col-md-8 col-sm-12 mx-auto d-block">
-							<div class="box-sec">
-								<h3>Effective use of resources </h3>
-									<p>
-									Small businesses with basic SEO needs can take care of the requirements in-house but for large scale enterprises, the SEO requirements are too vast. Hiring their own team can be a resource and time-consuming process which is why a dedicated SEO team from SeoEaze is an effective way to manage all the SEO requirements saving both time and money.
-									</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-							<div class="box-sec">
-								 <img src="assets/img/enterpriseseo/dedicated_seo_team_img2.png" alt="OUR APPROACH" class="img-flude" class="img-flude"> 
-							</div>
-						</div>
-						<hr>
-					</div>
-								
-					<div class="row pt-5 devider2">
-			
-						<div class="col-lg-8 col-md-8 col-sm-12 mx-auto d-block">
-							<div class="box-sec">
-								<h3>Cost-effective </h3>
-									<p>
-										Not having an experienced SEO team can lead to wasted money. You might end up with inexperienced SEO professionals whose wrong strategic planning might damage your site even more. But SeoEaze’s SEO consultants will study your website and develop a strategy accordingly.
-									</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-							<div class="box-sec">
-								<img src="assets/img/enterpriseseo/dedicated_seo_team_img3.png" alt="HIRE US FOR BETTER WEBSITE PERFORMANCE" class="img-flude">
-							</div>
-						</div>
-						<hr>
-					</div>
-																
-					<div class="row pt-5 devider2">
-			
-						<div class="col-lg-8 col-md-8 col-sm-12 mx-auto d-block">
-							<div class="box-sec">
-								<h3>Experience and knowledge</h3>
-									<p>
-										When you hire a dedicated SEO team, you bring in the experience and expertise professionals have gained over the years. There is no hit and trail, only effective SEO strategies that work are implemented for the best results. 
-									</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-							<div class="box-sec">
-								<img src="assets/img/enterpriseseo/dedicated_seo_team_img4.png" alt="HIRE US FOR BETTER WEBSITE PERFORMANCE" class="img-flude">
-							</div>
-						</div>
-						<hr>
-					</div>					
-																
-
-			</div>
-		</div>
-
-
-
-<!-- End OUR PPC MANAGEMENT APPROACH section -->
-<!-- -->
-<div class="container-fluid dedicatedseosolutions-thirdsec bgcolor2">
-        <div class="container">
-            <h2>SeoEaze’s Dedicated SEO Solutions</h2>
-			<span class="bottomLineImgStyle"></span>
-                    <div class="row mt-5">
-                        <div class="col-lg-8 col-md-8 col-sm-12 mx-auto d-block">
-                            <div class="box-sec">                               
-                                <h3>Our approach </h3>
-                                    <p>
-                						With a dedicated team of SEO professionals, we target offering the best of SEO solutions to all our clients. The team of professionals at our company have in-depth knowledge about what works best for your site. Accordingly, they plan the right SEO campaign including content creation, designing and developing your web pages, keyword research, on-page and off-page optimization etc.
-                					</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-                            <div class="box-sec">
-                                 <img src="assets/img/enterpriseseo/dedicated_seo_team_img5.png" alt="UNIQUE APPROACH FOR EACH SEO PLAN " class="img-flude"> 
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="row mt-5">
-                        <div class="col-lg-8 col-md-8 col-sm-12 mx-auto d-block">
-                            <div class="box-sec">                               
-                                <h3>Hire Us For Better Website Performance </h3>
-                                    <p>
-                						SeoEaze’s dedicated SEO consultants are the best to spare yourself the hassle of optimizing your site now and then. No longer you need to spend much time on training teams and managing the SEO tasks for your site. With our dedicated SEO professionals, optimizing your site and keeping yourself ahead of the competition is ensured.
-                					</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-                            <div class="box-sec">
-                                 <img src="assets/img/enterpriseseo/dedicated_seo_team_img6.png" alt="UNIQUE APPROACH FOR EACH SEO PLAN " class="img-flude"> 
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-            </div>
-        </div>
-<!-- -->
-<!-- Start FEATURES & BENEFITS OF OUR SEO PACKAGES sec-->
-
-
-<div class="container-fluid blogMgtfeaturesandbenefits-sec">
-		<div class="container">
-			<h2>Benefits of Our Dedicated SEO Solutions </h2>
-			<span class="bottomLineImgStyle"></span>
-			
-			
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/enterpriseseo/icons/enterprise_seo_icon1.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Dedicated team working on individual projects</h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p> With our dedicated SEO campaigns, you can instantly see an amazing increase in your profits as well as ROI. Dedicated SEO team ensures latest practices are implemented at your site.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/enterpriseseo/icons/enterprise_seo_icon2.png" alt="" class="img-s"> 
-						  <h3 class="h3class">Qualified SEO professionals assuring top rankings </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p> All the SEO copies are duly created by a professional team that targets your audience, region and business specifically.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/enterpriseseo/icons/enterprise_seo_icon3.png" alt="" class="img-s"> 
-						  <h3 class="h3class">Guaranteed traffic improvement </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p>With over 8 years of experience in the industry, we have nurtured thousands of successful SEO campaigns for our clients. <br></p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/enterpriseseo/icons/enterprise_seo_icon4.png" alt="" class="img-s"> 
-						  <h3 class="h3class"> Time to time reporting of the project completed </h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p>Dedicated SEO is all about keeping you at the helm, while we do all the work. This is why you are aware of the project progress at all times with detailed reports.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/enterpriseseo/icons/enterprise_seo_icon5.png" alt="" class="img-s"> 
-						  <h3 class="h3class">Your own SEO dashboard</h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p>We believe in providing clean and clear services, keeping full transparency of what we offer. You can easily track analytics and insights for your SEO campaign as and when required.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<div class="blogMgtfeaturesandbenefits-innersec">
-						  <img src="assets/img/enterpriseseo/icons/enterprise_seo_icon6.png" alt="" class="img-s"> 
-						  <h3 class="h3class">Dedicated content writers and editors</h3>
-						  <span class="bottom-line-stylesmallimg"></span>
-						  <p>Get the work done from the best industry writers who create the top-quality content guaranteed to perform and lead to conversions. </p>
-					</div>
-				</div>
-
-			</div>
-
-				
-		</div>
-	</div>
-
-
-<!-- End FEATURES & BENEFITS OF OUR SEO PACKAGES sec -->
-
-
-
-<!-- Start FAQS RELATED TO CONTENT WRITING SERVICE Section -->
-
-<div class="container-fluid faqscontentwriting-sec">
-		<div class="container">
-			
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-					<div class="faqscontentwriting-innersec">
-                        <h2>Frequently Asked Questions </h2>
-            			<span class="bottomLineImgStyle"></span>
-						 <div id="accordion" class="accordion">
-								<div class="card mb-0">
-									<div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-										<a class="card-title"> 1. Do I have to sign long term contract? </a>
-									</div>
-									<div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
-										<div class="card-body">No. You can hire our dedicated SEO team for a minimum of 2 months. We do not enforce you to sign up any long-term contracts.</div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-										<a class="card-title"> 2. Who will administer to ensure SEO team is spending complete time on my projects? </a>
-									</div>
-									<div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
-										<div class="card-body">We have SEO project managers who supervise your dedicated SEO team. We have best management practices at helm to ensure our team manages all your projects needs in timely manner.</div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-										<a class="card-title"> 3. I have more queries regarding SEO Team. Can we schedule a meeting?</a>
-									</div>
-									<div id="collapseThree" class="collapse" data-parent="#accordion">
-										<div class="card-body">	Yes, always. When you hire our dedicated SEO team you will be assigned an account manager who will always be available. You can always reach him with the queries you have.</div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFourth">
-										<a class="card-title"> 4. Is my data safe with you?</a>
-									</div>
-									<div id="collapseFourth" class="collapse" data-parent="#accordion">
-										<div class="card-body">Absolutely. At SeoEaze, we ensure that all the employees abide by the privacy policy and we only share the data on need-to-know basis to ensure safety.</div>
-									</div>
-                                    
 								</div>
 							</div>
-					</div>
-				</div>
-            <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block askaquoteVerticalsec">
-             <!-- Start ask a quote Section -->
-                    <div class="askaquoteVerticalinnersec" id="getintuchid">
-                        <h2>Get In Touch</h2>
-            			<span class="bottomLineImgStyle"></span>
-            			<form action="/askaquote" method="post">
-                        {{ csrf_field() }}
-                        <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="inner-cuote-sec">
-                                        <div class="form-group">
-                                            <input type="text" name="name" class="form-control" name="name"  placeholder="Type Your Name" required="">
-                                        </div>
-                                    </div>
-                                </div>
-                               <div class="col-sm-12">
-                                    <div class="inner-cuote-sec">
-                                        <div class="form-group">
-                                            <input type="email" name="email" class="form-control" name="email" placeholder="Type your Email" required="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <div class="inner-cuote-sec">
-                                        <div class="form-group">
-                                         <textarea class="form-control" id="message-text" rows="5" name="message" placeholder="Type your Message" required=""></textarea>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-sm-12">
-                                    <div class="inner-cuote-sec m-auto">
-                                        <div class="form-group">
-                                            <button type="submit" class="sub-buttonclass">Submit Request</button> <p>We Will Never Spam Your Inbox</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                   </div>
-            <!-- End ask a quote Section -->
-				</div>
-			</div>
-		</div>
-</div>
-<!-- End FAQS RELATED TO Section -->
-<!-- New Start bannerFirst Section -->
-    <section class="happyclientsec">
-                      <div class="container text-center">
-                    
-                        <div class="row">
-                           <div class="col-lg-12 col-md-12">
-                            <ul>
-                              <li><img src="assets/img/clientcomicon/icon1.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon2.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon3.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon4.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon5.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon6.jpg" alt=""></li>
-                              <div class="hcheader"><h2> Our Clients | Our Strength </h2><h4> Some of our esteemed customers </h4></div>
-                              <li><img src="assets/img/clientcomicon/icon7.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon8.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon9.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon10.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon11.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon12.jpg" alt=""></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                      </div>
-    </section>
-<!-- New End bannerFirst Section -->
-<!-- Start customers think about us Section -->
-	<div class="container-fluid customersthinkaboutus-sec">
-		<div class="container">
-			<h2>Words From Our Clients </h2>
-			<h3>Our Valued Customers Believe In Us & This Is What Keeps Us Going </h3>
-			<span class="bottomLineImgStyle"></span>
-			
-			
-			
-			<div class="customersthinkaboutus-innersec">
-			
-			
-					<div class="customersthinkaboutus-innerleftsec">
-						<div class="innerleftsec-box">
-							
 						</div>
-					</div>
-					<div class="customersthinkaboutus-innerrightsec">
-					
-						 <div class="parent-box6 topSlider6 owl-carousel">
+				</section>
+					<section class="enterpriseseoservicthirdsec">
+						<div class="container">
+							<div class="row mt-5">
+								<div class="col-lg-8 col-md-8 col-sm-12 ">
+									<div class="enterpriseseoservicthirdinnersec">
+										<h4> DEDICATED SEO PLANS </h4>
+										<h2> SEO Approach</h2>
+										<p>
+										Enterprise SEO is the field of digital marketing which requires high level techniques to boost sales and to cut out the tough competition from other businesses. Corporate SEO services we offer are fool proof, ensuring that you get high end solutions for your enterprise level company.<br><br>
+										ur enterprise SEO plans are special for a reason- because an enterprise level website comes with a lot of pages and coding. Running an SEO campaign like that using low quality insignificant SEO techniques will give you more hassle. And even on the enterprise level, you need to be sure of quality over quantity.<br><br>
+										At SEOEaze, we work with your team to identify the right techniques for your enterprise level website and work tirelessly to improve its visibility and rankings. Our experts analyze search trends and data for you to provide actionable insights when needed. With our highly focused enterprise SEO services, we assist your enterprise to be on the top.
+										</p>
 
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12 ">
+									<div class="enterpriseseoservicthirdinnersec">
+										<img src="assets/img/enterprise_seo_services_images/enterpriseseoprice4.webp" alt="enterprise seo image" class="img-fluid"/>
+
+									</div>
+								</div>
+							</div>
+							<div class="row mt-5 pt-5">
+								<div class="col-lg-8 col-md-8 col-sm-12 ">
+									<div class="enterpriseseoservicthirdinnersec">
+										<h4> How SEOEAZE Helps You </h4>
+										<h2> Stay Ahead In The Search World?</h2>
+										<p>
+										At SEOEaze, we drive long term and organic results for our clients. Enterprise SEO is basically an investment with high ROI. It gets targeted traffic, attracts quality leads and improves visibility. Our SEO experts know the right way to do enterprise level SEO to create awareness, engagement and long term success.<br><br>
+										So if despite being a big company, you are outranked by small or midsized businesses, it is now time that you get ready and hire us for top class enterprise SEO solutions. We are sure of getting you the deserved position in organic search results. Further, you will be glad to know that we have helped enterprise organizations dominate your particular niche in the digital world.<br><br>
+										</p>
+
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12 ">
+									<div class="enterpriseseoservicthirdinnersec">
+										<img src="assets/img/enterprise_seo_services_images/enterpriseseoprice5.webp" alt="enterprise seo image" class="img-fluid"/>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</section>
+					<section class="enterpriseseoservicesfourthsec">
+						<div class="container i-can-has-a-colored-thing">
+							<h4>WHY HIRE OUR ENTERPRISE SEO? </h4>
+							<h2> Features & Benefits </h2>
+							<div class="row mt-5">
+								<div class="col-lg-12 col-md-12 col-sm-12 ">
+										<div class="enterpriseseoservicesfourthinnersec">
+											<ul>
+												<li>
+													<h5> DETAILED MONTHLY REPORTS </h5>
+													<p>We provide interactive and detailed reports to our clients. Every month, we summarize what changes we have made to your site, review the campaign KPI and generate future strategies.</p>
+												</li>
+												<li>
+													<h5> TECHNICAL CAPABILITIES</h5>
+													<p>We are a technically focused enterprise SEO solution provider. A lot of SEO companies have ideas that fail when it’s time for execution. But our SEO team has the experts who have all technical knowledge to execute strategies to full potential, without changing your existing design.</p>
+												</li>
+												<li>
+													<h5> CONTENT DEVELOPMENT </h5>
+													<p>It has been seen that quality, focused and SEO friendly content is the backbone of your enterprise level SEO success. At SEOEaze, we have content developers who do comprehensive content research and create the perfect content for your website.</p>
+												</li>
+												<li>
+													<h5>MORE ROI</h5>
+													<p>With our enterprise level strategies, from site audits and competitor analysis to content marketing and more, we leverage your budget for maximum ROI. Our team also ensures that your site remains abreast of latest technology and so we create foolproof enterprise SEO strategies that will surely deliver high returns.</p>
+												</li>
+												<li>
+													<h5>PROVEN ENTERPRISE SEO TACTICS</h5>
+													<p>We track the latest SEO updates and trends so that your site doesn’t have to miss out on anything. We have worked with so many enterprise-level organizations. We further have a proven track record of success and our experts know what will work and what will not.</p>
+												</li>
+												<li>	
+													<h5>IN HOUSE EXPERTS</h5>
+													<p>With a team of SEO specialists and experts, we are proud of having the professionals who work tirelessly to make your business outshine in the digital space.</p>
+												</li>
+											</ul>
+										</div>
+										
+								</div>
+							</div>
+
+						</div>
+				</section>
+
+				<section class="frequentlyaskedquestionsec">
+						<div class="container i-can-has-a-colored-thing">
+								<h2> Frequently <br> <span class="highlight"> Asked Questions</span> </h2>
+							<div class="row">
+
+								<div class="col-lg-5 col-md-12 col-sm-12" style="margin-top: -50px;">
+									<img src="assets/img/seo_packages_img/faqsleftsec.gif" class="img-fluid" alt=""/>
+								</div>
+								<div class="col-lg-7 col-md-12 col-sm-12">
+									  <!-- start Frequently Asked Questions-->
+									  			<button class="accordion"> What kind of tools do you use for enterprise SEO?</button>
+												<div class="panel">
+													<p>We use the most popular SEO tools for keyword research, analysis, link building and more. Other tools that we use are VWO, Google Analyics, Google Search Console etc.</p>
 												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
+
+												<button class="accordion"> Why should I invest in your company for corporate SEO services?</button>
+												<div class="panel">
+													<p>SEOEaze has been rated as the best SEO Company India. We have worked very hard to be on the top position and to sustain the competition. We invest a lot of time and efforts to keep abreast with the latest search engine industry and we offer the best SEO strategies for your enterprise level business. </p>
+												</div>
+												
+												<button class="accordion"> Why do I need enterprise SEO?</button>
+												<div class="panel">
+													<p>Marketers require enterprise SEO to handle the complexities of big organizations. Enterprise SEO looks at the larger picture. Also the volume of content needed and precision required for successful SEO is immense- and this is impossible to achieve without experienced and specialized team. </p>
+												</div>
+												
+												<button class="accordion">What makes enterprise SEO different from other types of SEO? </button>
+												<div class="panel">
+													<p> The needs of an enterprise are more than smaller organizations. The budget is also bigger. Enterprise SEO is different in a way that it has to manage a lot of things like conversions, traffic, online reputation, visibility etc. Services from SEOEaze will balance all these concerns for you and offer you amazing SEO results.</p>
+												</div>
+
+  										<!-- end Frequently Asked Questions-->
+
+								</div>
+							</div>
+
+						</div>
+				</section>
+
+				<section class="clientsec">
+						<h2> Some of Our Esteemed Clients </h2>
+							<div class="clientinnersec">
+								<div class="clientinnerleftsec">
+									<ul>
+										<li><a href=""><img src="assets/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
+									</ul>
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
+									</ul>
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+									</ul>
+								</div>	
+							</div>		
+				</section>
+
+				<section class="testimonial">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 d-none d-lg-block">
+									<ol class="carousel-indicators tabs">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+									</ol>
+								</div>
+								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
+									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+										<h3>Words From</h3>
+										<h1><span class="highlight">Our Clients</span></h1>
+										<h4>Our Valued Customers Believe In Us & 
+												This Is What Keeps Us Going</h4>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<div class="quote-wrapper">
+													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																												</p>
 													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
+													<p> Travertine Mart </p>
 												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
 										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-													
-												</div>
-										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
-													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
-												</div>
-										</div>
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-												</div>
+										<ol class="carousel-indicators indicators">
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
+
+				<section class="seventhsec">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h3>We <i class="fas fa-heart hearticonsty"></i> <br> what we do </h3>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
+									<div class="indibuttons">
+											<button class="btn-hover color-1"> Let’s Talk  
+												<span class="roundshapebutton roundshapearrow"> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</button>
 										</div>
 								</div>
+							</div>
 						</div>
-					</div>
-
-			</div>
-		
-
-	</div>
-
- <!-- End customers think about us Section  -->
-
-<!-- Start SOME HAPPY CLIENTS  Section --> 
-<div class="container-fluid featureandclient-sec">
-	<div class="container">
-		
-			<div class="row">
-
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="featureandclient-innersec">
-							<h3 class="whitecolor"> OUR ACHIEVEMENTS: OUR PRIDE </h3>
-						    <span class="bottomLineImgStyle"></span>
-						    <p> 
-								</p><ul>
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon1.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon2.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon3.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon4.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon5.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon6.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon7.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon8.png"></a></li>
-									
-								</ul>	
-							<p></p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<!-- End SOME HAPPY CLIENTS  Section -->            
+				</section>
 
 @endsection
