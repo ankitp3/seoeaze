@@ -184,7 +184,17 @@ class HomeController extends Controller
             return view('pages.local_seo' , ['products' => $cart->items , 'totalPrice' =>  $cart->totalPrice , 'data' => $data , 'services' => $services  ]);
         }
     }
-
+    public function guestPosting(){
+        $data = $this->plan->get();
+        $services = $this->service->get();
+        if(!Session::has('cart')){
+            return view('pages.guest_posting_service' , ['data' => $data , 'services' => $services]);
+        }else{
+            $oldCart  = Session::get('cart');
+            $cart  = new Cart($oldCart);
+            return view('pages.guest_posting_service' , ['products' => $cart->items , 'totalPrice' =>  $cart->totalPrice , 'data' => $data , 'services' => $services  ]);
+        }
+    }
 
 
     public function privacy(){
@@ -636,30 +646,30 @@ class HomeController extends Controller
             return view('pages.complete_link_building_service' , ['products' => $cart->items , 'plan_name' => $plan_name,  'totalPrice' =>  $cart->totalPrice ,  'data' => $data , 'service_info' => $service, 'services' => $services]);
         }
     }
-        public function guestPosting(){
-        $services = $this->service->get();
-        $name = explode('/' ,\Request::url());
-        $servname = end($name);
-        $service = $this->tabs_and_plan->where('service_link' , $servname)->first();
-        $service['service_name'] = 'Seo Service';
-        if(isset($service->tabs)) {
-            foreach (\json_decode($service->tabs, true) as $all_plan_id) {
-                $data[] = $this->plan->where('all_plan_id', $all_plan_id)->orderBy(\DB::raw('ABS(amount)'), 'asc')->get();
-                $plan_name[] = $this->all_plan->where('id', $all_plan_id)->first();
-            }
-        }else{
-            $data[] = '';
-            $plan_name[] = '';
-        }
+    //     public function guestPosting(){
+    //     $services = $this->service->get();
+    //     $name = explode('/' ,\Request::url());
+    //     $servname = end($name);
+    //     $service = $this->tabs_and_plan->where('service_link' , $servname)->first();
+    //     $service['service_name'] = 'Seo Service';
+    //     if(isset($service->tabs)) {
+    //         foreach (\json_decode($service->tabs, true) as $all_plan_id) {
+    //             $data[] = $this->plan->where('all_plan_id', $all_plan_id)->orderBy(\DB::raw('ABS(amount)'), 'asc')->get();
+    //             $plan_name[] = $this->all_plan->where('id', $all_plan_id)->first();
+    //         }
+    //     }else{
+    //         $data[] = '';
+    //         $plan_name[] = '';
+    //     }
 
-        if(!Session::has('cart')){
-            return view('pages.guest_posting' , ['data' => $data , 'services' => $services , 'plan_name' => $plan_name, 'service_info' => $service]);
-        }else{
-            $oldCart  = Session::get('cart');
-            $cart  = new Cart($oldCart);
-            return view('pages.guest_posting' , ['products' => $cart->items , 'plan_name' => $plan_name,  'totalPrice' =>  $cart->totalPrice ,  'data' => $data , 'service_info' => $service, 'services' => $services]);
-        }
-    }
+    //     if(!Session::has('cart')){
+    //         return view('pages.guest_posting' , ['data' => $data , 'services' => $services , 'plan_name' => $plan_name, 'service_info' => $service]);
+    //     }else{
+    //         $oldCart  = Session::get('cart');
+    //         $cart  = new Cart($oldCart);
+    //         return view('pages.guest_posting' , ['products' => $cart->items , 'plan_name' => $plan_name,  'totalPrice' =>  $cart->totalPrice ,  'data' => $data , 'service_info' => $service, 'services' => $services]);
+    //     }
+    // }
 
     public function linkwheelService(){
         $services = $this->service->get();

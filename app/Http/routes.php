@@ -57,6 +57,8 @@ Route::group(['middleware' => 'redirection'] , function (){
     Route::get('/search_engine_submission_service', 'HomeController@searchenginesubmissionService');
     Route::get('/schema-generator', 'HomeController@schema');
 
+    Route::get('/guest_posting_service ', 'HomeController@guestPosting');
+
     Route::get('/link_wheel_service/',
         array(
             'as' => '/link_wheel_service',

@@ -60,6 +60,9 @@ Route::get('/complete_link_building_service', 'HomeController@completelinkbuildi
 Route::get('/guest_posting', 'HomeController@guestPosting');
 Route::get('/link_wheel_service', 'HomeController@linkwheelService');
 Route::get('/search_engine_submission_service', 'HomeController@searchenginesubmissionService');
+
+Route::get('/guest_posting_service ', 'HomeController@guestPosting');
+
 Route::get('/link_wheel_service/',
     array(
         'as' => '/link_wheel_service',
