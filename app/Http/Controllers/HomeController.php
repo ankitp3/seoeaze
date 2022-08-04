@@ -13,6 +13,7 @@ use App\Models\Post;
 use App\Models\Service;
 use App\Models\Cart;
 use App\Http\Requests;
+use PulkitJalan\GeoIP\GeoIP;
 
 class HomeController extends Controller
 {
@@ -59,12 +60,16 @@ class HomeController extends Controller
             $plan_name[] = '';
         }
 
+        $geoip = new GeoIP();
+        $geoip->setIp(\Request::ip());
+        $country_code = $geoip->getCountryCode();
+
         if(!Session::has('cart')){
-            return view('pages.seo_service' , ['data' => $data , 'services' => $services , 'plan_name' => $plan_name, 'service_info' => $service]);
+            return view('pages.seo_service' , ['data' => $data , 'services' => $services , 'plan_name' => $plan_name, 'service_info' => $service, 'country_code' => $country_code]);
         }else{
             $oldCart  = Session::get('cart');
             $cart  = new Cart($oldCart);
-            return view('pages.seo_service' , ['products' => $cart->items , 'plan_name' => $plan_name,  'totalPrice' =>  $cart->totalPrice ,  'data' => $data , 'service_info' => $service, 'services' => $services]);
+            return view('pages.seo_service' , ['products' => $cart->items , 'plan_name' => $plan_name,  'totalPrice' =>  $cart->totalPrice ,  'data' => $data , 'service_info' => $service, 'services' => $services, 'country_code' => $country_code]);
         }
     }
 
