@@ -20,11 +20,12 @@ class Redirection
         $country_code = $geoip->getCountryCode();
         
         if($country_code == 'IN'){
-            if($request->path() == '/'){
-                return \Redirect::intended('https://www.seoeaze.in'); 
-            }else{
-                return \Redirect::intended('https://www.seoeaze.in/'.$request->path());
-            }
+            // if($request->path() == '/'){
+            //     return \Redirect::intended('https://www.seoeaze.in'); 
+            // }else{
+            //     return \Redirect::intended('https://www.seoeaze.in/'.$request->path());
+            // }
+            return $next($request);
         }elseif ($country_code == 'GB'){
             if($request->path() == '/'){
                 return \Redirect::intended('https://www.seoeaze.co.uk');

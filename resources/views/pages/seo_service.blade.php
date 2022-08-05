@@ -508,7 +508,7 @@
 							<div class="tableinnersec">
 								<div class="tableinnerheadersec">
 									<h2> Starter </h2>
-									<button> Enquire Now </button>
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a>
 								</div>
 								<div class="tableinnercontentsec">
 									<ul>
@@ -555,133 +555,127 @@
 										<li><span> 6 Month  </span> Completion Time </li>
 										<li><span>   </span> Ideal Minimum Contract Length</li>
 									</ul>
-									<button> Enquire Now </button>
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a> 
 								</div>
 							</div>
-
-
 						</li>
 						<li>
-
-								<div class="tableinnersec">
-										<div class="tableinnerheadersec">
-											<h2> Silver </h2>
-											<button> Enquire Now </button>
-										</div>
-										<div class="tableinnercontentsec">
-											<ul>
-												<li><span> 10 </span> Keywords Suggested </li>
-												<li><span class="plusicocls"></span> Full Website Analysis </li>
-												<li><span class="plusicocls"></span> Site Speed Audit </li>
-												<li><span class="plusicocls"></span> Backlinks Audit </li>
-												<li><span class="plusicocls"></span> Competition Analysis </li>
-												<li><span class="plusicocls"></span> Duplicate Content Check </li>
-												<li><span class="plusicocls"></span> Keyword Research	 </li>
-												<li><span class="plusicocls"></span> Mobile Usability Audit	 </li>
-												<li><span class="plusicocls"></span> Meta Tags Optimzation	 </li>
-												<li><span class="plusicocls"></span> Content Optimization </li>
-												<li><span class="plusicocls"></span> Sitemap Creation/Submission </li>
-												<li><span class="plusicocls"></span> Robots.txt Creation	 </li>
-												<li><span class="plusicocls"></span> Images Optimization </li>
-												<li><span class="plusicocls"></span> Interlinking Setup </li>
-												<li><span class="plusicocls"></span> 301/302 Rediect Setup </li>
-												<li><span class="plusicocls"></span> htaccess Setup </li>
-												<li><span class="plusicocls"></span> Search Console Setup </li>
-												<li><span class="plusicocls"></span> Google Analytics Setup	</li>
-												<li class="linethroughcls"> Schema Markup Implementation</li>
-												<li><span class="plusicocls"></span> Mini Blogs Creation </li>
-												<li><span> 25 </span> PR Distribution </li>
-												<li><span> 50 </span> Search Engine Submissions </li>
-												<li><span> 10 </span> Forum Link Building </li>
-												<li><span> 50 </span> Social Sharing </li>
-												<li><span class="plusicocls"></span> Niche Blog Posts </li>
-												<li><span> 10 </span> Article Distributions</li>
-												<li><span class="plusicocls"></span> Guest Posts </li>
-												<li class="linethroughcls"> Link Wheel </li>
-												<li><span class="plusicocls"></span> Google/Bing Maps Listing</li>
-												<li><span class="plusicocls"></span> Citation Building </li>
-												<li><span> $99/M </span> Facebook Ads Managemen </li>
-												<li><span> $99/M </span> Google Adwords Management </li>
-												<li class="linethroughcls"> FREE Adwords Credit* </li>
-												<li class="linethroughcls"> Facebook Posts </li>
-												<li class="linethroughcls"> Promotional Tweets </li>
-												<li class="linethroughcls"> Google+ Posts </li>
-												<li><span class="plusicocls"></span>Dedicated Campaign Dashboard </li>
-												<li><span class="plusicocls"></span>SERP Report</li>
-												<li><span class="plusicocls"></span>Traffic Report (Analytics)</li>
-												<li><span> 30 Days  </span> Link Building Report </li>
-												<li><span> 6 Month  </span> Completion Time </li>
-												<li><span></span> Ideal Minimum Contract Length</li>
-											</ul>
-											<button> Enquire Now </button>
-										</div>
-									</div>
-
+							<div class="tableinnersec">
+								<div class="tableinnerheadersec">
+									<h2> Silver </h2>
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a>
+								</div>
+								<div class="tableinnercontentsec">
+									<ul>
+										<li><span> 10 </span> Keywords Suggested </li>
+										<li><span class="plusicocls"></span> Full Website Analysis </li>
+										<li><span class="plusicocls"></span> Site Speed Audit </li>
+										<li><span class="plusicocls"></span> Backlinks Audit </li>
+										<li><span class="plusicocls"></span> Competition Analysis </li>
+										<li><span class="plusicocls"></span> Duplicate Content Check </li>
+										<li><span class="plusicocls"></span> Keyword Research	 </li>
+										<li><span class="plusicocls"></span> Mobile Usability Audit	 </li>
+										<li><span class="plusicocls"></span> Meta Tags Optimzation	 </li>
+										<li><span class="plusicocls"></span> Content Optimization </li>
+										<li><span class="plusicocls"></span> Sitemap Creation/Submission </li>
+										<li><span class="plusicocls"></span> Robots.txt Creation	 </li>
+										<li><span class="plusicocls"></span> Images Optimization </li>
+										<li><span class="plusicocls"></span> Interlinking Setup </li>
+										<li><span class="plusicocls"></span> 301/302 Rediect Setup </li>
+										<li><span class="plusicocls"></span> htaccess Setup </li>
+										<li><span class="plusicocls"></span> Search Console Setup </li>
+										<li><span class="plusicocls"></span> Google Analytics Setup	</li>
+										<li class="linethroughcls"> Schema Markup Implementation</li>
+										<li><span class="plusicocls"></span> Mini Blogs Creation </li>
+										<li><span> 25 </span> PR Distribution </li>
+										<li><span> 50 </span> Search Engine Submissions </li>
+										<li><span> 10 </span> Forum Link Building </li>
+										<li><span> 50 </span> Social Sharing </li>
+										<li><span class="plusicocls"></span> Niche Blog Posts </li>
+										<li><span> 10 </span> Article Distributions</li>
+										<li><span class="plusicocls"></span> Guest Posts </li>
+										<li class="linethroughcls"> Link Wheel </li>
+										<li><span class="plusicocls"></span> Google/Bing Maps Listing</li>
+										<li><span class="plusicocls"></span> Citation Building </li>
+										<li><span> $99/M </span> Facebook Ads Managemen </li>
+										<li><span> $99/M </span> Google Adwords Management </li>
+										<li class="linethroughcls"> FREE Adwords Credit* </li>
+										<li class="linethroughcls"> Facebook Posts </li>
+										<li class="linethroughcls"> Promotional Tweets </li>
+										<li class="linethroughcls"> Google+ Posts </li>
+										<li><span class="plusicocls"></span>Dedicated Campaign Dashboard </li>
+										<li><span class="plusicocls"></span>SERP Report</li>
+										<li><span class="plusicocls"></span>Traffic Report (Analytics)</li>
+										<li><span> 30 Days  </span> Link Building Report </li>
+										<li><span> 6 Month  </span> Completion Time </li>
+										<li><span></span> Ideal Minimum Contract Length</li>
+									</ul>
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a> 
+								</div>
+							</div>
 						</li>
 						<li>
-
-								<div class="tableinnersec">
-										<div class="tableinnerheadersec">
-											<h2> Gold </h2>
-											<button> Enquire Now </button>
-										</div>
-										<div class="tableinnercontentsec">
-											<ul>
-												<li><span> 10 </span> Keywords Suggested </li>
-												<li><span class="plusicocls"></span> Full Website Analysis </li>
-												<li><span class="plusicocls"></span> Site Speed Audit </li>
-												<li><span class="plusicocls"></span> Backlinks Audit </li>
-												<li><span class="plusicocls"></span> Competition Analysis </li>
-												<li><span class="plusicocls"></span> Duplicate Content Check </li>
-												<li><span class="plusicocls"></span> Keyword Research	 </li>
-												<li><span class="plusicocls"></span> Mobile Usability Audit	 </li>
-												<li><span class="plusicocls"></span> Meta Tags Optimzation	 </li>
-												<li><span class="plusicocls"></span> Content Optimization </li>
-												<li><span class="plusicocls"></span> Sitemap Creation/Submission </li>
-												<li><span class="plusicocls"></span> Robots.txt Creation	 </li>
-												<li><span class="plusicocls"></span> Images Optimization </li>
-												<li><span class="plusicocls"></span> Interlinking Setup </li>
-												<li><span class="plusicocls"></span> 301/302 Rediect Setup </li>
-												<li><span class="plusicocls"></span> htaccess Setup </li>
-												<li><span class="plusicocls"></span> Search Console Setup </li>
-												<li><span class="plusicocls"></span> Google Analytics Setup	</li>
-												<li class="linethroughcls"> Schema Markup Implementation</li>
-												<li><span class="plusicocls"></span> Mini Blogs Creation </li>
-												<li><span> 25 </span> PR Distribution </li>
-												<li><span> 50 </span> Search Engine Submissions </li>
-												<li><span> 10 </span> Forum Link Building </li>
-												<li><span> 50 </span> Social Sharing </li>
-												<li><span class="plusicocls"></span> Niche Blog Posts </li>
-												<li><span> 10 </span> Article Distributions</li>
-												<li><span class="plusicocls"></span> Guest Posts </li>
-												<li class="linethroughcls"> Link Wheel </li>
-												<li><span class="plusicocls"></span> Google/Bing Maps Listing</li>
-												<li><span class="plusicocls"></span> Citation Building </li>
-												<li><span> $99/M </span> Facebook Ads Managemen </li>
-												<li><span> $99/M </span> Google Adwords Management </li>
-												<li class="linethroughcls"> FREE Adwords Credit* </li>
-												<li class="linethroughcls"> Facebook Posts </li>
-												<li class="linethroughcls"> Promotional Tweets </li>
-												<li class="linethroughcls"> Google+ Posts </li>
-												<li><span class="plusicocls"></span>Dedicated Campaign Dashboard </li>
-												<li><span class="plusicocls"></span>SERP Report</li>
-												<li><span class="plusicocls"></span>Traffic Report (Analytics)</li>
-												<li><span> 30 Days  </span> Link Building Report </li>
-												<li><span> 6 Month  </span> Completion Time </li>
-												<li><span>   </span> Ideal Minimum Contract Length</li>
-											</ul>
-											<button> Enquire Now </button>
-										</div>
-									</div>
-
+    						<div class="tableinnersec">
+								<div class="tableinnerheadersec">
+									<h2> Gold </h2>
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a>
+								</div>
+								<div class="tableinnercontentsec">
+									<ul>
+										<li><span> 10 </span> Keywords Suggested </li>
+										<li><span class="plusicocls"></span> Full Website Analysis </li>
+										<li><span class="plusicocls"></span> Site Speed Audit </li>
+										<li><span class="plusicocls"></span> Backlinks Audit </li>
+										<li><span class="plusicocls"></span> Competition Analysis </li>
+										<li><span class="plusicocls"></span> Duplicate Content Check </li>
+										<li><span class="plusicocls"></span> Keyword Research	 </li>
+										<li><span class="plusicocls"></span> Mobile Usability Audit	 </li>
+										<li><span class="plusicocls"></span> Meta Tags Optimzation	 </li>
+										<li><span class="plusicocls"></span> Content Optimization </li>
+										<li><span class="plusicocls"></span> Sitemap Creation/Submission </li>
+										<li><span class="plusicocls"></span> Robots.txt Creation	 </li>
+										<li><span class="plusicocls"></span> Images Optimization </li>
+										<li><span class="plusicocls"></span> Interlinking Setup </li>
+										<li><span class="plusicocls"></span> 301/302 Rediect Setup </li>
+										<li><span class="plusicocls"></span> htaccess Setup </li>
+										<li><span class="plusicocls"></span> Search Console Setup </li>
+										<li><span class="plusicocls"></span> Google Analytics Setup	</li>
+										<li class="linethroughcls"> Schema Markup Implementation</li>
+										<li><span class="plusicocls"></span> Mini Blogs Creation </li>
+										<li><span> 25 </span> PR Distribution </li>
+										<li><span> 50 </span> Search Engine Submissions </li>
+										<li><span> 10 </span> Forum Link Building </li>
+										<li><span> 50 </span> Social Sharing </li>
+										<li><span class="plusicocls"></span> Niche Blog Posts </li>
+										<li><span> 10 </span> Article Distributions</li>
+										<li><span class="plusicocls"></span> Guest Posts </li>
+										<li class="linethroughcls"> Link Wheel </li>
+										<li><span class="plusicocls"></span> Google/Bing Maps Listing</li>
+										<li><span class="plusicocls"></span> Citation Building </li>
+										<li><span> $99/M </span> Facebook Ads Managemen </li>
+										<li><span> $99/M </span> Google Adwords Management </li>
+										<li class="linethroughcls"> FREE Adwords Credit* </li>
+										<li class="linethroughcls"> Facebook Posts </li>
+										<li class="linethroughcls"> Promotional Tweets </li>
+										<li class="linethroughcls"> Google+ Posts </li>
+										<li><span class="plusicocls"></span>Dedicated Campaign Dashboard </li>
+										<li><span class="plusicocls"></span>SERP Report</li>
+										<li><span class="plusicocls"></span>Traffic Report (Analytics)</li>
+										<li><span> 30 Days  </span> Link Building Report </li>
+										<li><span> 6 Month  </span> Completion Time </li>
+										<li><span>   </span> Ideal Minimum Contract Length</li>
+									</ul>
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a> 
+								</div>
+							</div>
 						</li>
 						<li>
-								<div class="tableinnersec">
-										<div class="tableinnerheadersec">
+							<div class="tableinnersec">
+								<div class="tableinnerheadersec">
 											<h2> Platinum </h2>
-											<button> Enquire Now </button>
+											<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a>
 										</div>
-										<div class="tableinnercontentsec">
+								<div class="tableinnercontentsec">
 											<ul>
 												<li><span> 10 </span> Keywords Suggested </li>
 												<li><span class="plusicocls"></span> Full Website Analysis </li>
@@ -726,17 +720,17 @@
 												<li><span> 6 Month  </span> Completion Time </li>
 												<li><span>   </span> Ideal Minimum Contract Length</li>
 											</ul>
-											<button> Enquire Now </button>
+											<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a> 
 										</div>
-									</div>
+							</div>
 						</li>
 						<li>
-								<div class="tableinnersec">
-										<div class="tableinnerheadersec">
+							<div class="tableinnersec">
+								<div class="tableinnerheadersec">
 											<h2> Diamond </h2>
-											<button> Enquire Now </button>
+											<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a>
 										</div>
-										<div class="tableinnercontentsec">
+								<div class="tableinnercontentsec">
 											<ul>
 												<li><span> 10 </span> Keywords Suggested </li>
 												<li><span class="plusicocls"></span> Full Website Analysis </li>
@@ -781,13 +775,11 @@
 												<li><span> 6 Month  </span> Completion Time </li>
 												<li><span></span> Ideal Minimum Contract Length</li>
 											</ul>
-											<button> Enquire Now </button>
+											<a href="javascript:;" data-toggle="modal" data-target="#myModal"> <button> Enquire Now </button> </a> 
 										</div>
-									</div>
+							</div>
 						</li>
 					</ul>
-
-					
 				</div>
 				</section>
 

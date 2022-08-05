@@ -12,7 +12,7 @@
         "laravelcollective/html":"^5.2.0",
         "skovmand/mailchimp-laravel": "1.*",
         "pulkitjalan/geoip":"2.2.0",
-        "jgrossi/corcel": "~2.2.0"
+        "jgrossi/corcel": "^2.2.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
