@@ -163,115 +163,121 @@
 
 <!-- Start Footer Section -->
 <div class="footer">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-12 col-sm-12">
-									<div class="fleftsec">
-										<!-- DropUp Menu Bar start -->
-										<div id="menu">
-											<ul>
-												<li><center><a href="#">COMPANY +</a></center>
-													<ul>
-														<li><a href="#"> About Us </a></li>
-														<li><a href="#"> Portfolio </a></li>
-														<li><a href="#"> Case Studies </a></li>
-														<li><a href="#"> Testimonials </a></li>
-														<li><a href="#"> Get in Touch </a></li>
-														<li><a href="#"> Partner With Us </a></li>
-														<li><a href="#"> Login/Sign-Up </a></li>
-														<li><a href="#"> My Cart </a></li>
-														<li><a href="#"> SEO Blog </a></li>
-													</ul>
-												</li>
-												<li><center><a href="#">KEY SERVICES +</a></center>
-													<ul>
-															<li><a href="#"> SEO Packages </a></li>
-															<li><a href="#"> Social Media Marketing </a></li>
-															<li><a href="#"> Pay Per Click Service </a></li>
-															<li><a href="#"> Complete Link Building </a></li>
-															<li><a href="#"> Panda & Penguin Recovery </a></li>
-															<li><a href="#"> Advance Website Audit </a></li>
-															<li><a href="#"> Reputation Management </a></li>
-															<li><a href="#"> Website Development </a></li>
-															<li><a href="#"> Content Writing </a></li>
-													</ul>
-												</li>
-												<li><center><a href="#">SEO TOOLS +</a></center>
-													<ul>
-															<li><a href="#"> Schema Generator </a></li>
-													</ul>
-												</li>
-											</ul>
-										</div>
-										<!-- DropUp Menu Bar End -->
-									</div>
-							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12">
-								<div class="frightsec">
-									<figure><img src="assets/img/logo.png" alt="Seoeaze"/></figure>
-									<p>10685-B Hazelhurst Dr. #19976,  Houston, TX 77043</p>
-									<div class="frightbottomsec">
-
-										<div class="socialsiteiconsec">
-											<div class="button">
-												<div class="icon">
-													<i class="fab fa-facebook-f"></i>
-												</div>
-											</div>
-										
-											<div class="button">
-												<div class="icon">
-													<i class="fab fa-twitter"></i>
-												</div>
-											</div>
-										
-											<div class="button">
-												<div class="icon">
-													<i class="fab fa-linkedin"></i>
-												</div>
-											</div>
-										
-											<div class="button">
-												<div class="icon">
-													<i class="fab fa-youtube"></i>
-												</div>
-											</div>
-
-										</div>
-
-										<p> <span class="highlights">844-SEOEAZE (7363293)</span> <span class="highlights">info@seoeaze.com </span></p>
-									</div>
-									
-								</div>
-							</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="fleftsec">
+						<!-- DropUp Menu Bar start -->
+						<div id="menu">
+							<ul>
+								<li><center><a href="#">COMPANY +</a></center>
+									<ul>
+										<li><a href="#"> About Us </a></li>
+										<li><a href="#"> Portfolio </a></li>
+										<li><a href="#"> Case Studies </a></li>
+										<li><a href="#"> Testimonials </a></li>
+										<li><a href="#"> Get in Touch </a></li>
+										<li><a href="#"> Partner With Us </a></li>
+										<li><a href="#"> Login/Sign-Up </a></li>
+										<li><a href="#"> My Cart </a></li>
+										<li><a href="#"> SEO Blog </a></li>
+									</ul>
+								</li>
+								<li><center><a href="#">KEY SERVICES +</a></center>
+									<ul>
+											<li><a href="#"> SEO Packages </a></li>
+											<li><a href="#"> Social Media Marketing </a></li>
+											<li><a href="#"> Pay Per Click Service </a></li>
+											<li><a href="#"> Complete Link Building </a></li>
+											<li><a href="#"> Panda & Penguin Recovery </a></li>
+											<li><a href="#"> Advance Website Audit </a></li>
+											<li><a href="#"> Reputation Management </a></li>
+											<li><a href="#"> Website Development </a></li>
+											<li><a href="#"> Content Writing </a></li>
+									</ul>
+								</li>
+								<li><center><a href="#">SEO TOOLS +</a></center>
+									<ul>
+											<li><a href="#"> Schema Generator </a></li>
+									</ul>
+								</li>
+							</ul>
 						</div>
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12">
-								<h5>So, you made it to the end, your <span class="highlights">complete willingness </span>gives us the confidence to <span class="highlights"> produce desired
-										results </span> from our <span class="highlights">full stack digital marketing services</span>. We have been creating adventurous, inspiring, exciting and often <span class="highlights">out of notch</span> solutions for brands <span class="highlights">since 2009</span>. SeoEaze stands out and inspires with confidence, why not <span class="highlights">just do it    </span>, seriously hop in.</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-6 col-md-12 col-sm-12">
-								<div class="footerbstripleft">
-									<a href="/privacy_policy"><span> Privacy Policy </span></a>| 
-									<a href="/refund"><span> Refund Policy </span></a> |
-									<a href="/career"><span> Career </span></a>|
-									<a href="/contact"><span> Contact Us </span></a>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12">
-								<div class="footerbstripright">
-									Copyright © 2009-2020 - All Rights Reserved	
-								</div>
-							</div>
-						</div>
+						<!-- DropUp Menu Bar End -->
 					</div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="frightsec">
+					<figure><img src="assets/img/logo.png" alt="Seoeaze"/></figure>
+					<p>10685-B Hazelhurst Dr. #19976,  Houston, TX 77043</p>
+					<div class="frightbottomsec">
+
+						<div class="socialsiteiconsec">
+							<div class="button">
+								<div class="icon">
+									<i class="fab fa-facebook-f"></i>
+								</div>
+							</div>
+						
+							<div class="button">
+								<div class="icon">
+									<i class="fab fa-twitter"></i>
+								</div>
+							</div>
+						
+							<div class="button">
+								<div class="icon">
+									<i class="fab fa-linkedin"></i>
+								</div>
+							</div>
+						
+							<div class="button">
+								<div class="icon">
+									<i class="fab fa-youtube"></i>
+								</div>
+							</div>
+
+						</div>
+
+						<p> <span class="highlights">844-SEOEAZE (7363293)</span> <span class="highlights">info@seoeaze.com </span></p>
+					</div>
+					
 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<h5>So, you made it to the end, your <span class="highlights">complete willingness </span>gives us the confidence to <span class="highlights"> produce desired
+						results </span> from our <span class="highlights">full stack digital marketing services</span>. We have been creating adventurous, inspiring, exciting and often <span class="highlights">out of notch</span> solutions for brands <span class="highlights">since 2009</span>. SeoEaze stands out and inspires with confidence, why not <span class="highlights">just do it    </span>, seriously hop in.</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="footerbstripleft">
+					<a href="/privacy_policy"><span> Privacy Policy </span></a>| 
+					<a href="/refund"><span> Refund Policy </span></a> |
+					<a href="/career"><span> Career </span></a>|
+					<a href="/contact"><span> Contact Us </span></a>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="footerbstripright">
+					Copyright © 2009-2020 - All Rights Reserved	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- End Footer Sec -->
 
 <!-- Modal -->
+@php
+	use  PulkitJalan\GeoIP\GeoIP;
+	$geoip = new GeoIP();
+	$geoip->setIp(\Request::ip());
+	$country_code = $geoip->getCountryCode();
+@endphp
 
 <div class="modal align-self-center mx-auto fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
@@ -324,13 +330,23 @@
                         <div class="col-md-6 model-innersec">
                             <div class="form-group">
                                 <label for="budget"><strong>Monthly Budget</strong></label>
-                                <select class="form-control" name="mountly_spending">
-                                    <option value="500">Below $500</option>
-                                    <option value="1000">Upto $1000</option>
-                                    <option value="2500">Upto $2500</option>
-                                    <option value="5000">Upto $5000</option>
-                                    <option value="20000">$5000+</option>
-                                </select>
+								@if ($country_code == "IN")
+									<select class="form-control" name="mountly_spending">
+										<option value="500">Below ₹20000</option>
+										<option value="1000">₹20000 - ₹50000</option>
+										<option value="2500">₹50000 - ₹100000</option>
+										<option value="5000">₹100000 - ₹500000</option>
+										<option value="20000">₹500000+</option>
+									</select>
+								@else
+									<select class="form-control" name="mountly_spending">
+										<option value="500">Below $500</option>
+										<option value="1000">Upto $1000</option>
+										<option value="2500">Upto $2500</option>
+										<option value="5000">Upto $5000</option>
+										<option value="20000">$5000+</option>
+									</select>
+								@endif
                             </div>
                         </div>
                         <div class="col-md-6 model-innersec">
