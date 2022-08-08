@@ -14,11 +14,11 @@
     <ul class="b-top-nav__2level_wrap" style="width:25%">
          <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/content_writing_service">Content Writing</a></li>
         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/blog_management_service">Blog Management</a></li>
-        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/services/guest_posting">Content Marketing</a></li>
+        <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/guest_posting">Content Marketing</a></li>
     </ul>
     
     <ul class="b-top-nav__2level_wrap" style="width:25%">
-         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/services/complete_link_building">Link Building Service</a></li>
+         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/complete_link_building">Link Building Service</a></li>
         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/web_development_service">Web Design & Development</a></li>
         <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="https://www.seoeaze.com/panda_penguin_recovery_service">Google Penalty  Assesment</a></li>
     </ul>
