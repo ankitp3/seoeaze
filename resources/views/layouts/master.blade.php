@@ -8,26 +8,26 @@
     @yield('hreflangs')
     @yield('schema')
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="assets/css/newnavbarstyle.css">
-  <link href="css/newnavbarswiper.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/bubble.css" type="text/css">
-  <link rel="stylesheet" href="assets/css/rollingeffect.css" type="text/css">
-  <link rel="stylesheet" href="assets/css/highlightcolor.css">
-  <link rel="stylesheet" href="assets/css/marquee.css">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/newnavbarstyle.css') }}">
+  <link href="{{ URL::asset('css/newnavbarswiper.css') }}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/bubble.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/rollingeffect.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/highlightcolor.css') }}">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/marquee.css') }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/swiper.min.css">
-  <link rel="stylesheet" href="assets/css/fancybox.min.css">
-  <link rel="stylesheet" href="assets/css/logorotation.css">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/swiper.min.css') }}">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/fancybox.min.css') }}">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/logorotation.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link rel="preload" as="style" href="assets/css/mbr-additional.css">
-  <link rel="stylesheet" href="assets/css/custome.css" type="text/css">
-  <link rel="stylesheet" href="assets/css/navbardropdown.css">
+  <link rel="preload" as="style" href="{{ URL::asset('assets/css/mbr-additional.css') }}">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/custome.css') }}" type="text/css">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/navbardropdown.css') }}">
   <!-- Start Moving Earth Plugin -->
-	<script src="assets/js/main-top.min.js.download"></script>
+	<script src="{{ URL::asset('assets/js/main-top.min.js.download') }}"></script>
   <!-- End Moving Earth Plugin --> 
-  <link rel="stylesheet" href="assets/dist/owl.carousel.css">
-  <link rel="Stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="{{ URL::asset('assets/dist/owl.carousel.css') }}">
+  <link rel="Stylesheet" href="{{ URL::asset('assets/css/owl.css') }}">
 </head>
 <body>
 @section('header')
@@ -161,6 +161,12 @@
 
 @yield('content')
 
+@php
+	use  PulkitJalan\GeoIP\GeoIP;
+	$geoip = new GeoIP();
+	$geoip->setIp(\Request::ip());
+	$country_code = $geoip->getCountryCode();
+@endphp
 <!-- Start Footer Section -->
 <div class="footer">
 	<div class="container">
@@ -208,7 +214,10 @@
 			</div>
 			<div class="col-lg-6 col-md-12 col-sm-12">
 				<div class="frightsec">
-					<figure><img src="assets/img/logo.png" alt="Seoeaze"/></figure>
+					<figure><img src="{{ URL::asset('assets/img/logo.png') }}" alt="Seoeaze"/></figure>
+					@if($country_code == "IN")
+					<p>B-710, Plot No-A40, The Ithum, Sector-62, Noida (NCR)</p>
+					@endif
 					<p>10685-B Hazelhurst Dr. #19976,  Houston, TX 77043</p>
 					<div class="frightbottomsec">
 
@@ -239,7 +248,14 @@
 
 						</div>
 
-						<p> <span class="highlights">844-SEOEAZE (7363293)</span> <span class="highlights">info@seoeaze.com </span></p>
+						<p> 
+							@if($country_code == "IN")
+							<span class="highlights">+91-8375011200</span> 
+							<span class="highlights">+91-120-4166710</span> 
+							@endif
+							<span class="highlights">+1-844-SEOEAZE(7363293)</span> 
+							<span class="highlights">info@seoeaze.com </span>
+						</p>
 					</div>
 					
 				</div>
@@ -272,12 +288,7 @@
 <!-- End Footer Sec -->
 
 <!-- Modal -->
-@php
-	use  PulkitJalan\GeoIP\GeoIP;
-	$geoip = new GeoIP();
-	$geoip->setIp(\Request::ip());
-	$country_code = $geoip->getCountryCode();
-@endphp
+
 
 <div class="modal align-self-center mx-auto fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 
@@ -421,21 +432,21 @@
 </script>
 
 
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/smooth-scroll.js"></script>
-  <script src="assets/js/jquery.touch-swipe.min.js"></script>
-  <script src="assets/js/bubble.js"></script>
-  <script src="assets/js/highlightcolor.js"></script>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/fancybox.min.js"></script>
-  <script src="assets/js/swup.min.js"></script>
-  <script src="assets/js/swiper.min.js"></script>
-  <script src="assets/js/parsley.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/logorotations.js"></script>
-  <script src="assets/js/newnavbarapp.js" defer></script>
+  <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/smooth-scroll.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/jquery.touch-swipe.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/bubble.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/highlightcolor.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/fancybox.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/swup.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/swiper.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/parsley.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/main.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/logorotations.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/newnavbarapp.js') }}" defer></script>
   
 <!-- start Frequently Asked Questions-->
 	<script>
@@ -574,8 +585,8 @@ function radial_animate() {
     		</script>
     	
 	
-	<script src="assets/js/three.min.js.download"></script>
-    <script src="assets/js/blockchain-earth.js.download"></script>
+	<script src="{{ URL::asset('assets/js/three.min.js.download') }}"></script>
+    <script src="{{ URL::asset('assets/js/blockchain-earth.js.download') }}"></script>
 	<!-- End Moving Earth Plugin -->
 	<!-- Start owl-carousel Js-->
 	<script src="assets/dist/owl.carousel.js"></script>
