@@ -77,8 +77,8 @@
 															<li><a href="/reputation_management_service">Reputation management</a></li>
 															<li><a href="/content_writing_service">Content writing</a></li>
 															<li><a href="/blog_management_service">Blog management</a></li>
-															<li><a href="services/guest_posting">Guest blogging</a></li>
-															<li><a href="services/complete_link_building">Link building service</a></li>
+															<li><a href="/services/guest_posting">Guest blogging</a></li>
+															<li><a href="/services/complete_link_building">Link building service</a></li>
 															<li><a href="/web_development_service">Web design & development</a></li>
 															<li><a href="/panda_penguin_recovery_service">Google penalty assesment</a></li>
 														</ul>
