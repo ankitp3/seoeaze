@@ -9,7 +9,7 @@
     @yield('schema')
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/newnavbarstyle.css') }}">
-  <link href="{{ URL::asset('css/newnavbarswiper.css') }}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link href="{{ URL::asset('assets/css/newnavbarswiper.css') }}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/bubble.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/rollingeffect.css') }}" type="text/css">
