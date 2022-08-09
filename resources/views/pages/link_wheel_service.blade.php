@@ -19,7 +19,7 @@
 
 
 @if(!empty($service_info->service_header))
-    <section class="b-diagonal-line-bg-light b-infoblock--small ">
+    <section class="link_wheel_service">
 
         <div class="container">
 

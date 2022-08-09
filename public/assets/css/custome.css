@@ -3714,7 +3714,13 @@ span.linearrow {
 }
 
 
-
+.link_wheel_service {
+  display: block;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  height: 100vh!important;
+  background: #dcebd4;
+}
 
 
 
