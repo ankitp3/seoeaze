@@ -38,7 +38,7 @@
 							<div class="orb-top-bar-frame">
 								<div class="orb-content orb-top-bar">
 								<a href="/" class="itIsAnImage">
-									<img src="assets/img/logo.png" class="logo" alt="Seoeaze">
+									<img src="{{ URL::asset('assets/img/logo.png') }}" class="logo" alt="Seoeaze">
 								</a>
 									
 
@@ -119,7 +119,7 @@
 									
 												<div class="sds--leadGenForm">
 													<div class="menulogosec">
-														<img src="assets/img/logo.png" alt="Logo" />
+														<img src="{{ URL::asset('assets/img/logo.png') }}" alt="Logo" />
 													</div>
 													<article class="d-content">
 														<h5 class="title">
