@@ -5121,7 +5121,7 @@ li a.accord-btn2 {
   display: block;
   padding-top: 9rem;
   padding-bottom: 3rem;
-  background-image: url(../assets/img/werseoeaze_headerbgleft.png);
+  background-image: url("./img/werseoeaze_headerbgleft.png");
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: 50px 100px;
@@ -5982,7 +5982,7 @@ section.accordion-item:hover::after {
   display: block;
   width: 100%;
   height: auto;
-  background-image: url("../img/sixthsecbgimg.jpg");
+  background-image: url("./img/sixthsecbgimg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6164,7 +6164,7 @@ text-shadow: 2px 2px 4px #000000;
   content: '';
   width: 200px;
   height: 200px;
-  background: url(../img/icons/rightmovingarrow.png);
+  background: url("./img/icons/rightmovingarrow.png");
   background-repeat: no-repeat;
   position: absolute;
   left: -167px;
