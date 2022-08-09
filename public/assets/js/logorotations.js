@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(window).on("scroll", function() {
-      var domain = window.location.hostname;
+      var domain = window.location.origin;
       if($(this).scrollTop() >= 30){
         // set to new image
         $(".itIsAnImage img").attr("src",domain+"/assets/img/logo2.png");
