@@ -45,7 +45,7 @@
 									<div class="orb-menu-btn">
 										<!-- New Navbar start -->
 										<nav class="posiR sds__header">
-											<a href="javascript:" id="hambtn" class="open-menu"> <img src="assets/img/toggleiconimg.png" alt=""/></a>
+											<a href="javascript:" id="hambtn" class="open-menu"> <img src="{{ URL::asset('assets/img/toggleiconimg.png') }}" alt=""/></a>
 											<div class="sds__nav" style="display: none;">
 												<div class="sds-lg-menu">
 												<a href="/" class="menu-link btn btn-home no-shadow">Home</a>
