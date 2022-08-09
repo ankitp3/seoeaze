@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="{{ URL::asset('assets/css/custome.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/navbardropdown.css') }}">
   <!-- Start Moving Earth Plugin -->
-	<script src="{{ URL::asset('assets/js/main-top.min.js.download') }}"></script>
+	<script src="{{ URL::asset('assets/js/main-top.min.js') }}"></script>
   <!-- End Moving Earth Plugin --> 
   <link rel="stylesheet" href="{{ URL::asset('assets/dist/owl.carousel.css') }}">
   <link rel="Stylesheet" href="{{ URL::asset('assets/css/owl.css') }}">
