@@ -107,7 +107,7 @@
 													</div>
 													</h5>
 													<p class="desc"><b>Welcome to Seoeaze.</b> Thanks for finding us!</p>
-													<p class="desc c-white"><figure><img src="assets/img/supportclienticon.png" class="img-fluid" alt=""/></figure></p>
+													<p class="desc c-white"><figure><img src="{{ URL::asset('assets/img/supportclienticon.png') }}" class="img-fluid" alt=""/></figure></p>
 													<a href="javascript:" class="btn btn-white xl rounded solidB btn-full btnn-toggle-class" data-target=".sds-form" data-toggleClass="is-showing"><strong>Let's Start with us <span>WITH US</span></strong></a>
 												</div>
 
@@ -139,13 +139,13 @@
 													</article>
 													<p class="desc"><b>Welcome to Seoeaze.</b> Thanks for finding us!</p>
 													<div class="slide-form">
-														<figure><img src="assets/img/supportclienticon.png" class="img-fluid" alt=""/></figure>
+														<figure><img src="{{ URL::asset('assets/img/supportclienticon.png') }}" class="img-fluid" alt=""/></figure>
 													</div>
 												
 												
 												<div class="slide-form-success-msg" style="display: none;">
 													<div class="slide-form">
-														<figure><img src="assets/img/supportclienticon.png" class="img-fluid" alt=""/></figure>
+														<figure><img src="{{ URL::asset('assets/img/supportclienticon.png') }}" class="img-fluid" alt=""/></figure>
 													</div>
 												</div>
 
