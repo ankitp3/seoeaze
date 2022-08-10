@@ -90,7 +90,7 @@
 <!-- Cart Functionality services -->
 <script type="text/javascript"
         src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
-<script src="/assets/js/main.min.js"></script>
+<script src="{{ URL::asset('/assets/js/main.min.js') }}"></script>
 
 <div style="display: none;">
     {{ $count_tabs = 0 }}
