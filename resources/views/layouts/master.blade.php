@@ -28,6 +28,7 @@
   <!-- End Moving Earth Plugin --> 
   <link rel="stylesheet" href="{{ URL::asset('assets/dist/owl.carousel.css') }}">
   <link rel="Stylesheet" href="{{ URL::asset('assets/css/owl.css') }}">
+  <script src="{{ URL::asset('assets/js/3.4.1jquery.min.js') }}"></script>
 </head>
 <body>
 @section('header')
@@ -439,12 +440,11 @@
   <script src="{{ URL::asset('assets/js/jquery.touch-swipe.min.js') }}"></script>
   <script src="{{ URL::asset('assets/js/bubble.js') }}"></script>
   <script src="{{ URL::asset('assets/js/highlightcolor.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
   <script src="{{ URL::asset('assets/js/fancybox.min.js') }}"></script>
   <script src="{{ URL::asset('assets/js/swup.min.js') }}"></script>
   <script src="{{ URL::asset('assets/js/swiper.min.js') }}"></script>
   <script src="{{ URL::asset('assets/js/parsley.min.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/main.js') }}"></script>
+  <!--<script src="{{ URL::asset('assets/js/main.js') }}"></script>-->
   <script src="{{ URL::asset('assets/js/logorotations.js') }}"></script>
   <script src="{{ URL::asset('assets/js/newnavbarapp.js') }}" defer></script>
   
@@ -497,8 +497,6 @@
  </script>
 
   <!-- Start Progressbar -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
  <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
    <script> 
 function radial_animate() { 
@@ -589,8 +587,8 @@ function radial_animate() {
     <script src="{{ URL::asset('assets/js/blockchain-earth.js.download') }}"></script>
 	<!-- End Moving Earth Plugin -->
 	<!-- Start owl-carousel Js-->
-	<script src="assets/dist/owl.carousel.js"></script>
-		<script src="assets/js/owlCarousal.js"></script>
+	<script src="{{ URL::asset('assets/dist/owl.carousel.js') }}"></script>
+		<!--<script src="{{ URL::asset('assets/js/owlCarousal.js') }}"></script>-->
 		<script>
 			$(document).ready(function() {
 				$("#news-slider").owlCarousel({
