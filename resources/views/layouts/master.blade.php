@@ -588,7 +588,7 @@ function radial_animate() {
 	<!-- End Moving Earth Plugin -->
 	<!-- Start owl-carousel Js-->
 	<script src="{{ URL::asset('assets/dist/owl.carousel.js') }}"></script>
-		<!--<script src="{{ URL::asset('assets/js/owlCarousal.js') }}"></script>-->
+	<script src="{{ URL::asset('assets/js/owlCarousal.js') }}"></script>
 		<script>
 			$(document).ready(function() {
 				$("#news-slider").owlCarousel({
@@ -604,6 +604,6 @@ function radial_animate() {
 			});
 		</script>
 	<!-- End owl-carousel Js-->
-
+	<script src="{{ URL::asset('/assets/js/main.min.js') }}"></script>
 </body>
 </html>
