@@ -349,6 +349,12 @@
 @endif
 --}}
 
+<script>
+    $(document).ready(function(){
+        var token = $('#token').val();
+        $("#getintuchform").val(token);
+    });
+</script>
 
 
 @endsection

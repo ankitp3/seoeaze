@@ -83,10 +83,20 @@
                                             <input type="hidden" id="token" value="{{ csrf_token() }}">
                                         </td>
                                         <td  class="shoping_amounts">
-                                            <i class="fa fa-usd"> </i><span class="">{{ $product['price'] }}</span>
+                                            @if($country_code == "IN")
+                                            <i class="fa fa-inr"> 
+                                            @else
+                                            <i class="fa fa-usd"> 
+                                            @endif
+                                            </i><span class="">{{ $product['price'] }}</span>
                                         </td>
                                         <td>
-                                            <i class="fa fa-usd"> </i><span class="shoping_amount">{{ $product['price']*$product['qty'] }}</span>
+                                            @if($country_code == "IN")
+                                            <i class="fa fa-inr"> 
+                                            @else
+                                            <i class="fa fa-usd"> </i>
+                                            @endif
+                                            <span class="shoping_amount">{{ $product['price']*$product['qty'] }}</span>
                                         </td>
                                         <td>
                                             <a class="shoping_card_remove" href="/remove/{{ $product['item']['id'] }}">
@@ -121,7 +131,11 @@
                                     Your Savings :
                                 </td>
                                 <td style="color: #72be58;">
-                                    <i class="fa fa-usd"></i>
+                                    @if($country_code == "IN")
+                                    <i class="fa fa-inr"> 
+                                    @else
+                                    <i class="fa fa-usd"> </i>
+                                    @endif
                                     <span class="savings_price">
                                         0
                                     </span>
@@ -132,7 +146,12 @@
                                     Cart Total :
                                 </td>
                                 <td >
-                                    <i class="fa fa-usd"></i> <span class="shoping_card_total">
+                                        @if($country_code == "IN")
+                                        <i class="fa fa-inr"> 
+                                        @else
+                                        <i class="fa fa-usd"> </i>
+                                        @endif
+                                        <span class="shoping_card_total">
                                          @if(Session::has('cart'))
                                             {{ $totalPrice }}
                                         @endif
