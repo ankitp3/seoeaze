@@ -59,7 +59,7 @@ class HomeController extends Controller
             $data[] = '';
             $plan_name[] = '';
         }
-
+        
         $geoip = new GeoIP();
         $geoip->setIp(\Request::ip());
         $country_code = $geoip->getCountryCode();
@@ -550,6 +550,7 @@ class HomeController extends Controller
                 $plan_name[] = $this->all_plan->where('id', $all_plan_id)->first();
             }
         }
+        
         $services = \App\Models\Service::get();
         if(!Session::has('cart')){
             return view('pages.link_wheel_service' , ['data' => $data , 'services' => $services , 'plan_name' => $plan_name, 'service_info' => $service, ]);

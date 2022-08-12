@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="{{ URL::asset('assets/dist/owl.carousel.css') }}">
   <link rel="Stylesheet" href="{{ URL::asset('assets/css/owl.css') }}">
   <script src="{{ URL::asset('assets/js/3.4.1jquery.min.js') }}"></script>
+  <script src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
 </head>
 <body>
 @section('header')
@@ -431,11 +432,11 @@
         // $("#myModal").modal('show');
     });
 </script>
+<script>var $j = jQuery.noConflict();</script> 
 
-
-  <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
+  <!--<script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>-->
   <script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
+  
   <script src="{{ URL::asset('assets/js/smooth-scroll.js') }}"></script>
   <script src="{{ URL::asset('assets/js/jquery.touch-swipe.min.js') }}"></script>
   <script src="{{ URL::asset('assets/js/bubble.js') }}"></script>
@@ -491,9 +492,9 @@
 
  <script>
 	// Material Select Initialization
-	$(document).ready(function() {
-		$('.mdb-select').materialSelect();
-	});
+// 	$(document).ready(function() {
+// 		$('.mdb-select').materialSelect();
+// 	});
  </script>
 
   <!-- Start Progressbar -->

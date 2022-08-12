@@ -2461,11 +2461,11 @@ p {
   box-sizing: border-box;
   background-color:#ffffff;
 }
-.tab-content * {
-  -webkit-animation: scale 0.7s ease-in-out;
-  -moz-animation: scale 0.7s ease-in-out;
-  animation: scale 0.7s ease-in-out;
-}
+/*.tab-content * {*/
+/*  -webkit-animation: scale 0.7s ease-in-out;*/
+/*  -moz-animation: scale 0.7s ease-in-out;*/
+/*  animation: scale 0.7s ease-in-out;*/
+/*}*/
 span.ppcadwordandbingcls {
   position: relative;
   top: 20px;

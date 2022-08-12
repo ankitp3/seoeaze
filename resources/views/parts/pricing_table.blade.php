@@ -99,7 +99,7 @@
     <div style="display: none;">
         {{ $count_tabs ++ }}
     </div>
-    <div id="tab{{$count_tabs}}" class="tab-pane fade in active">
+    <div id="tab{{$count_tabs}}" class="tab-pane fade show active">
 <div id="pt-pricing-cols" class="rmsbpt-modern pt-animation-default rmsbpt-modern-orangeSpecial">
         <input type="hidden" name="_token" value="{{ csrf_token() }}" id="token">
         <div class="pt-cols pt-cols-5">
