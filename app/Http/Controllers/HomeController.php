@@ -551,13 +551,17 @@ class HomeController extends Controller
             }
         }
         
+        $geoip = new GeoIP();
+        $geoip->setIp(\Request::ip());
+        $country_code = $geoip->getCountryCode();
+        
         $services = \App\Models\Service::get();
         if(!Session::has('cart')){
-            return view('pages.link_wheel_service' , ['data' => $data , 'services' => $services , 'plan_name' => $plan_name, 'service_info' => $service, ]);
+            return view('pages.link_wheel_service' , ['data' => $data , 'services' => $services , 'plan_name' => $plan_name, 'service_info' => $service, 'country_code' => $country_code ]);
         }else{
             $oldCart  = Session::get('cart');
             $cart  = new Cart($oldCart);
-            return view('pages.link_wheel_service' , ['products' => $cart->items , 'plan_name' => $plan_name,  'totalPrice' =>  $cart->totalPrice , 'data' => $data , 'service_info' => $service, 'services' => $services]);
+            return view('pages.link_wheel_service' , ['products' => $cart->items , 'plan_name' => $plan_name,  'totalPrice' =>  $cart->totalPrice , 'data' => $data , 'service_info' => $service, 'services' => $services, 'country_code' => $country_code]);
         }
     }
 

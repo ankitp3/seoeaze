@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="{{ URL::asset('assets/css/newnavbarstyle.css') }}">
   <link href="{{ URL::asset('assets/css/newnavbarswiper.css') }}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ URL::asset('assets/css/main.min.css') }}">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/bubble.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/rollingeffect.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/highlightcolor.css') }}">
@@ -28,8 +29,12 @@
   <!-- End Moving Earth Plugin --> 
   <link rel="stylesheet" href="{{ URL::asset('assets/dist/owl.carousel.css') }}">
   <link rel="Stylesheet" href="{{ URL::asset('assets/css/owl.css') }}">
-  <script src="{{ URL::asset('assets/js/3.4.1jquery.min.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
+  <script type="text/javascript" charset="utf-8">
+    var SITE_URL = {!! json_encode(url('/')) !!}
+    var $ = jQuery.noConflict();
+  </script>
+
+  
 </head>
 <body>
 @section('header')
@@ -160,6 +165,8 @@
 							</div>
 						</div>
 <!-- Header part end-->
+
+
 
 @yield('content')
 
@@ -432,75 +439,76 @@
         // $("#myModal").modal('show');
     });
 </script>
-<script>var $j = jQuery.noConflict();</script> 
 
-  <!--<script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>-->
-  <script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
-  
-  <script src="{{ URL::asset('assets/js/smooth-scroll.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/jquery.touch-swipe.min.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/bubble.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/highlightcolor.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/fancybox.min.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/swup.min.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/swiper.min.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/parsley.min.js') }}"></script>
-  <!--<script src="{{ URL::asset('assets/js/main.js') }}"></script>-->
-  <script src="{{ URL::asset('assets/js/logorotations.js') }}"></script>
-  <script src="{{ URL::asset('assets/js/newnavbarapp.js') }}" defer></script>
+<script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
+<!--<script src="https://code.jquery.com/jquery-3.4.1.js"></script>-->
+<script src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
+
+<script src="{{ URL::asset('assets/js/smooth-scroll.js') }}"></script>
+<script src="{{ URL::asset('assets/js/jquery.touch-swipe.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/bubble.js') }}"></script>
+<script src="{{ URL::asset('assets/js/highlightcolor.js') }}"></script>
+<script src="{{ URL::asset('assets/js/fancybox.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/swup.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/swiper.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/parsley.min.js') }}"></script>
+<!--<script src="{{ URL::asset('assets/js/main.js') }}"></script>-->
+<script src="{{ URL::asset('assets/js/logorotations.js') }}"></script>
+<script src="{{ URL::asset('assets/js/newnavbarapp.js') }}"></script>
   
 <!-- start Frequently Asked Questions-->
-	<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
-		
-		for (i = 0; i < acc.length; i++) {
-		  acc[i].addEventListener("click", function() {
-			this.classList.toggle("active");
-			var panel = this.nextElementSibling;
-			if (panel.style.maxHeight) {
-			  panel.style.maxHeight = null;
-			} else {
-			  panel.style.maxHeight = panel.scrollHeight + "px";
-			} 
-		  });
-		}
-		</script>
-  <!-- end Frequently Asked Questions-->
-  <!-- Start Testimonial -->
-  <script>
-	  $(document).ready(function(){
-		$(".testimonial .indicators li").click(function(){
-			var i = $(this).index();
-			var targetElement = $(".testimonial .tabs li");
-			targetElement.eq(i).addClass('active');
-			targetElement.not(targetElement[i]).removeClass('active');
-					});
-					$(".testimonial .tabs li").click(function(){
-						var targetElement = $(".testimonial .tabs li");
-						targetElement.addClass('active');
-						targetElement.not($(this)).removeClass('active');
-					});
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+	
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.maxHeight) {
+		  panel.style.maxHeight = null;
+		} else {
+		  panel.style.maxHeight = panel.scrollHeight + "px";
+		} 
+	  });
+	}
+</script>
+<!-- end Frequently Asked Questions-->
+<!-- Start Testimonial -->
+<script>
+  $(document).ready(function(){
+	$(".testimonial .indicators li").click(function(){
+		var i = $(this).index();
+		var targetElement = $(".testimonial .tabs li");
+		targetElement.eq(i).addClass('active');
+		targetElement.not(targetElement[i]).removeClass('active');
 				});
-		$(document).ready(function(){
-			$(".slider .swiper-pagination span").each(function(i){
-				$(this).text(i+1).prepend("0");
+				$(".testimonial .tabs li").click(function(){
+					var targetElement = $(".testimonial .tabs li");
+					targetElement.addClass('active');
+					targetElement.not($(this)).removeClass('active');
+				});
 			});
+	$(document).ready(function(){
+		$(".slider .swiper-pagination span").each(function(i){
+			$(this).text(i+1).prepend("0");
 		});
-  </script>
- <!-- Start Testimonial -->
+	});
+</script>
+<!-- Start Testimonial -->
 
- <script>
+<script>
 	// Material Select Initialization
-// 	$(document).ready(function() {
-// 		$('.mdb-select').materialSelect();
-// 	});
+    // 	$(document).ready(function() {
+    // 		$('.mdb-select').materialSelect();
+    // 	});
  </script>
 
-  <!-- Start Progressbar -->
- <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
-   <script> 
-function radial_animate() { 
+<!-- Start Progressbar -->
+<script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
+<script> 
+    function radial_animate() { 
 		 $('svg.radial-progress').each(function( index, value ) { 
 
 			 $(this).find($('circle.bar--animated')).removeAttr( 'style' );    
@@ -519,7 +527,7 @@ function radial_animate() {
 			 }
 		 });
 	 }
-// To check If it is in Viewport 
+    // To check If it is in Viewport 
 	 var $window = $(window);
 	 function check_if_in_view() {    
 		 $('.countervalue').each(function(){
@@ -566,45 +574,46 @@ function radial_animate() {
 	 $window.on('load', check_if_in_view);
 
    </script> 
-   <!-- Visible on Scroll start -->
+<!-- Visible on Scroll start -->
 
 
-	<!-- Start Moving Earth Plugin -->
+<!-- Start Moving Earth Plugin -->
 	
     	
-	<script>
-    			$(".sonar-wave").on("webkitAnimationIteration oanimationiteration animationiteration", function(){
-    			  $(this).css("background-color", colorize());
-    			})
-    
-    			function colorize() {
-    			  var hue = Math.random() * 360;
-    			  return "HSL(" + hue + ",100%,50%)";
-    			}
-    		</script>
-    	
+<script>
+	$(".sonar-wave").on("webkitAnimationIteration oanimationiteration animationiteration", function(){
+	  $(this).css("background-color", colorize());
+	})
+
+	function colorize() {
+	  var hue = Math.random() * 360;
+	  return "HSL(" + hue + ",100%,50%)";
+	}
+</script>
 	
-	<script src="{{ URL::asset('assets/js/three.min.js.download') }}"></script>
-    <script src="{{ URL::asset('assets/js/blockchain-earth.js.download') }}"></script>
-	<!-- End Moving Earth Plugin -->
-	<!-- Start owl-carousel Js-->
-	<script src="{{ URL::asset('assets/dist/owl.carousel.js') }}"></script>
-	<script src="{{ URL::asset('assets/js/owlCarousal.js') }}"></script>
-		<script>
-			$(document).ready(function() {
-				$("#news-slider").owlCarousel({
-					items : 3,
-					itemsDesktop:[1199,3],
-					itemsDesktopSmall:[980,2],
-					itemsMobile : [600,1],
-					navigation:true,
-					navigationText:["",""],
-					pagination:true,
-					autoPlay:true
-				});
-			});
-		</script>
-	<!-- End owl-carousel Js-->
-	<script src="{{ URL::asset('/assets/js/main.min.js') }}"></script>
+
+<script src="{{ URL::asset('assets/js/three.min.js.download') }}"></script>
+<script src="{{ URL::asset('assets/js/blockchain-earth.js.download') }}"></script>
+<!-- End Moving Earth Plugin -->
+<!-- Start owl-carousel Js-->
+<!--<script src="{{ URL::asset('assets/dist/owl.carousel.js') }}"></script>-->
+<!--<script src="{{ URL::asset('assets/js/owlCarousal.js') }}"></script>-->
+<!--<script>-->
+<!--		jQuery(document).ready(function() {-->
+<!--			jQuery("#news-slider").owlCarousel({-->
+<!--				items : 3,-->
+<!--				itemsDesktop:[1199,3],-->
+<!--				itemsDesktopSmall:[980,2],-->
+<!--				itemsMobile : [600,1],-->
+<!--				navigation:true,-->
+<!--				navigationText:["",""],-->
+<!--				pagination:true,-->
+<!--				autoPlay:true-->
+<!--			});-->
+<!--		});-->
+<!--	</script>-->
+<!-- End owl-carousel Js-->
+<script src="{{ URL::asset('/assets/admin/js/init.js') }}"></script>
+<!--<script src="{{ URL::asset('/assets/js/main.min.js') }}"></script>-->
 </body>
 </html>

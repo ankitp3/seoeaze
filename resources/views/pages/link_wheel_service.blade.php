@@ -212,27 +212,27 @@
                         </div>
                     </div>
 
-                    <!--<div class="A4KZv8 visible_hide_class" data-reactid="2">-->
+                    <div class="A4KZv8 visible_hide_class" data-reactid="2">
 
-                    <!--    <div class="AFyd3c" data-reactid="3">-->
+                        <div class="AFyd3c" data-reactid="3">
 
-                    <!--        <div class="_1EA4La" data-reactid="4">-->
+                            <div class="_1EA4La" data-reactid="4">
 
-                    <!--            <div class="_1-baVo" data-reactid="5"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KCTxnPgoJCTxwYXRoIGQ9J00tMi0yaDI0djI0SC0yeicgZmlsbD0nbm9uZScvPgoJCTxwYXRoIGQ9J00xMCAwQzQuNDggMCAwIDQuNDggMCAxMHM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTUuNTIgMCAxMCAwek04IDE1bC01LTUgMS40MS0xLjQxTDggMTIuMTdsNy41OS03LjU5TDE3IDZsLTkgOXonIGZpbGw9JyMyNkJDNEUnLz4KCTwvZz4KPC9zdmc+Cg==" class="_2P4x_N" data-reactid="6"></div>-->
+                                <div class="_1-baVo" data-reactid="5"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KCTxnPgoJCTxwYXRoIGQ9J00tMi0yaDI0djI0SC0yeicgZmlsbD0nbm9uZScvPgoJCTxwYXRoIGQ9J00xMCAwQzQuNDggMCAwIDQuNDggMCAxMHM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTUuNTIgMCAxMCAwek04IDE1bC01LTUgMS40MS0xLjQxTDggMTIuMTdsNy41OS03LjU5TDE3IDZsLTkgOXonIGZpbGw9JyMyNkJDNEUnLz4KCTwvZz4KPC9zdmc+Cg==" class="_2P4x_N" data-reactid="6"></div>
 
-                    <!--            <div class="JAUzCh" data-reactid="7">Product Added to Cart Successfully.</div>-->
+                                <div class="JAUzCh" data-reactid="7">Product Added to Cart Successfully.</div>
 
-                    <!--            <a href="/cart" class="checkout_link">-->
+                                <a href="/cart" class="checkout_link">
 
-                    <!--                <button name="checkout" type="submit" class="cta-full-width pull-right" id="checkout-link" style="width: 100%;margin-right: 10px; font-size: 1.6rem;margin-top: 10px;">-->
+                                    <button name="checkout" type="submit" class="cta-full-width pull-right" id="checkout-link" style="width: 100%;margin-right: 10px; font-size: 1.6rem;margin-top: 10px;">
 
-                    <!--                    Go to cart-->
+                                        Go to cart
 
-                    <!--                </button>-->
+                                    </button>
 
-                    <!--            </a></div>-->
-                    <!--    </div>-->
-                    <!--</div>-->
+                                </a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

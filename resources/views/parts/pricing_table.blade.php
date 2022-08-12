@@ -112,7 +112,7 @@
                                 Suitable Plan?</p>
                             <a class="linkBtn" href="tel:8447363293">Call 844-736-3293 </a>
                         </th>
-                    @foreach($dat_obj as $dat)
+                        @foreach($dat_obj as $dat)
                         <th class="compare-heading text-center">
                             {{ $dat->plan_name }}
                         </th>
@@ -121,13 +121,25 @@
                     <tr>
                         @foreach($dat_obj as $dat)
                         <th class="price-info">
-                            @if($dat->coupon_percent != 0)
-                                <div class="price-was text-center"><i class="fa fa-usd "></i>{{ $dat->amount }}</div>
-                                <div class="price-now text-center"><i class="fa fa-usd" style="font-size:24px"></i>
-                                    <span>{{ $dat->amount - $dat->amount*$dat->coupon_percent/100 }}</span>
-                                </div>
+                            @if($country_code == "IN")
+                                
+                                @if($dat->coupon_percent != 0)
+                                    <div class="price-was text-center"><i class="fa fa-inr "></i>{{ $dat->amount_inr }}</div>
+                                    <div class="price-now text-center"><i class="fa fa-inr" style="font-size:24px"></i>
+                                        <span>{{ $dat->amount_inr - $dat->amount_inr*$dat->coupon_percent/100 }}</span>
+                                    </div>
+                                @else
+                                    <div class="price-now text-center"><i class="fa fa-inr" style="font-size:24px"></i><span>{{ $dat->amount_inr }}</span></div>
+                                @endif
                             @else
-                                <div class="price-now text-center"><i class="fa fa-usd" style="font-size:24px"></i><span>{{ $dat->amount }}</span></div>
+                                @if($dat->coupon_percent != 0)
+                                    <div class="price-was text-center"><i class="fa fa-usd "></i>{{ $dat->amount }}</div>
+                                    <div class="price-now text-center"><i class="fa fa-usd" style="font-size:24px"></i>
+                                        <span>{{ $dat->amount - $dat->amount*$dat->coupon_percent/100 }}</span>
+                                    </div>
+                                @else
+                                    <div class="price-now text-center"><i class="fa fa-usd" style="font-size:24px"></i><span>{{ $dat->amount }}</span></div>
+                                @endif
                             @endif
                             @if($dat->popular_and_not_available == 2)
                                     <div class="text-center"><a href="#" class="price-buy pt-btn buy_button" id="{{ $dat->id }}" disabled><span><b> Choose Plan</b></span></a></div>
