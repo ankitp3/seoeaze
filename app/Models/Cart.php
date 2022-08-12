@@ -28,7 +28,7 @@ class Cart extends Model
         
         $itemAmount = $item->amount;
         if($country_code == "IN"){
-            $itemAmount = $item->amount;
+            $itemAmount = $item->amount_inr;
         }
 
         $storedItem =  ['qty' => 0 , 'price' => $itemAmount , 'service_name' => $item->service_name, 'discount' => $item->coupon_percent , 'item' => $item];
