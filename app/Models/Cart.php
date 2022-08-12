@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use PulkitJalan\GeoIP\GeoIP;
 
 class Cart extends Model
 {
@@ -21,18 +22,27 @@ class Cart extends Model
     }
 
     public function add($item , $id){
-        $storedItem =  ['qty' => 0 , 'price' => $item->amount , 'service_name' => $item->service_name, 'discount' => $item->coupon_percent , 'item' => $item];
+        $geoip = new GeoIP();
+        $geoip->setIp(\Request::ip());
+        $country_code = $geoip->getCountryCode();
+        
+        $itemAmount = $item->amount;
+        if($country_code == "IN"){
+            $itemAmount = $item->amount;
+        }
+
+        $storedItem =  ['qty' => 0 , 'price' => $itemAmount , 'service_name' => $item->service_name, 'discount' => $item->coupon_percent , 'item' => $item];
         if($this->items){
             if(array_key_exists($id , $this->items)){
                 $storedItem = $this->items[$id];
             }
         }
         $storedItem['qty']++;
-        if($item->amount < 0){
-            $storedItem['price'] = $item->amount  -  $item->amount*$item->coupon_percent/100;
+        if($itemAmount < 0){
+            $storedItem['price'] = $itemAmount  -  $itemAmount*$item->coupon_percent/100;
         }
         else{
-            $storedItem['price'] = $item->amount;
+            $storedItem['price'] = $itemAmount;
         }
 
         $storedItem['amount'] = $storedItem['price'] * $storedItem['qty'];
