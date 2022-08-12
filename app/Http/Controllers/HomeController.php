@@ -468,12 +468,15 @@ class HomeController extends Controller
 
     public function shopingCard(){
         $services= $this->service->get();
+        $geoip = new GeoIP();
+        $geoip->setIp(\Request::ip());
+        $country_code = $geoip->getCountryCode();
         if(!Session::has('cart')){
-            return view('pages.shoping_card' , ['services' =>  $services]);
+            return view('pages.shoping_card' , ['services' =>  $services, 'country_code' => $country_code ]);
         }else{
             $oldCart  = Session::get('cart');
             $cart  = new Cart($oldCart);
-            return view('pages.shoping_card' , ['products' => $cart->items , 'totalPrice' =>  $cart->totalPrice , 'services' =>  $services]);
+            return view('pages.shoping_card' , ['products' => $cart->items , 'totalPrice' =>  $cart->totalPrice , 'services' =>  $services, 'country_code' => $country_code ]);
         }
 
         $data =   $this->card->where('token' , \Session::get('token'))->groupBy('product_id')->get();
