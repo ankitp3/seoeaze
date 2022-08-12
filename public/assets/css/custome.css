@@ -2786,7 +2786,7 @@ span.linearrow {
   min-height: 660px;
   height: 100vh!important;
   background: #dcebd4;
-  background-image: url('../img/guest_posting_img/guest_postingheaderbgimg.jpg');
+  background-image: url('../../services/assets/img/guest_posting_img/guest_postingheaderbgimg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3298,7 +3298,7 @@ span.linearrow {
   width: 272px;
   height: 149px;
   margin-top: 13px;
-  background-image: url("../img/reputation_management/linewitharrowimg.png");
+  background-image: url("../../services/assets/img/reputation_management/linewitharrowimg.png");
   position: absolute;
   right: 112px;
   background-repeat: no-repeat;
@@ -3456,7 +3456,7 @@ span.linearrow {
   position: absolute;
   left: 409px;
   top: -213px;
-  background-image: url(../img/reputation_management/linewitharrowimg.png);
+  background-image: url("../../services/assets/img/reputation_management/linewitharrowimg.png");
   background-repeat: no-repeat;
   z-index: 9;
   transform: rotate(240deg);
