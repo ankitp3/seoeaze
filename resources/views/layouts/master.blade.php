@@ -409,6 +409,10 @@
                             </div>
                         </div>
                         
+                        <div class="col-md-6 model-innersec2">
+                            {!! Recaptcha::render() !!}
+                        </div>
+                        
                     </div>
                     
                     

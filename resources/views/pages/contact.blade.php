@@ -180,6 +180,11 @@
                                         </div>
                                     </div>
                                     <div class="row">
+                                        <div class="col-lg-12">
+                                            {!! Recaptcha::render() !!}
+                                        </div>
+                                    </div>
+                                    <div class="row">
                                     	<div class="col-lg-12">
                                     	    <button type="submit"> Send Message </button>
                                     	</div>

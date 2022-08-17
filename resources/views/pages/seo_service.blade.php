@@ -218,6 +218,9 @@
 									
 							</div>
 							<div class="getintuchforminnerbottomsec">
+                               {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
+                            </div>
+							<div class="getintuchforminnerbottomsec">
 									<button type="submit"> Send Enquiry </button>
 							</div>
 

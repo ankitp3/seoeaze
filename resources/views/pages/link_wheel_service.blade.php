@@ -189,7 +189,7 @@
                                                     <div style="display: none;">
                                                         {{ $count ++ }}
                                                     </div>
-                                                    <li id="plans" class="seo_service_accord_menu active"><a data-toggle="tab" href="#tab{{$count}}">{{ $plan['plan_name'] }}</a></li>
+                                                    <!--<li id="plans" class="seo_service_accord_menu active"><a data-toggle="tab" href="#tab{{$count}}">{{ $plan['plan_name'] }}</a></li>-->
                                                 @endforeach
                                             @endif
 
@@ -288,9 +288,59 @@
 @endif
 
 -->
+<section class="getintuchformsec">
+	<h2>  Let’s get Started Fill Us In About Your Requirement </h2>
+	<form role="form" method="post" action="/seo_sending_form">
+	    <input type="hidden" name="_token" value="" id="getintuchform">
+		<div class="getintuchforminnersec">
+			<div class="getintuchforminnerleftsec">
+				<label for="r-form-1-first-name">Hey, I’m is</label>
+				<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
+			</div>
+			<div class="getintuchforminnerrightsec">
+					<label for="r-form-1-email">my website is</label>
+					<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
+			</div>
+			<div class="getintuchforminnerleftsec">
+					<label for="selfie">and, I’m looking for </label>
+					<select class="selectarrow">
+						<span></span>
+							<option selected>  Select </option>
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">Three</option>
+					</select>
+						
+			</div>
+			<div class="getintuchforminnerrightsec">
+					<label for="r-form-1-last-name">Get in touch with me at </label>
+					<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
+			</div>
+			<div class="getintuchforminnerleftsec">
+						<label for="r-form-1-email">or call  </label>
+						<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
+			</div>
+			<div class="getintuchforminnerrightsec">
+					<label>Any additional info </label>
+					<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+			</div>
+			<div class="getintuchforminnerbottomsec">
+					<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
+					
+			</div>
+            <div class="getintuchforminnerbottomsec">
+                   {!! Recaptcha::render() !!}
+             </div>
+			<div class="getintuchforminnerbottomsec">
+					<button type="submit"> Send Enquiry </button>
+			</div>
+		</div>
+	</form>
+</section>
 
 @if(!empty($service_info->html_content_bottom))
-    {!! html_entity_decode($service_info->html_content_bottom) !!}
+    {!! html_entity_decode(e($service_info->html_content_bottom)) !!}
+
 @endif
 
 {{--

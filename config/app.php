@@ -160,6 +160,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
 
     ],
 
@@ -211,7 +212,8 @@ return [
         'PayPal' => Srmklive\PayPal\Facades\PayPal::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-        'GeoIP' => PulkitJalan\GeoIP\Facades\GeoIP::class
+        'GeoIP' => PulkitJalan\GeoIP\Facades\GeoIP::class,
+        'NoCaptcha' => 'Anhskohbo\NoCaptcha\Facades\NoCaptcha'
 
     ],
 

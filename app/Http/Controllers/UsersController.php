@@ -1076,7 +1076,7 @@ class UsersController extends Controller
 
 
         $this->validate($request , [
-           'g-recaptcha-response' => 'required|recaptcha'
+          'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
 

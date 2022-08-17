@@ -157,6 +157,9 @@
 									
 							</div>
 							<div class="getintuchforminnerbottomsec">
+                               {!! Recaptcha::render() !!}
+                            </div>
+							<div class="getintuchforminnerbottomsec">
 									<button type="submit"> Send Enquiry </button>
 							</div>
 
