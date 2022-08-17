@@ -157,7 +157,7 @@
 									
 							</div>
 							<div class="getintuchforminnerbottomsec">
-                               {!! Recaptcha::render() !!}
+								{!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
                             </div>
 							<div class="getintuchforminnerbottomsec">
 									<button type="submit"> Send Enquiry </button>

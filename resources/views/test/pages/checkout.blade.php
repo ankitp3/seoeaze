@@ -77,7 +77,7 @@
                                 </label>
                             </div>
                             <div style="margin: 10px 0 10px -18px; transform: scale(0.87);">
-                                {!! Recaptcha::render() !!}
+                                {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
                             </div>
                             <input type="hidden" name="form_action" value="registr">
                             <button style="font-size: 18px; padding: 1px 15px 1px 50px;" type="submit" name="checkout" class="checkout_links btn btn-success">

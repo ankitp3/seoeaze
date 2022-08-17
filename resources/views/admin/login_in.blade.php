@@ -119,7 +119,7 @@
 											<a href="/password/email" target="_blank">Forgot your password ?</a>
 											 <div class="form-group">
                                                 <div class="col-lg-10 col-lg-offset-1">
-                                                    {!! Recaptcha::render() !!}
+                                                    {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
                                                 </div>
                                             </div>
 											<button type="submit">Sign In</button>
