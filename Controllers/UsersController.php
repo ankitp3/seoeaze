@@ -74,7 +74,7 @@ class UsersController extends Controller
     public function login(Request $request  ){
 
     $this->validate($request, [
-            'g-recaptcha-response' => 'required|captcha',
+            'g-recaptcha-response' => 'required|recaptcha',
         ]);
         if(Auth::attempt(['email' => $request->get('email') , 'password' => $request->get('password')])){
             return redirect()->to('/dashboard');
