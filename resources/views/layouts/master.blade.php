@@ -410,7 +410,7 @@
                         </div>
                         
                         <div class="col-md-6 model-innersec2">
-                            {!! Recaptcha::render() !!}
+                            {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
                         </div>
                         
                     </div>

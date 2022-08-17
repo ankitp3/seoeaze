@@ -181,7 +181,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            {!! Recaptcha::render() !!}
+                                            {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
                                         </div>
                                     </div>
                                     <div class="row">
