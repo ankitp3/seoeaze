@@ -39,7 +39,7 @@
 
   <!-- Start GET IN TOUCH sec -->
 
-	<div class="container-fluid loginfirst-sec">
+	<div class="loginfirst-sec">
 		<div class="container">
 
 				<!-- Login Start -->
