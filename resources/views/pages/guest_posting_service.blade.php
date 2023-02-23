@@ -17,7 +17,7 @@
 					<div class="container">
 							<div class="guestpostingservices_left_sec i-can-has-a-colored-thing">
 									<h2> <span class="highlight">Guest Posting Service </span> </h2>
-									<h4> Premiump <span class="highlight"> <b> Guest Post & Blogger Outerach Service </b></span></h4>
+									<h4> Premium <span class="highlight"> <b> Guest Post & Blogger Outerach Service </b></span></h4>
                                     <p>Get High-quality backlinks with manual guest posting service.Take advantage of one of the most successful guest blog posting service on the internet.</p>
 									<div class="indibuttons">
 										<button class="btn-hover color-2"> Order Guest Post For $99
