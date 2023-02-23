@@ -3173,13 +3173,96 @@ span.linearrow {
 }
 
 
+.enterpriseseoservicesfourthinnersec-new {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.enterpriseseoservicesfourthinnersec-new ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.enterpriseseoservicesfourthinnersec-new ul li:nth-child(1), .enterpriseseoservicesfourthinnersec-new ul li:nth-child(2), .enterpriseseoservicesfourthinnersec-new ul li:nth-child(3), .enterpriseseoservicesfourthinnersec-new ul li:nth-child(4), .enterpriseseoservicesfourthinnersec-new ul li:nth-child(5), .enterpriseseoservicesfourthinnersec-new ul li:nth-child(6) {
+  min-width: 284px;
+  width: 31%;
+  min-height: 525px;
+  height: auto;
+  display: block;
+  float: left;
+  padding: 2%;
+  border: 3px solid #000000;
+  border-radius: 22px;
+  margin: 1%;
+  box-shadow: 14px 15px 2px black;
+}
 
-
-
-
-
-
-
+.enterpriseseoservicesfourthinnersec-new ul li:nth-child(1) {
+  background-image: url(../img/about_us/ankit.png), url(../img/enterprise_seo_services_images/enterpriseseopricebg22.webp);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+.enterpriseseoservicesfourthinnersec-new ul li:nth-child(2) {
+  background-image: url(../img/about_us/priyanka.png), url(../img/enterprise_seo_services_images/enterpriseseopricebg22.webp);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+.enterpriseseoservicesfourthinnersec-new ul li:nth-child(3) {
+  background-image: url(../img/enterprise_seo_services_images/enterpriseseohbgimg3.webp), url(../img/enterprise_seo_services_images/enterpriseseopricebg22.webp);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+.enterpriseseoservicesfourthinnersec-new ul li:nth-child(4) {
+  background-image: url(../img/enterprise_seo_services_images/enterpriseseohbgimg4.webp), url(../img/enterprise_seo_services_images/enterpriseseopricebg22.webp);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+.enterpriseseoservicesfourthinnersec-new ul li:nth-child(5) {
+  background-image: url(../img/enterprise_seo_services_images/enterpriseseohbgimg5.webp), url(../img/enterprise_seo_services_images/enterpriseseopricebg22.webp);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+.enterpriseseoservicesfourthinnersec-new ul li:nth-child(6) {
+  background-image: url(../img/enterprise_seo_services_images/enterpriseseohbgimg6.webp), url(../img/enterprise_seo_services_images/enterpriseseopricebg22.webp);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+.enterpriseseoservicesfourthinnersec-new ul li h5 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #7cb72b;
+  text-align: right;
+  min-height: 65px;
+  margin-top: 183px;
+}
+.enterpriseseoservicesfourthinnersec-new ul li p {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: right;
+}
+.enterpriseseoservicesfourthinnersec-new ul li figure {
+  text-align: right;
+}
+.enterpriseseoservicesfourthinnersec-new h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  float: right;
+  margin-top: 50px;
+  text-align: right;
+  max-width: 235px;
+  margin-bottom: 22px;
+}
+.enterpriseseoservicesfourthinnersec-new button {
+  font-size: 17px;
+  float: right;
+  padding: 7px 25px;
+  margin-top: 26px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 13px 11px 11px black;
+}
 
 
 
