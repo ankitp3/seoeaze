@@ -43031,7 +43031,7 @@ comparison {
 }
 
 .comparison .tickblue {
-    color: #0078c1
+    color: #000
 }
 
 .comparison .tickgreen {
@@ -43085,7 +43085,7 @@ comparison {
 
 .comparison .price-now,
 .comparison .price-now span {
-    color: #ff5406
+    color: #000
 }
 
 .comparison .price-now span {
@@ -43100,7 +43100,7 @@ comparison {
 }
 
 .comparison .price-buy {
-    background: #ff5406;
+    background: #72be58;
     padding: 10px 20px;
     font-size: 12px;
     display: inline-block;

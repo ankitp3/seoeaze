@@ -2721,7 +2721,7 @@ span.linearrow {
   margin: 0;
 }
 .enterpriseseoservicesec ul li {
-  min-width: 284px;
+  min-width: 250px;
   width: 9%;
   min-height: 300px;
   height: auto;
@@ -3117,13 +3117,13 @@ span.linearrow {
   margin: 0;
 }
 .enterpriseseoservicesfourthinnersec ul li:nth-child(1), .enterpriseseoservicesfourthinnersec ul li:nth-child(2), .enterpriseseoservicesfourthinnersec ul li:nth-child(3), .enterpriseseoservicesfourthinnersec ul li:nth-child(4), .enterpriseseoservicesfourthinnersec ul li:nth-child(5), .enterpriseseoservicesfourthinnersec ul li:nth-child(6) {
-  min-width: 284px;
-  width: 31%;
+  min-width: 250px;
+  width: 30%;
   min-height: 525px;
   height: auto;
   display: block;
   float: left;
-  padding: 2%;
+  padding: 1%;
   border: 3px solid #000000;
   border-radius: 22px;
   margin: 1%;
