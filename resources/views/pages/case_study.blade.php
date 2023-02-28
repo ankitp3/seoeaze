@@ -34,7 +34,10 @@
           }]
         }
         </script>
-
+		<style>
+	h2, .h2 {color:#000;}
+	
+</style>
 	<!-- End Breadcrumbs Schema -->
 	
 @section('header')
@@ -43,7 +46,7 @@
 @section('content')
 
     <!-- slider area bar start-->
-	<main class="header-video-sec">
+	<main class="ppc_management_service_sec">
 			
 			<!-- Vedio Content Section Start  -->
 			  <div class="container-flude">
@@ -52,328 +55,309 @@
 			  			<div class="row indexheader-video-sec-inner-sec">
 				  			<div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-leftsec">
 
-				  				<h1> CASE STUDIES</h1>
+				  				<h2> CASE STUDIES</h2>
 									
 									<p class="pb-5">
 									    SeoEaze is chosen by companies when they want an SEO agency that is truly the Market Leader. This is why we are an award-winning best digital marketing agency. View our SEO case studies here and learn more about the process that sets SeoEaze apart from rest of the companies.
 									 </p>
-									 <br><br><br>
-									<div class="header-video-sec-inner-sec-inner mb-5 ">
-											<h2 class="mb-5">Check Some of our case studies!</h2>
 											<img src="assets/img/aw1.png" alt="Find an SEO case study to fit your needs." class="img-flude">
-									</div>
+									
 				  			</div>
 
-				  		
+							  <div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-rightsec">
+				  				<div class="imgblockright">
+				  				 	<img src="assets/img/casestudies/casestudies-headertopimg.png" alt="">
+				  				</div>
+				  			</div>
 					</div>
 			  	</div>
 			</div>
 			<!-- Vedio Content Section End -->
 	</main>
 			  
-<!-- slider area bar end-->
-
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li><a href="#">Clients</a></li>
-			<li class="active"><span> Case Studies </span></li>
-		   </ol>
-	</div>
-</div>
-<!-- End Breadcrumbs Schema -->
 
 
-<!-- LOCAL SEO FOR REGION SPECIFIC NEEDS-->
-<div class="container-fluid localseopackage-sec">
-		<div class="container">
-			<h2> WHY SeoEaze?  </h2>
-			<span class="bottomLineImgStyle"></span>
-			<h3>
-			   Delivering successful results is what SeoEaze is known for. We are able to stay ahead of the curve with the right techniques and strategies. Our over a decade of experience has enabled us to deliver winning digital marketing solutions to clients across several niches globally. To get a peek into out methodologies choose one of the case studies below.
-			</h3>
-			
-		</div>
-	</div>
-<!--LOCAL SEO FOR REGION SPECIFIC NEEDS -->
-
-<!-- Start section -->
-<div class="container-fluid localseopackage-sec2">
-		<div class="container">
-							
-					<div class="row mt-5">
-						<div class="col-lg-8 col-md-8 col-sm-12 offset-lg-2 offset-md-2 devider2 mx-auto d-block">
-							
-								 <figure><img src="assets/img/casestudies/case_img1.png" alt="TRAVERTINE MART" class="img-flude"></figure> 
-								 	<h3>TRAVERTINE MART</h3>
-									<p>
-									Organic Traffic of Travertin Mart was Increased By 456.87% And The Whole Traffic Was Improved By 293.12% Which Is Spectacular.
-									</p>
-									<a href="assets/img/tm.pdf" target="_blank"><button type="button" class="button6 mb-5"> VIEW CASE STUDY </button></a>
+<section class="sixthsec">
+				<div class="container">
+					<h2>Success Stories</h2>
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="sixthsec2row">
+								<h4 class="i-can-has-a-colored-thing">
+										SeoEaze is <span class="highlight">a partner, a fellow, and a friend </span>. First, 
+										we understand your brand and then conjure the magic!
+										
+								</h4>
+							</div>
 						</div>
-						<hr>
 					</div>
-					<div class="row mt-5">
-						<div class="col-lg-8 col-md-8 col-sm-12 offset-lg-2 offset-md-2 devider2 mx-auto d-block">
-							
-								 <figure><img src="assets/img/casestudies/case_img2.png" alt="GARDEN CENTER GUIDE" class="img-flude"></figure> 
-								 	<h3>GARDEN CENTER GUIDE</h3>
-									<p>
-										We helped the company to grow social media traffic by 190% & boost organic traffic by 200% in 3 months.
-									</p>
-									<a href="assets/img/tm.pdf" target="_blank"><button type="button" class="button6 mb-5"> VIEW CASE STUDY </button></a>
+					<div class="row">
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="sixthinnerboxsec">
+								<div class="headersixthinnerboxsec">
+									<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon1.png" alt=""/></div>
+									<div class="headersixthinnerboxrightsec"><h3>Omaxe <br> Group</h3></div>
+								</div>
+								<div class="conetentsixthinnerboxsec">
+									<p>Our campaigns helped the real estate giant generate +70% qualified leads at 60% lower Cost Per Lead (CPL) than the industry benchmark maintaining above 5.1% Click-Through Rate (CTR).</p>
+								</div>
+								<div class="footersixthinnerboxsec">
+									<div class="footersixthinnerrelativeboxsec">
+										<img src="assets/img/icons/upgraphicon.png" alt=""/>
+										<p>70% Qualified Leads</p>
+											<div class="footersixthinnerabsoluteboxsec">
+												<p><b>View</b><br> 
+													Case Study</p>
+												<span> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</div>
+									</div>
+
+								</div>
+							</div>
 						</div>
-						<hr>
-					</div>
-					<div class="row mt-5">
-						<div class="col-lg-8 col-md-8 col-sm-12 offset-lg-2 offset-md-2 devider2 mx-auto d-block">
-							
-								 <figure><img src="assets/img/casestudies/case_img3.png" alt="AL NASSER UNIVERSITY" class="img-flude"></figure> 
-								 	<h3>AL NASSER UNIVERSITY</h3>
-									<p>
-										With the help of SeoEaze Al Nasser University managed to increase the conversion rate by about 256.12% and ROI by 268.47%.
-									</p>
-									<a href="assets/img/tm.pdf" target="_blank"><button type="button" class="button6 mb-5"> VIEW CASE STUDY </button></a>
-						</div>
-						<hr>
-					</div>
-			</div>
-		</div
-
-<!-- End section -->
-
-
-
-<!-- Start Not convinced sec -->
-
-<div class="container-fluid casestudiesbanner-sec">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-8 offset-lg-2 offset-md-2 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12">
+								<div class="sixthinnerboxsec">
+										<div class="headersixthinnerboxsec">
+											<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon2.png" alt=""/></div>
+											<div class="headersixthinnerboxrightsec"><h3>Garden <br> Cener Guide </h3></div>
+										</div>
+										<div class="conetentsixthinnerboxsec">
+											<p>We helped the company to grow social media traffic by 190% & boost organic traffic by 200% in 3 months </p>
+										</div>
+										<div class="footersixthinnerboxsec">
+											<div class="footersixthinnerrelativeboxsec">
+												<img src="assets/img/icons/upgraphicon.png" alt=""/>
+												<p>200% 
+														Increase in
+														Organic 
+														Traffic</p>
+													<div class="footersixthinnerabsoluteboxsec">
+														<p><b>View</b><br> 
+															Case Study</p>
+														<span> 
+															<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+																<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+															</svg>
+														</span>
+													</div>
+											</div>
 				
-					<div>
-						
-						<img src="assets/img/casestudies/casestudies-bannerimg.png" alt="digital marketing solution for your website" class="img-flude p-5"> 
-						
-						<p>If you are looking for a digital marketing solution for first page results, SeoEaze can deliver sustainable rankings and boost your brand value. Feel free to contact us anytime.</p>
-						<a href="/request_consultation">
-							<button class="button7"> SUBMIT YOUR REQUEST  </button>
-						</a>
+										</div>
+									</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+								<div class="sixthinnerboxsec">
+										<div class="headersixthinnerboxsec">
+											<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon3.png" alt=""/></div>
+											<div class="headersixthinnerboxrightsec"><h3>Al Nasser<br> University</h3></div>
+										</div>
+										<div class="conetentsixthinnerboxsec">
+											<p>With help of SeoEaze Al Nasser University 
+													managed to increase 
+													conversion rate by about 256.12% and ROI by 268.47%  
+													</p>
+										</div>
+										<div class="footersixthinnerboxsec">
+											<div class="footersixthinnerrelativeboxsec">
+												<img src="assets/img/icons/upgraphicon.png" alt=""/>
+												<p>256% 
+														Boost in
+														Conversion 
+														Rate</p>
+													<div class="footersixthinnerabsoluteboxsec">
+														<p><b>View</b><br> 
+															Case Study</p>
+														<span> 
+															<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+																<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+															</svg>
+														</span>
+													</div>
+											</div>
+				
+										</div>
+									</div>
+						</div>
 					</div>
 					
 				</div>
-			</div>
-		</div>
-	</div>
+		</section>
 
 
-<!-- End Not convinced sec  -->
+
 
 
 <!-- Start Call Us section  -->
 
 
-<div class="container-fluid callus-sec">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusleftsec"><img src="assets/img/linkbulding/callus-iconimg.png" alt="Call Us To Discuss Now On" class="img-flude"> </figure>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<p class="callusmiddlesec">
-						Want to grow your business?<br>
-						 Talk to our SEO expert On <span> 844-736-3293</span>  
-					</p>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusrightsec"><img src="assets/img/linkbulding/callus-girlimg.png" alt="Call Us To Discuss Now On" class="img-flude"> </figure>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="localseoseventhsec">
+					<div class="row">
+						<div class="col-lg-5 col-md-12 col-sm-12">
+							<div class="localseoseventhleftsec">
+									<canvas id="starfield" width="2000" height="auto"></canvas>
+									<div class="stage">
+									  <div class="localseoseventhsecbody">
+										<div class="top">
+										  <div class="light"></div>
+										  <div class="antenna"></div>
+										  <div class="base2"></div>
+										  <div class="base1"></div>
+										</div>
+										<div class="glass">
+										  <div class="reflection"></div>
+										</div>
+
+										<div class="boster bosterL"></div>
+										<div class="boster bosterR"></div>
+										<div class="ring">
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										</div>
+										<div class="fire">
+										  <div class="flame h1"></div>
+										  <div class="flame h2"></div>
+										  <div class="flame h3"></div>
+										  <div class="flame h4"></div>
+										  <div class="flame h5"></div>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-12 col-sm-12">
+									<div class="localseoseventhrightsec">
+										<h2>Ready to boost business?</h2>
+										<h4>We are a call away! </h4>
+										<h2>844-736-3293</h2>
+										<button> Or message us. </button>
+									</div>
+							</div>
+
+
+					</div>
+				</section>
 
 <!-- End Call Us section -->
 
-<!-- New Start bannerFirst Section -->
-    <section class="happyclientsec">
-                      <div class="container text-center">
-                    
-                        <div class="row">
-                           <div class="col-lg-12 col-md-12">
-                            <ul>
-                              <li><img src="assets/img/clientcomicon/icon1.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon2.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon3.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon4.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon5.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon6.jpg" alt=""></li>
-                              <div class="hcheader"><h2> Our Clients | Our Strength </h2><h4> Some of our esteemed customers </h4></div>
-                              <li><img src="assets/img/clientcomicon/icon7.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon8.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon9.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon10.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon11.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon12.jpg" alt=""></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                      </div>
-    </section>
-<!-- New End bannerFirst Section -->
-<!-- Start customers think about us Section -->
-	<div class="container-fluid customersthinkaboutus-sec">
-		<div class="container">
-			<h2>Words From Our Clients </h2>
-			<h3>Our Valued Customers Believe In Us & This Is What Keeps Us Going </h3>
-			<span class="bottomLineImgStyle"></span>
-			
-			
-			
-			<div class="customersthinkaboutus-innersec">
-			
-			
-					<div class="customersthinkaboutus-innerleftsec">
-						<div class="innerleftsec-box">
-							
-						</div>
-					</div>
-					<div class="customersthinkaboutus-innerrightsec">
-					
-						 <div class="parent-box6 topSlider6 owl-carousel">
+<section class="clientsec">
+						<h2> Some of Our Esteemed Clients </h2>
+							<div class="clientinnersec">
+								<div class="clientinnerleftsec">
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+									</ul>
+								</div>	
+							</div>		
+				</section>
 
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
+				<section class="testimonial">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 d-none d-lg-block">
+									<ol class="carousel-indicators tabs">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+									</ol>
+								</div>
+								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
+									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+										<h3>Words From</h3>
+										<h1><span class="highlight">Our Clients</span></h1>
+										<h4>Our Valued Customers Believe In Us & 
+												This Is What Keeps Us Going</h4>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<div class="quote-wrapper">
+													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																												</p>
 													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
+													<p> Travertine Mart </p>
 												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
 										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-													
-												</div>
-										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
-													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
-												</div>
-										</div>
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-												</div>
+										<ol class="carousel-indicators indicators">
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
+
+				<section class="seventhsec">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h3>We <i class="fas fa-heart hearticonsty"></i> <br> what we do </h3>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
+									<div class="indibuttons">
+											<button class="btn-hover color-1"> Let’s Talk  
+												<span class="roundshapebutton roundshapearrow"> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</button>
 										</div>
 								</div>
+							</div>
 						</div>
-					</div>
-
-			</div>
-		
-
-	</div>
-
- <!-- End customers think about us Section  -->
-
-<!-- Start SOME HAPPY CLIENTS  Section --> 
-<div class="container-fluid featureandclient-sec">
-	<div class="container">
-		
-			<div class="row">
-
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="featureandclient-innersec">
-							<h3 class="whitecolor"> OUR ACHIEVEMENTS: OUR PRIDE </h3>
-						    <span class="bottomLineImgStyle"></span>
-						    <p> 
-								</p><ul>
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon1.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon2.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon3.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon4.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon5.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon6.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon7.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon8.png"></a></li>
-									
-								</ul>	
-							<p></p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
+				</section>      
 <!-- End SOME HAPPY CLIENTS  Section -->           
 @endsection

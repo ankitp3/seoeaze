@@ -746,12 +746,13 @@ p {
   margin-top: 2%;
 }
 .guestpostingheaderleftsec h2 {
-  font-size: 43px;
+  font-size: 42px;
   font-weight: 700;
   margin-bottom: 20px;
+  color:#000;
 }
 .guestpostingheaderleftsec p {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -886,9 +887,10 @@ p {
   margin-top: 13px;
 }
 .guestpostingthirdsec h2 {
-  font-size: 42px;
+font-size: 42px;
   font-weight: 700;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  color:#000;
 }
 .guestpostingthirdsec h3 {
   font-size: 22px;
@@ -918,6 +920,7 @@ p {
   margin-bottom: 30px;
   width: 100%;
   margin-top: 40px;
+  color:#000;
 }
 .guestpostingfourthsec p {
   font-size: 19px;
@@ -935,6 +938,7 @@ p {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 30px;
+  color:#000;
 }
 .guestpostingfourthinnersec p {
   font-size: 17px;
@@ -963,6 +967,7 @@ p {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 10px;
+  color:#000;
 }
 .guestpostingfifthsec p {
   font-size: 19px;
@@ -983,6 +988,7 @@ p {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
+  color:#000;
 }
 .guestpostingfifthinnersec p {
   font-size: 17px;
@@ -1528,6 +1534,24 @@ p {
   background-size: inherit;
   background-position: top center;
 }
+.bgimg5 {
+  background-image: url('../img/social_media_marketing/seo-wards.png');
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: top center;
+}
+.bgimg6 {
+  background-image: url('../img/social_media_marketing/seo-wards2.png');
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: top center;
+}
+.bgimg7 {
+  background-image: url('../img/social_media_marketing/seo-wards1.png');
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: top center;
+}  
 /* Third Section of Webdesign page start */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
@@ -2161,7 +2185,8 @@ p {
   padding-bottom: 3rem;
   padding-left: 4%;
   padding-right: 4%;
-  height: 100vh!important;
+  /*height: 100vh!important; */
+  height: auto;
   background: #dcebd4;
 }
 .ppc_management_service_sec h2 {
@@ -3815,7 +3840,8 @@ span.linearrow {
   display: block;
   padding-top: 7rem;
   padding-bottom: 3rem;
-  height: 100vh!important;
+  /*height: 100vh!important;*/
+  height:auto;
   background: #dcebd4;
 }
 
@@ -8909,3 +8935,6 @@ section.svg-container {
 
 
 }
+
+
+

@@ -33,173 +33,204 @@
 @show
 
 @section('content')
+<section class="social_media_marketing_solution_sec">
+					<div class="container">
+							<div class="social_media_marketing_solution_left_sec i-can-has-a-colored-thing">
+									<h2><span class="highlight">AWARDS & ACHIEVEMENTS</span> </h2>
+									<p>Backed by 10 years of solid experience, SeoEaze has empowered over 100,000 individuals, small and medium-sized businesses and enterprises.</p>	
+									<p>Our innovation and simplification of the digital marketing process have earned us recognition from some of the acclaimed names in the industry. </p>
+									<h4>SeoEaze Empowering And Innovating Digital Marketing Realm </h4>	
+							</div>
+							<div class="social_media_marketing_solution_right_sec">
+									<img src="assets/img/award/awards-header.png" alt="" />
+							</div>
+					</div>
 
-<!-- slider area bar start-->
-	
+				</section>
+				<section class="weareatrustedgooglepartner">
+						<div class="weareatrustedgooglepartnerleftsec i-can-has-a-colored-thing">
+								<h2>WE ARE A TRUSTED <span class="highlight">GOOGLE PARTNER </span></h2>
+								<p>We are proud to mention that we are a certified Google Partner. As our company is certified, we can manage AdWords	accounts for your clients and their businesses. We have even earned the much-valued Google Partner badge.</p>
+						</div>
+						<div class="weareatrustedgooglepartnerrightsec">
+							<div class="googlepartnersec">
+								<img src="assets/img/seo_packages_img/googlepartnerimg.png" alt="google partner" />
+									<div class="googlepartner1"><img src="assets/img/seo_packages_img/googlepartnericon5.png" alt="" /></div>
+									<div class="googlepartner2"><img src="assets/img/seo_packages_img/googlepartnericon4.png" alt="" /></div>
+									<div class="googlepartner3"><img src="assets/img/seo_packages_img/googlepartnericon3.png" alt="" /></div>
+									<div class="googlepartner4"><img src="assets/img/seo_packages_img/googlepartnericon2.png" alt="" /></div>
+									<div class="googlepartner5"><img src="assets/img/seo_packages_img/googlepartnericon1.png" alt="" /></div>
+							</div>
 
-	<main class="header-video-sec">
-			
-			<!-- Vedio Content Section Start  -->
-			  <div class="container-flude">
-			  
-			  		<div class="container">
-			  			<div class="row indexheader-video-sec-inner-sec">
-				  			<div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-leftsec">
-									<h1 class="mb-5"> AWARDS & ACHIEVEMENTS</h1>
-									<p>Backed by 10 years of solid experience, SeoEaze has empowered over 100,000 individuals, small and medium-sized businesses and enterprises.<br><br>
-                                        Our innovation and simplification of the digital marketing process have earned us recognition from some of the acclaimed names in the industry.
-                                    </p><br><br>
-									
-									<div class="header-video-sec-inner-sec-inner mt-5">
-											<h2 class="mb-5">SeoEaze Empowering And Innovating Digital Marketing Realm </h2>
-											<img src="assets/img/aw1.png"  alt="SeoEaze Empowering And Innovating Digital Marketing Realm " class="img-flude">
+						</div>
+
+				</section>
+				<section class="social_media_marketing_solution_dedicatedyourbrandsec">
+						
+						<div class="row pt-5">
+							<div class="col-lg-3 col-md-3 col-sm-12">
+								<div class="socialmediasec">
+								<h5><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Silicon India</b></h5>						
+								<div class="socialmediainnersec bgimg5">								
+								<p>Picked among the “20 Most Promising Inbound Marketing Service Providers in India 2018” by the Silicon India magazine. Silicon India is the leading magazine that covers stories and experiences of burgeoning entrepreneurs, CEOs of India and the US.</p>
 									</div>
-				  			</div>
-
-				  			<div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-rightsec">
-				  				<div class="imgblockright">
-				  					<img src="assets/img/award/award-img1.png"  alt="AWARDS & ACHIEVEMENTS image" class="img-flude">
-				  				</div>
-				  			</div>
-					</div>
-			  	</div>
-				
-			
-			</div>
-			<!-- Vedio Content Section End -->
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12">
+								<div class="socialmediasec">
+								<h5><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Google Partner</b></h5>
+								<div class="socialmediainnersec bgimg6">								
+								<p>Our unmatched expertise and campaign management skills have earned us the prestigious Google Partner status. We have helped our clients to optimize, improvise and run the most successful Adwords campaign across all verticals.</p>
+								</div>
+							</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12">
+								<div class="socialmediasec">
+								<h5><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DIGIT</b></h5>
+								<div class="socialmediainnersec bgimg7">								
+								<p>Digit Magazine chose SeoEaze for their 2017 ‘Top 30 Digital Marketing Companies in India’ list. Digit is one of the most reputed technology magazines in India according to an IRS survey. </p>
+								</div>
+							</div>
+							</div>
 							
+						</div>
+				</section>
+				
+				<section class="clientsec">
+						<h2> Some of Our Esteemed Clients </h2>
+							<div class="clientinnersec">
+								<div class="clientinnerleftsec">
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+									</ul>
+								</div>	
+							</div>		
+				</section>
+				<section class="testimonial">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 d-none d-lg-block">
+									<ol class="carousel-indicators tabs">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+									</ol>
+								</div>
+								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
+									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+										<h3>Words From</h3>
+										<h1><span class="highlight">Our Clients</span></h1>
+										<h4>Our Valued Customers Believe In Us & 
+												This Is What Keeps Us Going</h4>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<div class="quote-wrapper">
+													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																												</p>
+													<h3> Evrim Oralkan </h3>
+													<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+										</div>
+										<ol class="carousel-indicators indicators">
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
 
-	</main>
-
-<!-- slider area bar end-->
-
-<!-- start Breadcrumb -->
-
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li><a href="#"> Company </a></li>
-			<li class="active"><span> Awards & Achievements </span></li>
-		   </ol>
-	</div>
-</div>
-
-<!-- End Breadcrumb -->
-       <!-- Start SILICON INDIA AWARD OF BEST INBOUND MARKETING COMPANY sec -->
-
-	<div class="container-fluid awards-sec">
-		<div class="container">
-			<h2 class="mt-5">SILICON INDIA</h2>
-			<span class="bottomLineImgStyle"></span>
-			<p>
-			    Picked among the “20 Most Promising Inbound Marketing Service Providers in India 2018” by the Silicon India magazine. Silicon India is the leading magazine that covers stories and experiences of burgeoning entrepreneurs, CEOs of India and the US.
-			</P>
-			<figure><img src="assets/img/award/seo-awards-img1.png"  alt="SILICON INDIA" class="img-flude"></figure>
-		</div>
-	</div>
-<!-- End SILICON INDIA AWARD OF BEST INBOUND MARKETING COMPANY sec -->
+				<section class="seventhsec">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h3>We <i class="fas fa-heart hearticonsty"></i> <br> what we do </h3>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
+									<div class="indibuttons">
+											<button class="btn-hover color-1"> Let’s Talk  
+												<span class="roundshapebutton roundshapearrow"> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</button>
+										</div>
+								</div>
+							</div>
+						</div>
+				</section>
+         
 
 
-<!-- Start GOOGLE PARTNERS  sec -->
-
-	<div class="container-fluid awards-sec2">
-		<div class="container">
-			<h2> GOOGLE PARTNERS</h2>
-			<span class="bottomLineImgStyle"></span>
-			<p>
-				Our unmatched expertise and campaign management skills have earned us the prestigious Google Partner status. We have helped our clients to optimize, improvise and run the most successful Adwords campaign across all verticals.
-			</P>
-			<figure><img src="assets/img/award/seo-awards-img2.png"  alt="GOOGLE PARTNERS" class="img-flude"></figure>
-		</div>
-	</div>
-<!-- End GOOGLE PARTNERS sec -->
 
 
-<!-- Start DIGIT sec -->
 
-	<div class="container-fluid awards-sec3">
-		<div class="container">
-			<h2>DIGIT</h2>
-			<span class="bottomLineImgStyle"></span>
-			<p>
-				Digit Magazine chose SeoEaze for their 2017 ‘Top 30 Digital Marketing Companies in India’ list. Digit is one of the most reputed technology magazines in India according to an IRS survey.
-			</P>
-			<figure><img src="assets/img/award/seo-awards-img3.png"  alt="DIGIT" class="img-flude"></figure>
-		</div>
-	</div>
-<!-- End DIGIT sec -->
 
-<!-- New Start bannerFirst Section -->
-    <section class="happyclientsec">
-                      <div class="container text-center">
-                    
-                        <div class="row">
-                           <div class="col-lg-12 col-md-12">
-                            <ul>
-                              <li><img src="assets/img/clientcomicon/icon1.jpg"  alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon2.jpg"  alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon3.jpg"  alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon4.jpg"  alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon5.jpg"  alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon6.jpg"  alt="" class="img-flude"></li>
-                              <div class="hcheader"><h2> Our Clients | Our Strength </h2><h4> Some of our esteemed customers </h4></div>
-                              <li><img src="assets/img/clientcomicon/icon7.jpg"   alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon8.jpg"   alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon9.jpg"   alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon10.jpg"  alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon11.jpg"  alt="" class="img-flude"></li>
-                              <li><img src="assets/img/clientcomicon/icon12.jpg"  alt="" class="img-flude"></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                      </div>
-    </section>
-<!-- New End bannerFirst Section -->
 
-<!-- Start SOME HAPPY CLIENTS  Section --> 
-<div class="container-fluid featureandclient-sec">
-	<div class="container">
-		
-			<div class="row">
 
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="featureandclient-innersec">
-							<h3 class="whitecolor"> OUR ACHIEVEMENTS: OUR PRIDE </h3>
-						    <span class="bottomLineImgStyle"></span>
-						    <p> 
-								</p><ul>
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon1.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon2.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon3.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon4.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon5.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon6.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon7.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon8.png"></a></li>
-									
-								</ul>	
-							<p></p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<!-- End SOME HAPPY CLIENTS  Section --> 
-@endsection
+
+
+
+
+<script>
+function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+
+
+
+
+
+ @endsection

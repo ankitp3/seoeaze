@@ -31,14 +31,17 @@
         }
         </script>
 <!-- End Breadcrumbs Schema -->
-
+<style>
+	h2 {color:#000;}
+	.card{border:1px solid rgb(0, 0, 0);}
+</style>
 @show
 
 @section('content')
     <!-- slider area bar start-->
 	
 
-	<main class="header-video-sec">
+	<main class="ppc_management_service_sec">
 			
 			<!-- Vedio Content Section Start  -->
 			  <div class="container-flude">
@@ -51,11 +54,7 @@
 									<p class="pb-5">
 									    Nothing is more satisfying than to hear our clients saying great things about our services. Know what our clients have to say about our services and solutions. We are proud of the testimonials that we have received that inspire and motivate us to keep up the good work. 
 									</p>
-
-									<div class="header-video-sec-inner-sec-inner pb-5">
-											<h2 class="mb-5"> SeoEaze: Delivering 100% Customer Satisfaction </h2>
-											<img src="assets/img/aw1.png" alt="SeoEaze: Delivering 100% Customer Satisfaction" class="img-flude">
-									</div>
+									<img src="assets/img/aw1.png" alt="SeoEaze: Delivering 100% Customer Satisfaction" class="img-flude">	
 				  			</div>
 
 				  			<div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-rightsec">
@@ -74,19 +73,6 @@
 	</main>
 			  
 <!-- slider area bar end-->
-
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li><a href="#"> Clients </a></li>
-			<li class="active"><span> Testimonials </span></li>
-		   </ol>
-	</div>
-</div>
-<!-- End Breadcrumbs Schema -->
-
 <!-- Start Testimonial sec -->
 
 <div class="container-fluid blogmanagementservice-sec">
@@ -373,98 +359,172 @@
 <!-- Start Call Us section  -->
 
 
-<div class="container-fluid callus-sec">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusleftsec"><img src="assets/img/linkbulding/callus-iconimg.png"> </figure>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<p class="callusmiddlesec">
-						WANT TO DISCUSS OUR SERVICES?<br>
-						 Call Us To Discuss Now On <span> 844-736-3293</span>  
-					</p>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusrightsec"><img src="assets/img/linkbulding/callus-girlimg.png"> </figure>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="getintuchformsec">
+					<h2> 
+						Let’s get Started
+						Fill Us In About 
+						Your Requirement
+					</h2>
+					<form role="form" method="post" action="/seo_sending_form">
+					{{ csrf_field() }}
+					<div class="getintuchforminnersec">
+						
+							<div class="getintuchforminnerleftsec">
+								<label for="r-form-1-first-name">Hey, I’m is</label>
+								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-email">my website is</label>
+									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
+							</div>
+							<div class="getintuchforminnerleftsec">
+									<label for="selfie">and, I’m looking for </label>
+									<select class="selectarrow">
+										<span>&#xf107;</span>
+											<option selected>&nbsp; Select </option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+									</select>
+										
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-last-name">Get in touch with me at </label>
+									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
+							</div>
+							<div class="getintuchforminnerleftsec">
+										<label for="r-form-1-email">or call  </label>
+										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label>Any additional info </label>
+									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+							</div>
+							<div class="getintuchforminnerbottomsec">
+									<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
+									
+							</div>
+							<div class="getintuchforminnerbottomsec">
+                                {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
+                            </div>
+							<div class="getintuchforminnerbottomsec">
+									<button type="submit"> Send Enquiry </button>
+							</div>
 
-<!-- End Call Us section -->
+						</div>
+					</form>
+				</section>
+				<section class="testimonial">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 d-none d-lg-block">
+									<ol class="carousel-indicators tabs">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+									</ol>
+								</div>
+								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
+									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+										<h3>Words From</h3>
+										<h1><span class="highlight">Our Clients</span></h1>
+										<h4>Our Valued Customers Believe In Us & 
+												This Is What Keeps Us Going</h4>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<div class="quote-wrapper">
+													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																												</p>
+													<h3> Evrim Oralkan </h3>
+													<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+										</div>
+										<ol class="carousel-indicators indicators">
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
 
-<!-- New Start bannerFirst Section -->
-    <section class="happyclientsec">
-                      <div class="container text-center">
-                    
-                        <div class="row">
-                           <div class="col-lg-12 col-md-12">
-                            <ul>
-                              <li><img src="assets/img/clientcomicon/icon1.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon2.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon3.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon4.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon5.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon6.jpg" alt=""></li>
-                              <div class="hcheader"><h2> Our Clients | Our Strength </h2><h4> Some of our esteemed customers </h4></div>
-                              <li><img src="assets/img/clientcomicon/icon7.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon8.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon9.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon10.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon11.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon12.jpg" alt=""></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                      </div>
-    </section>
-<!-- New End bannerFirst Section -->
 
-<!-- Start SOME HAPPY CLIENTS  Section --> 
-<div class="container-fluid featureandclient-sec">
-	<div class="container">
-		
-			<div class="row">
+				<section class="clientsec">
+						<h2> Some of Our Esteemed Clients </h2>
+							<div class="clientinnersec">
+								<div class="clientinnerleftsec">
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+									</ul>
+								</div>	
+							</div>		
+				</section>
 
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="featureandclient-innersec">
-							<h3 class="whitecolor"> OUR ACHIEVEMENTS: OUR PRIDE </h3>
-						    <span class="bottomLineImgStyle"></span>
-						    <p> 
-								</p><ul>
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon1.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon2.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon3.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon4.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon5.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon6.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon7.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon8.png"></a></li>
-									
-								</ul>	
-							<p></p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<!-- End SOME HAPPY CLIENTS  Section -->           
+				<section class="seventhsec">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h3>We <i class="fas fa-heart hearticonsty"></i> <br> what we do </h3>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
+									<div class="indibuttons">
+											<button class="btn-hover color-1"> Let’s Talk  
+												<span class="roundshapebutton roundshapearrow"> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</button>
+										</div>
+								</div>
+							</div>
+						</div>
+				</section>      
 
 @endsection

@@ -37,7 +37,7 @@
     <!-- slider area bar start-->
 	
 
-	<main class="header-video-sec">
+	<main class="ppc_management_service_sec">
 			
 			<!-- Vedio Content Section Start  -->
 			  <div class="container-flude">
@@ -51,9 +51,15 @@
 									<p>Let SEOEaze blog management services turn your dormant blog into an authority asset without burning your entire content 
 									marketing budget. With our blog management, it becomes easier to populate your blog with content that’s tailored to your customers.</p>	
 									<span>  
-										<a href="#getintuchid">
-											<button class="button1"> Request Consultation </button>
-										</a> 
+									<div class="indibuttons pb-5">
+											<button class="btn-hover color-2"> Request Consultation  
+												<span class="roundshapebutton roundshapearrow"> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</button>
+										</div>
                                         
 									</span>
 				  			</div>
@@ -72,20 +78,8 @@
 			  
 <!-- slider area bar end-->
 
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li class="active"><span> Blog Management Service </span></li>
-		   </ol>
-	</div>
-</div>
-<!-- End Breadcrumbs Schema -->
-
 <!-- Start Content Creation Simple sec -->
-
+<section class="ourbestcapabilitysec">
 	<div class="container-fluid blogmanagementservice-sec">
 		<div class="container">
 			<h2>Are You Ready To Take Your Blogging To The Next Level? </h2>
@@ -176,47 +170,76 @@
 			
 			
 		</div>
+		</section>
 </div>
 
 
 <!-- End Content Creation Simple sec -->
+<section class="container-fluid aboutuswebdevelopmentsec text-center">
 
-
-<!-- Start bannerFirst Section -->
-
-	<div class="container-fluid bannerFirst-sec">
-		<div class="container">
-		<h2> Proud To Manage</h2>
-		<br>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<h2> 200+ </h2>
-					<p> Blogs </p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<h2> 900+ </h2>
-					<p> Social Media Channels  </p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
-					<h2> 500+</h2>
-					<p> Websites  </p>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-<!-- End bannerFirst Section -->
-
-
-
-
-
+<div class="row">
+    <div class="col-xl-4 col-md-4 col-sm-12 text-center">
+      <img src="assets/img/webdesignanddevelopment/left-img.png" alt="">
+    </div>
+    <div class="col-xl-8 col-md-8 col-sm-12 text-center">
+            
+      <h2> Proud To Manage</h2>
+      <p>
+        We are an established ISO company with over 10 years of endeavouring experience. We have managed blogs for some of the largest brands, helping them to grow.</p>
+      <div class="row">
+        <div class="col-xl-3 col-md-3 col-sm-6 text-center p-0 m-0">
+          <h2>200<span class="about-spanClass"> + </span></h2>
+          <p>Blogs</p>
+        </div>
+        <div class="col-xl-4 col-md-4 col-sm-6 text-center p-0 m-0">
+          <h2>10 <span class="about-spanClass"> Years </span></h2>
+          <p>of Industry Experience</p>
+        </div>
+        <div class="col-xl-3 col-md-3 col-sm-6 text-center p-0 m-0">
+          <h2>900<span class="about-spanClass">+ </span></h2>
+          <p>Social Media Channels</p>
+        </div>
+        <div class="col-xl-2 col-md-2 col-sm-6 text-center p-0 m-0">
+          <h2>500<span class="about-spanClass">+</span></h2>
+          <p>Websites</p>
+        </div>
+      </div>		
+    </div>
+  </div>
+</section>
 <!-- Start FEATURES AND BENEFITS Section -->
+<section class="fourthsec">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="fourthleftsec">
+							<h3 class="i-can-has-a-colored-thing"> We believe in <span class="highlight"> fostering partnerships. </span></h3>
+							<div class="roundshape1"></div>
+							<div class="roundshape2"></div>
+							<div class="roundshape3"></div>
+							<div class="roundshape4"></div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="fourthrightsec">
+							<h3 class="i-can-has-a-colored-thing"> Our Work keeps getting <span class="highlight"> recognition.</span></h3>
+							<div class="roundshape5"></div>
+							<div class="roundshape6"></div>
+							<div class="roundshape7"></div>
+							<div class="roundshape8"></div>
+						</div>
+					</div>
+				</div>
 
+		</div>
+		</section>
+
+<section class="container-fluid aboutuswebdevelopmentsec text-center">
 
 	<div class="container-fluid blogMgtfeaturesandbenefits-sec">
 		<div class="container">
-			<h2> BLOG MANAGEMENT FEATURES & BENEFITS </h2>
+			<h2>BLOG MANAGEMENT FEATURES & BENEFITS</h2>
 			<span class="bottomLineImgStyle"></span>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
@@ -272,318 +295,156 @@
 				
 		</div>
 	</div>
-
+</section>
 <!-- END FEATURES AND BENEFITS Section -->
-
-<!-- Start GET YOUR FREE AUDIT REPORT Section -->
-
-<div class="container-fluid getfreeaudit-sec">
-	<div class="container">
-		
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="getfreeaudit-leftinnersec">
-						<img src="assets/img/blog-management/getfreeaudit-sec-leftimg.jpg" alt="">
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="getfreeaudit-rightinnersec max-auto">
-						<a href="#getintuchid"><button class="button3"> GET YOUR FREE AUDIT REPORT </button></a>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<!-- End GET YOUR FREE AUDIT REPORT Section -->
-
-<!-- Start Call Us section  -->
-<div class="container-fluid callus-sec">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusleftsec"><img src="assets/img/linkbulding/callus-iconimg.png"> </figure>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<p class="callusmiddlesec">
-						Want To Know The Pricing?<br>
-				        Call Us To Discuss Now On <span> 844-736-3293</span>  
-					</p>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<figure class="callusrightsec"><img src="assets/img/linkbulding/callus-girlimg.png"> </figure>
-				</div>
-			</div>
-		</div>
-	</div>
-
-<!-- End Call Us section -->
-
 <!-- Start FAQS RELATED TO CONTENT WRITING SERVICE Section -->
+<section class="frequentlyaskedquestionsec">
+						<div class="container i-can-has-a-colored-thing">
+								<h2> Frequently <br> <span class="highlight"> Asked Questions</span> </h2>
+							<div class="row">
 
-<div class="container-fluid faqscontentwriting-sec">
-		<div class="container">
-			
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-					<div class="faqscontentwriting-innersec">
-                        <h2>Blog Management Services FAQs</h2>
-            			<span class="bottomLineImgStyle"></span>
-						 <div id="accordion" class="accordion">
-								<div class="card mb-0">
-									<div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-										<a class="card-title"> 1. What if I don’t have a blog? </a>
-									</div>
-									<div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
-										<div class="card-body">Not a reason to worry. We are fully capable to set up a blog for you.</div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-										<a class="card-title"> 2. Do you outsource writing to freelancers?  </a>
-									</div>
-									<div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
-										<div class="card-body">No! SEOEaze has an in-house team of expert native writers who will work on a regular basis on your blog learning about your readers and your business goals.</div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-										<a class="card-title"> 3. Can I still publish on my blog even when you are managing it? </a>
-									</div>
-									<div id="collapseThree" class="collapse" data-parent="#accordion">
-										<div class="card-body">	Yes. There is no restriction on you to not able to write, publish or edit any post that is on your blog. Our blog management services are to supplement your blog management not replace it.</div>
-									</div>
-									<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFourth">
-										<a class="card-title"> 4. Can I choose my own topics?</a>
-									</div>
-									<div id="collapseFourth" class="collapse" data-parent="#accordion">
-										<div class="card-body">Absolutely. You can research on target keywords and topics and share with us. Our writers will build posts around the same topics. </div>
-									</div>
-                                    
+								<div class="col-lg-5 col-md-12 col-sm-12" style="margin-top: -50px;">
+									<img src="assets/img/seo_packages_img/faqsleftsec.gif" class="img-fluid" alt=""/>
+								</div>
+								<div class="col-lg-7 col-md-12 col-sm-12">
+									  <!-- start Frequently Asked Questions-->
+									  			<button class="accordion"> What if I don’t have a blog? </button>
+												<div class="panel">
+													<p>Not a reason to worry. We are fully capable to set up a blog for you.</p>
+												</div>
+												<button class="accordion"> Do you outsource writing to freelancers? </button>
+												<div class="panel">
+													<p>No! SEOEaze has an in-house team of expert native writers who will work on a regular basis on your blog learning about your readers and your business goals.</p>
+												</div>
+												
+												<button class="accordion">Can I still publish on my blog even when you are managing it?</button>
+												<div class="panel">
+													<p>Yes. There is no restriction on you to not able to write, publish or edit any post that is on your blog. Our blog management services are to supplement your blog management not replace it.</p>
+												</div>
+												
+												<button class="accordion">Can I choose my own topics?</button>
+												<div class="panel">
+													<p>Absolutely. You can research on target keywords and topics and share with us. Our writers will build posts around the same topics.</p>
+												</div>												
+  										<!-- end Frequently Asked Questions-->
+
 								</div>
 							</div>
-					</div>
-				</div>
-            <div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block askaquoteVerticalsec">
-             <!-- Start ask a quote Section -->
-                    <div class="askaquoteVerticalinnersec" id="getintuchid">
-                        <h2>Get In Touch</h2>
-            			<span class="bottomLineImgStyle"></span>
-            			<form action="/askaquote" method="post">
-                        {{ csrf_field() }}
-                        <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="inner-cuote-sec">
-                                        <div class="form-group">
-                                            <input type="text" name="name" class="form-control" name="name"  placeholder="Type Your Name" required="">
-                                        </div>
-                                    </div>
-                                </div>
-                               <div class="col-sm-12">
-                                    <div class="inner-cuote-sec">
-                                        <div class="form-group">
-                                            <input type="email" name="email" class="form-control" name="email" placeholder="Type your Email" required="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <div class="inner-cuote-sec">
-                                        <div class="form-group">
-                                         <textarea class="form-control" id="message-text" rows="5" name="message" placeholder="Type your Message" required=""></textarea>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-sm-12">
-                                    <div class="inner-cuote-sec m-auto">
-                                        <div class="form-group">
-                                            <button type="submit" class="sub-buttonclass">Submit Request</button> <p>We Will Never Spam Your Inbox</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                   </div>
-            <!-- End ask a quote Section -->
-				</div>
-			</div>
-		</div>
-</div>
+						</div>
+				</section>
 <!-- End FAQS RELATED TO Section -->
 <!-- New Start bannerFirst Section -->
-    <section class="happyclientsec">
-                      <div class="container text-center">
-                    
-                        <div class="row">
-                           <div class="col-lg-12 col-md-12">
-                            <ul>
-                              <li><img src="assets/img/clientcomicon/icon1.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon2.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon3.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon4.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon5.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon6.jpg" alt=""></li>
-                              <div class="hcheader"><h2> Our Clients | Our Strength </h2><h4> Some of our esteemed customers </h4></div>
-                              <li><img src="assets/img/clientcomicon/icon7.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon8.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon9.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon10.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon11.jpg" alt=""></li>
-                              <li><img src="assets/img/clientcomicon/icon12.jpg" alt=""></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                      </div>
-    </section>
-<!-- New End bannerFirst Section -->
-<!-- Start customers think about us Section -->
-	<div class="container-fluid customersthinkaboutus-sec">
-		<div class="container">
-			<h2>Words From Our Clients </h2>
-			<h3>Our Valued Customers Believe In Us & This Is What Keeps Us Going </h3>
-			<span class="bottomLineImgStyle"></span>
-			
-			
-			
-			<div class="customersthinkaboutus-innersec">
-			
-			
-					<div class="customersthinkaboutus-innerleftsec">
-						<div class="innerleftsec-box">
-							
-						</div>
-					</div>
-					<div class="customersthinkaboutus-innerrightsec">
-					
-						 <div class="parent-box6 topSlider6 owl-carousel">
+<section class="clientsec">
+						<h2> Some of Our Esteemed Clients </h2>
+							<div class="clientinnersec">
+								<div class="clientinnerleftsec">
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+									</ul>
+								</div>	
+							</div>		
+				</section>
 
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
+				<section class="testimonial">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 d-none d-lg-block">
+									<ol class="carousel-indicators tabs">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2">
+											<figure>
+												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+											</figure>
+										</li>
+									</ol>
+								</div>
+								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
+									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+										<h3>Words From</h3>
+										<h1><span class="highlight">Our Clients</span></h1>
+										<h4>Our Valued Customers Believe In Us & 
+												This Is What Keeps Us Going</h4>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<div class="quote-wrapper">
+													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																												</p>
 													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
+													<p> Travertine Mart </p>
 												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<div class="quote-wrapper">
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
+												</div>
+											</div>
 										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-													
-												</div>
-										</div>
-										
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/cont-sec/web_dev_testimonials_icon-2.jpg" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														My site travertinemart.com has gained high rankings on Google 
-														within 8 months of trying their dedicated SEO plan. Anki was very 
-														helpful in creating a customized SEO package for me. It was a 
-														great experience working with his team. Now my site is user 
-														friendly and ranks on first page of major search engines.
-													</p>
-													<h3> Evrim Oralkan </h3>
-													<h4> Travertine Mart </h4>
-												</div>
-										</div>
-										<div class="box6">
-												<div class="box-left-sec">
-													<img src="assets/img/user_md_2.png" alt="">
-												</div>
-												<div class="box-right-sec">
-													<div class="cote-st">
-														<img src="assets/img/icons/cote-icon.png">
-													</div>
-													
-													<p>
-														I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
-														
-													</p>
-													<h3> Angus Walls</h3>
-													<h4> Xlife Enterprices</h4>
-												</div>
+										<ol class="carousel-indicators indicators">
+											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
+
+				<section class="seventhsec">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h3>We <i class="fas fa-heart hearticonsty"></i> <br> what we do </h3>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
+									<div class="indibuttons">
+											<button class="btn-hover color-1"> Let’s Talk  
+												<span class="roundshapebutton roundshapearrow"> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span>
+											</button>
 										</div>
 								</div>
+							</div>
 						</div>
-					</div>
-
-			</div>
-		
-
-	</div>
-
- <!-- End customers think about us Section  -->
-
-<!-- Start SOME HAPPY CLIENTS  Section --> 
-<div class="container-fluid featureandclient-sec">
-	<div class="container">
-		
-			<div class="row">
-
-				<div class="col-lg-12 col-md-12 col-sm-12">
-					<div class="featureandclient-innersec">
-							<h3 class="whitecolor"> OUR ACHIEVEMENTS: OUR PRIDE </h3>
-						    <span class="bottomLineImgStyle"></span>
-						    <p> 
-								</p><ul>
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon1.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon2.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon3.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon4.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon5.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon6.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon7.png"></a></li>
-									
-									<li>
-										<a href="" class="se_avards_cons fade-in-animate visible"><img src="assets/img/blog-management/featureandclient-icon/ourachivementsandpride-icon8.png"></a></li>
-									
-								</ul>	
-							<p></p>
-					</div>
-				</div>
-			</div>
-	</div>
-</div>
-<!-- End SOME HAPPY CLIENTS  Section -->            
+				</section>                  
 
 @endsection

@@ -56,7 +56,7 @@
    <!-- slider area bar start-->
 	
 
-	<main class="header-video-sec contactheaderbgimg" style="height:auto!important;">
+	<main class="ppc_management_service_sec contactheaderbgimg" style="height:auto!important;">
 			
 			<!-- Vedio Content Section Start  -->
 			  <div class="container-flude">
@@ -104,107 +104,72 @@
 			  
 <!-- slider area bar end-->
 
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li class="active"><span> Contact Us </span></li>
-		   </ol>
-	</div>
-</div>
-<!-- End Breadcrumbs Schema -->
+<section class="getintuchformsec">
+					<h2> 
+						Let’s get Started
+						Fill Us In About 
+						Your Requirement
+					</h2>
+					<form role="form" method="post" action="/seo_sending_form">
+					{{ csrf_field() }}
+					<div class="getintuchforminnersec">
+						
+							<div class="getintuchforminnerleftsec">
+								<label for="r-form-1-first-name">Hey, I’m is</label>
+								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-email">my website is</label>
+									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
+							</div>
+							<div class="getintuchforminnerleftsec">
+									<label for="selfie">and, I’m looking for </label>
+									<select class="selectarrow">
+										<span>&#xf107;</span>
+											<option selected>&nbsp; Select </option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+									</select>
+										
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-last-name">Get in touch with me at </label>
+									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
+							</div>
+							<div class="getintuchforminnerleftsec">
+										<label for="r-form-1-email">or call  </label>
+										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label>Any additional info </label>
+									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+							</div>
+							<div class="getintuchforminnerbottomsec">
+									<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
+									
+							</div>
+							<div class="getintuchforminnerbottomsec">
+								{!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
+                            </div>
+							<div class="getintuchforminnerbottomsec">
+									<button type="submit"> Send Enquiry </button>
+							</div>
 
-
+						</div>
+					</form>
+				</section>
 <!-- Start GET IN TOUCH sec -->
 
-	<div class="container-fluid contact-sec">
-		<div class="container">
-			<h2>GET IN TOUCH</h2>
-			<span class="bottomLineImgStyle"></span>
-			<p>
-				Interested in hiring our services? Don’t worry as we have an easy way to connect with us. You can either give us a call, skype or shoot us a mail and we will be more than happy to help you. Our staff will be in touch with you in no time to serve your needs in the best way they can. Trust us and we will never let you down.
-			</P>
-			
-			<div class="row pt-5">
-				<div class="col-lg-5 col-md-5 col-sm-12 ">
-					<figure><img src="assets/img/contact/getintuch_img.png" alt=""></figure>
-				</div>
-				<div class="col-lg-7 col-md-7 col-sm-12 p-5">
-					
-							<div class="contact-us-box">
-                            	 <form action="/contact_us_post" method="post">
-                            	    {{ csrf_field() }}
-                                	<div class="row">
-                                    	<div class="col-lg-6">
-                                    	    <input type="text" name="name" placeholder=" First Name: ">
-                                    	 </div>
-                                        <div class="col-lg-6">
-                                    	    <input type="text" name="email" placeholder=" Email: ">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                    	<div class="col-lg-6">
-                                    	    <input type="text" name="website" placeholder=" Website URL: ">
-                                    	 </div>
-                                        <div class="col-lg-6">
-                                            <input type="text" name="title" placeholder="Subject: ">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="b-form-vertical__input">
-
-                                                <select  id="interested" name="interested" class="form-control">
-        
-                                                    <option value=" ">Please Select....</option>
-        
-                                                    <option value="SEO Services">SEO Services</option>
-        
-                                                    <option value="Social Media Marketing ">Social Media Marketing</option>
-        
-                                                    <option value="Pay Per Click Marketing ">Pay Per Click Marketing </option>
-        
-                                                    <option value="Web Design & Development">Web Design & Development</option>
-                                                    <option value="Content Development">Content Development </option>
-                                                    <option value="Other">Other </option>
-        
-                                                </select>
-
-                                            </div><br><br>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <textarea name="massage" id="textarea"> Message: </textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                    	<div class="col-lg-12">
-                                    	    <button type="submit"> Send Message </button>
-                                    	</div>
-                                    </div>
-                                </form>
-                            </div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- End GET IN TOUCH sec -->
 
 <!-- Start GET IN TOUCH sec -->
 
 	<div class="container-fluid contactinfo-sec">
 		<div class="container">
-			<h2>CONTACT INFO</h2>
+			<h2>GET IN TOUCH</h2>
 			<span class="bottomLineImgStyle"></span>
-			
+			<p>
+				Interested in hiring our services? Don’t worry as we have an easy way to connect with us. You can either give us a call, skype or shoot us a mail and we will be more than happy to help you. Our staff will be in touch with you in no time to serve your needs in the best way they can. Trust us and we will never let you down.</p>
 			
 			<div class="row">
 				<div class="col-lg-5 col-md-5 col-sm-12 mt-5">
