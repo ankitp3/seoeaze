@@ -22,10 +22,13 @@
 @section('content')
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <style>header {background: rgb(164,66,62);background: linear-gradient(180deg, rgba(164,66,62,1) 0%, rgba(29,26,136,1) 100%);background-color: rgba(0,0,0,.8)!important;}.b-header__box{position: relative!important;}
-.container {width: 100%;}.cd-primary-nav .cd-nav-icons .cd-nav-item h3 {color: #5d6165;font-weight: bold;font-size:14px;margin-top: 0;margin-bottom: 0;}</style>
+.container {width: 100%;}.cd-primary-nav .cd-nav-icons .cd-nav-item h3 {color: #5d6165;font-weight: bold;font-size:14px;margin-top: 0;margin-bottom: 0;}</style><style>
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th
+{border-top:1px solid rgba(0, 0, 0, 0.3);}  .glyphicon {font-size:18px; font-weight:bold; color:#000; font-family:sans;} a {color:#000;} .btn-primary, .btn-primary:active {background-color: #b2d53e !important; border-color: #b2d53e !important; } .btn-success, .btn-success:active {background-color: #b2d53e !important; border-color: #b2d53e !important;}
+</style>
     @if(!empty($products))
         <div class="j-menu-container"></div>
-             <section class="b-diagonal-line-bg-light b-infoblock--small ">
+             <section class="ppc_management_service_sec b-diagonal-line-bg-light b-infoblock--small ">
             <div class="container">
                 <div class="row b-col-default-indent">
                     <div class="col-lg-12">
@@ -161,7 +164,7 @@
                         </table>
                         <div class="col-lg-12 text-center">
                             <a href="/checkout" class="checkout_links btn btn-success">
-                                <i class="fa fa-shield checkout_links_before_i" aria-hidden="true"></i>
+                                <i class="fa fa-shield checkout_links_before_i" aria-hidden="true" style="display: none;"></i>
                                 Proceed To Checkout 
                                 <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
                                 </button>

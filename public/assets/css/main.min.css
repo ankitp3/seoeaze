@@ -18171,7 +18171,7 @@ li.tabdrop>a {
 
 .payment_card,
 .payment_card_set {
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0);
     margin: 0 0 45px 0;
     text-align: left;
     width: 100%;
@@ -43009,12 +43009,12 @@ comparison {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid #000
 }
 
 .comparison td,
 .comparison th {
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #000;
     empty-cells: show;
     padding: 10px
 }
@@ -43027,7 +43027,7 @@ comparison {
 }
 
 .comparison .compare-row {
-    background: #f5f5f5
+    background: #ecf7e6
 }
 
 .comparison .tickblue {
@@ -43041,11 +43041,13 @@ comparison {
 .comparison th {
     font-weight: 400;
     padding: 0;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid #000
 }
 
 .comparison tr td:first-child {
     text-align: left
+	border-bottom: 1px solid #ecf7e6;
+	
 }
 
 .comparison .qbo,
@@ -43054,7 +43056,7 @@ comparison {
     color: #fff;
     padding: 10px;
     font-size: 13px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #000;
     border-bottom: 0
 }
 

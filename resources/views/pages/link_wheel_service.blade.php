@@ -200,7 +200,7 @@
 											 <li class="seo_service_accord_menu" ><a data-toggle="tab" href="#tab4">Sample Report</a></li>--}}
                                         </ul>
 
-                                        <div class="tab-content" style="background: #eaeaea; overflow: hidden; padding: 15px;display: block;">
+                                        <div class="tab-content" style="background: #ecf7e6; overflow: hidden; padding: 15px;display: block;">
                                             @include('parts.pricing_table')
                                         </div>
 

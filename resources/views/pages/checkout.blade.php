@@ -9,9 +9,9 @@
 @show
 
 @section('content')
-<style>header {background: rgb(164,66,62);background: linear-gradient(180deg, rgba(164,66,62,1) 0%, rgba(29,26,136,1) 100%);background-color: rgba(0,0,0,.8)!important;}.b-header__box{position: relative!important;}</style>
-    <div class="j-menu-container"></div>
-    <section class="b-desc-section-container b-diagonal-line-bg-light" style="padding-top: 0;display: block;float: left;margin-top: 130px;">
+
+    <div class="ppc_management_service_sec j-menu-container"></div>
+    <section class="ppc_management_service_sec b-desc-section-container b-diagonal-line-bg-light" style="padding-top: 0;display: block;float: left;">
         <div class="container" style="padding-top:60px">
             @if($errors->all())
                 <div class="alert alert-danger fade in" style="width: 82%;margin: 0px auto;">

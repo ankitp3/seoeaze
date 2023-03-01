@@ -8,13 +8,13 @@
         height: auto;
     }
     .discount {
-        background: #72BE58;
-        box-shadow: 0 0 1px #FF0000;
+        background: #ebebeb;
+        box-shadow: 0 0 3px #000;
         padding: 0 10px;
         height: auto;
         font-size: 16px;
         line-height: 24px;
-        color: #fff;
+        color: #000;
         border-radius: 2px;
     }
     .popular {
@@ -27,7 +27,7 @@
         border-radius: 2px;
     }
     .request {
-        background: #322f9a!important;
+        background: #72be58!important;
         color: white!important;
     }
     .request:hover {
@@ -43,8 +43,8 @@
         text-transform: uppercase;
     }
     .tl p {
-        color: #114b75;
-        font-size: 15px;
+        color: #676767;
+        font-size: 28px;
         font-weight: 400;
         margin-bottom: 10px;
         
@@ -56,6 +56,8 @@
         font-weight: 400;
         text-transform: uppercase;
         color: white;
+        padding:5px;
+        border-radius:3px;
     }
     .linkBtn:hover {
         background: black;
