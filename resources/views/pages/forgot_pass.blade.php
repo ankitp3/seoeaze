@@ -1,22 +1,20 @@
 @extends('layouts.master')
 
-<style>
-    body{
-        background: #75b9e6;
-    }
-</style>
+
 @section('title', 'Password Reset')
 
 @section('header')
 
-
+<style>
+    main:not(.sds__home) {padding-top:0px;}
+ </style>   
 @show
 
 @section('content')
-
-<main class="header-video-sec"  style="height: auto!important;">
+<!--
+<main class="ppc_management_service_sec"  style="height: auto!important;">
     
-            <!-- Vedio Content Section Start  -->
+            
               <div class="container-flude">
               
                     <div class="container">
@@ -27,23 +25,12 @@
                     </div>
                 </div>
             </div>
-    </main>
-<!-- Breadcrumb Section end -->
-<div class="container-fluid breadcrumb-sec">
-    <div class="container">
-           <ol class="breadcrumb breadcrumb-arrow">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li class="active"><span> Forgot password </span></li>
-           </ol>
-    </div>
-</div>
-<!-- Breadcrumb Section end -->
-    <div class="container">
+    </main> -->
+    <div class="ppc_management_service_sec container">
         <div class="row">
             <div class="col-lg-12">
-            <div class="center" style="position: relative">
-                <div class="center_white">
+            <div>
+                <div class="center_white" style="margin: 100px;">
 
                     <div id="login" class="animated bounceIn">
                         <!-- Start .login-wrapper -->
@@ -52,7 +39,7 @@
                             <div class="forgetsec">
                             <div class="forgetinnsec">
                                 
-                            <div id="myTabContent" class="tab-content bn padding_top">
+                            <div id="myTabContent" class=" bn padding_top">
                                 
                                 <div class="form-group">
                                     @if($errors->all())
@@ -75,11 +62,11 @@
                                         Enter your email address and we’ll help you reset your password
                                     </p>
 
-                                    <div class="tab-pane fade active  in" id="log-in">
+                                    <div style="text-align: center !important;margin-left: 30%;">
                                         <form class="form-horizontal mt10" action="/password/sendmail" method="post" id="msform">
                                             {!! csrf_field() !!}
                                             <div class="form-group">
-                                                <div class="col-lg-10 col-lg-offset-1 inputs_area">
+                                                <div class="col-lg-6 col-lg-offset-1 inputs_area">
                                                     <input type="text" name="email" id="email" class="form-control left-icon input_magin_left" value="" placeholder="Email">
                                                     <i class="icon-mail2 form-control-feedback"></i>
                                                 </div>

@@ -33,7 +33,9 @@
     var SITE_URL = {!! json_encode(url('/')) !!}
     var $ = jQuery.noConflict();
   </script>
-
+<style>
+.fleftsec #menu:hover ul li:hover ul li:hover ul {margin-left:200px;}
+</style>
   
 </head>
 <body>
@@ -187,38 +189,51 @@
 							<ul>
 								<li><center><a href="#">COMPANY +</a></center>
 									<ul>
-										<li><a href="#"> About Us </a></li>
-										<li><a href="#"> Portfolio </a></li>
-										<li><a href="#"> Case Studies </a></li>
-										<li><a href="#"> Testimonials </a></li>
-										<li><a href="#"> Get in Touch </a></li>
+										<li><a href="/company"> About Us </a></li>
+										
+										<li><a href="/contact_us"> Get in Touch </a></li>
 										<li><a href="#"> Partner With Us </a></li>
-										<li><a href="#"> Login/Sign-Up </a></li>
-										<li><a href="#"> My Cart </a></li>
-										<li><a href="#"> SEO Blog </a></li>
+										<li><a href="/login"> Login/Sign-Up </a></li>
+										<li><a href="/cart"> My Cart </a></li>
+										<li><a href="https://www.seoeaze.com/blog/" target="_blank"> SEO Blog </a></li>
 									</ul>
 								</li>
 								<li><center><a href="#">KEY SERVICES +</a></center>
 									<ul>
-											<li><a href="#"> SEO Packages </a></li>
-											<li><a href="#"> Social Media Marketing </a></li>
-											<li><a href="#"> Pay Per Click Service </a></li>
-											<li><a href="#"> Complete Link Building </a></li>
-											<li><a href="#"> Panda & Penguin Recovery </a></li>
-											<li><a href="#"> Advance Website Audit </a></li>
-											<li><a href="#"> Reputation Management </a></li>
-											<li><a href="#"> Website Development </a></li>
-											<li><a href="#"> Content Writing </a></li>
+										<li><a href="/services/complete_link_building"> Complete Link Building ></a>
+											<ul class="sub-next">
+											<li><a href="/services/guest_posting"> Guest Posting</a></li>
+											<li><a href="/services/article_submission"> Article Submission </a></li>
+											<li><a href="/services/press_release_distribution"> Press Release Distribution </a></li>
+											<li><a href="/services/niche_blogging"> Industry Based Links </a></li>
+											<li><a href="/services/link_wheel"> Link Wheel  </a></li>
+											<li><a href="/services/search_engine_submission"> Search Engine Submission</a></li>
+											<li><a href="/services/social_bookmarking_service"> Social Sharing</a></li>
+											<li><a href="/services/forum_link_building"> Forum Link Building </a></li>											</ul>
+										</li>
+										<li><a href="/seo_packages"> SEO Packages </a></li>
+										<li><a href="/local_seo_service"> Local SEO </a></li>
+										<li><a href="/dedicated_seo_team"> Hire Dedicated Team </a></li>
+										<li><a href="/social_media_marketing"> Social Media Marketing</a></li>
+										<li><a href="/ppc_management_service"> PPC Management</a></li>
+										<li><a href="/content_writing_service"> Content Writing</a></li>
+										<li><a href="/reputation_management_service"> Reputation Management</a></li>			
+										<li><a href="/panda_penguin_recovery_service"> Google Recovery</a></li>
+										<li><a href="/blog_management_service"> Blog Management</a></li>
+										<li><a href="/advanced_seo_audit"> Advance Website Audit</a></li>
+										<li><a href="/web_development_service"> Website Development</a></li>
+
 									</ul>
 								</li>
 								<li><center><a href="#">SEO TOOLS +</a></center>
 									<ul>
-											<li><a href="#"> Schema Generator </a></li>
+											<li><a href="/schema-generator"> Schema Generator </a></li>
 									</ul>
 								</li>
 							</ul>
 						</div>
 						<!-- DropUp Menu Bar End -->
+						
 					</div>
 			</div>
 			<div class="col-lg-6 col-md-12 col-sm-12">
@@ -233,25 +248,25 @@
 						<div class="socialsiteiconsec">
 							<div class="button">
 								<div class="icon">
-									<i class="fab fa-facebook-f"></i>
+								<a href="https://www.facebook.com/seoeaze/" target="_blank"><i class="fab fa-facebook-f"></i></a>
 								</div>
 							</div>
 						
 							<div class="button">
 								<div class="icon">
-									<i class="fab fa-twitter"></i>
+								<a href="https://twitter.com/SeoEaze" target="_blank"><i class="fab fa-twitter"></i></a>
 								</div>
 							</div>
 						
 							<div class="button">
 								<div class="icon">
-									<i class="fab fa-linkedin"></i>
+								<a href="https://www.linkedin.com/company/seoeaze" target="_blank"><i class="fab fa-linkedin"></i></a>
 								</div>
 							</div>
 						
 							<div class="button">
 								<div class="icon">
-									<i class="fab fa-youtube"></i>
+								<a href="https://www.youtube.com/user/SeoEaze" target="_blank"><i class="fab fa-youtube"></i></a>
 								</div>
 							</div>
 
@@ -287,7 +302,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12 col-sm-12">
 				<div class="footerbstripright">
-					Copyright © 2009-2020 - All Rights Reserved	
+					Copyright © 2009-2023 - All Rights Reserved	
 				</div>
 			</div>
 		</div>
