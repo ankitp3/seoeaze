@@ -31,7 +31,7 @@
    <!-- slider area bar start-->
 	
 
-	<main class="header-video-sec">
+	<main class="ppc_management_service_sec">
 			
 			<!-- Vedio Content Section Start  -->
 			  <div class="container-flude">
@@ -40,7 +40,7 @@
 			  			<div class="row indexheader-video-sec-inner-sec">
 				  			<div class="col-lg-7 col-md-7 col-sm-12 header-video-sec-inner-leftsec">
 				  					<h1> REFUND POLICY </h1>
-				  					<h2> At SEOEaze, WE believe in providing utmost customer satisfaction to one and all. </h2>
+				  					<h4> At SEOEaze, WE believe in providing utmost customer satisfaction to one and all. </h4>
 									<div class="header-video-sec-inner-sec-inner mt-5">
 											<h2 class="mb-5">Best SEO Company In Delhi NCR</h2>
 											<img src="assets/img/aw1.png">
@@ -60,27 +60,12 @@
 <!-- slider area bar end-->
 
 
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li class="active"><span> Refund </span></li>
-		   </ol>
-	</div>
-</div>
-
-<!-- End Breadcrumbs Schema -->
-
 
 <!-- Start WHY LINK WHEEL FOR SEO? section -->
 
 
 <div class="container-fluid refundsec">
 		<div class="container">
-			<h2>REFUND POLICY </h2>
-			<span class="bottomLineImgStyle"></span>
-
 			<div class="row pt-5 mt-5">
 
 				<div class="col-lg-10 col-md-10 col-sm-12 offset-lg-1 offset-md-1 offset-sm-1 mx-auto d-block">

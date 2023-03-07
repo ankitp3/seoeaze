@@ -35,6 +35,23 @@
   </script>
 <style>
 .fleftsec #menu:hover ul li:hover ul li:hover ul {margin-left:200px;}
+.modal-content {
+width:800px;
+}
+.modal-dialog {
+	margin-left:20%;
+}
+
+.modal {
+	z-index:9999;
+}
+.btn.btn-success {
+	background-color:#81c56b !important;
+	border-color: #000 !important;
+}
+.btn-success:hover{
+	background-color:#cbe738 !important;
+}
 </style>
   
 </head>
@@ -434,9 +451,7 @@
 
 
                     <div class="modal-footer text-center">
-
-                        <button type="submit" class="btn btn-success btn-lg">Let’s Get Started!</button>
-
+                        <button type="submit" class="btn btn-success btn-lg">Let’s Get Started!</button> 
                         <a class="priv-pol-link" href="/privacy_policy" target="_blank">Privacy & Policy </a>
 
                     </div>

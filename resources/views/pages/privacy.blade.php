@@ -31,7 +31,7 @@
   <!-- slider area bar start-->
 	
 
-	<main class="header-video-sec">
+	<main class="ppc_management_service_sec">
 			
 			<!-- Vedio Content Section Start  -->
 			  <div class="container-flude">
@@ -44,7 +44,7 @@
 									<p class="mt-5">INFORMATION COLLECTION AND USAGE | ONLINE LIVE CHAT | NEWSLETTER | SHARING INFORMATION | SECURITY | OPT OUT</p>
 
 									<div class="header-video-sec-inner-sec-inner mt-5 mb-5 ">
-											<h2 class="mb-5">Best SEO Company In Delhi NCR</h2>
+											<h2 class="mb-5">A Responsible SEO Company</h2>
 											<img src="assets/img/aw1.png">
 									</div>
 									
@@ -65,29 +65,8 @@
 			  
 <!-- slider area bar end-->
 
-<!-- Start Breadcrumbs Schema -->
-<div class="container-fluid breadcrumb-sec">
-	<div class="container">
-		   <ol class="breadcrumb breadcrumb-arrow">
-			<li><a href="/">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li class="active"><span> Privacy Policy </span></li>
-		   </ol>
-	</div>
-</div>
-<!-- End Breadcrumbs Schema -->
-
-<!-- LOCAL SEO FOR REGION SPECIFIC NEEDS-->
-<div class="container-fluid localseopackage-sec">
-		<div class="container">
-			<h2> PRIVACY POLICY </h2>
-			<h3> INFORMATION COLLECTION AND USAGE | ONLINE LIVE CHAT | NEWSLETTER | SHARING INFORMATION | SECURITY | OPT OUT </h3>
-			<span class="bottomLineImgStyle"></span><br>
-		</div>
-</div>
-<!--LOCAL SEO FOR REGION SPECIFIC NEEDS -->
-
 <!-- Start section -->
+<section class="ourbestcapabilitysec">
 <div class="container-fluid localseopackage-sec2">
 		<div class="container">
 		
@@ -208,7 +187,9 @@
 
 		</div>
 </div>
+	</section>
 </div>
+
 <!-- End FEATURES & BENEFITS OF OUR SEO PACKAGES sec -->
 
 @endsection
