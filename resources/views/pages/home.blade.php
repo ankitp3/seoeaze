@@ -308,7 +308,9 @@
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+														<p>Build impactful, sustainable, and scalable digital assets
+
+We help brands create SEO campaigns that provide a measurable and predictable boost to their online presence. We are the trusted partner for the compounding growth of several startups, enterprises, and solo businesses.</p>
 														</div>
 												
 													</section>
