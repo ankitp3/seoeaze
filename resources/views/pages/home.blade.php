@@ -54,13 +54,14 @@
 										</div>
 									</div>
 									<div class="buttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-1"> Let’s Make You A Hero Brand 
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 									</div>
 								</div>
@@ -287,7 +288,7 @@
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>Drive traffic to your site with every click on your ad. Earn the most targeted traffic and get the maximum ROI.</p>
+														<p>We revamp your advertising and brand awareness campaigns to drive traffic to your site with every click on your ads. Earn the most targeted traffic and get the maximum ROI with SeoEaze’s refined performance marketing strategies.</p>
 														</div>
 														
 													</section>
@@ -302,14 +303,13 @@
 																</div>
 																<div class="collepserowrightsec">
 																		<h4>What we do</h4>
-																		<h5 class="i-can-has-a-colored-thing"><span class="highlight"> Grease the wheels on your campaigns </span> </h5>
+																		<h5 class="i-can-has-a-colored-thing"><span class="highlight"> Build impactful & sustainable digital assets </span> </h5>
 																</div>
 																<div class="collapseiconsec"><i class="fa" aria-hidden="true"></i></div>
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>Build impactful, sustainable, and scalable digital assets
-
+														<p>
 We help brands create SEO campaigns that provide a measurable and predictable boost to their online presence. We are the trusted partner for the compounding growth of several startups, enterprises, and solo businesses.</p>
 														</div>
 												
@@ -325,13 +325,13 @@ We help brands create SEO campaigns that provide a measurable and predictable bo
 																</div>
 																<div class="collepserowrightsec">
 																		<h4>What we do</h4>
-																		<h5 class="i-can-has-a-colored-thing"><span class="highlight"> Grease the wheels on your campaigns </span> </h5>
+																		<h5 class="i-can-has-a-colored-thing"><span class="highlight"> Combine interaction & business operation </span> </h5>
 																</div>
 																<div class="collapseiconsec"><i class="fa" aria-hidden="true"></i></div>
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>Drive traffic to your site with every click on your ad. Earn the most targeted traffic and get the maximum ROI.</p>
+														<p>Social media platforms demand building a community around your offerings. We help you unlock the unique growth loops for your business by creating strategies that put them into action. We drive your rapid growth.</p>
 														</div>
 												
 													</section>
@@ -346,13 +346,14 @@ We help brands create SEO campaigns that provide a measurable and predictable bo
 																</div>
 																<div class="collepserowrightsec">
 																		<h4>What we do</h4>
-																		<h5 class="i-can-has-a-colored-thing"><span class="highlight"> Grease the wheels on your campaigns </span> </h5>
+																		<h5 class="i-can-has-a-colored-thing"><span class="highlight"> Delivering tailored web solutions</span> </h5>
 																</div>
 																<div class="collapseiconsec"><i class="fa" aria-hidden="true"></i></div>
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>Drive traffic to your site with every click on your ad. Earn the most targeted traffic and get the maximum ROI.</p>
+														<p>
+Amalgamating technology and style, we create an accurate representation of your brand and values. Our web development squad of tech experts are committed to developing web solutions that help support your rapid growth.</p>
 														</div>
 														
 													</section>
@@ -366,13 +367,14 @@ We help brands create SEO campaigns that provide a measurable and predictable bo
 																</div>
 																<div class="collepserowrightsec">
 																	<h4>What we do</h4>
-																	<h5 class="i-can-has-a-colored-thing"><span class="highlight"> Grease the wheels on your campaigns </span> </h5>
+																	<h5 class="i-can-has-a-colored-thing"><span class="highlight"> No Fluff. High impact. Appealing content. </span> </h5>
 																</div>
 																<div class="collapseiconsec"><i class="fa" aria-hidden="true"></i></div>
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>Drive traffic to your site with every click on your ad. Earn the most targeted traffic and get the maximum ROI.</p>
+														<p>
+Our content team is hyper-focused on increasing the conversations between you and your audience. Leveraging the learnings from creating content for successful brands and startups, we have refined our content services for you.</p>
 														</div>
 														
 													</section>

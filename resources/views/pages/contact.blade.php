@@ -66,7 +66,7 @@
 				  			<div class="col-lg-7 col-md-7 col-sm-12 indexheader-video-sec-inner-leftsec">
 
 				  					<h1 class="mb-5"> CONTACT US </h1>
-									<h2 class="mb-5">We welcome you to contact us for more information about any of our services or solutions. </h2>
+									<h4 class="mb-5">We welcome you to contact us for more information about any of our services or solutions. </h4>
 									<!--
 									<div class="row mt-5 pt-5">
 										<div class="col-lg-4 col-md-4 col-sm-4 coninfosec phoneiconsec">
@@ -103,6 +103,59 @@
 	</main>
 			  
 <!-- slider area bar end-->
+
+
+<!-- Start GET IN TOUCH sec -->
+
+	<div class="container-fluid contactinfo-sec">
+		<div class="container">
+			<br>
+			<span class="bottomLineImgStyle"></span>
+			<p>
+				Interested in hiring our services? Don’t worry as we have an easy way to connect with us. You can either give us a call, skype or shoot us a mail and we will be more than happy to help you. Our staff will be in touch with you in no time to serve your needs in the best way they can. Trust us and we will never let you down.</p>
+			
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-12 mt-5">
+					<div class="getintuch-sec mr-5">
+						<figure>
+							<img src="assets/img/contact/contactinfo_img.png" alt="">
+						</figure>
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-12 mt-5">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec phoneicon">
+							<h3>Phone :</h3>
+							<p>+1-844-SEOEAZE</P>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec skyoeicon">
+							<h3>SKYPE :</h3>
+							<p>seoeaze</P>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec enquiryicon">
+							<h3>Enquiry :</h3>
+							<p>info@seoeaze.com</P>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec websiteicon">
+							<h3>Website :</h3>
+							<p>www.seoeaze.com</P>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 contactinfo-innersec addressicon">
+							<h3>Address :</h3>
+							<p>10685-B Hazelhurst Dr. #19976, Houston, TX 77043</P>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+	</div>
+</div>
+
 
 <section class="getintuchformsec">
 					<h2> 
@@ -160,59 +213,6 @@
 					</form>
 				</section>
 <!-- Start GET IN TOUCH sec -->
-
-
-<!-- Start GET IN TOUCH sec -->
-
-	<div class="container-fluid contactinfo-sec">
-		<div class="container">
-			<h2>GET IN TOUCH</h2>
-			<span class="bottomLineImgStyle"></span>
-			<p>
-				Interested in hiring our services? Don’t worry as we have an easy way to connect with us. You can either give us a call, skype or shoot us a mail and we will be more than happy to help you. Our staff will be in touch with you in no time to serve your needs in the best way they can. Trust us and we will never let you down.</p>
-			
-			<div class="row">
-				<div class="col-lg-5 col-md-5 col-sm-12 mt-5">
-					<div class="getintuch-sec mr-5">
-						<figure>
-							<img src="assets/img/contact/contactinfo_img.png" alt="">
-						</figure>
-					</div>
-				</div>
-				<div class="col-lg-7 col-md-7 col-sm-12 mt-5">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec phoneicon">
-							<h3>Phone :</h3>
-							<p>+1-844-SEOEAZE</P>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec skyoeicon">
-							<h3>SKYPE :</h3>
-							<p>seoeaze</P>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec enquiryicon">
-							<h3>Enquiry :</h3>
-							<p>info@seoeaze.com</P>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec websiteicon">
-							<h3>Website :</h3>
-							<p>www.seoeaze.com</P>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 contactinfo-innersec addressicon">
-							<h3>Address :</h3>
-							<p>10685-B Hazelhurst Dr. #19976, Houston, TX 77043</P>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			
-	</div>
-</div>
-
 
 <!-- End GET IN TOUCH sec -->
 
