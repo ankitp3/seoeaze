@@ -322,12 +322,7 @@
 									<div class="localseoseventhrightsec">
 										<h2>Unsure about local SEO?</h2>
 										<h4>Call us discuss new on </h4>
-										<h2>
-										@if($country_code == "IN")
-							<span class="highlights">8375011200</span> 
-							@endif
-							<span class="highlights">844-736-3293</span> 
-									    </h2>
+										<h2>844-736-3293</h2>
 										<button> Send Message </button>
 									</div>
 							</div>
