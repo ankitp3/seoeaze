@@ -42,7 +42,6 @@
 				  					<h1> REFUND POLICY </h1>
 				  					<h4> At SEOEaze, WE believe in providing utmost customer satisfaction to one and all. </h4>
 									<div class="header-video-sec-inner-sec-inner mt-5">
-											<h2 class="mb-5">Best SEO Company In Delhi NCR</h2>
 											<img src="assets/img/aw1.png">
 									</div>
 				  			</div>

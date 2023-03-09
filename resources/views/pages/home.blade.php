@@ -216,7 +216,7 @@
 								 Curve Text -->
 							</div>
 							<figrue>
-								<img src="assets/img/thirdsecrightimg.png" alt=""/>
+								<img src="assets/img/thirdsecrightimg.webp" alt="seoeaze"/>
 							</figrue>
 							<p>
 								Let's build your

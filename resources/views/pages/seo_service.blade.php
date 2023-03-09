@@ -98,7 +98,7 @@
 										leads and grow your business even for the most 
 										competitive keywords.
 									</p>
-									<img src="assets/img/seo_packages_img/seo_packages_headersecondbgimg.jpg" class="disbloc" alt=""/>
+									<img src="assets/img/seo_packages_img/seo_packages_headersecondbgimg.webp" class="disbloc" alt=""/>
 							</div>
 						</div>
 
@@ -237,7 +237,7 @@
 						</div>
 						<div class="col-lg-6 col-md-12 col-sm-12">
 								<div class="ourbestcapabilityrightsec">
-										<img src="assets/img/seo_packages_img/ourbestcapabilityrightsecimg.png" alt="" />
+										<img src="assets/img/seo_packages_img/ourbestcapabilityrightsecimg.webp" alt="seo dashboard" />
 										<div class="thirdrighttsec">
 												<p>
 														Your Digital Strategy
@@ -266,7 +266,7 @@
 						</div>
 						<div class="weareatrustedgooglepartnerrightsec">
 							<div class="googlepartnersec">
-								<img src="assets/img/seo_packages_img/googlepartnerimg.png" alt="google partner" />
+								<img src="assets/img/seo_packages_img/googlepartnerimg.webp" alt="google partner" />
 									<div class="googlepartner1"><img src="assets/img/seo_packages_img/googlepartnericon5.png" alt="" /></div>
 									<div class="googlepartner2"><img src="assets/img/seo_packages_img/googlepartnericon4.png" alt="" /></div>
 									<div class="googlepartner3"><img src="assets/img/seo_packages_img/googlepartnericon3.png" alt="" /></div>
@@ -787,7 +787,7 @@
 							</div>
 							<div class="col-lg-4 col-md-12 col-sm-12">
 									<div class="moneybackguranteerightsec">
-										<img src="assets/img/seo_packages_img/moneybackguaranteeicon.jpg" alt="" />
+										<img src="assets/img/seo_packages_img/moneybackguaranteeicon.webp" alt="money back guarantee by seoeaze" />
 										<div class="indibuttons">
 										<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 												<button class="btn-hover color-1"> Let's Get Started
@@ -931,22 +931,22 @@
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
 									</ul>
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
 									</ul>
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		
@@ -959,17 +959,17 @@
 									<ol class="carousel-indicators tabs">
 										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
 											<figure>
-												<img src="assets/img/seo_packages_img/testimonials-01-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-01-179x179.webp" class="img-fluid" alt="seoeaze testimonial 1">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="1">
 											<figure>
-												<img src="assets/img/seo_packages_img/testimonials-02-306x306.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-02-306x306.webp" class="img-fluid" alt="seoeaze testimonial 2">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="2">
 											<figure>
-												<img src="assets/img/seo_packages_img/testimonials-03-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-03-179x179.webp" class="img-fluid" alt="seoeaze testimonial 3">
 											</figure>
 										</li>
 									</ol>
