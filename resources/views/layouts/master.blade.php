@@ -95,18 +95,18 @@ width:800px;
 													<li>
 													<a href="javascript:" class="accord-btn">Services</a>
 														<ul class="accord-target">
-															<li><a href="/seo_packages">SEO packages</a></li>
+															<li><a href="/seo_packages">SEO Packages</a></li>
 															<li><a href="/dedicated_seo_team">Enterprise SEO</a></li>
 															<li><a href="/local_seo_service">Local SEO</a></li>
-															<li><a href="/social_media_marketing">Social media marketing</a></li>														
-															<li><a href="/ppc_management_service">Pay per click management</a></li>
-															<li><a href="/reputation_management_service">Reputation management</a></li>
-															<li><a href="/content_writing_service">Content writing</a></li>
-															<li><a href="/blog_management_service">Blog management</a></li>
-															<li><a href="/services/guest_posting">Guest blogging</a></li>
-															<li><a href="/services/complete_link_building">Link building service</a></li>
-															<li><a href="/web_development_service">Web design & development</a></li>
-															<li><a href="/panda_penguin_recovery_service">Google penalty assesment</a></li>
+															<li><a href="/social_media_marketing">Social Media Marketing</a></li>														
+															<li><a href="/ppc_management_service">Pay Per Click Management</a></li>
+															<li><a href="/reputation_management_service">Reputation Management</a></li>
+															<li><a href="/content_writing_service">Content Writing</a></li>
+															<li><a href="/blog_management_service">Blog Management</a></li>
+															<li><a href="/services/guest_posting">Guest Posting</a></li>
+															<li><a href="/services/complete_link_building">Link Building service</a></li>
+															<li><a href="/web_development_service">Web Design & Development</a></li>
+															<li><a href="/panda_penguin_recovery_service">Google Penalty Assesment</a></li>
 														</ul>
 													</li>
 													<li>
@@ -126,8 +126,6 @@ width:800px;
 															<span class="swiper-slide"> Hola! </span>
 															<span class="swiper-slide"> Namaste! </span>
 															<span class="swiper-slide"> Marhabaan! </span>
-															<span class="swiper-slide"> Willkommen! </span>
-															<span class="swiper-slide"> Hello! </span>
 														</div>
 													</div>
 													</h5>
@@ -156,8 +154,6 @@ width:800px;
 																	<span class="swiper-slide"> Hola! </span>
 																	<span class="swiper-slide"> Namaste! </span>
 																	<span class="swiper-slide"> Marhabaan! </span>
-																	<span class="swiper-slide"> Willkommen! </span>
-																	<span class="swiper-slide"> Hello! </span>
 																</div>
 															</div>
 														</h5>
@@ -217,20 +213,22 @@ width:800px;
 								</li>
 								<li><center><a href="#">KEY SERVICES +</a></center>
 									<ul>
-										<li><a href="/services/complete_link_building"> Complete Link Building ></a>
+										<li><a href="#">Link Building Services ></a>
 											<ul class="sub-next">
+											<li><a href="/services/complete_link_building"> Complete Link Building ></a>
 											<li><a href="/services/guest_posting"> Guest Posting</a></li>
+											<li><a href="/services/forum_link_building"> Forum Link Building </a></li>	
 											<li><a href="/services/article_submission"> Article Submission </a></li>
 											<li><a href="/services/press_release_distribution"> Press Release Distribution </a></li>
 											<li><a href="/services/niche_blogging"> Industry Based Links </a></li>
 											<li><a href="/services/link_wheel"> Link Wheel  </a></li>
 											<li><a href="/services/search_engine_submission"> Search Engine Submission</a></li>
 											<li><a href="/services/social_bookmarking_service"> Social Sharing</a></li>
-											<li><a href="/services/forum_link_building"> Forum Link Building </a></li>											</ul>
+											</ul>
 										</li>
 										<li><a href="/seo_packages"> SEO Packages </a></li>
 										<li><a href="/local_seo_service"> Local SEO </a></li>
-										<li><a href="/dedicated_seo_team"> Hire Dedicated Team </a></li>
+										<li><a href="/dedicated_seo_team"> Hire Dedicated Resources</a></li>
 										<li><a href="/social_media_marketing"> Social Media Marketing</a></li>
 										<li><a href="/ppc_management_service"> PPC Management</a></li>
 										<li><a href="/content_writing_service"> Content Writing</a></li>
@@ -244,7 +242,17 @@ width:800px;
 								</li>
 								<li><center><a href="#">SEO TOOLS +</a></center>
 									<ul>
-											<li><a href="/schema-generator"> Schema Generator </a></li>
+											<li><a href="https://ranklogs.com"> Rank Tracker </a></li>
+											<li><a href="https://ranklogs.com/schema-generator"> Schema Markup Generator </a></li>
+											<li><a href="https://seotools.ranklogs.com/meta-tag-generator">Meta Tags Generator </a></li>
+											<li><a href="https://seotools.ranklogs.com/xml-sitemap-generator"> XML Sitemap Generator </a></li>
+											<li><a href="https://seotools.ranklogs.com/robots-txt-generator"> Robots.txt Generator </a></li>
+											<li><a href="https://seotools.ranklogs.com/broken-link-checker"> Broken Links Checker </a></li>
+											<li><a href="https://seotools.ranklogs.com/keyword-density-checker"> Keywords Density Checker </a></li>
+
+
+
+
 									</ul>
 								</li>
 							</ul>
