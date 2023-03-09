@@ -8,10 +8,7 @@
 @section('meta' , "SeoEaze's is providing Web Development Services includes Web application development with wordpress, joomla, php, magento based Web designing service & more")
 
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.in/web_development_service" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.com/web_development_service" hreflang="en-us" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/web_development_service" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/web_development_service" hreflang="x-default" />
+    <link rel="canonical" href="https://www.seoeaze.in/web_development_service" />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
@@ -350,72 +347,53 @@
 									<ol class="carousel-indicators tabs">
 										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
 											<figure>
-                      <img src="assets/img/webdesignanddevelopment/JanetJSheahan-img1.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-01-179x179.webp" class="img-fluid" alt="seoeaze testimonial 1">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="1">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-02-306x306.webp" class="img-fluid" alt="seoeaze testimonial 2">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="2">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-03-179x179.webp" class="img-fluid" alt="seoeaze testimonial 3">
 											</figure>
 										</li>
 									</ol>
 								</div>
 								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
 									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
-										<h3>SOME OF OUR</h3>
-										<h1><span class="highlight">HAPPY CUSTOMERS</span></h1>
+										<h3>Words From</h3>
+										<h1><span class="highlight">Our Clients</span></h1>
 										<h4>Our Valued Customers Believe In Us & 
 												This Is What Keeps Us Going</h4>
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>
-                            I hired their web design service few days back and I was 
-                            completely thrilled when the team delivered me the project. 
-                            The design was same as what I had intended it to be like. 
-                            They gave complete attention to detailing that I mentioned 
-                            in my requirements list. Now my site has become much 
-                            responsive than it was earlier and I am very happy 
-                            with the new design. It looks more professional now 
-                            and is easy to navigate as well. Thanks a ton.
-														</p>
-													<h3>  Janet J. Sheahan  </h3>
-												
+													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																												</p>
+													<h3> Evrim Oralkan </h3>
+													<p> Travertine Mart </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-                        <p>
-                            I hired their web design service few days back and I was 
-                            completely thrilled when the team delivered me the project. 
-                            The design was same as what I had intended it to be like. 
-                            They gave complete attention to detailing that I mentioned 
-                            in my requirements list. Now my site has become much 
-                            responsive than it was earlier and I am very happy 
-                            with the new design. It looks more professional now 
-                            and is easy to navigate as well. Thanks a ton.
-														</p>
-													<h3>  Janet J. Sheahan  </h3>
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-                        <p>
-                            I hired their web design service few days back and I was 
-                            completely thrilled when the team delivered me the project. 
-                            The design was same as what I had intended it to be like. 
-                            They gave complete attention to detailing that I mentioned 
-                            in my requirements list. Now my site has become much 
-                            responsive than it was earlier and I am very happy 
-                            with the new design. It looks more professional now 
-                            and is easy to navigate as well. Thanks a ton.
-														</p>
-													<h3>  Janet J. Sheahan  </h3>
+														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																													</p>
+														<h3> Evrim Oralkan </h3>
+														<p> Travertine Mart </p>
 												</div>
 											</div>
 										</div>

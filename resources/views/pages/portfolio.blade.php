@@ -20,10 +20,7 @@
 @section('header')
 
 @section('hreflangs')
-<link rel="alternate" href="https://www.seoeaze.com/portfolio" hreflang="en-us" />
-<link rel="alternate" href="https://www.seoeaze.co.uk/portfolio" hreflang="en-gb" />
-<link rel="alternate" href="https://www.seoeaze.in/portfolio" hreflang="en-in" />
-<link rel="alternate" href="https://www.seoeaze.com/portfolio" hreflang="x-default" />
+<link rel="canonical" href="https://www.seoeaze.com/portfolio"  />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
@@ -231,24 +228,24 @@
 
 <!-- End reputationmngtser sec -->
 
-				<section class="testimonial">
+<section class="testimonial">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-6 d-none d-lg-block">
 									<ol class="carousel-indicators tabs">
 										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-01-179x179.webp" class="img-fluid" alt="seoeaze testimonial 1">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="1">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-02-306x306.webp" class="img-fluid" alt="seoeaze testimonial 2">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="2">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-03-179x179.webp" class="img-fluid" alt="seoeaze testimonial 3">
 											</figure>
 										</li>
 									</ol>

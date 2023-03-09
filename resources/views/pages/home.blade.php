@@ -1,16 +1,13 @@
 @extends('layouts.master')
 
 
-@section('title', 'Professional Seo Services | Digital Marketing | Affordable Seo Company ')
+@section('title', 'SeoEaze: Full Scale Digital Marketing Agency | SEO Services  ')
 @section('meta', 'Looking for professsional SEO services? SeoEeaze is affordable SEO company providing  seo, web development & digital marketing service since 2009.')
 
 
 @section('header')
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.com/" hreflang="en-us" />
-    <link rel="alternate" href="https://www.seoeaze.in/" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.co.uk/" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/" hreflang="x-default" />
+    <link rel="canonical" href="https://www.seoeaze.com/"/>
 @endsection
 
 <script type="application/ld+json">
@@ -81,7 +78,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="content">
 								<h3 class="i-can-has-a-colored-thing">
-									We are here to start the journey of your business or brand through a completely new, <span class="highlight"> unknown and risky road</span>.  
+									We are here to start the journey of your business or brand through a completely new, <span class="highlight"> unknown and risky road</span>  
 								</h3>
 							</div>
 						</div>
@@ -223,13 +220,14 @@
 								brand together.
 							</p>
 							<div class="indibuttons">
+							<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 								<button class="btn-hover color-1"> Here you go 
 									<span class="roundshapebutton roundshapearrow"> 
 										<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 											<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 										</svg>
 									</span>
-								</button>
+								</button></a>
 							</div>
 						</div>
 					</div>
@@ -516,13 +514,14 @@ Our content team is hyper-focused on increasing the conversations between you an
 						<div class="col-lg-6 col-md-12 col-sm-12">
 							<h4>In a world of infinite possibilities, do not limit yourself.</h4>
 							<div class="indibuttons">
+							<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 									<button class="btn-hover color-1"> Let’s Talk  
 										<span class="roundshapebutton roundshapearrow"> 
 											<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 												<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 											</svg>
 										</span>
-									</button>
+									</button></a>
 								</div>
 						</div>
 					</div>

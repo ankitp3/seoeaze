@@ -10,10 +10,7 @@
 @section('header')
 
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.in/reputation_management_service" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.com/reputation_management_service" hreflang="en-us" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/reputation_management_service" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/reputation_management_service" hreflang="x-default" />
+    <link rel="canonical" href="https://www.seoeaze.in/reputation_management_service" />
 @endsection
  <!-- Start Breadcrumbs Schema -->
         <script type="application/ld+json">
@@ -281,17 +278,17 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 									<ol class="carousel-indicators tabs">
 										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-01-179x179.webp" class="img-fluid" alt="seoeaze testimonial 1">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="1">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-02-306x306.webp" class="img-fluid" alt="seoeaze testimonial 2">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="2">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-03-179x179.webp" class="img-fluid" alt="seoeaze testimonial 3">
 											</figure>
 										</li>
 									</ol>

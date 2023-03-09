@@ -2,6 +2,9 @@
 
 @section('title', 'SEO Packages- Monthly SEO Packages at Affordable Pricing')
 @section('meta', 'SeoEaze Brings Result Oriented Best SEO Packages. Our affordable SEO Pricing Starts @ $299. Enjoy Monthly SEO Packages with result assurance. ')
+@section('hreflangs')
+<link rel="canonical" href="https://www.seoeaze.com/seo-packages"/>
+@endsection
 
 <script type="application/ld+json">
 {

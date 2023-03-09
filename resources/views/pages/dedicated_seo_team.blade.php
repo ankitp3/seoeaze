@@ -252,17 +252,17 @@
 									<ol class="carousel-indicators tabs">
 										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-01-179x179.webp" class="img-fluid" alt="seoeaze testimonial 1">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="1">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-02-306x306.webp" class="img-fluid" alt="seoeaze testimonial 2">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="2">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-03-179x179.webp" class="img-fluid" alt="seoeaze testimonial 3">
 											</figure>
 										</li>
 									</ol>

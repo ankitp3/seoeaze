@@ -30,10 +30,7 @@
 
 @section('header')
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.com/contact_us" hreflang="en-us" />
-    <link rel="alternate" href="https://www.seoeaze.in/contact_us" hreflang="en-in" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/contact_us" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/contact_us" hreflang="x-default" />
+    <link rel="canonical" href="https://www.seoeaze.com/contact_us"  />
 @endsection
 <script type="application/ld+json">
 {
