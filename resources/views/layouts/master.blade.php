@@ -301,10 +301,9 @@ width:800px;
 							@if($country_code == "IN")
 							<span class="highlights">+91-8375011200</span> 
 							<span class="highlights">+91-120-4166710</span> 
-							@else
+							@endif
 							<span class="highlights">+1-844-SEOEAZE(7363293)</span> 
 							<span class="highlights">info@seoeaze.com </span>
-							@endif
 						</p>
 					</div>
 					
