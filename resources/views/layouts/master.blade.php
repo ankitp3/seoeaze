@@ -52,6 +52,13 @@ width:800px;
 .btn-success:hover{
 	background-color:#cbe738 !important;
 }
+.modal-footer
+{display:block;
+}
+.modal-footer > :not(:first-child){
+	margin-top:1.5rem;
+}
+.footer-flag img{max-width:16px;}
 </style>
   
 </head>
@@ -265,9 +272,9 @@ width:800px;
 				<div class="frightsec">
 					<figure><img src="{{ URL::asset('assets/img/logo.png') }}" alt="Seoeaze"/></figure>
 					@if($country_code == "IN")
-					<p>B-710, Plot No-A40, The Ithum, Sector-62, Noida (NCR)</p>
+					<div class="footer-flag"><p><img src="{{ URL::asset('assets/img/india-flag.png') }}" alt="Seoeaze"/> B-710, Plot No-A40, The Ithum, Sector-62, Noida (NCR)</p></div>
 					@endif
-					<p>10685-B Hazelhurst Dr. #19976,  Houston, TX 77043</p>
+					<div class="footer-flag"><p><img src="{{ URL::asset('assets/img/us-flag.png') }}" alt="Seoeaze"/> 10685-B Hazelhurst Dr. #19976,  Houston, TX 77043</p></div>
 					<div class="frightbottomsec">
 
 						<div class="socialsiteiconsec">
@@ -459,8 +466,8 @@ width:800px;
 
 
                     <div class="modal-footer text-center">
-                        <button type="submit" class="btn btn-success btn-lg">Let’s Get Started!</button> 
-                        <a class="priv-pol-link" href="/privacy_policy" target="_blank">Privacy & Policy </a>
+                        <button type="submit" class="btn btn-success btn-lg" style="float: left !important;">Let’s Get Started!</button> 
+                        <a class="priv-pol-link" href="/privacy_policy" target="_blank" style="float: left !important;">Privacy & Policy </a>
 
                     </div>
 

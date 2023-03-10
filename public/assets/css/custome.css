@@ -5236,7 +5236,7 @@ li a.accord-btn2 {
   background-position: 50px 100px;
   left: 60px;
   top: 148px;
-  height: 100vh;
+  height: auto;
   min-height: 600px;
 }
 .headerinnersec {

@@ -25,6 +25,11 @@
   }]
 }
 </script>
+<style>
+	.fifthsec a{
+color:#000;
+	}
+	</style>
 @show
 @section('content')
 
@@ -198,19 +203,7 @@
 					</div>
 					<div class="col-lg-4 col-md-12 col-sm-12">
 						<div class="thirdrighttsec">
-							<div class="thirdrightinnerse">
-								<!-- Curve Text 
-								<div class="i-can-has-a-colored-thing">
-									<svg viewBox="0 0 450 450" style="position: absolute; color: red;font-size: 13px;top: 60px;left: -46px;transform: rotate(-66deg);">
-										<path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97"></path>
-										<text width="1600" style="font-size: 10px; background: yellow;">
-											<textPath xlink:href="#curve">
-												Your brand will be noticed at first sight, spoken of and maybe even slightly envied too. 
-											</textPath>
-										</text>
-									</svg>
-								</div>
-								 Curve Text -->
+							<div class="thirdrightinnerse">								
 							</div>
 							<figrue>
 								<img src="assets/img/thirdsecrightimg.webp" alt="seoeaze"/>
@@ -261,7 +254,6 @@
 
 		</div>
 		</section>
-
 		<section class="fifthsec">
 			<div class="container">
 				<div class="row">
@@ -286,7 +278,11 @@
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>We revamp your advertising and brand awareness campaigns to drive traffic to your site with every click on your ads. Earn the most targeted traffic and get the maximum ROI with SeoEaze’s refined performance marketing strategies.</p>
+														<p><a href="/local_seo_service" >We revamp your advertising and brand awareness campaigns to drive traffic to your site with every click on your ads. Earn the most targeted traffic and get the maximum ROI with SeoEaze’s refined performance marketing strategies.<span> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span></a></p>
 														</div>
 														
 													</section>
@@ -307,8 +303,12 @@
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>
-We help brands create SEO campaigns that provide a measurable and predictable boost to their online presence. We are the trusted partner for the compounding growth of several startups, enterprises, and solo businesses.</p>
+														<p><a href="/seo_packages" >
+We help brands create SEO campaigns that provide a measurable and predictable boost to their online presence. We are the trusted partner for the compounding growth of several startups, enterprises, and solo businesses.<span> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span></a></p>
 														</div>
 												
 													</section>
@@ -329,7 +329,11 @@ We help brands create SEO campaigns that provide a measurable and predictable bo
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>Social media platforms demand building a community around your offerings. We help you unlock the unique growth loops for your business by creating strategies that put them into action. We drive your rapid growth.</p>
+														<p><a href="/social_media_marketing" >Social media platforms demand building a community around your offerings. We help you unlock the unique growth loops for your business by creating strategies that put them into action. We drive your rapid growth.<span> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span></a></p>
 														</div>
 												
 													</section>
@@ -350,8 +354,12 @@ We help brands create SEO campaigns that provide a measurable and predictable bo
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>
-Amalgamating technology and style, we create an accurate representation of your brand and values. Our web development squad of tech experts are committed to developing web solutions that help support your rapid growth.</p>
+														<p><a href="/web_development_service" >
+Amalgamating technology and style, we create an accurate representation of your brand and values. Our web development squad of tech experts are committed to developing web solutions that help support your rapid growth.<span> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span></a></p>
 														</div>
 														
 													</section>
@@ -371,8 +379,12 @@ Amalgamating technology and style, we create an accurate representation of your 
 															</div>
 												
 														<div class="accordion-item-content">
-														<p>
-Our content team is hyper-focused on increasing the conversations between you and your audience. Leveraging the learnings from creating content for successful brands and startups, we have refined our content services for you.</p>
+														<p><a href="/content_writing_service" >
+Our content team is hyper-focused on increasing the conversations between you and your audience. Leveraging the learnings from creating content for successful brands and startups, we have refined our content services for you. <span> 
+													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+													</svg>
+												</span></a></p>
 														</div>
 														
 													</section>
