@@ -775,6 +775,62 @@
 
 
 
+				<section class="localseoseventhsec">
+					<div class="row">
+						<div class="col-lg-5 col-md-12 col-sm-12">
+							<div class="localseoseventhleftsec">
+									<canvas id="starfield" width="2000" height="auto"></canvas>
+									<div class="stage">
+									  <div class="localseoseventhsecbody">
+										<div class="top">
+										  <div class="light"></div>
+										  <div class="antenna"></div>
+										  <div class="base2"></div>
+										  <div class="base1"></div>
+										</div>
+										<div class="glass">
+										  <div class="reflection"></div>
+										</div>
+
+										<div class="boster bosterL"></div>
+										<div class="boster bosterR"></div>
+										<div class="ring">
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										</div>
+										<div class="fire">
+										  <div class="flame h1"></div>
+										  <div class="flame h2"></div>
+										  <div class="flame h3"></div>
+										  <div class="flame h4"></div>
+										  <div class="flame h5"></div>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-12 col-sm-12">
+									<div class="localseoseventhrightsec">
+										<h2>Unable To Choose Package?</h2>
+										<h4>Call us discuss new on </h4>
+										@if ($country_code == "IN")
+                                        <a href="tel:8375011200"><h2>83750-11200</h2></a>
+                                        @else
+                                        <a href="tel:+18447363293"><h2>844-SEO-EAZE</h2></a>
+                                        @endif
+										<button> Send Message </button>
+									</div>
+							</div>
+
+
+					</div>
+				</section>
+
 				<section class="moneybackguranteesec">
 						<div class="container">
 							<div class="row">
@@ -790,16 +846,15 @@
 							</div>
 							<div class="col-lg-4 col-md-12 col-sm-12">
 									<div class="moneybackguranteerightsec">
-										<img src="assets/img/seo_packages_img/moneybackguaranteeicon.webp" alt="money back guarantee by seoeaze" />
+										<img src="assets/img/seo_packages_img/moneybackguaranteeicon.jpg" alt="" />
 										<div class="indibuttons">
-										<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 												<button class="btn-hover color-1"> Let's Get Started
 													<span class="roundshapebutton roundshapearrow"> 
 														<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 															<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 														</svg>
 													</span>
-												</button></a>
+												</button>
 											</div>
 									</div>
 							</div>
