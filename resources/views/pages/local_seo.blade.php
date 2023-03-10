@@ -326,9 +326,9 @@
 										<h2>Unsure about local SEO?</h2>
 										<h4>Call us discuss new on </h4>
 										@if ($country_code == "IN")
-                                        <h2>83750-11200</h2>
+                                        <a href="tel:8375011200"><h2>83750-11200</h2></a>
                                         @else
-                                        <h2>844-736-3293</h2>
+                                        <a href="tel:+18447363293"><h2>844-SEO-EAZE</h2></a>
                                         @endif
 										<button> Send Message </button>
 									</div>
