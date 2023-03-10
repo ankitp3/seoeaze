@@ -1,10 +1,7 @@
 @extends('layouts.master')
 @section('hreflangs')
     
-    <link rel="alternate" href="https://www.seoeaze.com/local_seo_service" hreflang="en-us" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/local_seo_service" hreflang="en-gb" />
-    <link rel="alternate" href="https://www.seoeaze.in/local_seo_service" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.com/local_seo_service" hreflang="x-default" />
+    <link rel="canonical" href="https://www.seoeaze.com/local_seo_service" />
 @endsection
 
 
@@ -46,6 +43,12 @@
 
 
 @section('content')
+@php
+    use  PulkitJalan\GeoIP\GeoIP;
+    $geoip = new GeoIP();
+    $geoip->setIp(\Request::ip());
+    $country_code = $geoip->getCountryCode();
+@endphp
 <section class="local_seosec">
 					<div class="container">
 							<div class="local_seoinnerleftsec i-can-has-a-colored-thing">
@@ -322,7 +325,11 @@
 									<div class="localseoseventhrightsec">
 										<h2>Unsure about local SEO?</h2>
 										<h4>Call us discuss new on </h4>
-										<h2>844-736-3293</h2>
+										@if ($country_code == "IN")
+                                        <h2>83750-11200</h2>
+                                        @else
+                                        <h2>844-736-3293</h2>
+                                        @endif
 										<button> Send Message </button>
 									</div>
 							</div>
