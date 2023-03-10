@@ -58,7 +58,7 @@
 									</div>
 							</div>
 							<div class="social_media_marketing_solution_right_sec">
-									<img src="assets/img/social_media_marketing/social_media_marketing_head.png" alt="" />
+									<img src="assets/img/social_media_marketing/social_media_marketing_head.webp" alt="social media marketing by seoeaze" />
 							</div>
 					</div>
 
@@ -69,7 +69,7 @@
 								<h2>Modern Social Media 
 									Marketing Solutions 
 									Dedicated For Your Brand</h2>
-									<figure><img src="assets/img/social_media_marketing/dedicatedyourbrandimg.png" alt=""/></figure>
+									<figure><img src="assets/img/social_media_marketing/dedicatedyourbrandimg.webp" alt="social media branding"/></figure>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-12">
 									<p>
@@ -82,7 +82,7 @@
 						<div class="row pt-5">
 							<div class="col-lg-3 col-md-3 col-sm-12">
 								<div class="socialmediasec">
-								<figure><img src="assets/img/social_media_marketing/social_media_marketing_face.png" alt=""/></figure>
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_face.webp" alt="facebook marketing"/></figure>
 								<div class="socialmediainnersec bgimg1">
 								<div class="socialmediainnerboxsec"><i class="fab fa-facebook-f"></i></div>
 								<p>With our FB marketing service, 
@@ -100,7 +100,7 @@
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-12">
 								<div class="socialmediasec">
-								<figure><img src="assets/img/social_media_marketing/social_media_marketing_inst.png" alt=""/></figure>
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_inst.webp" alt="Instagram management"/></figure>
 								<div class="socialmediainnersec bgimg2">
 								<div class="socialmediainnerboxsec"><i class="fab fa-instagram"></i></div>
 								<p>We can help you promote your 
@@ -117,7 +117,7 @@
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-12">
 								<div class="socialmediasec">
-								<figure><img src="assets/img/social_media_marketing/social_media_marketing_twit.png" alt=""/></figure>
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_twit.webp" alt="twitter marketing"/></figure>
 								<div class="socialmediainnersec bgimg3">
 								<div class="socialmediainnerboxsec"><i class="fab fa-twitter"></i></div>
 								<p>We use the best Twitter 
@@ -134,7 +134,7 @@
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-12">
 								<div class="socialmediasec">
-								<figure><img src="assets/img/social_media_marketing/social_media_marketing_comp.png" alt=""/></figure>
+								<figure><img src="assets/img/social_media_marketing/social_media_marketing_comp.webp" alt="social media marketing package"/></figure>
 								<div class="socialmediainnersec bgimg4">
 								<div class="socialmediainnerboxsec"><i class="fa fa-gift" aria-hidden="true"></i></div>
 								<p>We also offer all-in-one packages 
@@ -290,18 +290,22 @@
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		

@@ -547,12 +547,6 @@ width:800px;
 </script>
 <!-- Start Testimonial -->
 
-<script>
-	// Material Select Initialization
-    // 	$(document).ready(function() {
-    // 		$('.mdb-select').materialSelect();
-    // 	});
- </script>
 
 <!-- Start Progressbar -->
 <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.1/dist/circle-progress.js"></script>
@@ -643,25 +637,7 @@ width:800px;
 
 <script src="{{ URL::asset('assets/js/three.min.js.download') }}"></script>
 <script src="{{ URL::asset('assets/js/blockchain-earth.js.download') }}"></script>
-<!-- End Moving Earth Plugin -->
-<!-- Start owl-carousel Js-->
-<!--<script src="{{ URL::asset('assets/dist/owl.carousel.js') }}"></script>-->
-<!--<script src="{{ URL::asset('assets/js/owlCarousal.js') }}"></script>-->
-<!--<script>-->
-<!--		jQuery(document).ready(function() {-->
-<!--			jQuery("#news-slider").owlCarousel({-->
-<!--				items : 3,-->
-<!--				itemsDesktop:[1199,3],-->
-<!--				itemsDesktopSmall:[980,2],-->
-<!--				itemsMobile : [600,1],-->
-<!--				navigation:true,-->
-<!--				navigationText:["",""],-->
-<!--				pagination:true,-->
-<!--				autoPlay:true-->
-<!--			});-->
-<!--		});-->
-<!--	</script>-->
-<!-- End owl-carousel Js-->
+
 <script src="{{ URL::asset('/assets/admin/js/init.js') }}"></script>
 <!--<script src="{{ URL::asset('/assets/js/main.min.js') }}"></script>-->
 </body>

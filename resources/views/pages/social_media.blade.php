@@ -1,9 +1,6 @@
 @extends('layouts.master')
 @section('hreflangs')
-<link rel="alternate" href="https://www.seoeaze.com/social_media_marketing" hreflang="en-us" />
-<link rel="alternate" href="https://www.seoeaze.co.uk/social_media_marketing" hreflang="en-gb" />
-<link rel="alternate" href="https://www.seoeaze.in/social_media_marketing" hreflang="en-in" />
-<link rel="alternate" href="https://www.seoeaze.com/social_media_marketing" hreflang="x-default" />
+<link rel="canonical" href="https://www.seoeaze.com/social_media_marketing" />
 @endsection
 
 @section('title', 'SEO EAZE')
