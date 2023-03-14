@@ -43,15 +43,17 @@
 										<h4> ATTRACT CUSTOMERS FAST WITH ADWORDS, BING AND FACEBOOK ADVERTISING</h4>
 										<p> We, at SEOEaze, are adept at offering effective PPC services in Delhi NCR, managing successful Adwords, Facebook and Bing PPC campaigns. We can help you with creating the right advertisements, placing them and attracting people towards them through searches. With our PPC services, you can be sure of increased profits and more.</p>
 										<div class="indibuttons pb-5">
+										<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-2"> GET A QUOTE  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 										<div class="indibuttons pb-5">
+										<a href="#benefits">
 											<button class="btn-hover color-1">  PPC BENEFITS 
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -87,7 +89,7 @@
 				<section class="ppc_management_service_thrdsec"> 
 					<div class="row">
 						<div class="col-lg-3 col-md-3 col-sm-12">
-							<img src="assets/img/ppc/Pay-Per-Click-thirdsecimg.png" class="img-fluid" alt="" />
+							<img src="assets/img/ppc/Pay-Per-Click-thirdsecimg.webp" class="img-fluid" alt="" />
 							<span class="ppc_management_service_thrdsecboright"></span>
 						</div>
 						<div class="col-lg-9 col-md-9 col-sm-12">
@@ -178,7 +180,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppctabsolutiontabimg1.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppctabsolutiontabimg1.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -189,7 +191,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppctabsolutiontabimg2.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppctabsolutiontabimg2.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -200,7 +202,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppctabsolutiontabimg3.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppctabsolutiontabimg3.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -211,7 +213,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppcresult-img.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppcresult-img.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -226,7 +228,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppc_account_setup.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppc_account_setup.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -237,7 +239,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppc_add_creation.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppc_add_creation.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -248,7 +250,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppc_managing.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppctabsolutiontabimg3.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -259,7 +261,7 @@
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
-										<img src="assets/img/ppc/ppc_reportandfeedback.png" class="img-fluid" alt="PLANNING image" />
+										<img src="assets/img/ppc/ppc_reportandfeedback.webp" class="img-fluid" alt="PLANNING image" />
 									</figure>
 								</div>
 							</div>
@@ -275,6 +277,7 @@
 
 
 				<section  class="ppc_management_service_sixthsec">
+				<section id="benefits" />
 					<div class="row">
 						<div class="col-lg-3 col-md-3 col-sm-12 ">
 							<div class="ppc_management_service_sixthinnsec bor-bottom">
@@ -441,18 +444,18 @@
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		

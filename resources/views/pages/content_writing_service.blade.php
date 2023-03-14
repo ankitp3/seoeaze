@@ -104,7 +104,7 @@
 						</div>
 						<div class="col-lg-6 col-md-12 col-sm-12">
 								<div class="ourbestcapabilityrightsec">
-										<img src="assets/img/seo_packages_img/ourbestcapabilityrightsecimg.png" alt="" />
+										<img src="assets/img/seo_packages_img/ourbestcapabilityrightsecimg.webp" alt="" />
 										<div class="thirdrighttsec">
 												<p>
 														Your Content Strategy
@@ -132,12 +132,12 @@
 						</div>
 						<div class="weareatrustedgooglepartnerrightsec">
 							<div class="googlepartnersec">
-								<img src="assets/img/seo_packages_img/googlepartnerimg.png" alt="google partner" />
-									<div class="googlepartner1"><img src="assets/img/seo_packages_img/googlepartnericon5.png" alt="" /></div>
-									<div class="googlepartner2"><img src="assets/img/seo_packages_img/googlepartnericon4.png" alt="" /></div>
-									<div class="googlepartner3"><img src="assets/img/seo_packages_img/googlepartnericon3.png" alt="" /></div>
-									<div class="googlepartner4"><img src="assets/img/seo_packages_img/googlepartnericon2.png" alt="" /></div>
-									<div class="googlepartner5"><img src="assets/img/seo_packages_img/googlepartnericon1.png" alt="" /></div>
+								<img src="assets/img/seo_packages_img/googlepartnerimg.webp" alt="google partner" />
+									<div class="googlepartner1"><img src="assets/img/seo_packages_img/googlepartnericon5.webp" alt="" /></div>
+									<div class="googlepartner2"><img src="assets/img/seo_packages_img/googlepartnericon4.webp" alt="" /></div>
+									<div class="googlepartner3"><img src="assets/img/seo_packages_img/googlepartnericon3.webp" alt="" /></div>
+									<div class="googlepartner4"><img src="assets/img/seo_packages_img/googlepartnericon2.webp" alt="" /></div>
+									<div class="googlepartner5"><img src="assets/img/seo_packages_img/googlepartnericon1.webp" alt="" /></div>
 							</div>
 
 						</div>
@@ -328,7 +328,7 @@
 						  
 						  <div class="card-body">
 								<h3 class="card-title">Be #1 on Google</h3>
-								<img class="card-img-top" src="assets/img/ourwritingsamples-sec/Be1onGoogle-img.jpg" alt="Card image cap">
+								<img class="card-img-top" src="assets/img/ourwritingsamples-sec/Be1onGoogle-img.webp" alt="Card image cap">
 								<p class="card-text">Our top content writing service ensures you get high positions on popular search engines like Google. Our content writers create high quality, keyword-rich, SEO friendly and optimized content that gets noticed. Use our content writing to create website that Google will love. </p>
 								
 						  </div>
@@ -339,7 +339,7 @@
 						  
 						  <div class="card-body">
 								<h3 class="card-title">GET MORE TRAFFIC </h3>
-								<img class="card-img-top" src="assets/img/ourwritingsamples-sec/igniteyourcommunity-img.jpg" alt="Card image cap">
+								<img class="card-img-top" src="assets/img/ourwritingsamples-sec/igniteyourcommunity-img.webp" alt="Card image cap">
 								<p class="card-text">With high quality content that is targeted and optimized, you definitely get more traffic and visitors. This makes your site/blog more popular and you start earning. <br><br><br><br></p>
 						  </div>
 						</div>
@@ -349,7 +349,7 @@
 						  
 						  <div class="card-body">
 								<h3 class="card-title">Convert More </h3>
-								<img class="card-img-top" src="assets/img/ourwritingsamples-sec/achieve-content-marketing-success-img.jpg" alt="Card image cap">
+								<img class="card-img-top" src="assets/img/ourwritingsamples-sec/achieve-content-marketing-success-img.webp" alt="Card image cap">
 								<p class="card-text"> With our engaging content and high traffic, you will definitely convert more. Not just this, you can also achieve successful content marketing with our amazing writing. <br><br><br><br></p>
 								
 						  </div>
@@ -508,19 +508,19 @@
 						<h2> Some of Our Esteemed Clients </h2>
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+								 <ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		

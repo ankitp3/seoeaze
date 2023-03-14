@@ -5,7 +5,7 @@
 
 @section('header')
 @section('hreflangs')
-    <link rel="canonical" href="https://www.seoeaze.in/blog_management_service"  />
+    <link rel="canonical" href="https://www.seoeaze.com/blog_management_service"  />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
@@ -49,20 +49,21 @@
 									marketing budget. With our blog management, it becomes easier to populate your blog with content that’s tailored to your customers.</p>	
 									<span>  
 									<div class="indibuttons pb-5">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-2"> Request Consultation  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
                                         
 									</span>
 				  			</div>
 
 				  			<div class="col-lg-6 col-md-6 col-sm-12 header-video-sec-inner-rightsec">
-				  				<img src="assets/img/blog-management/blogmanagement-headerimg.png">
+				  				<img src="assets/img/blog-management/blogmanagement-headerimg.webp">
 				  			</div>
 					</div>
 			  	</div>
@@ -88,7 +89,7 @@
 			<div class="row pt-5 mt-5">
 				<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
 					
-						<img src="assets/img/blog-management/blog-management-service-topleftimg.jpg">
+						<img src="assets/img/blog-management/blog-management-service-topleftimg.webp">
 					
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
@@ -106,7 +107,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block">
 					<div class="blogmanagementservice-secondsec">
 							<div class="card">
-							  <img class="card-img-top" src="assets/img/blog-management/content_management_img.png" alt="Card image cap">
+							  <img class="card-img-top" src="assets/img/blog-management/content_management_img.webp" alt="Card image cap">
 							  <div class="card-body">
 								<h4 class="card-title">Content Management</h4>
 								<span class="bottom-line-stylesmallimg"></span>
@@ -122,7 +123,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block" id="learn">
 					<div class="blogmanagementservice-secondsec">
 							<div class="card">
-							  <img class="card-img-top" src="assets/img/blog-management/social_media_management_img.png" alt="Card image cap">
+							  <img class="card-img-top" src="assets/img/blog-management/social_media_management_img.webp" alt="Card image cap">
 							  <div class="card-body">
 								<h4 class="card-title">Social Media Accounts Management</h4>
 								<span class="bottom-line-stylesmallimg"></span>
@@ -135,7 +136,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block">
 					<div class="blogmanagementservice-secondsec">
 							<div class="card">
-							  <img class="card-img-top" src="assets/img/blog-management/search_engine_management_img.png" alt="Card image cap">
+							  <img class="card-img-top" src="assets/img/blog-management/search_engine_management_img.webp" alt="Card image cap">
 							  <div class="card-body">
 								<h4 class="card-title">Search Engine Optimization</h4>
 								<span class="bottom-line-stylesmallimg"></span>
@@ -148,7 +149,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12 mx-auto d-block">
 					<div class="blogmanagementservice-secondsec">
 							<div class="card">
-							  <img class="card-img-top" src="assets/img/blog-management/website_maintain_img.png" alt="Card image cap">
+							  <img class="card-img-top" src="assets/img/blog-management/website_maintain_img.webp" alt="Card image cap">
 							  <div class="card-body">
 								<h4 class="card-title">Website Maintenance</h4>
 								<span class="bottom-line-stylesmallimg"></span>
@@ -337,18 +338,18 @@
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		

@@ -8,7 +8,7 @@
 @section('meta' , "SeoEaze's is providing Web Development Services includes Web application development with wordpress, joomla, php, magento based Web designing service & more")
 
 @section('hreflangs')
-    <link rel="canonical" href="https://www.seoeaze.in/web_development_service" />
+    <link rel="canonical" href="https://www.seoeaze.com/web_development_service" />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
@@ -46,13 +46,14 @@
 								<p> We provide comprehensive web development services at affordable prices</p>
 
 								<div class="indibuttons pb-5">
+								<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 									<button class="btn-hover color-1">  GET Started Now!
 										<span class="roundshapebutton roundshapearrow"> 
 											<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 												<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 											</svg>
 										</span>
-									</button>
+									</button></a>
 								</div>
 							</div>
 							<div class="webdesignanddevelopmentsec_innerrightsec">
@@ -81,7 +82,7 @@
 							<div class="item">
 							<div class="testimonial-name"> Designing </div>
 							<div class="shadow-effect">
-								<img class="img-circle" src="assets/img/services/services-img1.jpg" alt="">
+								<img class="img-circle" src="assets/img/services/services-img1.webp" alt="">
 								<p>Our designers create user friendly and intuitive designs for you. Our work speaks of innovation and our professionals meet industry standards to offer the best solutions. </p>
 							</div>
 							</div>
@@ -90,7 +91,7 @@
 							<div class="item">
 							<div class="testimonial-name"> Development </div>
 							<div class="shadow-effect">
-								<img class="img-circle" src="assets/img/services/services-img2.jpg" alt="">
+								<img class="img-circle" src="assets/img/services/services-img2.webp" alt="">
 								<p>With our easy to use CMS, you will get only the best for your website. From engaging content to app development and more, our professionals provide the most comprehensive web development solutions. </p>
 							</div>
 							
@@ -100,7 +101,7 @@
 							<div class="item">
 							<div class="testimonial-name"> Maintenance </div>
 							<div class="shadow-effect">
-								<img class="img-circle" src="assets/img/services/services-img3.jpg" alt="">
+								<img class="img-circle" src="assets/img/services/services-img3.webp" alt="">
 								<p>We further maintain and manage your sites, keeping them updated and optimized. From adding pages to text updates and more, we help you to manage your site in the best way.</p>
 							</div>
 							
@@ -110,7 +111,7 @@
 							<div class="item">
 							<div class="testimonial-name"> Versatility </div>
 							<div class="shadow-effect">
-								<img class="img-circle" src="assets/img/services/services-img4.jpg" alt="">
+								<img class="img-circle" src="assets/img/services/services-img4.webp" alt="">
 								<p>At SEOEaze, our experts provide you with multiple options for a site, be it the most advanced Laravel or Redient.js or the traditional WordPress and PHP, our team has experience for all development frameworks.</p>
 							</div>
 							
@@ -205,7 +206,7 @@
 							business goals and objectives and thus we develop informative, attractive and appealing website for you! 
 
 						</p>
-            <a href="https://www.seoeaze.in/web_development_service#">
+						<a href="javascript:;" data-toggle="modal" data-target="#myModal">
                 <div class="indibuttons">
                    <button type="submit" class="btn-hover color-1" onclick="openGetQuoteWebDev()"> Get a quote now
                         <span class="roundshapebutton roundshapearrow"> 
@@ -213,9 +214,9 @@
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                             </svg>
                         </span>
-                    </button>
+                    </button></a>
                 </div>
-            </a>
+            
 					</div>
 				</div>
 				
@@ -230,19 +231,19 @@
 							<div class="row mb-4 mt-5">
 									<div class="col-lg-4 col-md-12 col-sm-12"> 
                     <div class="card p-2">
-											<img src="assets/img/webdesignanddevelopment/website-img1.jpg" alt="">
+											<img src="assets/img/webdesignanddevelopment/website-img1.webp" alt="">
                     </div>
 									</div>
 
 								<div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="card p-2">
-											<img src="assets/img/webdesignanddevelopment/website-img2.jpg" alt="">
+											<img src="assets/img/webdesignanddevelopment/website-img2.webp" alt="">
                     </div>
 								</div>
 
 								<div class="col-lg-4 col-md-12 col-sm-12">
 										<div class="card p-2">
-											<img src="assets/img/webdesignanddevelopment/website-img3.jpg" alt="">
+											<img src="assets/img/webdesignanddevelopment/website-img3.webp" alt="">
                     </div>
 								</div>
 							</div>
@@ -323,18 +324,18 @@
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		
