@@ -5,7 +5,7 @@
 
 @section('header')
 @section('hreflangs')
-    <link rel="canonical" href="https://www.seoeaze.in/panda_penguin_recovery_service" />
+    <link rel="canonical" href="https://www.seoeaze.com/panda_penguin_recovery_service" />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
@@ -68,7 +68,7 @@
 
 				  			<div class="col-lg-5 col-md-5 col-sm-12 header-video-sec-inner-rightsec">
 				  				<div class="imgblockright">
-				  					<img src="assets/img/seopenalty/seopanelty-toprightimg.png" alt="Google Penalty Assessment" class="img-flude">
+				  					<img src="assets/img/seopenalty/seopanelty-toprightimg.webp" alt="Google Penalty Assessment" class="img-flude">
 				  				</div>
 				  			</div>
 					</div>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 mx-auto d-block">
                             <div class="box-sec">
-                                 <img src="assets/img/seopenalty/seopanelty-toprightimg2.png" alt="Actionable SEO Penalty Audit Service " class="img-flude"> 
+                                 <img src="assets/img/seopenalty/seopanelty-toprightimg2.webp" alt="Actionable SEO Penalty Audit Service " class="img-flude"> 
                             </div>
                         </div>
                         <hr>
@@ -113,7 +113,7 @@
 	<div class="container">
 			<h2>What our Google Penalty Assessment Service Includes</h2>
 			<span class="bottomLineImgStyle"></span>
-			<img src="assets/img/seopenalty/googlepanelty-img.png" alt="">
+			<img src="assets/img/seopenalty/googlepanelty-img.webp" alt="">
 			
 			<p class="pb-2">
 		        Google penalty issues have become all-too-common forcing websites to make sure they have an action plan in place to recover the lost traffic and revenue as quickly as possible. In our Google penalty recovery audit, we perform a series of engineered tasks to incrementally assess your website. This way our SEO experts are able to cover all major organic search engine ranking factors that are not properly implemented on your website. We prepare a detailed report that enlists all the barriers to SEO requirement immediate fixing.
@@ -132,7 +132,7 @@
 				<div class="col-lg-12 col-md-12 col-sm-12 offset-lg-4 offset-md-4 mx-auto d-block">
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">
-								<img src="assets/img/seopenalty/googlepadarecovery-img.png" alt="" class="p-3">
+								<img src="assets/img/seopenalty/googlepadarecovery-img.webp" alt="" class="p-3">
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 mx-auto d-block">							 
 							<p class="p-3">
@@ -206,20 +206,20 @@
 					   optimization according to Google guidelines, spam link removal, content quality audit and high-quality backlink building.</p>
 							<div class="row mb-4 mt-5">
 									<div class="col-lg-4 col-md-12 col-sm-12">
-											<figure><img src="assets/img/local_seo/local-seofourthseciconimg5.png" alt="" /></figure>
+											<figure><img src="assets/img/local_seo/local-seofourthseciconimg5.webp" alt="" /></figure>
 											<h5> Experts at <br>
 											Disposal</h5>
 											<p>Google penalty recovery experts from SeoEaze help your site get its rankings back with clean content and natural, good links.</p>
 									</div>
 
 								<div class="col-lg-4 col-md-12 col-sm-12">
-										<figure><img src="assets/img/local_seo/local-seofourthseciconimg6.png" alt="" /></figure>
+										<figure><img src="assets/img/local_seo/local-seofourthseciconimg6.webp" alt="" /></figure>
 										<h5>Faster <br>Recovery</h5>
 										<p>When hit by Google updates like the Panda or Penguin, we at SEOEaze make it easier and faster for you to recover from such penalties in the shortest possible period.</p>
 								</div>
 
 								<div class="col-lg-4 col-md-12 col-sm-12">
-										<figure><img src="assets/img/local_seo/local-seofourthseciconimg3.png" alt="" /></figure>
+										<figure><img src="assets/img/local_seo/local-seofourthseciconimg3.webp" alt="" /></figure>
 										<h5>Clean <br>Website</h5>
 										<p>Removing low-quality content and bad links from your site are what we excel in. Our expert auditors ensure that every segment of your website is as per Google guidelines.</p>
 								</div>								
@@ -271,9 +271,9 @@
 							<div class="col-lg-7 col-md-12 col-sm-12">
 									<div class="localseoseventhrightsec">
 										<h2>Lost Rankings?</h2>
-										<h4>Call us discuss new on </h4>
+										<h4>We can help. Call Now! </h4>
 										<h2>844-736-3293</h2>
-										<button> Send Message </button>
+										
 									</div>
 							</div>
 
@@ -325,19 +325,19 @@
 						<h2> Some of Our Esteemed Clients </h2>
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+								<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		
