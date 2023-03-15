@@ -6,7 +6,7 @@
 
 @section('header')
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.com/testimonials"  />
+    <link rel="canonical" href="https://www.seoeaze.com/testimonials"  />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
