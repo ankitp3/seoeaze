@@ -443,7 +443,7 @@ Our content team is hyper-focused on increasing the conversations between you an
 								<div class="sixthinnerboxsec">
 										<div class="headersixthinnerboxsec">
 											<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon2.png" alt=""/></div>
-											<div class="headersixthinnerboxrightsec"><h3>Garden <br> Cener Guide </h3></div>
+											<div class="headersixthinnerboxrightsec"><h3>Garden <br> Center Guide </h3></div>
 										</div>
 										<div class="conetentsixthinnerboxsec">
 											<p>We helped the company to grow social media traffic by 190% & boost organic traffic by 200% in 3 months </p>

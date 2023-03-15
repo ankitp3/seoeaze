@@ -6,10 +6,7 @@
 
 @section('header')
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.in/testimonials" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.com/testimonials" hreflang="en-us" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/testimonials" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/testimonials" hreflang="x-default" />
+    <link rel="alternate" href="https://www.seoeaze.com/testimonials"  />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
@@ -54,12 +51,12 @@
 									<p class="pb-5">
 									    Nothing is more satisfying than to hear our clients saying great things about our services. Know what our clients have to say about our services and solutions. We are proud of the testimonials that we have received that inspire and motivate us to keep up the good work. 
 									</p>
-									<img src="assets/img/aw1.png" alt="SeoEaze: Delivering 100% Customer Satisfaction" class="img-flude">	
+									<img src="assets/img/aw1.webp" alt="SeoEaze: Delivering 100% Customer Satisfaction" class="img-flude">	
 				  			</div>
 
 				  			<div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-rightsec">
 				  				<div class="imgblockright">	  				
-									<img src="assets/img/testimonial/testimonialheadertopimg.png" alt="">
+									<img src="assets/img/testimonial/testimonialheadertopimg.webp" alt="">
 								</div>
 				  			</div>
 					</div>
@@ -118,7 +115,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-ladiesicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-ladiesicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -143,7 +140,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-gentsicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-gentsicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -169,7 +166,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-gentsicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-gentsicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -199,7 +196,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-ladiesicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-ladiesicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -224,7 +221,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-gentsicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-gentsicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -250,7 +247,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-gentsicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-gentsicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -279,7 +276,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-ladiesicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-ladiesicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -304,7 +301,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-gentsicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-gentsicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -330,7 +327,7 @@
 
 							<!-- Avatar -->
 							<div class="avatar mx-auto white">
-							  <img src="assets/img/testimonial/testimonials-gentsicon.png" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
+							  <img src="assets/img/testimonial/testimonials-gentsicon.webp" class="rounded-circle img-responsive" alt="SeoEaze-Client ">
 							</div>
 
 							<!-- Content -->
@@ -488,18 +485,18 @@
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
 									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.jpg" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
 									</ul>
 								</div>	
 							</div>		

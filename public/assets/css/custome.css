@@ -1474,7 +1474,8 @@ font-size: 42px;
   padding: 0;
   text-align: left;
   border: 5px solid black;
-  min-height: 650px;
+  min-height: 600px;
+  min-width: 270px;
 }
 .socialmediasec figure {
   padding: 0;
@@ -1523,31 +1524,31 @@ font-size: 42px;
   background-position: top center;
 }
 .bgimg3 {
-  background-image: url('../img/social_media_marketing/dedicatedyourbrandimg_img3.png');
+  background-image: url('../img/social_media_marketing/dedicatedyourbrandimg_img3.webp');
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: top center;
 }
 .bgimg4 {
-  background-image: url('../img/social_media_marketing/dedicatedyourbrandimg_img4.png');
+  background-image: url('../img/social_media_marketing/dedicatedyourbrandimg_img4.webp');
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: top center;
 }
 .bgimg5 {
-  background-image: url('../img/social_media_marketing/seo-wards.png');
+  background-image: url('../img/social_media_marketing/seo-wards.webp');
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: top center;
 }
 .bgimg6 {
-  background-image: url('../img/social_media_marketing/seo-wards2.png');
+  background-image: url('../img/social_media_marketing/seo-wards2.webp');
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: top center;
 }
 .bgimg7 {
-  background-image: url('../img/social_media_marketing/seo-wards1.png');
+  background-image: url('../img/social_media_marketing/seo-wards1.webp');
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: top center;

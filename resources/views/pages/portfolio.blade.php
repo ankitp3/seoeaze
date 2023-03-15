@@ -69,13 +69,13 @@
                                         With over 5500 clients spread across 70 countries, here are some of our valuable clients. 
                                     </p>
 									<div class="header-video-sec-inner-sec-inner mt-5 mb-5 ">
-											<img src="assets/img/aw1.png">
+											<img src="assets/img/aw1.webp">
 									</div>
 				  			</div>
 
 				  			<div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-rightsec">
 				  				<div class="imgblockright">	  				
-									 <img src="assets/img/portfolio/portfoliotopheaderimg.png" alt="">
+									 <img src="assets/img/portfolio/portfoliotopheaderimg.webp" alt="">
 								</div>
 				  			</div>
 					</div>
@@ -110,107 +110,107 @@
 
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen1.png">
-	                        <img src="assets/img/portfolio/icons/icon1.png" alt="Park">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen1.webp">
+	                        <img src="assets/img/portfolio/icons/icon1.webp" alt="Park">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen2.png">
-	                        <img src="assets/img/portfolio/icons/icon2.png" alt="Bridge">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen2.webp">
+	                        <img src="assets/img/portfolio/icons/icon2.webp" alt="Bridge">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen3.png">
-	                        <img src="assets/img/portfolio/icons/icon3.png" alt="Tuneel">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen3.webp">
+	                        <img src="assets/img/portfolio/icons/icon3.webp" alt="Tuneel">
 	                    </a>
 	                </div>
 	            </div>
 	            
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen7.png">
-	                        <img src="assets/img/portfolio/icons/icon4.png" alt="Park">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen7.webp">
+	                        <img src="assets/img/portfolio/icons/icon4.webp" alt="Park">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen9.png">
-	                        <img src="assets/img/portfolio/icons/icon5.png" alt="Bridge">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen9.webp">
+	                        <img src="assets/img/portfolio/icons/icon5.webp" alt="Bridge">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen6.png">
-	                        <img src="assets/img/portfolio/icons/icon6.png" alt="Tuneel">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen6.webp">
+	                        <img src="assets/img/portfolio/icons/icon6.webp" alt="Tuneel">
 	                    </a>
 	                </div>
 	            </div>
 	            	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen7.png">
-	                        <img src="assets/img/portfolio/icons/icon7.png" alt="Park">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen7.webp">
+	                        <img src="assets/img/portfolio/icons/icon7.webp" alt="Park">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen8.png">
-	                        <img src="assets/img/portfolio/icons/icon8.png" alt="Bridge">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen8.webp">
+	                        <img src="assets/img/portfolio/icons/icon8.webp" alt="Bridge">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen9.png">
-	                        <img src="assets/img/portfolio/icons/icon9.png" alt="Tuneel">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen9.webp">
+	                        <img src="assets/img/portfolio/icons/icon9.webp" alt="Tuneel">
 	                    </a>
 	                </div>
 	            </div>
 	            	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen10.png">
-	                        <img src="assets/img/portfolio/icons/icon10.png" alt="Park">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen10.webp">
+	                        <img src="assets/img/portfolio/icons/icon10.webp" alt="Park">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen11.png">
-	                        <img src="assets/img/portfolio/icons/icon11.png" alt="Bridge">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen11.webp">
+	                        <img src="assets/img/portfolio/icons/icon11.webp" alt="Bridge">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen12.png">
-	                        <img src="assets/img/portfolio/icons/icon12.png" alt="Tuneel">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen12.webp">
+	                        <img src="assets/img/portfolio/icons/icon12.webp" alt="Tuneel">
 	                    </a>
 	                </div>
 	            </div>
 	            	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen13.png">
-	                        <img src="assets/img/portfolio/icons/icon13.png" alt="Park">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen13.webp">
+	                        <img src="assets/img/portfolio/icons/icon13.webp" alt="Park">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen14.png">
-	                        <img src="assets/img/portfolio/icons/icon14.png" alt="Bridge">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen14.webp">
+	                        <img src="assets/img/portfolio/icons/icon14.webp" alt="Bridge">
 	                    </a>
 	                </div>
 	            </div>
 	            <div class="col-sm-6 col-md-4">
 	                <div class="thumbnail">
-	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen15.png">
-	                        <img src="assets/img/portfolio/icons/icon15.png" alt="Tuneel">
+	                    <a class="lightbox" href="assets/img/portfolio/portfolio_imges/screen15.webp">
+	                        <img src="assets/img/portfolio/icons/icon15.webp" alt="Tuneel">
 	                    </a>
 	                </div>
 	            </div>

@@ -4,10 +4,7 @@
 @section('meta' , "Here are some recent case studies prepared by SeoEaze & See how they hepled clients to achieve their goals.")
 
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.in/case_studies" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.com/case_studies" hreflang="en-us" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/case_studies" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/case_studies" hreflang="x-default" />
+    <link rel="canonical" href="https://www.seoeaze.com/case_studies" />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->
@@ -60,13 +57,13 @@
 									<p class="pb-5">
 									    SeoEaze is chosen by companies when they want an SEO agency that is truly the Market Leader. This is why we are an award-winning best digital marketing agency. View our SEO case studies here and learn more about the process that sets SeoEaze apart from rest of the companies.
 									 </p>
-											<img src="assets/img/aw1.png" alt="Find an SEO case study to fit your needs." class="img-flude">
+											<img src="assets/img/aw1.webp" alt="Find an SEO case study to fit your needs." class="img-flude">
 									
 				  			</div>
 
 							  <div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-rightsec">
 				  				<div class="imgblockright">
-				  				 	<img src="assets/img/casestudies/casestudies-headertopimg.png" alt="">
+				  				 	<img src="assets/img/casestudies/casestudies-headertopimg.webp" alt="">
 				  				</div>
 				  			</div>
 					</div>
@@ -95,7 +92,7 @@
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="sixthinnerboxsec">
 								<div class="headersixthinnerboxsec">
-									<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon1.png" alt=""/></div>
+									<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon1.webp" alt=""/></div>
 									<div class="headersixthinnerboxrightsec"><h3>Omaxe <br> Group</h3></div>
 								</div>
 								<div class="conetentsixthinnerboxsec">
@@ -122,8 +119,8 @@
 						<div class="col-lg-4 col-md-12 col-sm-12">
 								<div class="sixthinnerboxsec">
 										<div class="headersixthinnerboxsec">
-											<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon2.png" alt=""/></div>
-											<div class="headersixthinnerboxrightsec"><h3>Garden <br> Cener Guide </h3></div>
+											<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon2.webp" alt=""/></div>
+											<div class="headersixthinnerboxrightsec"><h3>Garden <br> Center Guide </h3></div>
 										</div>
 										<div class="conetentsixthinnerboxsec">
 											<p>We helped the company to grow social media traffic by 190% & boost organic traffic by 200% in 3 months </p>
@@ -152,7 +149,7 @@
 						<div class="col-lg-4 col-md-12 col-sm-12">
 								<div class="sixthinnerboxsec">
 										<div class="headersixthinnerboxsec">
-											<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon3.png" alt=""/></div>
+											<div class="headersixthinnerboxleftsec"><img src="assets/img/sucess_stories/icon3.webp" alt=""/></div>
 											<div class="headersixthinnerboxrightsec"><h3>Al Nasser<br> University</h3></div>
 										</div>
 										<div class="conetentsixthinnerboxsec">
