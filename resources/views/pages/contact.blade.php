@@ -3,7 +3,10 @@
 @section('title', "Contact Us - SeoEaze")
 @section('meta' , "Contact information of SeoEaze")
 
+@section('hreflangs')
+<link rel="canonical" href="https://www.seoeaze.com/contact_us />
 
+@endsection
 
 
 

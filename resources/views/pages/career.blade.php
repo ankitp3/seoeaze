@@ -2,8 +2,12 @@
 @section('title', 'Career in SeoEaze - SeoEaze Jobs - Apply Online')
 @section('meta' , "Check the various jobs opening in SeoEaze & Apply for it Online by sharing your CV.")
 
-
 @section('header')
+@section('hreflangs')
+    <link rel="canonical" href="https://www.seoeaze.com/career"  />
+@endsection
+
+
         <script type="application/ld+json">
         {
           "@context": "https://schema.org/", 
