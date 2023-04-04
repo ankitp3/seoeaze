@@ -107,7 +107,7 @@ class UsersController extends Controller
                     ->lists
                     ->subscribe(
                         $this->listId,
-                        ['email' => $request->input('email'), 'fname' => 'Artyom']
+                        ['email' => $request->input('email'), 'fname' => 'SeoEaze']
                     );
 
 
@@ -1073,13 +1073,6 @@ class UsersController extends Controller
 
 
     public function getAQuote(Request $request){
-
-
-        $this->validate($request , [
-          'g-recaptcha-response' => 'required|recaptcha'
-        ]);
-
-
         $inputs = $request->except('_token');
         $inputs['email_name'] = 'New Get a quote Inquiry';
         $inputs['status'] = 'open';
