@@ -398,13 +398,23 @@ width:800px;
                         <div class="col-md-6 model-innersec">
                             <div class="form-group">
                                 <label for="budget"><strong>Monthly Budget</strong></label>
-                                <select class="form-control" name="mountly_spending">
-                                    <option value="500">Below ₹20000</option>
-                                    <option value="1000">₹20000 - ₹50000</option>
-                                    <option value="2500">₹50000 - ₹100000</option>
-                                    <option value="5000">₹100000 - ₹500000</option>
-                                    <option value="20000">₹500000+</option>
-                                </select>
+								@if ($country_code == "IN")
+									<select class="form-control" name="mountly_spending">
+										<option value="500">Below ₹20000</option>
+										<option value="1000">₹20000 - ₹50000</option>
+										<option value="2500">₹50000 - ₹100000</option>
+										<option value="5000">₹100000 - ₹500000</option>
+										<option value="20000">₹500000+</option>
+									</select>
+								@else
+									<select class="form-control" name="mountly_spending">
+										<option value="500">Below $500</option>
+										<option value="1000">Upto $1000</option>
+										<option value="2500">Upto $2500</option>
+										<option value="5000">Upto $5000</option>
+										<option value="20000">$5000+</option>
+									</select>
+								@endif
                             </div>
                         </div>
                         <div class="col-md-6 model-innersec">
@@ -447,16 +457,18 @@ width:800px;
                             </div>
                         </div>
                         
+                        <div class="col-md-6 model-innersec2">
+                            {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
+                        </div>
+                        
                     </div>
                     
                     
 
 
                     <div class="modal-footer text-center">
-
-                        <button type="submit" class="btn btn-success btn-lg">Let’s Get Started!</button>
-
-                        <a class="priv-pol-link" href="/privacy_policy" target="_blank">Privacy & Policy </a>
+                        <button type="submit" class="btn btn-success btn-lg" style="float: left !important;">Let’s Get Started!</button> 
+                        <a class="priv-pol-link" href="/privacy_policy" target="_blank" style="float: left !important;">Privacy & Policy </a>
 
                     </div>
 
