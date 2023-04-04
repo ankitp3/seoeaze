@@ -9,6 +9,9 @@
 @section('title', 'Schema Generator Online | FAQs Schema Generator | SeoEaze')
 
 @section('meta' , "Generate Google Schema Online with ease, Generate FAQ Schema, Breadcrums schema, and many other Schema online for rich results.")
+@section('hreflangs')
+<link rel="canonical" href="https://www.seoeaze.com/schema-generator"/>
+@endsection
 <script type="application/ld+json">
 {
 "@context": "https://schema.org",

@@ -1,5 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Thank you')
+<meta name="robots" content="noindex" />
 @section('header')
 
 @show

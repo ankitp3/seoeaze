@@ -4,10 +4,7 @@
 @section('meta' , "Get Your Website Audit done & Know your SEO Score. At SeoEaze We offer detailed Website Analysis inclduing SEO, SMM & PPC to improve your website performace. ")
 
 @section('hreflangs')
-<link rel="alternate" href="https://www.seoeaze.com/advanced_seo_audit" hreflang="en-us" />
-<link rel="alternate" href="https://www.seoeaze.co.uk/advanced_seo_audit" hreflang="en-gb" />
-<link rel="alternate" href="https://www.seoeaze.in/advanced_seo_audit" hreflang="en-in" />
-<link rel="alternate" href="https://www.seoeaze.com/advanced_seo_audit" hreflang="x-default" />
+<link rel="canonical" href="https://www.seoeaze.com/advanced_seo_audit" />
 @endsection
 
 <script type="application/ld+json">

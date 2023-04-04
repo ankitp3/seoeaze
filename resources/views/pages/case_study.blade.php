@@ -2,7 +2,7 @@
 
 @section('title', "Latest SEO Case Studies by SeoEaze")
 @section('meta' , "Here are some recent case studies prepared by SeoEaze & See how they hepled clients to achieve their goals.")
-
+@section('header')
 @section('hreflangs')
     <link rel="canonical" href="https://www.seoeaze.com/case_studies" />
 @endsection
@@ -37,7 +37,7 @@
 </style>
 	<!-- End Breadcrumbs Schema -->
 	
-@section('header')
+
 @show
 
 @section('content')

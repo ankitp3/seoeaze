@@ -7,10 +7,7 @@
 
 @section('header')
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.in/dedicated_seo_team" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.com/dedicated_seo_team" hreflang="en-us" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/dedicated_seo_team" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/dedicated_seo_team" hreflang="x-default" />
+    <link rel="canonical" href="https://www.seoeaze.com/dedicated_seo_team" />
 @endsection
 
 <!-- Start Breadcrumbs Schema -->

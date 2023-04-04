@@ -1,10 +1,6 @@
 @extends('layouts.master')
 @section('hreflangs')
-    <link rel="alternate" href="https://www.seoeaze.in/content_writing_service" hreflang="en-in" />
-    <link rel="alternate" href="https://www.seoeaze.com/content_writing_service" hreflang="en-us" />
-	<link rel="alternate" href="https://www.seoeaze.co.uk/content_writing_service" hreflang="en-gb" />
-	<link rel="alternate" href="https://www.seoeaze.com/content_writing_service" hreflang="x-default" />
-@endsection
+    <link rel="canonical" href="https://www.seoeaze.in/content_writing_service"  />
 
 @section('title', 'Web Content Writing Services -Buy Articles, eBook, Blog Posts, Reviews')
 @section('meta' , "SeoEaze offering all Web Content Writing Services, You can buy article writing service, Blog posts writing, Press Releases, eBooks, Product Reviews & more..")
@@ -17,13 +13,13 @@
 			   "@type": "ListItem",
 			   "position": 1,
 			   "name": "Home",
-			   "item": "https://www.seoeaze.in/"
+			   "item": "https://www.seoeaze.com/"
 			 },
 			{
 			   "@type": "ListItem",
 			   "position": 2,
 			   "name": "Content Writing Service",
-			   "item": "https://www.seoeaze.in/how_it_works"
+			   "item": "https://www.seoeaze.com/how_it_works"
 			 }]
 		}
 	</script>
