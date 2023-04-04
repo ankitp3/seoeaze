@@ -425,6 +425,7 @@ Our content team is hyper-focused on increasing the conversations between you an
 									<div class="footersixthinnerrelativeboxsec">
 										<img src="assets/img/icons/upgraphicon.png" alt=""/>
 										<p>70% Qualified Leads</p>
+										<a href="assets/sample/casestudy1.pdf" target="_blank">
 											<div class="footersixthinnerabsoluteboxsec">
 												<p><b>View</b><br> 
 													Case Study</p>
@@ -433,7 +434,7 @@ Our content team is hyper-focused on increasing the conversations between you an
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</div>
+											</div></a>
 									</div>
 
 								</div>
@@ -455,15 +456,16 @@ Our content team is hyper-focused on increasing the conversations between you an
 														Increase in
 														Organic 
 														Traffic</p>
-													<div class="footersixthinnerabsoluteboxsec">
-														<p><b>View</b><br> 
-															Case Study</p>
-														<span> 
-															<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-																<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-															</svg>
-														</span>
-													</div>
+											<a href="assets/sample/casestudy2.pdf" target="_blank">
+                                            <div class="footersixthinnerabsoluteboxsec">
+                                                <p><b>View</b><br> 
+                                                    Case Study</p>
+                                                <span> 
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                                    </svg>
+                                                </span>
+                                            </div></a>
 											</div>
 				
 										</div>
@@ -488,6 +490,7 @@ Our content team is hyper-focused on increasing the conversations between you an
 														Boost in
 														Conversion 
 														Rate</p>
+														<a href="assets/sample/casestudy3.pdf" target="_blank">
 													<div class="footersixthinnerabsoluteboxsec">
 														<p><b>View</b><br> 
 															Case Study</p>
@@ -496,7 +499,7 @@ Our content team is hyper-focused on increasing the conversations between you an
 																<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 															</svg>
 														</span>
-													</div>
+													</div></a>
 											</div>
 				
 										</div>
