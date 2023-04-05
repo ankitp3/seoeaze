@@ -1584,7 +1584,7 @@ font-size: 42px;
 .webdesignanddevelopmentthirdinnersec ul.infoGraphic li {
   position: relative;
   width: 100%;
-  max-width: 33em;
+  max-width: 30em;
   background: var(--bg1);
   border-radius: 0.5em;
   padding: 0.5em;
