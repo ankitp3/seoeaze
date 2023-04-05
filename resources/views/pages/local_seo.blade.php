@@ -57,10 +57,9 @@
 									<p>
 										Get found locally with an expert local SEO service that enables your business to be at the top is business listings when customers in your neighborhood search you. SeoEaze has the local SEO solutions that are refined and fine-tuned over the years to keep up with the changing requirements of search engines.
 										Your local business listing will never miss the most qualified traffic again and you won’t be deprived of local customers with our expert local SEO services.
-										Reach our local SEO experts right now at @if ($country_code == "IN")
-                                       <p> 8375011200</p>
+										Reach our local SEO experts right now at @if ($country_code == "IN")8375011200
                                         @else
-										<p>844-736-3293</p>
+										844-736-3293
                                         @endif .
 									</p>
 									<div class="indibuttons">
