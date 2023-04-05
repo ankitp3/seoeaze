@@ -39,22 +39,23 @@
 							<div class="social_media_marketing_solution_left_sec i-can-has-a-colored-thing">
 									<h2><span class="highlight">Social Media Marketing</span> </h2>
 									<h4>Enhance Your Social Presence;
-										Connect With More People</h4>
+										Connect More</h4>
 									<ul>
 										<li>Have your presence on various social media networks</li>
-										<li>Increase your followers</li>
-										<li>Create brand awareness</li>
+										<li>Increase social media followers</li>
+										<li>Create brand awareness & visibility</li>
 										<li>Increase customer engagement</li>
-										<li>Manage brand visibility</li>
+										
 									</ul>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 										<button class="btn-hover color-1"> Consult Now
 											<span class="roundshapebutton roundshapearrow"> 
 												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 												</svg>
 											</span>
-										</button>
+										</button></a>
 									</div>
 							</div>
 							<div class="social_media_marketing_solution_right_sec">
@@ -197,9 +198,8 @@
 
 				<section class="getintuchformsec">
 					<h2> 
-						Let’s get Started
-						Fill Us In About 
-						Your Requirement
+						Tell Us About
+						About Your Social Media Requirements
 					</h2>
 					<form role="form" method="post" action="/seo_sending_form">
 					{{ csrf_field() }}
@@ -218,9 +218,9 @@
 									<select class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">One</option>
-											<option value="2">Two</option>
-											<option value="3">Three</option>
+											<option value="1">Social Media Management</option>
+											<option value="2">Increase Brand Visibilty</option>
+											<option value="3">Gain Followers</option>
 									</select>
 										
 							</div>
@@ -237,7 +237,7 @@
 									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
-									<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
+							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
 									
 							</div>
 							<div class="getintuchforminnerbottomsec">
@@ -261,19 +261,24 @@
 								</div>
 								<div class="col-lg-7 col-md-12 col-sm-12">
 									 
-									  			<button class="accordion">How local SEO is different from regular SEO?</button>
+									  			<button class="accordion">Why social media marketing is important?</button>
 												<div class="panel">
-													<p>SEO is about getting your website found in search engines like Google for relevant search phrases. With local SEO, there’s a slight twist. Instead of focusing exclusively on your website, the focus is also on optimizing your local business profiles such as Google My Business listing.</p>
+													<p>text":"Social media is a lot more cost-effective as compared to TV, print media or radio when it comes to reaching the large customer base. Companies and brands can incorporate social media marketing into their digital marketing strategy to get far more measurable results than traditional media.</p>
 												</div>
 
-												<button class="accordion">What Types of Businesses Can Use Local SEO?</button>
+												<button class="accordion">Which social media platform should I use?</button>
 												<div class="panel">
-													<p>Unless you are a 100% e-commerce business with no physical location for customers to visit, you use to reap the benefits of local SEO. Local SEO service is a good opportunity for your business no matter what industry it is in to get targeted traffic.</p>
+													<p>In today’s scenario, it is best to use multiple platforms. Still, you need to decide based on these factors such as: Who is your target audience? Which platform do they spend their time on? Such questions will help you decide which platform is best to reach your audience with the right content at the right time.</p>
 												</div>
 												
-												<button class="accordion">Can I compete in cities and towns outside my physical location?</button>
+												<button class="accordion">How many people can I reach with social media marketing?</button>
 												<div class="panel">
-													<p>Local SEO is greatly affected by the location of your store or office. This is important to keep the relevancy of local business results for searchers. If you are trying to rank in a location other than your local address, you need to focus on traditional SEO.</p>
+													<p>With 8 out of 10 U.S. internet users accessing social media content, theoretically get access to 80% of the internet users in the United State with SMM. However, it all depends on how creative and captivating your content is.</p>
+												</div>
+
+												<button class="accordion">How much social media marketing costs?</button>
+												<div class="panel">
+													<p>The cost of SMM campaigns varies depending on your objectives and goals. It is best to talk to our social media strategists who can better explain the cost involved.</p>
 												</div>
 												
 												
@@ -388,13 +393,14 @@
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-1"> Let’s Talk  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 								</div>
 							</div>

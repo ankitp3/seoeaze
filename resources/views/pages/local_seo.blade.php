@@ -57,14 +57,14 @@
 									<p>
 										Get found locally with an expert local SEO service that enables your business to be at the top is business listings when customers in your neighborhood search you. SeoEaze has the local SEO solutions that are refined and fine-tuned over the years to keep up with the changing requirements of search engines.
 										Your local business listing will never miss the most qualified traffic again and you won’t be deprived of local customers with our expert local SEO services.
-										Reach our local SEO experts right now at @if ($country_code == "IN")8375011200
+										Reach our local SEO experts right now at @if ($country_code == "IN")<b>83750-11200</b>
                                         @else
-										844-736-3293
+										<b>844-736-3293</b>
                                         @endif .
 									</p>
 									<div class="indibuttons">
 									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
-										<button class="btn-hover color-2"> Transparent Pricing 
+										<button class="btn-hover color-2"> Know Pricing 
 											<span class="roundshapebutton roundshapearrow"> 
 												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
@@ -73,7 +73,7 @@
 										</button></a>
 									</div>
 									<div class="indibuttons">
-									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
+									<a href="#getintouch">
 										<button class="btn-hover color-1"> Request Consultation 
 											<span class="roundshapebutton roundshapearrow"> 
 												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -90,7 +90,7 @@
 									</div>
 									<div class="local_seoinnerrightinnerrightsec">
 										<p>  Our Local SEO Generated </p>
-										<h3> $2,45,867 </h3>
+										<h3> $5,45,8657 </h3>
 										<p>  In Revenue </p>
 									</div>
 								</div>
@@ -119,62 +119,6 @@
 
 				</section>
 
-				<section class="getintuchformsec">
-					<h2> 
-						Let’s get Started
-						Fill Us In About 
-						Your Requirement
-					</h2>
-					<form role="form" method="post" action="/seo_sending_form">
-					{{ csrf_field() }}
-					<div class="getintuchforminnersec">
-						
-							<div class="getintuchforminnerleftsec">
-								<label for="r-form-1-first-name">Hey, I’m is</label>
-								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
-							</div>
-							<div class="getintuchforminnerrightsec">
-									<label for="r-form-1-email">my website is</label>
-									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
-							</div>
-							<div class="getintuchforminnerleftsec">
-									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
-										<span>&#xf107;</span>
-											<option selected>&nbsp; Select </option>
-											<option value="1">One</option>
-											<option value="2">Two</option>
-											<option value="3">Three</option>
-									</select>
-										
-							</div>
-							<div class="getintuchforminnerrightsec">
-									<label for="r-form-1-last-name">Get in touch with me at </label>
-									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
-							</div>
-							<div class="getintuchforminnerleftsec">
-										<label for="r-form-1-email">or call  </label>
-										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
-							</div>
-							<div class="getintuchforminnerrightsec">
-									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
-							</div>
-							<div class="getintuchforminnerbottomsec">
-									<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
-									
-							</div>
-							<div class="getintuchforminnerbottomsec">
-								{!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
-                            </div>
-							<div class="getintuchforminnerbottomsec">
-									<button type="submit"> Send Enquiry </button>
-							</div>
-
-						</div>
-					</form>
-				</section>
-
 				<section class="localseothirdsec">
 						<div class="container i-can-has-a-colored-thing">
 							<h4> EXPERT LOCAL SEO SERVICE: </h4>
@@ -193,7 +137,7 @@
 							</div>
 							<div class="row">
 								<div class="col-lg-12 col-md-12 col-sm-12 text-right">
-									<h3>Go further with the #1 Guest Posting Service</h3>
+									<h3>Go further with the #1 Local SEO Service</h3>
 									<div class="indibuttons">
 									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-1"> Let's Start 
@@ -237,8 +181,63 @@
 							  <h4> of local mobile searches result in an in-store purchase </h4>
 							</div>
 						</section>
-						 
+				
 
+
+				</section>
+				<section class="getintuchformsec" id="getintouch" >
+					<h2> 
+						Let’s get Started.<br>
+						Fill Us In 
+					</h2>
+					<form role="form" method="post" action="/seo_sending_form">
+					{{ csrf_field() }}
+					<div class="getintuchforminnersec">
+						
+							<div class="getintuchforminnerleftsec">
+								<label for="r-form-1-first-name">Hey, I’m is</label>
+								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-email">my website is</label>
+									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
+							</div>
+							<div class="getintuchforminnerleftsec">
+									<label for="selfie">You Are a  </label>
+									<select class="selectarrow">
+										<span>&#xf107;</span>
+											<option selected>&nbsp; Select </option>
+											<option value="1">Local Place </option>
+											<option value="2">Multi Location Store</option>
+											<option value="3">National Website</option>
+									</select>
+										
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-last-name">Get in touch with me at </label>
+									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
+							</div>
+							<div class="getintuchforminnerleftsec">
+										<label for="r-form-1-email">or call  </label>
+										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label>Any additional info </label>
+									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+							</div>
+							<div class="getintuchforminnerbottomsec">
+							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
+									
+							</div>
+							<div class="getintuchforminnerbottomsec">
+								{!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
+                            </div>
+							<div class="getintuchforminnerbottomsec">
+									<button type="submit"> Send Enquiry </button>
+							</div>
+
+						</div>
+					</form>
 				</section>
 
 				<section class="localseofifthsec">
@@ -362,13 +361,14 @@
 									<div class="moneybackguranteerightsec">
 										<img src="assets/img/seo_packages_img/moneybackguaranteeicon.webp" alt="Seoeaze money back guaratnee" />
 										<div class="indibuttons">
+										<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 												<button class="btn-hover color-1"> Let's Get Started
 													<span class="roundshapebutton roundshapearrow"> 
 														<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 															<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 														</svg>
 													</span>
-												</button>
+												</button></a>
 											</div>
 									</div>
 							</div>
@@ -399,6 +399,11 @@
 												<div class="panel">
 													<p>Local SEO is greatly affected by the location of your store or office. This is important to keep the relevancy of local business results for searchers. If you are trying to rank in a location other than your local address, you need to focus on traditional SEO.</p>
 												</div>
+
+												<button class="accordion">Is Local SEO Really Important?</button>
+												<div class="panel">
+													<p>Search engines are optimized to serve you best results & with mobile in hand local resuts grabs top positions always with anything local in nature, you must optimize your site for local SEO if you are a local business owner else it will be very difficult to stay in the competition.</p>
+												</div>
 												
 												
   										<!-- end Frequently Asked Questions-->
@@ -419,10 +424,14 @@
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
@@ -508,13 +517,14 @@
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-1"> Let’s Talk  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 								</div>
 							</div>
