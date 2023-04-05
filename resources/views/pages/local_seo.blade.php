@@ -43,12 +43,6 @@
 
 
 @section('content')
-@php
-    use  PulkitJalan\GeoIP\GeoIP;
-    $geoip = new GeoIP();
-    $geoip->setIp(\Request::ip());
-    $country_code = $geoip->getCountryCode();
-@endphp
 <section class="local_seosec">
 					<div class="container">
 							<div class="local_seoinnerleftsec i-can-has-a-colored-thing">
