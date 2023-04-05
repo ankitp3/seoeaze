@@ -107,10 +107,11 @@ width:800px;
 															<li><a href="/local_seo_service">Local SEO</a></li>
 															<li><a href="/social_media_marketing">Social Media Marketing</a></li>														
 															<li><a href="/ppc_management_service">Pay Per Click Management</a></li>
+															<li><a href="/services/guest_posting">Guest Posting</a></li>
+															<li><a href="/services/forum_link_building">Forum Link Building</a></li>
 															<li><a href="/reputation_management_service">Reputation Management</a></li>
 															<li><a href="/content_writing_service">Content Writing</a></li>
 															<li><a href="/blog_management_service">Blog Management</a></li>
-															<li><a href="/services/guest_posting">Guest Posting</a></li>
 															<li><a href="/services/complete_link_building">Link Building service</a></li>
 															<li><a href="/web_development_service">Web Design & Development</a></li>
 															<li><a href="/panda_penguin_recovery_service">Google Penalty Assesment</a></li>
@@ -222,7 +223,7 @@ width:800px;
 									<ul>
 										<li><a href="#">Link Building Services ></a>
 											<ul class="sub-next">
-											<li><a href="/services/complete_link_building"> Complete Link Building ></a>
+											<li><a href="/services/complete_link_building"> Complete Link Building</a>
 											<li><a href="/services/guest_posting"> Guest Posting</a></li>
 											<li><a href="/services/forum_link_building"> Forum Link Building </a></li>	
 											<li><a href="/services/article_submission"> Article Submission </a></li>

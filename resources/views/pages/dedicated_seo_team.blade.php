@@ -46,13 +46,14 @@
 										<li>Get more sales</li>
 									</ul>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 										<button class="btn-hover color-1"> Consult Now
 											<span class="roundshapebutton roundshapearrow"> 
 												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 												</svg>
 											</span>
-										</button>
+										</button></a>
 									</div>
 							</div>
 					</div>
@@ -68,22 +69,26 @@
 												<li>
 													<h6> DEDICATED SEO PLANS </h6>
 													<h5> $999/month</h5>
-													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+													<a href="#getintouch">
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button></a>
 												</li>
 												<li>
 													<h6>FULL TIME SEO CONSULTANTS </h6>
+													<a href="#getintouch">
 													<h5> $1499/month</h5>
-													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button></a>
 												</li>
 												<li>
-													<h6> DEDICATED CONTENT DEVELOPER </h6>
+													<h6> DEDICATED CONTENT WRITER </h6>
+													<a href="#getintouch">
 													<h5> $999/month</h5>
-													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button></a>
 												</li>
 												<li>
 													<h6> WEB DEVELOPING TEAM </h6>
+													<a href="#getintouch">
 													<h5>$1599/month</h5>
-													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+													<button> Inquire Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button></a>
 												</li>
 											</ul>
 										</div>
@@ -177,6 +182,65 @@
 
 						</div>
 				</section>
+				<section class="getintuchformsec" id="getintouch">
+					<h2> 
+						Let us know your
+						dedicated requirements
+					</h2>
+					<form role="form" method="post" action="/seo_sending_form">
+					{{ csrf_field() }}
+					<div class="getintuchforminnersec">
+						
+							<div class="getintuchforminnerleftsec">
+								<label for="r-form-1-first-name">Hey, I’m is</label>
+								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-email">my website is</label>
+									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
+							</div>
+							<div class="getintuchforminnerleftsec">
+									<label for="selfie">and, I’m looking for </label>
+									<select class="selectarrow">
+										<span>&#xf107;</span>
+											<option selected>&nbsp; Select </option>
+											<option value="1">Dedicated SEO Plans</option>
+											<option value="2">Dedicated SEO Consulant</option>
+											<option value="3">Dedicated Coontent Writers</option>
+											<option value="1">Dedicated Web Development Team</option>
+											<option value="2">Dedicated Graphics Designer</option>
+											<option value="3">Dedicated Vertial Assitant</option>
+											
+
+									</select>
+										
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-last-name">Get in touch with me at </label>
+									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
+							</div>
+							<div class="getintuchforminnerleftsec">
+										<label for="r-form-1-email">or call  </label>
+										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label>Any additional info </label>
+									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+							</div>
+							<div class="getintuchforminnerbottomsec">
+							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >Subscribe To Get Updates On Our Offers & Updates(We Will Never Spam Your Inbox) </p>
+									
+							</div>
+							<div class="getintuchforminnerbottomsec">
+								{!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
+                            </div>
+							<div class="getintuchforminnerbottomsec">
+									<button type="submit"> Send Enquiry </button>
+							</div>
+
+						</div>
+					</form>
+				</section>
 
 				<section class="frequentlyaskedquestionsec">
 						<div class="container i-can-has-a-colored-thing">
@@ -215,13 +279,14 @@
 
 						</div>
 				</section>
+				
 
 				<section class="clientsec">
 						<h2> Some of Our Esteemed Clients </h2>
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
 									<ul>
-										<li><a href=""><img src="assets/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.jpg" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.jpg" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.jpg" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.jpg" alt="client icon"/></a></li>
@@ -319,13 +384,14 @@
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-1"> Let’s Talk  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 								</div>
 							</div>

@@ -48,15 +48,12 @@
 							<div class="ppc_management_service_innersec">
 								<h2><span class="highlight">Reputation Management Service </span> </h2>
 								<div class="ppc_management_service_subinnersec i-can-has-a-colored-thing">
-										<h4> Get Your Brand The Reputation It Deserves.<br>
-										Build Online Brand.<br> 
-										Fix Online Reputation. </h4>		
+										<h4> Get Your Brand The Reputation It Deserves. Fix Online Reputation. </h4>		
 										<p> SeoEaze is #1 ranked Online Reputation Management Service Offering: </p>
 										<ul>
 										<li> Effective and transparent ORM process</li>
-										<li> Over a decade of experienceOver a decade of experience </li>
-										<li> Over 50 reputation management experts </li>
-										<li> 1000’s of brands boosted </li>
+										<li> Over a decade of experience </li>
+										<li> Used By Fotune 500 Companies</li>
 										<li> Permanent removal whenever possible </li>
 									</ul>
 										<div class="indibuttons pb-5">
@@ -180,7 +177,61 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 				</section>
 
 <!-- End reputationmngtser sec -->
+<section class="getintuchformsec">
+					<h2> 
+						Tell Us About
+						About Your ORM Requirements
+					</h2>
+					<form role="form" method="post" action="/seo_sending_form">
+					{{ csrf_field() }}
+					<div class="getintuchforminnersec">
+						
+							<div class="getintuchforminnerleftsec">
+								<label for="r-form-1-first-name">Hey, I’m is</label>
+								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-email">my website is</label>
+									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
+							</div>
+							<div class="getintuchforminnerleftsec">
+									<label for="selfie">and, I’m looking for </label>
+									<select class="selectarrow">
+										<span>&#xf107;</span>
+											<option selected>&nbsp; Select </option>
+											<option value="1">Dedicated ORM Support</option>
+											<option value="2">Brand Visibility Management</option>
+											<option value="3">Online Reviews Management</option>
+											<option value="3">Other ORM Services</option>
+									</select>
+										
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label for="r-form-1-last-name">Get in touch with me at </label>
+									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
+							</div>
+							<div class="getintuchforminnerleftsec">
+										<label for="r-form-1-email">or call  </label>
+										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
+							</div>
+							<div class="getintuchforminnerrightsec">
+									<label>Any additional info </label>
+									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+							</div>
+							<div class="getintuchforminnerbottomsec">
+							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
+									
+							</div>
+							<div class="getintuchforminnerbottomsec">
+                                {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
+                            </div>
+							<div class="getintuchforminnerbottomsec">
+									<button type="submit"> Send Enquiry </button>
+							</div>
 
+						</div>
+					</form>
+				</section>
 
 <!-- Start Call Us section  -->
 <section class="moneybackguranteesec">
@@ -261,10 +312,14 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
@@ -350,13 +405,14 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">	
 											<button class="btn-hover color-1"> Let’s Talk  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 								</div>
 							</div>

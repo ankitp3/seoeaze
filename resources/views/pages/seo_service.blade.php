@@ -90,6 +90,7 @@
 
 @section('content')
 
+
 <section class="seo_packagehsec">
 					<div class="container">
 							<div class="seo_packageinnerleftsec i-can-has-a-colored-thing">
@@ -817,13 +818,13 @@
 							<div class="col-lg-7 col-md-12 col-sm-12">
 									<div class="localseoseventhrightsec">
 										<h2>Unable To Choose Package?</h2>
-										<h4>Call us discuss new on </h4>
+										<h4>Call us to discuss Now on </h4>
 										@if ($country_code == "IN")
                                         <a href="tel:8375011200"><h2>83750-11200</h2></a>
                                         @else
                                         <a href="tel:+18447363293"><h2>844-SEO-EAZE</h2></a>
                                         @endif
-										<button> Send Message </button>
+										
 									</div>
 							</div>
 
