@@ -5,9 +5,6 @@
 @section('meta' , "SeoEaze offering all Web Content Writing Services, You can buy article writing service, Blog posts writing, Press Releases, eBooks, Product Reviews & more..")
 
 
-
-
-
 @section('header')
 
 @section('hreflangs')
@@ -49,16 +46,14 @@
 									<h2><span class="highlight">Content Writing Service </span> </h2>
 									<h4>Quality Content You Need</h4>
 									<p>
-									Get content that builds your name and sells, delivered by the best writers <br>Best content writing services for search engine optimized content
+									Get content that builds your name and sells, written by humans: 
 									</p>
-									<ul>
-												<li> Subject matter-expert writers</li>
-												<li> Experience writers from all industries </li>
+									<ul>        
+												<li>Subject matter-expert writers</li>
+												<li>Experience writers from all industries </li>
 												<li>100% original, plagiarism free content </li>
-												<li> Customized powerful content solutions </li>
-												<li> Get your content on time </li>
-												<li> Only pay for writing you love </li>
-											</ul>
+												<li>Timely delivery, well researched content </li>
+									</ul>
 										
 									<div class="indibuttons">
 									<a href="#samples">
@@ -72,6 +67,7 @@
 									</a>
 									</div>
 									<div class="indibuttons">
+									<a href="#getintouch">
 										<button class="btn-hover color-1"> Get Started 
 											<span class="roundshapebutton roundshapearrow"> 
 												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -79,10 +75,11 @@
 												</svg>
 											</span>
 										</button>
+										</a>
 									</div>
 							</div>
 							<div class="social_media_marketing_solution_right_sec">
-									<img src="assets/img/social_media_marketing/social_media_marketing_head.png" alt="" />
+									<img src="assets/img/content-writing-services/content-writing.webp" alt="content writing by seoeaze" />
 							</div>
 					</div>
 
@@ -111,13 +108,14 @@
 														Is Awaiting
 												</p>
 												<div class="indibuttons">
+												<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 													<button class="btn-hover color-1"> Ping Now 
 														<span class="roundshapebutton roundshapearrow"> 
 															<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 																<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 															</svg>
 														</span>
-													</button>
+													</button></a>
 												</div>
 											</div>
 								</div>
@@ -189,73 +187,6 @@
 	
 <!-- End  Hire the Perfect Content Writer SECTION -->
 
-
-
-<!-- Pricing Table Start -->
-<div class="container-fluid datablesec">
-    
-    <section class=" b-benefits-container f-benefits-container" style="padding:0;">
-        <div class="container">
-            <div class="col-sm-12"><h1 id="pricing" class="se_title_serv f-primary-b text-center pr_pl_scroll pt-5">Plans & Pricing</h1>
-                <center style="height: 50px;"><span class="bottomLineImgStyle"></span></center>
-                <div class="b-shortcode-example">
-                    <div class="b-tabs f-tabs j-tabs b-tabs-reset b-tabs--secondary f-tabs--secondary ui-tabs ui-widget ui-widget-content ui-corner-all">
-                        <div class="row" style="overflow: hidden">
-                            <div class="container-fluid"><br>
-                                <div class="panel-body">
-                                    <div>
-                                        <ul class="seo_navi nav-tabs">
-                                            <div style="display: none;">                                                {{ $count = 0 }}                                            </div> @if($plan_name['0'] != '')                                                @foreach($plan_name as $plan)
-                                                <div style="display: none;">                                                        {{ $count ++ }}                                                    </div>
-                                                <li id="plans" class="for_tabs_un_line_li seo_service_accord_menu">
-                                                    <span style="background-color: #42af9a; " class="for_tabs_un_line"></span>
-                                                    <a data-toggle="tab" style="font-size: 18px;" href="#tab{{$count}}">
-                                                        {{ $plan['plan_name'] }}
-                                                    </a>
-                                                </li>                                                @endforeach                                            @endif
-                                        </ul>
-                                        <div class="tab-content" style="background: #eaeaea; overflow: hidden; padding: 50px;">                                            @if($plan_name['0'] != '')                                                @include('parts.pricing_table')                                            @endif                                        </div>
-                                    </div>
-                                </div>
-                                <div class="A4KZv8 visible_hide_class" data-reactid="2">
-                                    <div class="AFyd3c" data-reactid="3">
-                                        <div class="_1EA4La" data-reactid="4">
-                                            <div class="_1-baVo" data-reactid="5">
-                                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KCTxnPgoJCTxwYXRoIGQ9J00tMi0yaDI0djI0SC0yeicgZmlsbD0nbm9uZScvPgoJCTxwYXRoIGQ9J00xMCAwQzQuNDggMCAwIDQuNDggMCAxMHM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTUuNTIgMCAxMCAwek04IDE1bC01LTUgMS40MS0xLjQxTDggMTIuMTdsNy41OS03LjU5TDE3IDZsLTkgOXonIGZpbGw9JyMyNkJDNEUnLz4KCTwvZz4KPC9zdmc+Cg==" class="_2P4x_N" data-reactid="6">
-                                            </div>
-                                            <div class="JAUzCh" data-reactid="7">Product Added to Cart Successfully.
-                                            </div>
-                                            <a href="/cart" class="checkout_link">
-                                                <button name="checkout" type="submit" class="cta-full-width pull-right" id="checkout-link" style="width: 100%;margin-right: 10px; font-size: 1.6rem;margin-top: 10px;">
-                                                    Go to cart
-                                                </button>
-                                            </a></div>
-                                    </div>
-                                </div>
-                                <br></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-  </div>  
-    
-    
-    
-    
-    
-<script type="text/javascript" language="javascript"
-        src="https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCfVS1-Dv9bQNOIXsQhTSvj7jaDX7Oocvs"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
-<!-- end Progress -->
-
-<!-- Cart Functionality services -->
-<script type="text/javascript"
-        src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
-<script src="/assets/js/main.min.js"></script>
-<!-- Pricing Table End -->
 
 <!-- Start OUR WRITING SAMPLES Section -->
 	<div class="container-fluid ourwritingsamples-sec" id="samples">
@@ -411,11 +342,10 @@
 	</section>
 <!-- END FEATURES AND BENEFITS Section -->
 
-<section class="getintuchformsec">
+<section class="getintuchformsec" id="getintouch">
 					<h2> 
-						Let’s get Started
-						Fill Us In About 
-						Your Requirement
+						Please Share Your 
+						Content Requirements
 					</h2>
 					<form role="form" method="post" action="/seo_sending_form">
 					{{ csrf_field() }}
@@ -434,9 +364,14 @@
 									<select class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">One</option>
-											<option value="2">Two</option>
-											<option value="3">Three</option>
+											<option value="1">Blog Content</option>
+											<option value="2">Website Content</option>
+											<option value="3">SEO Articles</option>
+											<option value="1">eCommerce Site Content</option>
+											<option value="2">Press Release Content</option>
+											<option value="3">eBook Content</option>
+											<option value="3">Emails/Ads/Other Content</option>
+
 									</select>
 										
 							</div>
@@ -453,7 +388,7 @@
 									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
-									<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
+							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >Subscribe To Get Updates On Our Offers & Updates(We Will Never Spam Your Inbox) </p>
 									
 							</div>
 							<div class="getintuchforminnerbottomsec">
@@ -504,20 +439,24 @@
 
 						</div>
 				</section>
-<section class="clientsec">
+				<section class="clientsec">
 						<h2> Some of Our Esteemed Clients </h2>
 							<div class="clientinnersec">
 								<div class="clientinnerleftsec">
-								 <ul>
+									<ul>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
 										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
@@ -603,13 +542,14 @@
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-1"> Let’s Talk  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 								</div>
 							</div>
