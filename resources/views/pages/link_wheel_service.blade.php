@@ -238,105 +238,62 @@
         </div>
     </section>
 @endif
-<!--
-@if($service_info->benefit_options != 'null')
-    <section class=" b-infoblock b-benefits-container f-benefits-container" style="padding:0; background:#eaeaea" id="benefits">
+<section class="localseoseventhsec">
+					<div class="row">
+						<div class="col-lg-5 col-md-12 col-sm-12">
+							<div class="localseoseventhleftsec">
+									<canvas id="starfield" width="2000" height="auto"></canvas>
+									<div class="stage">
+									  <div class="localseoseventhsecbody">
+										<div class="top">
+										  <div class="light"></div>
+										  <div class="antenna"></div>
+										  <div class="base2"></div>
+										  <div class="base1"></div>
+										</div>
+										<div class="glass">
+										  <div class="reflection"></div>
+										</div>
 
-        <div class="container">
+										<div class="boster bosterL"></div>
+										<div class="boster bosterR"></div>
+										<div class="ring">
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										  <div class="s1"></div>
+										</div>
+										<div class="fire">
+										  <div class="flame h1"></div>
+										  <div class="flame h2"></div>
+										  <div class="flame h3"></div>
+										  <div class="flame h4"></div>
+										  <div class="flame h5"></div>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-12 col-sm-12">
+									<div class="localseoseventhrightsec">
+										<h2>Unable To Choose Plan?</h2>
+										<h4>Call us to discuss now on </h4>
+										@if ($country_code == "IN")
+                                        <a href="tel:8375011200"><h2>83750-11200</h2></a>
+                                        @else
+                                        <a href="tel:+18447363293"><h2>844-SEO-EAZE</h2></a>
+                                        @endif
+										<center><a href="javascript:;" data-toggle="modal" data-target="#myModal">
+										<button> Send Message </button></a></center>
+									</div>
+							</div>
 
-            <div class="col-sm-12">
 
-                <h1 class="se_title_serv f-primary-b text-center">Benefits</h1>
-
-                <center style="height: 50px;"><span class="h_und_line"></span></center>
-
-                <div class="b-shortcode-example">
-
-                    <div class="b-tabs f-tabs j-tabs b-tabs-reset b-tabs--secondary f-tabs--secondary ui-tabs ui-widget ui-widget-content ui-corner-all">
-
-                        <div class="b-tabs__content">
-
-                            <div style="display: block;" aria-hidden="false" role="tabpanel" aria-labelledby="ui-id-4"
-
-                                    id="tabs-31" class="clearfix ui-tabs-panel ui-widget-content ui-corner-bottom">
-
-                                <div class="col-lg-12">
-                                    @foreach(json_decode($service_info->benefit_options, true) as $benefit )
-
-                                        <p class="benefits_text"><i class="fa fa-check-square-o benefits_icon"
-
-                                                    aria-hidden="true"></i> {{$benefit}}
-
-                                        </p>
-                                    @endforeach
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-@endif
-
--->
-<section class="getintuchformsec">
-	<h2>  Let’s get Started Fill Us In About Your Requirement </h2>
-	<form role="form" method="post" action="/seo_sending_form">
-	    <input type="hidden" name="_token" value="" id="getintuchform">
-		<div class="getintuchforminnersec">
-			<div class="getintuchforminnerleftsec">
-				<label for="r-form-1-first-name">Hey, I’m is</label>
-				<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
-			</div>
-			<div class="getintuchforminnerrightsec">
-					<label for="r-form-1-email">my website is</label>
-					<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
-			</div>
-			<div class="getintuchforminnerleftsec">
-					<label for="selfie">and, I’m looking for </label>
-					<select class="selectarrow">
-						<span></span>
-							<option selected>  Select </option>
-							<option value="1">One</option>
-							<option value="2">Two</option>
-							<option value="3">Three</option>
-					</select>
-						
-			</div>
-			<div class="getintuchforminnerrightsec">
-					<label for="r-form-1-last-name">Get in touch with me at </label>
-					<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
-			</div>
-			<div class="getintuchforminnerleftsec">
-						<label for="r-form-1-email">or call  </label>
-						<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
-			</div>
-			<div class="getintuchforminnerrightsec">
-					<label>Any additional info </label>
-					<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
-			</div>
-			<div class="getintuchforminnerbottomsec">
-					<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
-					
-			</div>
-            <div class="getintuchforminnerbottomsec">
-                {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
-             </div>
-			<div class="getintuchforminnerbottomsec">
-					<button type="submit"> Send Enquiry </button>
-			</div>
-		</div>
-	</form>
-</section>
+					</div>
+				</section>
 
 @if(!empty($service_info->html_content_bottom))
     {!! html_entity_decode(e($service_info->html_content_bottom)) !!}
@@ -345,56 +302,6 @@
 
 {{--
 @if($service_info->faqs_options != '[]')
-<!--
-    <section class=" b-infoblock b-benefits-container f-benefits-container" style="padding:0; background:#eaeaea" id="pricing">
-
-
-
-        <div class="container">
-
-
-
-            <div class="col-sm-12">
-
-
-
-                <h1 class="se_title_serv f-primary-b text-center pr_pl_scroll">FAQS</h1>
-
-                <center style="height: 50px;"><span class="h_und_line"></span></center>
-
-
-
-                <div class="b-shortcode-example">
-
-                    <div class="b-tabs f-tabs j-tabs b-tabs-reset b-tabs--secondary f-tabs--secondary ui-tabs ui-widget ui-widget-content ui-corner-all">
-
-
-
-                        <div class="b-tabs__content row" style="overflow: hidden">
-
-                            @foreach(json_decode($service_info->faqs_options , true)  as  $faqs)
-                                <div class="col-lg-6" >
-                                    <div class="accordion_container" style="padding-top:0px !important; padding-bottom:0px">
-                                        <div class="accordion" >
-                                            <dl>
-                                                <dt>
-                                                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">{{ $faqs[0] }}</a>
-                                                </dt>
-                                                <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                                                    <p>{{ $faqs[1] }}</p>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                                </div>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
--->
 
 @endif
 --}}
