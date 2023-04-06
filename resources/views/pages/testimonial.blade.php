@@ -353,154 +353,36 @@
 	</div>
 <!-- END FEATURES AND BENEFITS Section -->
 
-<!-- Start Call Us section  -->
 
 
-<section class="getintuchformsec">
-					<h2> 
-						Let’s get Started
-						Fill Us In About 
-						Your Requirement
-					</h2>
-					<form role="form" method="post" action="/seo_sending_form">
-					{{ csrf_field() }}
-					<div class="getintuchforminnersec">
-						
-							<div class="getintuchforminnerleftsec">
-								<label for="r-form-1-first-name">Hey, I’m is</label>
-								<input type="text" name="first-name" id="r-form-1-first-name" placeholder="name" class="textbox-cls">
-							</div>
-							<div class="getintuchforminnerrightsec">
-									<label for="r-form-1-email">my website is</label>
-									<input type="text" name="website" id="r-form-1-email" name="" placeholder="www.example.com">
-							</div>
-							<div class="getintuchforminnerleftsec">
-									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
-										<span>&#xf107;</span>
-											<option selected>&nbsp; Select </option>
-											<option value="1">One</option>
-											<option value="2">Two</option>
-											<option value="3">Three</option>
-									</select>
-										
-							</div>
-							<div class="getintuchforminnerrightsec">
-									<label for="r-form-1-last-name">Get in touch with me at </label>
-									<input type="text" name="email" id="r-form-1-first-name" placeholder="email">
-							</div>
-							<div class="getintuchforminnerleftsec">
-										<label for="r-form-1-email">or call  </label>
-										<input type="text" name="phone" id="r-form-1-email"  placeholder="phone no.">
-							</div>
-							<div class="getintuchforminnerrightsec">
-									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
-							</div>
-							<div class="getintuchforminnerbottomsec">
-									<p> <input type="checkbox" id="r-form-1-email" name="" >We Will Never Spam Your Inbox </p>
-									
-							</div>
-							<div class="getintuchforminnerbottomsec">
-                                {!! NoCaptcha::display(['data-size'=>"invisible"]) !!}
-                            </div>
-							<div class="getintuchforminnerbottomsec">
-									<button type="submit"> Send Enquiry </button>
-							</div>
-
-						</div>
-					</form>
-				</section>
-				<section class="testimonial">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-6 d-none d-lg-block">
-									<ol class="carousel-indicators tabs">
-										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-											<figure>
-												<img src="assets/img/seo_packages_img/testimonials-01-179x179.webp" class="img-fluid" alt="seoeaze testimonial 1">
-											</figure>
-										</li>
-										<li data-target="#carouselExampleIndicators" data-slide-to="1">
-											<figure>
-												<img src="assets/img/seo_packages_img/testimonials-02-306x306.webp" class="img-fluid" alt="seoeaze testimonial 2">
-											</figure>
-										</li>
-										<li data-target="#carouselExampleIndicators" data-slide-to="2">
-											<figure>
-												<img src="assets/img/seo_packages_img/testimonials-03-179x179.webp" class="img-fluid" alt="seoeaze testimonial 3">
-											</figure>
-										</li>
-									</ol>
-								</div>
-								<div class="col-lg-6 d-flex justify-content-center align-items-center i-can-has-a-colored-thing">
-									<div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
-										<h3>Words From</h3>
-										<h1><span class="highlight">Our Clients</span></h1>
-										<h4>Our Valued Customers Believe In Us & 
-												This Is What Keeps Us Going</h4>
-										<div class="carousel-inner">
-											<div class="carousel-item active">
-												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
-																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
-												</div>
-											</div>
-											<div class="carousel-item">
-												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
-																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
-												</div>
-											</div>
-											<div class="carousel-item">
-												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
-																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
-												</div>
-											</div>
-										</div>
-										<ol class="carousel-indicators indicators">
-											<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-											<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-										</ol>
-									</div>
-								</div>
-							</div>
-						</div>
-				</section>
 
 
-				<section class="clientsec">
-						<h2> Some of Our Esteemed Clients </h2>
-							<div class="clientinnersec">
-								<div class="clientinnerleftsec">
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
-									</ul>
-								</div>	
-							</div>		
-				</section>
+
+<section class="clientsec">
+	<h2> Some of Our Esteemed Clients </h2>
+		<div class="clientinnersec">
+			<div class="clientinnerleftsec">
+				<ul>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+				</ul>
+				<ul>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+				</ul>
+				<ul>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+					<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
+				</ul>
+			</div>	
+		</div>		
+</section>
 
 				<section class="seventhsec">
 						<div class="container">
@@ -511,13 +393,14 @@
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<h4>In a world of infinite possibilities, do not limit yourself.</h4>
 									<div class="indibuttons">
+									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
 											<button class="btn-hover color-1"> Let’s Talk  
 												<span class="roundshapebutton roundshapearrow"> 
 													<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
 													</svg>
 												</span>
-											</button>
+											</button></a>
 										</div>
 								</div>
 							</div>
