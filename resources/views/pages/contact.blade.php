@@ -53,6 +53,12 @@
 @show
 
 @section('content')
+@php
+	use  PulkitJalan\GeoIP\GeoIP;
+	$geoip = new GeoIP();
+	$geoip->setIp(\Request::ip());
+	$country_code = $geoip->getCountryCode();
+	@endphp
    <!-- slider area bar start-->
 	
 
@@ -112,7 +118,7 @@
 			<br>
 			<span class="bottomLineImgStyle"></span>
 			<p>
-				Interested in hiring our services? Don’t worry as we have an easy way to connect with us. You can either give us a call, skype or shoot us a mail and we will be more than happy to help you. Our staff will be in touch with you in no time to serve your needs in the best way they can. Trust us and we will never let you down.</p>
+				Interested in using our services? Don’t worry as we have an easy way to connect with us. You can either give us a call, skype or shoot us a mail and we will be more than happy to help you. Our staff will be in touch with you in no time to serve your needs in the best way they can. Trust us and we will never let you down.</p>
 			
 			<div class="row">
 				<div class="col-lg-5 col-md-5 col-sm-12 mt-5">
@@ -126,7 +132,12 @@
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec phoneicon">
 							<h3>Phone :</h3>
-							<p>+1-844-SEOEAZE</P>
+							@if ($country_code == "IN")
+                                        <a href="tel:8375011200"><p>83750-11200</p></a>
+                                        @else
+                                        <a href="tel:+18447363293"><p>844-SEO-EAZE</p></a>
+                                        @endif
+							
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec skyoeicon">
 							<h3>SKYPE :</h3>
@@ -146,7 +157,12 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 contactinfo-innersec addressicon">
 							<h3>Address :</h3>
+							@if ($country_code == "IN")
+							<p>B-710, Plot No A-40, The Ithum, Sector, 62, Noida, Delhi/NCR</P>
 							<p>10685-B Hazelhurst Dr. #19976, Houston, TX 77043</P>
+							@else
+							<p>10685-B Hazelhurst Dr. #19976, Houston, TX 77043</P>
+							@endif
 						</div>
 					</div>
 				</div>
@@ -222,8 +238,14 @@
 <!-- End GET IN TOUCH sec -->
 
 <!-- Start map sec -->
+
+
 		<div class="container-fluid">
+		        @if ($country_code == "IN") 
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.3404940166633!2d-95.56369568489067!3d29.796705981973037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db28ce352bb3%3A0x9e8eb91c7b400544!2sSeoEaze!5e0!3m2!1sen!2sin!4v1591355267946!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				@else
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.3404940166633!2d-95.56369568489067!3d29.796705981973037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db28ce352bb3%3A0x9e8eb91c7b400544!2sSeoEaze!5e0!3m2!1sen!2sin!4v1591355267946!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				@endif		
 		</div>
 <!-- End map sec -->
 @endsection
