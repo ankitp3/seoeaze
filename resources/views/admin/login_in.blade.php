@@ -28,7 +28,7 @@
     <style>
         header {
             background: rgb(164,66,62);
-            background: linear-gradient(180deg, rgba(164,66,62,1) 0%, rgba(29,26,136,1) 100%);
+            /* background: linear-gradient(180deg, rgba(164,66,62,1) 0%, rgba(29,26,136,1) 100%); */
             background-color: rgba(0,0,0,.8)!important;
         }
         .b-header__box{
@@ -64,7 +64,7 @@
 										    <input type="hidden" name="_token" value="{{ csrf_token() }}">
 											<figure><img src="img/login/icons/signup-icon.png" alt=""></figure><br>
 											<h1>Create Account</h1>
-											<span>or use your email for registration</span>
+											<span>or use your AN email for registration</span>
 											<input type="hidden" name="_token" value="{{ csrf_token() }}">
 											
 											<input type="email" name="email" id="id" value="" placeholder="Email" required="required" />

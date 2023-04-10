@@ -21,7 +21,10 @@
   font-weight: normal;
   margin: 0px;
   height: auto;
-  padding: 5px 10px;
+  padding: 5px 10px;}
+.signup-reseller {
+	background: linear-gradient(rgba(168,194,38,0.722362272545737) 0%, rgba(29,163,70,0.5739028887922357) 94%);
+  }
 </style>
     <!-- slider area bar start-->
 	
@@ -36,11 +39,12 @@
 				  			<div class="col-lg-6 col-md-6 col-sm-12 indexheader-video-sec-inner-leftsec">
 
 									<h1 class="mb-5">White Label SEO Reseller Service </h1>
-									<h2>Focus on sales, we are here to execute </h2>
+									<h3>Focus on sales, we are here to execute </h3>
 									<p>	SeoEaze’s reseller program gives you the wholesale SEO platform that enables you to grow your agency. Give your clients assured results without worrying about it.</p><br><br>
+									
 									<div class="indibuttons">
-									<a href="#join">
-										<button class="btn-hover color-2">  Signup Up As Reseller 
+									<a href="#resellerbenefits">
+										<button class="btn-hover color-1"> Know Reseller Benefits 
 											<span class="roundshapebutton roundshapearrow"> 
 												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
@@ -48,9 +52,10 @@
 											</span>
 										</button></a>
 									</div>
+									<br>
 									<div class="indibuttons">
-									<a href="#resellerbenefits">
-										<button class="btn-hover color-1"> Reseller Benefits 
+									<a href="#join">
+										<button class="btn-hover color-2"> Become Reselling Partner 
 											<span class="roundshapebutton roundshapearrow"> 
 												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
@@ -75,12 +80,13 @@
 	</main>
 			  
 <!-- slider area bar end-->
-<section class="ourbestcapabilitysec">
+<section class="localseothirdsec">
+<!-- <section class="ourbestcapabilitysec"> -->
 <div class="container-fluid boxsectoall-sec" id="resellerbenefits">
 		<div class="container">
 		    <div class="row">
 		        <div class="col-lg-7 col-md-7 col-sm-12">
-		            <h5> Outsourcing SEO services is becoming a challenge for you?<br> Trouble managing own SEO team? <br>SeoEaze Reseller Program can be the solution </h5>
+		            <h3> Outsourcing SEO services is becoming a challenge for you?<br><br> Trouble managing own SEO team? <br><br>SeoEaze Reseller Program can be the solution </h3>
 			        <p class="text-left">With our reseller program, you can set up and empower your white label marketing services. We love agencies and consultants who resell our SEO and marketing services!</p><br><br>
 		        </div>
 		        <div class="col-lg-5 col-md-5 col-sm-12">
@@ -137,14 +143,13 @@
 <!-- End BENEFITS OF OUR COMPLETE LINK BUILDING SOLUTIONS section -->
 </section>
 
-<section>
-<div class="container-fluid reputationmngtser3" id="join">
+<section class="signup-reseller">
+<div class="container-fluid signup-reseller" id="join">
 		<div class="container">
 
-			<div class="row">
-			
-				<div class="col-lg-5 col-md-5 col-sm-12 mt-5">
-				<h3 class="text-center">RESELLER SIGN-UP</h3>
+			<div class="row">			
+				<div class="col-lg-5 col-md-5 col-sm-12 mt-20">
+				<h2 class="text-center">RESELLER SIGN-UP</h2>
 				<span class="bottom-line-stylesmallimgg"></span>
 				<br>
 						<div class="reputationmngtser-inrsecbox3">
@@ -237,7 +242,18 @@
                                <div class="b-form-row">                                   
                                <div class="b-form-horizontal__label"></div>                                   
                                </div>  
-                               <button type="submit"  class="b-btnra">Sign Up Now as Reseller</button>       
+							   <div class="indibuttons">
+								
+										<button type="submit" class="btn-hover color-2"> Sign Up Now as Reseller 
+											<span class="roundshapebutton roundshapearrow"> 
+												<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+													<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+												</svg>
+											</span>
+										</button>
+										<br><br>
+								</div>
+                                  
                                </form>                        
                                </div>                    
                                </div> 
@@ -245,124 +261,57 @@
 
 				</div>
 				<div class="col-lg-7 col-md-7 col-sm-12">
-					<div class="row m-5">
-					<h3 class="text-center">About SeoEaze Reseller Program
-					<span class="bottom-line-stylesmallimgg"></span>
-					</h3>
+					<div class="row mt-20">
 					
-					
-					<br><br>
 						<div class="col-lg-12 col-md-12 col-sm-12 reputationmngtser-inrsec">
 							<h3 class="">Trusted By 75+ Agencies</h3>
 							<p>More than 75 small & big agencies have become our reseller partner since 2010</p>
 						</div>
-					</div>
-					<div class="row m-5">
 						<div class="col-lg-12 col-md-12 col-sm-12 reputationmngtser-inrsec">
 							<h3>White Label Reports</h3>
 							<p>All reports are white-label so that you can customize them to fit your requirements.</p>
 						</div>
-					</div>
-					<div class="row m-5">
 						<div class="col-lg-12 col-md-12 col-sm-12 reputationmngtser-inrsec">
 							<h3>Hassle-Free Service</h3>
 							<p>With SeoEaze reseller program, you can completely focus on sales, leave service on us.</p>
 						</div>
-					</div>
-					<div class="row m-5">
 						<div class="col-lg-12 col-md-12 col-sm-12 reputationmngtser-inrsec">
 							<h3>Special Reseller Pricing</h3>
 							<p>All Resellers get special pricing based on their project size and transaction.</p>
 						</div>
 					</div>
-
+					
 				</div>
 			</div>
 	</div>
 </div>
  </section>
- <section class="localseoseventhsec">
-					<div class="row">
-						<div class="col-lg-5 col-md-12 col-sm-12">
-							<div class="localseoseventhleftsec">
-									<canvas id="starfield" width="2000" height="auto"></canvas>
-									<div class="stage">
-									  <div class="localseoseventhsecbody">
-										<div class="top">
-										  <div class="light"></div>
-										  <div class="antenna"></div>
-										  <div class="base2"></div>
-										  <div class="base1"></div>
-										</div>
-										<div class="glass">
-										  <div class="reflection"></div>
-										</div>
-
-										<div class="boster bosterL"></div>
-										<div class="boster bosterR"></div>
-										<div class="ring">
-										  <div class="s1"></div>
-										  <div class="s1"></div>
-										  <div class="s1"></div>
-										  <div class="s1"></div>
-										  <div class="s1"></div>
-										  <div class="s1"></div>
-										  <div class="s1"></div>
-										</div>
-										<div class="fire">
-										  <div class="flame h1"></div>
-										  <div class="flame h2"></div>
-										  <div class="flame h3"></div>
-										  <div class="flame h4"></div>
-										  <div class="flame h5"></div>
-										</div>
-									  </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-7 col-md-12 col-sm-12">
-									<div class="localseoseventhrightsec">
-										<h2>Want To Join As Reseller?</h2>
-										<h4>Call us Now To Discuss White Label Partnership </h4>
-										@if ($country_code == "IN")
-                                        <a href="tel:8375011200"><h2>83750-11200</h2></a>
-                                        @else
-                                        <a href="tel:+18447363293"><h2>844-SEO-EAZE</h2></a>
-                                        @endif
-										
-									</div>
-							</div>
-
-
+ <section class="fourthsec">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="fourthleftsec">
+							<h3 class="i-can-has-a-colored-thing"> We believe in <span class="highlight"> fostering partnerships. </span></h3>
+							<div class="roundshape1"></div>
+							<div class="roundshape2"></div>
+							<div class="roundshape3"></div>
+							<div class="roundshape4"></div>
+						</div>
 					</div>
-				</section>
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="fourthrightsec">
+							<h3 class="i-can-has-a-colored-thing"> Our Work keeps getting <span class="highlight"> recognition.</span></h3>
+							<div class="roundshape5"></div>
+							<div class="roundshape6"></div>
+							<div class="roundshape7"></div>
+							<div class="roundshape8"></div>
+						</div>
+					</div>
+				</div>
 
-				<section class="clientsec">
-						<h2> Some of Our Esteemed Clients </h2>
-							<div class="clientinnersec">
-								<div class="clientinnerleftsec">
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
-									</ul>
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
-									</ul>
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
-									</ul>
-								</div>	
-							</div>		
-				</section>
-
+		</div>
+		</section>
 				<section class="testimonial">
 						<div class="container">
 							<div class="row">
