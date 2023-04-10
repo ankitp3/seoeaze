@@ -213,7 +213,7 @@ width:800px;
 										<li><a href="/company"> About Us </a></li>
 										
 										<li><a href="/contact_us"> Get in Touch </a></li>
-										<li><a href="#"> Partner With Us </a></li>
+										<li><a href="/reseller"> Partner With Us </a></li>
 										<li><a href="/login"> Login/Sign-Up </a></li>
 										<li><a href="/cart"> My Cart </a></li>
 										<li><a href="https://www.seoeaze.com/blog/" target="_blank"> SEO Blog </a></li>

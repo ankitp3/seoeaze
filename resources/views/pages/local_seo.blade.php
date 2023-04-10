@@ -329,7 +329,7 @@
 							<div class="col-lg-7 col-md-12 col-sm-12">
 									<div class="localseoseventhrightsec">
 										<h2>Unsure about local SEO?</h2>
-										<h4>Call us discuss new on </h4>
+										<h4>Call us to discuss now on </h4>
 										@if ($country_code == "IN")
                                         <a href="tel:8375011200"><h2>83750-11200</h2></a>
                                         @else

@@ -198,6 +198,9 @@
                         @foreach($dat_obj as $dat)
                             <td>
                                 <div class="text-center"><a href="/contact_us" class="price-buy pt-btn request" id="{{ $dat->id }}"><span><b>  Enquire Now</b></span></a></div>
+                                <!-- if want to keep popup contact use below code
+                                    <div class="text-center"><a href="javascript:;" data-toggle="modal" data-target="#myModal" class="price-buy pt-btn request" id="{{ $dat->id }}"><span><b>  Enquire Now</b></span></a></div>
+-->
                             </td>
                         @endforeach
                     </tr>
