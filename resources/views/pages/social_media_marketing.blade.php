@@ -215,12 +215,12 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Social Media Management</option>
-											<option value="2">Increase Brand Visibilty</option>
-											<option value="3">Gain Followers</option>
+											<option value="Social Media Management">Social Media Management</option>
+											<option value="Increase Brand Visibilty2">Increase Brand Visibilty</option>
+											<option value="Gain Followers">Gain Followers</option>
 									</select>
 										
 							</div>
@@ -234,7 +234,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
