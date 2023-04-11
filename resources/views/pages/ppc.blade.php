@@ -362,13 +362,13 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Google Ads</option>
-											<option value="2">FB/Instagrm Ads</option>
-											<option value="3">Linkdin Ads</option>
-											<option value="3">Other Ads</option>
+											<option value="Google Ads">Google Ads</option>
+											<option value="FB/Insta Ads">FB/Instagrm Ads</option>
+											<option value="LinkedIn Ads">Linkdin Ads</option>
+											<option value="Other Ads">Other Ads</option>
 									</select>
 										
 							</div>
@@ -382,7 +382,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important Updates & Offers(We Will Never Spam Your Inbox) </p>
@@ -398,69 +398,6 @@
 						</div>
 					</form>
 				</section>
-
-				<section class="frequentlyaskedquestionsec">
-						<div class="container i-can-has-a-colored-thing">
-								<h2> Frequently <br> <span class="highlight"> Asked Questions</span> </h2>
-							<div class="row">
-
-								<div class="col-lg-5 col-md-12 col-sm-12" style="margin-top: -50px;">
-									<img src="assets/img/seo_packages_img/faqsleftsec.gif" class="img-fluid" alt=""/>
-								</div>
-								<div class="col-lg-7 col-md-12 col-sm-12">
-									 
-									  			<button class="accordion">What type of result can I expect from PPC Ads campaigns?</button>
-												<div class="panel">
-													<p>Website traffic and conversions are the key performance indicators we look at. The answer depends on what your business goals are and how much traffic or conversion is expected.</p>
-												</div>
-
-												<button class="accordion">How much traffic can I expect from PPC?</button>
-												<div class="panel">
-													<p>The amount through PPC received every month will vary depending on:<br>
-														How effective your PPC campaigns are<br>
-														You PPC advertising budget</p>
-												</div>
-												
-												<button class="accordion">Is advertising with Google expensive?</button>
-												<div class="panel">
-													<p>Pay per click ad model is expensive than other methods of advertising and due to stiff competition to rank in Google search results, it can be expensive to advertise with the search giant. However, the traffic you receive will be high quality leading to more sales and conversion.</p>
-												</div>
-												
-												
-  										
-
-								</div>
-							</div>
-
-						</div>
-				</section>
-
-				<section class="clientsec">
-						<h2> Some of Our Esteemed Clients </h2>
-							<div class="clientinnersec">
-								<div class="clientinnerleftsec">
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
-									</ul>
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
-									</ul>
-									<ul>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
-										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
-									</ul>
-								</div>	
-							</div>		
-				</section>
-
 				<section class="testimonial">
 						<div class="container">
 							<div class="row">
@@ -528,6 +465,69 @@
 							</div>
 						</div>
 				</section>
+				<section class="frequentlyaskedquestionsec">
+						<div class="container i-can-has-a-colored-thing">
+								<h2> Frequently <br> <span class="highlight"> Asked Questions</span> </h2>
+							<div class="row">
+
+								<div class="col-lg-5 col-md-12 col-sm-12" style="margin-top: -50px;">
+									<img src="assets/img/seo_packages_img/faqsleftsec.gif" class="img-fluid" alt=""/>
+								</div>
+								<div class="col-lg-7 col-md-12 col-sm-12">
+									 
+									  			<button class="accordion">What type of result can I expect from PPC Ads campaigns?</button>
+												<div class="panel">
+													<p>Website traffic and conversions are the key performance indicators we look at. The answer depends on what your business goals are and how much traffic or conversion is expected.</p>
+												</div>
+
+												<button class="accordion">How much traffic can I expect from PPC?</button>
+												<div class="panel">
+													<p>The amount through PPC received every month will vary depending on:<br>
+														How effective your PPC campaigns are<br>
+														You PPC advertising budget</p>
+												</div>
+												
+												<button class="accordion">Is advertising with Google expensive?</button>
+												<div class="panel">
+													<p>Pay per click ad model is expensive than other methods of advertising and due to stiff competition to rank in Google search results, it can be expensive to advertise with the search giant. However, the traffic you receive will be high quality leading to more sales and conversion.</p>
+												</div>
+												
+												
+  										
+
+								</div>
+							</div>
+
+						</div>
+				</section>
+
+				<section class="clientsec">
+						<h2> Some of Our Esteemed Clients </h2>
+							<div class="clientinnersec">
+								<div class="clientinnerleftsec">
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg1.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg2.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg3.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg4.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg5.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg6.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg7.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg8.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg9.webp" alt="client icon"/></a></li>
+									</ul>
+									<ul>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg10.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg11.webp" alt="client icon"/></a></li>
+										<li><a href=""><img src="assets/img/seo_packages_img/clientsimg12.webp" alt="client icon"/></a></li>
+									</ul>
+								</div>	
+							</div>		
+				</section>
+
+				
 
 				<section class="seventhsec">
 						<div class="container">
