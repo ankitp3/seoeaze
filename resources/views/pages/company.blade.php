@@ -152,11 +152,13 @@
 										<div class="enterpriseseoservicesfourthinnersec-new">
 											<ul>
 												<li>
+												<br><br><br>
 													<h5> ANKIT PANDEY </h5>
 													<p><b>FOUNDER & CEO</b></p>
 													<p>The main backbone of the company, Ankit Pandey is a graduate in Information Technology. He has been in this industry since last 9 years and has earned much experience in SEO field. He is also passionate about learning new things and implementing them in his business. His journey in Internet marketing industry has been outstanding, gaining appreciation from his clients and handling the staff with complete dedication.</p>
 												</li>
 												<li>
+												<br><br><br>
 													<h5> PRIYANKA GOGIA</h5>
 													<p><b>CHIEF OPERATING OFFICER</b></p>
 													<p>As the chief operating officer of SEOEAZE, she handles everyday projects and ensures that they are duly completed and timely delivered. She has a knack for superior customer experience and successful project fulfillment every time. Taking care of client requirements and getting the best of the team is her main responsibility. Priyanka has done Masters in English and is an experienced writer and editor.</p>
