@@ -366,10 +366,14 @@
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 											<option value="Google Ads">Google Ads</option>
 											<option value="FB/Insta Ads">FB/Instagrm Ads</option>
 											<option value="LinkedIn Ads">Linkdin Ads</option>
 											<option value="Other Ads">Other Ads</option>
+<<<<<<< HEAD
 =======
 											<option value="4-Complete Performance Campaign">Complete Performance Management Campaign</option>
 											<option value="1-Google Ads">Google Management</option>
@@ -377,6 +381,8 @@
 											<option value="3-Linkdin Ads">Linkdin Ads</option>
 											
 >>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
+=======
+>>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 									</select>
 										
 							</div>
@@ -391,10 +397,14 @@
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
 =======
 									<input type="text" id="r-form-1-email" name="Add. Info"  placeholder="brief about project">
 >>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
+=======
+									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
+>>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important Updates & Offers(We Will Never Spam Your Inbox) </p>

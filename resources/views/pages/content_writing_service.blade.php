@@ -362,6 +362,7 @@
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
 <<<<<<< HEAD
+<<<<<<< HEAD
 											<option value="Blog Content">Blog Content</option>
 											<option value="Website Content">Website Content</option>
 											<option value="SEO Content">SEO Articles</option>
@@ -372,16 +373,24 @@
 									</select>										
 =======
 											<option value="Blog Content1">Blog Content</option>
+=======
+											<option value="Blog Content">Blog Content</option>
+>>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 											<option value="Website Content">Website Content</option>
-											<option value="SEO Articles">SEO Articles</option>
-											<option value="eCommerce Site Content">eCommerce Site Content</option>
+											<option value="SEO Content">SEO Articles</option>
+											<option value="ECommerce Content">eCommerce Site Content</option>
 											<option value="Press Release Content">Press Release Content</option>
 											<option value="eBook Content">eBook Content</option>
+<<<<<<< HEAD
 											<option value="Emails/Ads/Other Content">Emails/Ads/Other Content</option>
 
 									</select>
 										
 >>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
+=======
+											<option value="Emails/Ads/Other Content	">Emails/Ads/Other Content</option>
+									</select>										
+>>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label for="r-form-1-last-name">Get in touch with me at </label>
@@ -394,10 +403,14 @@
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
 =======
 									<input type="text" id="r-form-1-email" name="Add. Info"  placeholder="brief about project">
 >>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
+=======
+									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
+>>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
