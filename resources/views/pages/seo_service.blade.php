@@ -207,7 +207,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
