@@ -362,13 +362,14 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Google Ads</option>
-											<option value="2">FB/Instagrm Ads</option>
-											<option value="3">Linkdin Ads</option>
-											<option value="3">Other Ads</option>
+											<option value="4-Complete Performance Campaign">Complete Performance Management Campaign</option>
+											<option value="1-Google Ads">Google Management</option>
+											<option value="2-FB/Insta Ads">FB/Instagrm Ads</option>
+											<option value="3-Linkdin Ads">Linkdin Ads</option>
+											
 									</select>
 										
 							</div>
@@ -382,7 +383,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email" name="Add. Info"  placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important Updates & Offers(We Will Never Spam Your Inbox) </p>
