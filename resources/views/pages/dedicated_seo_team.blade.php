@@ -201,15 +201,15 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Dedicated SEO Plans</option>
-											<option value="2">Dedicated SEO Consulant</option>
-											<option value="3">Dedicated Coontent Writers</option>
-											<option value="1">Dedicated Web Development Team</option>
-											<option value="2">Dedicated Graphics Designer</option>
-											<option value="3">Dedicated Vertial Assitant</option>
+											<option value="1-Dedicated SEO Plans">Dedicated SEO Plans</option>
+											<option value="2-Dedicated SEO Consulant">Dedicated SEO Consulant</option>
+											<option value="3-Dedicated Coontent Writers">Dedicated Coontent Writers</option>
+											<option value="4-Dedicated Web Development Team">Dedicated Web Development Team</option>
+											<option value="5-Dedicated Graphics Designer">Dedicated Graphics Designer</option>
+											<option value="6-Dedicated Vertial Assitant">Dedicated Vertial Assitant</option>
 											
 
 									</select>
@@ -225,7 +225,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email"  name="Add. Info" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >Subscribe To Get Updates On Our Offers & Updates(We Will Never Spam Your Inbox) </p>

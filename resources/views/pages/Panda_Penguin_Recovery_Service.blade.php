@@ -142,12 +142,12 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">My Website is Hit By </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Manual Link Penalty </option>
-											<option value="2">Panda/Penguine Update</option>
-											<option value="3">Unknown Google Update</option>
+											<option value="Manual Link Penalty">Manual Link Penalty </option>
+											<option value="Panda/Penguine Update">Panda/Penguine Update</option>
+											<option value="Unknown Google Update3">Unknown Google Update</option>
 									</select>
 										
 							</div>
@@ -161,7 +161,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about issue">
+									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about issue">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>

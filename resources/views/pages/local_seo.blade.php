@@ -204,12 +204,12 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">You Are a  </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Local Place </option>
-											<option value="2">Multi Location Store</option>
-											<option value="3">National Website</option>
+											<option value="1-Local Place">Local Place </option>
+											<option value="2-Multi Location Store">Multi Location Store</option>
+											<option value="3-International/Country Level Website">International/Country Level Website</option>
 									</select>
 										
 							</div>
@@ -223,7 +223,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email"  name="Add. Info" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
