@@ -361,16 +361,16 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Blog Content</option>
-											<option value="2">Website Content</option>
-											<option value="3">SEO Articles</option>
-											<option value="1">eCommerce Site Content</option>
-											<option value="2">Press Release Content</option>
-											<option value="3">eBook Content</option>
-											<option value="3">Emails/Ads/Other Content</option>
+											<option value="Blog Content1">Blog Content</option>
+											<option value="Website Content">Website Content</option>
+											<option value="SEO Articles">SEO Articles</option>
+											<option value="eCommerce Site Content">eCommerce Site Content</option>
+											<option value="Press Release Content">Press Release Content</option>
+											<option value="eBook Content">eBook Content</option>
+											<option value="Emails/Ads/Other Content">Emails/Ads/Other Content</option>
 
 									</select>
 										
@@ -385,7 +385,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email"name="Add. Info"  placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >Subscribe To Get Updates On Our Offers & Updates(We Will Never Spam Your Inbox) </p>

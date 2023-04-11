@@ -196,13 +196,13 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Dedicated ORM Support</option>
-											<option value="2">Brand Visibility Management</option>
-											<option value="3">Online Reviews Management</option>
-											<option value="3">Other ORM Services</option>
+											<option value="Dedicated ORM Support">Dedicated ORM Support</option>
+											<option value="Brand Visibility Management">Brand Visibility Management</option>
+											<option value="Online Reviews Management">Online Reviews Management</option>
+											<option value="Other ORM Services">Other ORM Services</option>
 									</select>
 										
 							</div>
@@ -216,7 +216,7 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="" placeholder="brief about project">
+									<input type="text" id="r-form-1-email" name="Add. Info"  placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
