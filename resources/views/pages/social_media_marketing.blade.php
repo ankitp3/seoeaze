@@ -218,8 +218,8 @@
 									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="Social Media Management">Social Media Management</option>
-											<option value="Increase Brand Visibilty2">Increase Brand Visibilty</option>
+											<option value="SMM">Social Media Management</option>
+											<option value="Brand Visibility">Increase Brand Visibilty</option>
 											<option value="Gain Followers">Gain Followers</option>
 									</select>
 										
@@ -234,7 +234,7 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
+									<input type="text" id="r-form-1-email" name="Add. info" placeholder="brief about project">
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
@@ -246,7 +246,7 @@
 							<div class="getintuchforminnerbottomsec">
 									<button type="submit"> Send Enquiry </button>
 							</div>
-
+							<br><br><br>
 						</div>
 					</form>
 				</section>
