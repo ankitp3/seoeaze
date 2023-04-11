@@ -189,12 +189,12 @@
 							</div>
 							<div class="getintuchforminnerleftsec">
 									<label for="selfie">and, I’m looking for </label>
-									<select class="selectarrow">
+									<select id="r-form-1-first-name" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-											<option value="1">Project Based SEO</option>
-											<option value="2">Hourly SEO</option>
-											<option value="3">SEO Retainer</option>
+											<option value="Project Based SEO">Project Based SEO</option>
+											<option value="Hourly SEO">Hourly SEO</option>
+											<option value="SEO Retainer">SEO Retainer</option>
 									</select>
 										
 							</div>
