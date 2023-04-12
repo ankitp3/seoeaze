@@ -270,11 +270,11 @@
 						<div class="weareatrustedgooglepartnerrightsec">
 							<div class="googlepartnersec">
 								<img src="assets/img/seo_packages_img/googlepartnerimg.webp" alt="google partner" />
-									<div class="googlepartner1"><img src="assets/img/seo_packages_img/googlepartnericon5.webp" alt="" /></div>
-									<div class="googlepartner2"><img src="assets/img/seo_packages_img/googlepartnericon4.webp" alt="" /></div>
-									<div class="googlepartner3"><img src="assets/img/seo_packages_img/googlepartnericon3.webp" alt="" /></div>
-									<div class="googlepartner4"><img src="assets/img/seo_packages_img/googlepartnericon2.webp" alt="" /></div>
-									<div class="googlepartner5"><img src="assets/img/seo_packages_img/googlepartnericon1.webp" alt="" /></div>
+									<div class="googlepartner1"><img src="assets/img/seo_packages_img/googlepartnericon5.png" alt="" /></div>
+									<div class="googlepartner2"><img src="assets/img/seo_packages_img/googlepartnericon4.png" alt="" /></div>
+									<div class="googlepartner3"><img src="assets/img/seo_packages_img/googlepartnericon3.png" alt="" /></div>
+									<div class="googlepartner4"><img src="assets/img/seo_packages_img/googlepartnericon2.png" alt="" /></div>
+									<div class="googlepartner5"><img src="assets/img/seo_packages_img/googlepartnericon1.png" alt="" /></div>
 							</div>
 
 						</div>
