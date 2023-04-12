@@ -161,7 +161,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
 							<div class="social_media_marketing_solution_featuresandbenifitinnersec featuresandbenifitinnersecwhitebgimg">
 								<h4>Original and targeted </h4>
-								<p>At SEOEaze, you can be sure of getting original content writing services at affordable rates. Our writers create fresh, targeted content for your needs.</p>
+								<p>At SEOEaze, you can be sure of getting original content writing services at <a href="/seo_packages" target="_blank">affordable rates</a>. Our writers create fresh, targeted content for your needs.</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 m-0 p-0">
@@ -361,8 +361,6 @@
 									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-<<<<<<< HEAD
-<<<<<<< HEAD
 											<option value="Blog Content">Blog Content</option>
 											<option value="Website Content">Website Content</option>
 											<option value="SEO Content">SEO Articles</option>
@@ -370,27 +368,9 @@
 											<option value="Press Release Content">Press Release Content</option>
 											<option value="eBook Content">eBook Content</option>
 											<option value="Emails/Ads/Other Content	">Emails/Ads/Other Content</option>
-									</select>										
-=======
-											<option value="Blog Content1">Blog Content</option>
-=======
-											<option value="Blog Content">Blog Content</option>
->>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
-											<option value="Website Content">Website Content</option>
-											<option value="SEO Content">SEO Articles</option>
-											<option value="ECommerce Content">eCommerce Site Content</option>
-											<option value="Press Release Content">Press Release Content</option>
-											<option value="eBook Content">eBook Content</option>
-<<<<<<< HEAD
-											<option value="Emails/Ads/Other Content">Emails/Ads/Other Content</option>
+									</select>									
+																	
 
-									</select>
-										
->>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
-=======
-											<option value="Emails/Ads/Other Content	">Emails/Ads/Other Content</option>
-									</select>										
->>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label for="r-form-1-last-name">Get in touch with me at </label>
@@ -402,15 +382,8 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-<<<<<<< HEAD
-<<<<<<< HEAD
-									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
-=======
-									<input type="text" id="r-form-1-email" name="Add. Info"  placeholder="brief about project">
->>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
-=======
-									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
->>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
+						<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
+
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important SEO Updates(We Will Never Spam Your Inbox) </p>
@@ -427,7 +400,7 @@
 					</form>
 </section>
 
-				<section class="testimonial">
+<section class="testimonial">
 						<div class="container">
 							<div class="row">
 								<div class="col-lg-6 d-none d-lg-block">
@@ -458,17 +431,16 @@
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+													<p>SeoEaze has helped Al Nasser University to achieve remarkable success in increasing our conversion rate by over 200%. We saw a significant improvement in our website's visibility and traffic. The level of expertise and dedication the SEOEAZE team showed throughout the project is impressive. 
 																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
+													<h3> Kasim Abdullah </h3>
+													<p> Al Nasser University </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
 														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.<br>
 																													</p>
 														<h3> Evrim Oralkan </h3>
 														<p> Travertine Mart </p>
@@ -476,11 +448,10 @@
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+														<p>I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
 																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
+														<h3> Ravi Kant </h3>
+														<p> Omaxe Group </p>
 												</div>
 											</div>
 										</div>
@@ -493,7 +464,7 @@
 								</div>
 							</div>
 						</div>
-				</section>
+</section>
 
 
 <!-- New Start bannerFirst Section -->

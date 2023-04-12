@@ -242,7 +242,7 @@
 
 		<div class="container-fluid">
 		        @if ($country_code == "IN") 
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.3404940166633!2d-95.56369568489067!3d29.796705981973037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db28ce352bb3%3A0x9e8eb91c7b400544!2sSeoEaze!5e0!3m2!1sen!2sin!4v1591355267946!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14008.333630085668!2d77.3723996!3d28.6272622!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce54e84e08a21%3A0x1becc92257d0f150!2sSeoEaze!5e0!3m2!1sen!2sin!4v1681274864685!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				@else
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.3404940166633!2d-95.56369568489067!3d29.796705981973037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640db28ce352bb3%3A0x9e8eb91c7b400544!2sSeoEaze!5e0!3m2!1sen!2sin!4v1591355267946!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				@endif		

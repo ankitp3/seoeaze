@@ -51,8 +51,7 @@ $country_code = $geoip->getCountryCode();
 
 									<h1> BLOG MANAGEMENT SERVICE </h1>
 									<h4>Get High-Quality Blog Content On Autopilot</h4> 
-									<p>Let SEOEaze blog management services turn your dormant blog into an authority asset without burning your entire content 
-									marketing budget. With our blog management, it becomes easier to populate your blog with content that’s tailored to your customers.</p>	
+									<p>Let SEOEaze blog management services turn your dormant blog into an authority asset without burning your entire <a href="/content_writing_service" target="_blank">content marketing</a> budget. With our blog management, it becomes easier to populate your blog with content that’s tailored to your customers.</p>	
 									<span>  
 									<div class="indibuttons pb-5">
 									<a href="javascript:;" data-toggle="modal" data-target="#myModal">
@@ -146,7 +145,7 @@ $country_code = $geoip->getCountryCode();
 							  <div class="card-body">
 								<h4 class="card-title">Search Engine Optimization</h4>
 								<span class="bottom-line-stylesmallimg"></span>
-                                <p class="card-text">At the end of the day, it is all about ranking above the competition in search engine results. Blog management services from SEOEaze are backed by experienced SEO consultants ensuring your blog content gets mentioned and becomes a backlink machine. </p>
+                                <p class="card-text">At the end of the day, it is all about ranking above the competition in search engine results. Blog management services from SEOEaze are backed by <a href="/seo_packages" target="_blank">experienced SEO consultants</a> ensuring your blog content gets mentioned and becomes a backlink machine. </p>
 								
 							  </div>
 							</div>
@@ -157,7 +156,7 @@ $country_code = $geoip->getCountryCode();
 							<div class="card">
 							  <img class="card-img-top" src="assets/img/blog-management/website_maintain_img.webp" alt="Card image cap">
 							  <div class="card-body">
-								<h4 class="card-title">Website Maintenance</h4>
+								<h4 class="card-title"><a href="/web_development_service" target="_blank" class="card-title">Website Maintenance</a></h4>
 								<span class="bottom-line-stylesmallimg"></span>
                                 <p class="card-text">The technical part of blog management encompasses keeping your blog mobile-friendly, fast, secure and always running. We ensure to add all these features into our blog management services so you won’t have to worry about maintaining your blogs anymore.</p>
 								
@@ -453,17 +452,16 @@ $country_code = $geoip->getCountryCode();
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+													<p>SeoEaze has helped Al Nasser University to achieve remarkable success in increasing our conversion rate by over 200%. We saw a significant improvement in our website's visibility and traffic. The level of expertise and dedication the SEOEAZE team showed throughout the project is impressive. 
 																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
+													<h3> Kasim Abdullah </h3>
+													<p> Al Nasser University </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
 														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.<br>
 																													</p>
 														<h3> Evrim Oralkan </h3>
 														<p> Travertine Mart </p>
@@ -471,11 +469,10 @@ $country_code = $geoip->getCountryCode();
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+														<p>I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
 																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
+														<h3> Ravi Kant </h3>
+														<p> Omaxe Group </p>
 												</div>
 											</div>
 										</div>
@@ -488,7 +485,7 @@ $country_code = $geoip->getCountryCode();
 								</div>
 							</div>
 						</div>
-				</section>
+</section>
 
 				<section class="seventhsec">
 						<div class="container">

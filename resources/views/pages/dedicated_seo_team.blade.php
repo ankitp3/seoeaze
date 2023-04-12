@@ -107,7 +107,7 @@
 										<h2> SEO Approach</h2>
 										<p>
 										Enterprise SEO is the field of digital marketing which requires high level techniques to boost sales and to cut out the tough competition from other businesses. Corporate SEO services we offer are fool proof, ensuring that you get high end solutions for your enterprise level company.<br><br>
-										ur enterprise SEO plans are special for a reason- because an enterprise level website comes with a lot of pages and coding. Running an SEO campaign like that using low quality insignificant SEO techniques will give you more hassle. And even on the enterprise level, you need to be sure of quality over quantity.<br><br>
+										Our <a href="/seo_packages" target="_blank">enterprise SEO plans</a> are special for a reason- because an enterprise level website comes with a lot of pages and coding. Running an SEO campaign like that using low quality insignificant SEO techniques will give you more hassle. And even on the enterprise level, you need to be sure of quality over quantity.<br><br>
 										At SEOEaze, we work with your team to identify the right techniques for your enterprise level website and work tirelessly to improve its visibility and rankings. Our experts analyze search trends and data for you to provide actionable insights when needed. With our highly focused enterprise SEO services, we assist your enterprise to be on the top.
 										</p>
 
@@ -160,7 +160,7 @@
 												</li>
 												<li>
 													<h5> CONTENT DEVELOPMENT </h5>
-													<p>It has been seen that quality, focused and SEO friendly content is the backbone of your enterprise level SEO success. At SEOEaze, we have content developers who do comprehensive content research and create the perfect content for your website.</p>
+													<p>It has been seen that quality, focused and SEO friendly content is the backbone of your enterprise level SEO success. At SEOEaze, we have <a href="/content_writing_service" target="_blank">content development teams</a> who do comprehensive content research and create the perfect content for your website.</p>
 												</li>
 												<li>
 													<h5>MORE ROI</h5>
@@ -338,17 +338,16 @@
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+													<p>SeoEaze has helped Al Nasser University to achieve remarkable success in increasing our conversion rate by over 200%. We saw a significant improvement in our website's visibility and traffic. The level of expertise and dedication the SEOEAZE team showed throughout the project is impressive. 
 																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
+													<h3> Kasim Abdullah </h3>
+													<p> Al Nasser University </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
 														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.<br>
 																													</p>
 														<h3> Evrim Oralkan </h3>
 														<p> Travertine Mart </p>
@@ -356,11 +355,10 @@
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+														<p>I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
 																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
+														<h3> Ravi Kant </h3>
+														<p> Omaxe Group </p>
 												</div>
 											</div>
 										</div>
@@ -373,7 +371,7 @@
 								</div>
 							</div>
 						</div>
-				</section>
+</section>
 
 				<section class="seventhsec">
 						<div class="container">

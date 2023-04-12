@@ -184,7 +184,7 @@
 							<div class="row m-0 p-3 pt-5 bor-right">
 								<div class="col-lg-8 col-md-8 col-sm-12">
 									<h3><b>EXECUTION</b></h3><br>
-									<p>After the planning process is done, we head towards the execution process where we start with creating an ad copy and filter your budget and bidding options. After that, dedicated PPC campaign strategies are used for those perfect ads.</p>
+									<p>After the planning process is done, we head towards the execution process where we start with <a href="/content_writing_service" target="_blank">creating an ad copy</a> and filter your budget and bidding options. After that, dedicated PPC campaign strategies are used for those perfect ads.</p>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-12">
 									<figure>
@@ -304,7 +304,7 @@
 							<div class="ppc_management_service_sixthinnsec bor-bottom">
 								<div class="ppc_management_service_sixthsubinnsec">
 									<h3>TRANSPARENCY</h3>
-									<p>We believe in providing clean and clear services, keeping complete transparency of what we offer. You can easily track</p>
+									<p>You get dashboard access to see the performance, budget, leads, and much more. Transparency is at the core of our service.</p>
 								</div>
 							</div>
 						</div>
@@ -312,23 +312,23 @@
 							<div class="ppc_management_service_sixthinnsec">
 								<div class="ppc_management_service_sixthsubinnsec bor-right">
 									<h3>PROFESSIONAL APPROACH</h3>
-									<p>We believe in providing clean and clear services, keeping complete transparency of what we offer. You can easily track</p>
+									<p>Our team of experienced PPC professionals has the knowledge and skills to create and implement effective PPC campaigns that generate high-quality leads and sales.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-12">
 							<div class="ppc_management_service_sixthinnsec">
 								<div class="ppc_management_service_sixthsubinnsec bor-right">
-									<h3>IMPROVED TRAFFIC</h3>
-									<p>We believe in providing clean and clear services, keeping complete transparency of what we offer. You can easily track</p>
+									<h3>TARGETED AUDIENCE</h3>
+									<p>We can help you target your ads to specific geographic locations, demographics, and interests, ensuring that your ads are being seen by the right people at the right time.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-12">
 							<div class="ppc_management_service_sixthinnsec">
 								<div class="ppc_management_service_sixthsubinnsec bor-right">
-									<h3>REACH RIGHT AUDIENCE</h3>
-									<p>We believe in providing clean and clear services, keeping complete transparency of what we offer. You can easily track</p>
+									<h3>REAL TIME TRACKING</h3>
+									<p>Our PPC management service provides real-time data and analytics, allowing you to monitor the performance of your campaigns and make adjustments as needed.</p>
 								</div>
 							</div>
 						</div>
@@ -336,7 +336,7 @@
 							<div class="ppc_management_service_sixthinnsec">
 								<div class="ppc_management_service_sixthsubinnsec">
 									<h3>BRAND RECOGNITION</h3>
-									<p>We believe in providing clean and clear services, keeping complete transparency of what we offer. You can easily track</p>
+									<p>By utilizing our PPC management service, you can increase your online visibility and reach a wider audience, leading to more website traffic and potential customers.</p>
 								</div>
 							</div>
 						</div>
@@ -365,25 +365,12 @@
 									<select id="r-form-1-first-name" name="Options" class="selectarrow">
 										<span>&#xf107;</span>
 											<option selected>&nbsp; Select </option>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
 											<option value="Google Ads">Google Ads</option>
 											<option value="FB/Insta Ads">FB/Instagrm Ads</option>
 											<option value="LinkedIn Ads">Linkdin Ads</option>
 											<option value="Other Ads">Other Ads</option>
-<<<<<<< HEAD
-=======
 											<option value="4-Complete Performance Campaign">Complete Performance Management Campaign</option>
-											<option value="1-Google Ads">Google Management</option>
-											<option value="2-FB/Insta Ads">FB/Instagrm Ads</option>
-											<option value="3-Linkdin Ads">Linkdin Ads</option>
-											
->>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
-=======
->>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
-									</select>
+											</select>
 										
 							</div>
 							<div class="getintuchforminnerrightsec">
@@ -396,15 +383,12 @@
 							</div>
 							<div class="getintuchforminnerrightsec">
 									<label>Any additional info </label>
-<<<<<<< HEAD
-<<<<<<< HEAD
-									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
-=======
+							<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
+
 									<input type="text" id="r-form-1-email" name="Add. Info"  placeholder="brief about project">
->>>>>>> 89dad1f2d667521bbac192e52e6cc4679d75f888
-=======
+
 									<input type="text" id="r-form-1-email" name="Add. Info" placeholder="brief about project">
->>>>>>> df52a5487d6e3ee5ffa5291f2eccb608be2e4de6
+
 							</div>
 							<div class="getintuchforminnerbottomsec">
 							<p style = "font-size:12px"> <input type="checkbox" id="r-form-1-email" name="" >  Subscribe For Important Updates & Offers(We Will Never Spam Your Inbox) </p>
@@ -451,17 +435,16 @@
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+													<p>SeoEaze has helped Al Nasser University to achieve remarkable success in increasing our conversion rate by over 200%. We saw a significant improvement in our website's visibility and traffic. The level of expertise and dedication the SEOEAZE team showed throughout the project is impressive. 
 																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
+													<h3> Kasim Abdullah </h3>
+													<p> Al Nasser University </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
 														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.<br>
 																													</p>
 														<h3> Evrim Oralkan </h3>
 														<p> Travertine Mart </p>
@@ -469,11 +452,10 @@
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+														<p>I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
 																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
+														<h3> Ravi Kant </h3>
+														<p> Omaxe Group </p>
 												</div>
 											</div>
 										</div>
@@ -486,7 +468,7 @@
 								</div>
 							</div>
 						</div>
-				</section>
+</section>
 				<section class="frequentlyaskedquestionsec">
 						<div class="container i-can-has-a-colored-thing">
 								<h2> Frequently <br> <span class="highlight"> Asked Questions</span> </h2>

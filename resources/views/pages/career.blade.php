@@ -139,17 +139,17 @@
 									<ol class="carousel-indicators tabs">
 										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-01-179x179.webp" class="img-fluid" alt="seoeaze testimonial 1">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="1">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-02-306x306.webp" class="img-fluid" alt="seoeaze testimonial 2">
 											</figure>
 										</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="2">
 											<figure>
-												<img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+												<img src="assets/img/seo_packages_img/testimonials-03-179x179.webp" class="img-fluid" alt="seoeaze testimonial 3">
 											</figure>
 										</li>
 									</ol>
@@ -163,17 +163,16 @@
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+													<p>SeoEaze has helped Al Nasser University to achieve remarkable success in increasing our conversion rate by over 200%. We saw a significant improvement in our website's visibility and traffic. The level of expertise and dedication the SEOEAZE team showed throughout the project is impressive. 
 																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
+													<h3> Kasim Abdullah </h3>
+													<p> Al Nasser University </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
 														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.<br>
 																													</p>
 														<h3> Evrim Oralkan </h3>
 														<p> Travertine Mart </p>
@@ -181,11 +180,10 @@
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+														<p>I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
 																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
+														<h3> Ravi Kant </h3>
+														<p> Omaxe Group </p>
 												</div>
 											</div>
 										</div>
@@ -198,7 +196,7 @@
 								</div>
 							</div>
 						</div>
-				</section>
+</section>
 
 				<section class="seventhsec">
 						<div class="container">

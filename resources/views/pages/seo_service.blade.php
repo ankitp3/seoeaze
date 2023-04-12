@@ -166,7 +166,7 @@
 								</div>
 							</div>
 							<p> SEO packages don’t necessarily need to be over the budget when the deliverables can be customized to include strategies and methods that are most viable for your business. What makes SeoEaze’s SEO services package so affordable is the bottom-up approach towards pricing. We first take your budget then indulge into research and finally based on the data we get, tailor a strategy that makes sense to your business.</p>
-							<p> We are a cost-effective and result-oriented SEO agency, which is why our SEO packages are not just to show off but to get real results. Our monthly SEO packages are created by experts who ensure that you get the best value for your money.</p>
+							<p> We are a cost-effective and result-oriented SEO agency, which is why our SEO packages are not just for <a href="/dedicated_seo_team" target="_blank">Enterprise SEO</a> but also suitable for  <a href="/local_seo_service" target="_blank">Local SEO</a> . Our monthly SEO packages are created by experts who ensure that you get the best value for your money.</p>
 					</div>
 				</section>
 				<section class="getintuchformsec">
@@ -903,7 +903,7 @@
 												<figure><img src="assets/img/seo_packages_img/whatmakesusdifferenticon4.png" alt="" /></figure>
 												<h2> Professional Content </h2>
 												<p>
-													Content remains the king, which is why we only work with expert native writers who understand your business. SEO oriented and valuable content is what boost our SEO results.
+													Content remains the king, which is why we only work with expert native writers who understand your business. Our <a href="/content_writing_service" target="_blank">content writing services</a> are SEO oriented that boost your results.
 												</p>
 											</div>
 										</div>
@@ -1041,17 +1041,16 @@
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+													<p>SeoEaze has helped Al Nasser University to achieve remarkable success in increasing our conversion rate by over 200%. We saw a significant improvement in our website's visibility and traffic. The level of expertise and dedication the SEOEAZE team showed throughout the project is impressive. 
 																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
+													<h3> Kasim Abdullah </h3>
+													<p> Al Nasser University </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
 														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.<br>
 																													</p>
 														<h3> Evrim Oralkan </h3>
 														<p> Travertine Mart </p>
@@ -1059,11 +1058,10 @@
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+														<p>I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
 																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
+														<h3> Ravi Kant </h3>
+														<p> Omaxe Group </p>
 												</div>
 											</div>
 										</div>
@@ -1076,7 +1074,7 @@
 								</div>
 							</div>
 						</div>
-				</section>
+</section>
 
 				<section class="seventhsec">
 						<div class="container">

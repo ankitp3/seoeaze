@@ -85,7 +85,7 @@
 Reputation Management Services At Your Doorstep</h2>
 <p>
         						    Business reputation management is an integral part of the overall corporate strategy as it not only builds but also maintains the trust of the customers in your brand. With the internet becoming the marketing mainstay, the online reputation of a business is as important as the actual one. Online reputation management has challenges like negative reviews, false information and negative media coverage that businesses have to deal with. This is why reputation management services become a necessity to protect your online image from being tarnished by all the negative feedback.<br><br>
-        						    At SeoEaze, we offer a complete suite of digital marketing solutions that include online reputation management. We have helped clients to overcome the negative reputation and helped them create a positive image for their brands, products and services.
+        						    At SeoEaze, we offer a complete suite of <a href="/" target="_blank">digital marketing solutions</a> that include online reputation management. We have helped clients to overcome the negative reputation and helped them create a positive image for their brands, products and services.
         					    </p>
 								<p>
         						    <strong>Our result-oriented online reputation management encompasses the following:</strong><br><br>
@@ -359,17 +359,16 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<div class="quote-wrapper">
-													<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-															It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+													<p>SeoEaze has helped Al Nasser University to achieve remarkable success in increasing our conversion rate by over 200%. We saw a significant improvement in our website's visibility and traffic. The level of expertise and dedication the SEOEAZE team showed throughout the project is impressive. 
 																												</p>
-													<h3> Evrim Oralkan </h3>
-													<p> Travertine Mart </p>
+													<h3> Kasim Abdullah </h3>
+													<p> Al Nasser University </p>
 												</div>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
 														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.<br>
 																													</p>
 														<h3> Evrim Oralkan </h3>
 														<p> Travertine Mart </p>
@@ -377,11 +376,10 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 											</div>
 											<div class="carousel-item">
 												<div class="quote-wrapper">
-														<p>My site travertinemart.com has gained high rankings on Google within 8 months of trying their dedicated SEO plan. Anki was very helpful in creating a customized SEO package for me. 
-																It was a great experience working with his team. Now my site is user friendly and ranks on first page of major search engines.
+														<p>I am associated with SeoEaze Since start & they have taken perfect care of our digital marketing campaign ever since. Our business growth was exponential after we chose SeoEaze. They Helped our Site rank on top for our industry's most searched keyword.<br><br>
 																													</p>
-														<h3> Evrim Oralkan </h3>
-														<p> Travertine Mart </p>
+														<h3> Ravi Kant </h3>
+														<p> Omaxe Group </p>
 												</div>
 											</div>
 										</div>
@@ -394,7 +392,7 @@ we have streamlined our ORM process to minimize costs and maximize results.</p>
 								</div>
 							</div>
 						</div>
-				</section>
+</section>
 
 				<section class="seventhsec">
 						<div class="container">
