@@ -73,29 +73,11 @@
 
 				  					<h1 class="mb-5"> CONTACT US </h1>
 									<h4 class="mb-5">We welcome you to contact us for more information about any of our services or solutions. </h4>
-									<!--
-									<div class="row mt-5 pt-5">
-										<div class="col-lg-4 col-md-4 col-sm-4 coninfosec phoneiconsec">
-											<h3>Phone :</h3>
-											<p>+91-8375011200</p>
-										</div>
-										<div class="col-lg-4 col-md-4 col-sm-4 coninfosec skyoeiconsec">
-										
-											<h3>SKYPE :</h3>
-											<p>seoeaze</p>
-										</div>
-										<div class="col-lg-4 col-md-4 col-sm-4 coninfosec enquiryiconsec">
-											
-											<h3>Enquiry :</h3>
-											<p>info@seoeaze.in</p>
-										</div>
-									</div>
-									-->
+									
 				  			</div>
 
 				  			<div class="col-lg-5 col-md-5 col-sm-12 indexheader-video-sec-inner-rightsec">
 								<div class="imgblockright">	  				
-								<!--	<img src="assets/img/contact/contact-header-womenimg.png" alt="">-->
 								</div>
 				  			</div>
 					</div>
@@ -124,7 +106,7 @@
 				<div class="col-lg-5 col-md-5 col-sm-12 mt-5">
 					<div class="getintuch-sec mr-5">
 						<figure>
-							<img src="assets/img/contact/contactinfo_img.png" alt="">
+							<img src="assets/img/contact/contactinfo_img.webp" alt="seoeaze contact">
 						</figure>
 					</div>
 				</div>
@@ -233,9 +215,7 @@
 						</div>
 					</form>
 				</section>
-<!-- Start GET IN TOUCH sec -->
 
-<!-- End GET IN TOUCH sec -->
 
 <!-- Start map sec -->
 

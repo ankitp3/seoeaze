@@ -258,7 +258,7 @@ color:#000;
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12">
-							<h3 class="h3">Our Services </h3>
+							<h1 style="font-size=40px; font-weight: 700;">Our Digital Marketing Services </h1>
 								<div class="fifthcollapsec">
 											<div class="container">
 												<!-- -->

@@ -275,7 +275,7 @@
 								</div>
 
 								<div class="col-lg-4 col-md-12 col-sm-12">
-										<figure><img src="assets/img/local_seo/local-seofourthseciconimg3.webp" alt="" /></figure>
+										<figure><img src="assets/img/local_seo/local-seoheaderrighticonimg3.webp" alt="removing low quality links" /></figure>
 										<h5>Clean <br>Website</h5>
 										<p>Removing low-quality content and bad links from your site are what we excel in. Our expert auditors ensure that every segment of your website is as per Google guidelines.</p>
 								</div>								
