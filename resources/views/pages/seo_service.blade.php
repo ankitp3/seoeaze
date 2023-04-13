@@ -92,21 +92,32 @@
 
 
 <section class="seo_packagehsec">
-					<div class="container">
-							<div class="seo_packageinnerleftsec i-can-has-a-colored-thing">
-									<h2><span class="highlight">SEO Strategy</span> That Is Absolute Global Standard </h2>
-									<p>
-										SeoEaze delivers unparalleled SEO Services that goes 
-										beyond ranking your website on page #1. We develop 
-										true digital strategy to drive sales, 
-										leads and grow your business even for the most 
-										competitive keywords.
-									</p>
-									<img src="assets/img/seo_packages_img/seo_packages_headersecondbgimg.webp" class="disbloc" alt=""/>
-							</div>
-						</div>
+                    <div class="container">
+                            <div class="enterprise_seo_services_left_sec i-can-has-a-colored-thing">
+                            <h2>SEOEaze for ROI-Focused<span class="highlight">SEO Services</span></h2>
+                            <p>
+                                        SeoEaze delivers unparalleled SEO Services that goes 
+                                        beyond ranking your website on page #1. We develop 
+                                        true digital strategy to drive sales, 
+                                        leads and grow your business even for the most 
+                                        competitive keywords.
+                                    </p>
+                                    <div class="indibuttons pb-5">
+                                        <a href="#pricing-table-seo">
+                                            <button class="btn-hover color-1">  START NOW 
+                                                <span class="roundshapebutton roundshapearrow"> 
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                                    </svg>
+                                                </span>
+                                            </button></a>
+                                        </div>
+                                    <img src="assets/img/seo_packages_img/seo_packages_headersecondbgimg.webp" class="disbloc" alt=""/>
+                            </div>
+                            
+                        </div>
 
-				</section>
+                </section>
 
 
 				
@@ -502,7 +513,7 @@
 
 
 
-				<section class="tablesec">
+				<section class="tablesec" id="pricing-table-seo">
 					<ul>
 						<li>
 							<div class="tableinnersec">

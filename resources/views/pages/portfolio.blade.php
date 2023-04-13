@@ -1,23 +1,7 @@
-<div class="image_popup_port">
-    <i class="fa fa-times image_popup_port_close" aria-hidden="true"></i>
-    <img class="image_popup_port_img" src="" alt="">
-</div>
+
 @extends('layouts.master')
-
-
-
-
 @section('title', "SeoEaze  Portfolio-Know the Clients & Work of Seoeaze")
 @section('meta' , "Check the detailed portfolio of SeoEaze & learn about who are the clients of SeoEaze & more.")
-
-	
-	<!-- Light Box Start  -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-    	<link rel="stylesheet" href="assets/css/gallery-clean.css">
-    <!-- Light Box End  -->
-
-
-@section('header')
 
 @section('hreflangs')
 <link rel="canonical" href="https://www.seoeaze.com/portfolio"  />
@@ -47,6 +31,15 @@
 	h2 {color:#000;}
 	
 </style>
+<!-- Light Box Start  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    	<link rel="stylesheet" href="assets/css/gallery-clean.css">
+    <!-- Light Box End  -->
+	<div class="image_popup_port">
+    <i class="fa fa-times image_popup_port_close" aria-hidden="true"></i>
+    <img class="image_popup_port_img" src="" alt="">
+</div>
+@section('header')
 @show
 
 @section('content')
