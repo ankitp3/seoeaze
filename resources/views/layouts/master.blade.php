@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/swiper.min.css') }}">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/fancybox.min.css') }}">
-  <link rel="stylesheet" href="{{ URL::asset('assets/css/logorotation.css') }}">
+  <!-- <link rel="stylesheet" href="{{ URL::asset('assets/css/logorotation.css') }}"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="preload" as="style" href="{{ URL::asset('assets/css/mbr-additional.css') }}">
   <link rel="stylesheet" href="{{ URL::asset('assets/css/custome.css') }}" type="text/css">
