@@ -510,7 +510,7 @@ Our content team is hyper-focused on increasing the conversations between you an
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<div class="sixthsec2row">
 								<h4 class="i-can-has-a-colored-thing">
-										SeoEaze is <span class="highlight">a partner, a fellow, and a friend </span>. First, 
+										SeoEaze is <span class="highlight" style="--highlight-range:85%; display:inline !important;" >a partner, a fellow, and a friend </span>. First, 
 										we understand your brand and then conjure the magic!
 										
 								</h4>
