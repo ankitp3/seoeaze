@@ -4,7 +4,7 @@
 @section('meta' , "Contact information of SeoEaze")
 
 @section('hreflangs')
-<link rel="canonical" href="https://www.seoeaze.com/contact_us />
+<link rel="canonical" href="https://www.seoeaze.com/contact_us" />
 
 @endsection
 
@@ -133,35 +133,35 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec phoneicon">
 							<h3>Phone :</h3>
 							@if ($country_code == "IN")
-                                        <a href="tel:8375011200"><p>83750-11200</p></a>
+							<a href="tel:8375011200"><span class="highlight" style="--highlight-range:85%; display:inline !important;" >83750-11200</span></a>
                                         @else
-                                        <a href="tel:+18447363293"><p>844-SEO-EAZE</p></a>
+                                        <a href="tel:+18447363293"><span class="highlight" style="--highlight-range:85%; display:inline !important;" >844-SEO-EAZE</span></a>
                                         @endif
 							
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec skyoeicon">
 							<h3>SKYPE :</h3>
-							<p>seoeaze</P>
+							<span class="highlight" style="--highlight-range:85%; display:inline !important;" >seoeaze</span>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec enquiryicon">
 							<h3>Enquiry :</h3>
-							<p>info@seoeaze.com</P>
+							<span class="highlight" style="--highlight-range:85%; display:inline !important;" >info@seoeaze.com</span>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 contactinfo-innersec websiteicon">
 							<h3>Website :</h3>
-							<p>www.seoeaze.com</P>
+							<span class="highlight" style="--highlight-range:85%; display:inline !important;" >www.seoeaze.com</span>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 contactinfo-innersec addressicon">
 							<h3>Address :</h3>
 							@if ($country_code == "IN")
-							<p>B-710, Plot No A-40, The Ithum, Sector, 62, Noida, Delhi/NCR</P>
-							<p>10685-B Hazelhurst Dr. #19976, Houston, TX 77043</P>
+							<span class="highlight" style="--highlight-range:85%; display:inline !important;" >B-710, Plot No A-40, The Ithum, Sector, 62, Noida, Delhi/NCR</span>
+							<span class="highlight" style="--highlight-range:85%; display:inline !important;" >10685-B Hazelhurst Dr. #19976, Houston, TX 77043</span>
 							@else
-							<p>10685-B Hazelhurst Dr. #19976, Houston, TX 77043</P>
+							<span class="highlight" style="--highlight-range:85%; display:inline !important;" >10685-B Hazelhurst Dr. #19976, Houston, TX 77043</span>
 							@endif
 						</div>
 					</div>

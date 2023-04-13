@@ -10,7 +10,7 @@
 @section('header')
 
 @section('hreflangs')
-    <link rel="canonical" href="https://www.seoeaze.in/reputation_management_service" />
+    <link rel="canonical" href="https://www.seoeaze.com/reputation_management_service" />
 @endsection
  <!-- Start Breadcrumbs Schema -->
         <script type="application/ld+json">

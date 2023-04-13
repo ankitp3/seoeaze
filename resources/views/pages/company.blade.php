@@ -4,7 +4,7 @@
 @section('meta' , "know the details of SeoEaze Company, get information about its founders & more")
 
 @section('hreflangs')
-<link rel="canonical" href="https://www.seoeaze.com/company />
+<link rel="canonical" href="https://www.seoeaze.com/company" />
 
 @endsection
 
