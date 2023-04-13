@@ -330,7 +330,7 @@ width:800px;
 					<a href="/privacy_policy"><span> Privacy Policy </span></a>| 
 					<a href="/refund"><span> Refund Policy </span></a> |
 					<a href="/career"><span> Career </span></a>|
-					<a href="/contact"><span> Contact Us </span></a>
+					<a href="/contact_us"><span> Contact Us </span></a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 col-sm-12">
