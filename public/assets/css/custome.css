@@ -6887,7 +6887,7 @@ text-shadow: 2px 2px 4px #000000;
   padding-top: 6rem;
   padding-bottom: 3rem;
   background-image: none;
-  height: 100%;
+  height: auto;
 }
 .headerinnersec .buttons .btn-hover, .headerinnersec .buttons .btn-hover:hover {
   width: 500px;
