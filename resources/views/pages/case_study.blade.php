@@ -10,32 +10,29 @@
 <!-- Start Breadcrumbs Schema -->
 
         <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/", 
-          "@type": "BreadcrumbList", 
-          "itemListElement": [{
-            "@type": "ListItem", 
-            "position": 1, 
-            "name": "Home",
-            "item": "https://www.seoeaze.com"  
-          },{
-            "@type": "ListItem", 
-            "position": 2, 
-            "name": "Clients",
-            "item": ""  
-          },{
-            "@type": "ListItem", 
-            "position": 3, 
-            "name": "Case Studies",
-            "item": "https://www.seoeaze.com/case_studies"  
-          }]
-        }
-        </script>
-		<style>
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://www.seoeaze.com/"
+  },
+{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Case Studies",
+    "item": "https://www.seoeaze.com/case_studies"
+  }]
+}
+</script>
+<!-- End Breadcrumbs Schema -->
+<style>
 	h2, .h2 {color:#000;}
 	
 </style>
-	<!-- End Breadcrumbs Schema -->
+	
 	
 
 @show
