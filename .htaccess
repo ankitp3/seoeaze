@@ -1,20 +1,19 @@
-RewriteCond %{HTTP_HOST} ^seoeaze.com$
-RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule (.*) https://www.seoeaze.com$1 [R=301,L]
-
-<IfModule mod_rewrite.c>
+# Redirect from non-www to www and http to https in one rule
 RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC,OR]
 RewriteCond %{HTTPS} off
-RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [R=301,L]
+
+# The rest of your existing rules
+<IfModule mod_rewrite.c>
 RewriteCond %{REQUEST_URI} !^public
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^(.*)$ public/$1 [L]
 </IfModule>
 
+# Your existing compression, caching, and other rules...
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
   AddOutputFilterByType DEFLATE application/javascript
@@ -45,6 +44,7 @@ RewriteRule ^(.*)$ public/$1 [L]
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
 </IfModule>
+
 # BEGIN Expires-Headers
 <IfModule mod_expires.c>
   <FilesMatch "\.(js|css)$">
@@ -61,90 +61,7 @@ RewriteRule ^(.*)$ public/$1 [L]
   </filesmatch>
 </ifmodule>
 # END Cache-Control-Headers
-# BEGIN Expires-Headers
-<IfModule mod_expires.c>
-  <FilesMatch "\.(js|css)$">
-    ExpiresActive On
-    ExpiresDefault "access plus 1 weeks"
-  </FilesMatch>
-</IfModule>
-# END Expires-Headers
 
-# BEGIN Cache-Control-Headers
-<ifmodule mod_headers.c>
-  <filesmatch "(gif|ico|jpeg|jpe|jpg|svg|png|css|js)$">
-    Header set Cache-Control "max-age=604800, public"
-  </filesmatch>
-</ifmodule>
-# END Cache-Control-Headers
-
-##Redirects##
+# Your existing redirects...
 Redirect 301 /aboutus.php https://www.seoeaze.com/company
 Redirect 301 /guaranteed_seo.php https://www.seoeaze.com/dedicated_seo_team
-Redirect 301 /news-writing.php https://www.seoeaze.com/content_writing_service
-Redirect 301 /academic-writing.php https://www.seoeaze.com/content_writing_service
-
-Redirect 301 /content-writing.php https://www.seoeaze.com/content_writing_service
-
-Redirect 301 /article-writing-service.php https://www.seoeaze.com/content_writing_service
-
-Redirect 301 /press-release-writing.php https://www.seoeaze.com/content_writing_service
-
-Redirect 301 /article-submission.php https://www.seoeaze.com/services/article_submission
-
-Redirect 301 /web-designing.php https://www.seoeaze.com/web_development_service
-
-Redirect 301 /wordpress-setup.php https://www.seoeaze.com/blog_management_service
-
-Redirect 301 /logo-designing.php https://www.seoeaze.com/web_development_service
-
-Redirect 301 /ppc-service.php https://www.seoeaze.com/ppc_management_service
-
-Redirect 301 /forum-link-building.php https://www.seoeaze.com/services/forum_link_building
-
-Redirect 301 /directory-submission-service.php https://www.seoeaze.com/
-
-Redirect 301 /hub-page-service.php https://www.seoeaze.com/services/link_wheel
-
-Redirect 301 /search-engine-submission.php https://www.seoeaze.com/services/search_engine_submission
-
-Redirect 301 /niche-blogging-service.php https://www.seoeaze.com/services/niche_blogging
-
-Redirect 301 /monthly-seo-package.php https://www.seoeaze.com/seo_packages
-
-Redirect 301 /complete-seo-service.php https://www.seoeaze.com/seo_packages
-
-Redirect 301 /keyword-research-services.php https://www.seoeaze.com/seo_packages
-
-Redirect 301 /on-page-seo.php https://www.seoeaze.com/seo_packages
-
-Redirect 301 /squido-lens-service.php https://www.seoeaze.com/services/link_wheel
-
-Redirect 301 /free-web-analysis.php https://www.seoeaze.com/advanced_seo_audit
-
-Redirect 301 /blog-commenting-service.php https://www.seoeaze.com/
-
-Redirect 301 /career.php https://www.seoeaze.com/career
-
-Redirect 301 /press-release-submission.php https://www.seoeaze.com/services/press_release_distribution
-
-Redirect 301 /social-media-marketing.php https://www.seoeaze.com/social_media_marketing
-
-Redirect 301 /article-prism-service.php https://www.seoeaze.com/services/article_submission
-
-Redirect 301 /social-bookmarking-service.php https://www.seoeaze.com/services/social_bookmarking_service
-
-Redirect 301 /reputation-management-service.php https://www.seoeaze.com/reputation_management_service
-
-Redirect 301 /guest-posting-service.php https://www.seoeaze.com/services/guest_posting
-
-Redirect 301 /contextual-link-building-service.php https://www.seoeaze.com/services/complete_link_building
-Redirect 301 /contact-us.php https://www.seoeaze.com/contact_us
-Redirect 301 /link-wheel.php https://www.seoeaze.com/services/link_wheel
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php74” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-php .php .php7 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit

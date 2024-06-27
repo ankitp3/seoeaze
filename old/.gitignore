@@ -1,0 +1,19 @@
+.idea
+.well-known
+cgi-bin
+/projects
+/seoeaze.com
+/seold
+/vendor
+/node_modules
+/public/storage
+/rankings
+Homestead.yaml
+Homestead.json
+.env
+.ftpquota
+aboutus.php
+indiplay.php
+rain.mp4
+sebackup25oct17.zip
+Kit-Email Template.jpg

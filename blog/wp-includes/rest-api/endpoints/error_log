@@ -1,0 +1,8 @@
+[28-Nov-2022 10:48:45 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/seoeaze/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/seoeaze/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php on line 17
+[28-Nov-2022 10:52:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/seoeaze/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/seoeaze/public_html/blog/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php on line 17
