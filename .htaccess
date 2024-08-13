@@ -65,3 +65,9 @@ RewriteRule ^(.*)$ public/$1 [L]
 # Your existing redirects...
 Redirect 301 /aboutus.php https://www.seoeaze.com/company
 Redirect 301 /guaranteed_seo.php https://www.seoeaze.com/dedicated_seo_team
+Redirect 301 /on-page-seo.php https://www.seoeaze.com/
+Redirect 301 /press-release-submission.php https://www.seoeaze.com/services/press_release_distribution
+Redirect 301 /link-wheel.php https://www.seoeaze.com/services/link_wheel
+Redirect 301 /article-submission.php https://www.seoeaze.com/services/article_submission
+Redirect 301 /complete-seo-service.php https://www.seoeaze.com/
+Redirect 301 /guest-posting-service.php https://www.seoeaze.com/services/guest_posting

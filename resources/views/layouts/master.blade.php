@@ -2,6 +2,15 @@
 
 <html>
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CX1ZF9B8NC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CX1ZF9B8NC');
+</script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title> @yield('title')</title>
     <meta name="description" content="@yield('meta')">
@@ -335,7 +344,7 @@ width:800px;
 			</div>
 			<div class="col-lg-6 col-md-12 col-sm-12">
 				<div class="footerbstripright">
-					Copyright © 2009-2023 - All Rights Reserved	
+					Copyright © 2009-2024 - All Rights Reserved	
 				</div>
 			</div>
 		</div>
